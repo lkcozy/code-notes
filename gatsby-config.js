@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/code-notes",
   siteMetadata: {
     title: "Lkcozy Code Notes",
     description: `Personal code-related code notes and snippets`,
