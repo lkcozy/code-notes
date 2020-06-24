@@ -7081,6 +7081,16 @@ gatsby-plugin-local-search@^1.1.1:
     lunr "^2.3.8"
     pascalcase "^1.0.0"
 
+gatsby-plugin-manifest@^2.4.13:
+  version "2.4.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.13.tgz#49e4ed03f46f0d9bbcdd4a9dc4be8d2fb68ecb30"
+  integrity sha512-GLp8E2DEzfNr1DFHTSPnoAGMGoSEe6zN99YgeelswxGwirncHcAGLiIiaHPfrrtxTy/3AVhNkSHH38c4SUjuZw==
+  dependencies:
+    "@babel/runtime" "^7.10.2"
+    gatsby-core-utils "^1.3.7"
+    semver "^5.7.1"
+    sharp "^0.25.1"
+
 gatsby-plugin-mdx@^1.2.15:
   version "1.2.17"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.2.17.tgz#85d2031f59cca80c4c64bd60ebf316afd36af130"
