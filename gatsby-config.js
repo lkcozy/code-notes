@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: "code-notes",
   siteMetadata: {
-    title: "Lkcozy Code Notes",
-    description: `Personal code-related code notes and snippets`,
+    title: "L&W Code Notes",
+    description: `Code-related notes and snippets`,
     author: "Kan Luo",
   },
   plugins: [
@@ -23,14 +23,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Lkcozy's Code Notes`,
+        name: `L&W Code Notes`,
         short_name: `CodeNotes`,
-        description: `Notes on code. My memory bank.`,
+        description: `Notes on code. Our memory bank.`,
         start_url: `/`,
-        background_color: `hsl(210, 38%, 95%)`,
-        theme_color: `hsl(345, 100%, 69%)`,
+        background_color: `hsl(285, 5%, 17%)`,
+        theme_color: `hsl(285, 5%, 17%)`,
         display: `standalone`,
-        icon: `static/logo.png`,
+        icon: `assets/logo.png`,
       },
     },
   ],
