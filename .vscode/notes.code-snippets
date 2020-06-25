@@ -1,0 +1,31 @@
+{
+  "Code Notes Template": {
+    "prefix": "code-notes",
+    "body": [
+      "---",
+      "title: ",
+      "emoji: 📝",
+      "tags:",
+      "   - ",
+      "link:",
+      "---",
+      "",
+      "## Title"
+    ],
+    "description": "Code Notes"
+  },
+  "Management Tips Template": {
+    "prefix": "management-tips",
+    "body": [
+      "---",
+      "title: ",
+      "emoji: 💡",
+      "tags:",
+      "   - management",
+      "link:",
+      "---",
+      ""
+    ],
+    "description": "Management Tips"
+  }
+}

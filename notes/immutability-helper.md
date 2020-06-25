@@ -5,7 +5,7 @@ tags:
 link: https://github.com/kolodny/immutability-helper
 ---
 
-1. Array of simple values
+## Array of simple values
 
 ```js
 import update from "immutability-helper";
@@ -28,7 +28,7 @@ const newArray = update(oldArray, { $splice: [[itemIndex, 1]] });
 // => [1, 2]
 ```
 
-2. Array of simple objects
+## Array of simple objects
 
 ```js
 import update from 'immutability-helper';
@@ -66,7 +66,7 @@ const newArray = update(oldArray, {$splice: [[itemIndex, 1]] } });
 
 You can use the builtin findIndex() to find an item's index based on its properties.
 
-3. Array is in another object
+## Array is in another object
 
 ```js
 import update from 'immutability-helper'
@@ -118,7 +118,7 @@ const newArray = update(oldArray, {
 })
 ```
 
-4. Object of objects (hashes, unordered)
+## Object of objects (hashes, unordered)
 
 ```js
 import update from "immutability-helper";

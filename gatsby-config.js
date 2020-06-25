@@ -11,6 +11,7 @@ module.exports = {
       options: {
         contentPath: "notes",
         basePath: "/",
+        logo: "assets/logo.png",
         showThemeInfo: false,
         showDescriptionInSidebar: true,
         gitRepoContentPath:
