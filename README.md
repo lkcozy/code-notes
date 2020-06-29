@@ -13,7 +13,7 @@ L&W code-related notes and snippets
     <a href="https://npmcharts.com/compare/gatsby-theme-code-notes?minimal=true">
       <img src="https://github.com/lkcozy/code-notes/workflows/Deployment/badge.svg" alt="Deployment" />
     </a>
-    <a href="https://repl.it/badge/github/lkcozy/code-notes)](https://repl.it/github/lkcozy/code-notes">
+    <a href="https://repl.it/github/lkcozy/code-notes">
       <img src="https://repl.it/badge/github/lkcozy/code-notes " alt="Run Code Notes on Repl.it" />
     </a>
   </p>
