@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="assets/logo.png" width="640">
-  L&W code-related notes and snippets
+  <img src="assets/logo.png" width="320">
+
+L&W code-related notes and snippets
+
   <p>
     <a href="https://github.com/MrMartineau/gatsby-theme-code-notes/blob/master/LICENSE">
       <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="gatsby-theme-code-notes is released under the MIT license." />
