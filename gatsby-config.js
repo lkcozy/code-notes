@@ -32,7 +32,7 @@ module.exports = {
         background_color: `hsl(285, 5%, 17%)`,
         theme_color: `hsl(285, 5%, 17%)`,
         display: `standalone`,
-        icon: `assets/logo.png `,
+        icon: `assets/logo.png`,
       },
     },
   ],
