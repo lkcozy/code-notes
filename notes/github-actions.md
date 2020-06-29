@@ -209,6 +209,10 @@ build-and-deploy:
 
 This GitHub Action will automatically deploy your project to GitHub Pages. It can be configured to push your production-ready code into any branch you'd like, including gh-pages and docs.
 
+- [AWS cli install action](https://github.com/marketplace/actions/aws-cli-install-action)
+
+Action to install the most recent version of the AWS-CLI
+
 - [HashiCorp - Setup Terraform](https://github.com/marketplace/actions/hashicorp-setup-terraform)
 
 The hashicorp/setup-terraform action is a JavaScript action that sets up Terraform CLI in your GitHub Actions workflow.
