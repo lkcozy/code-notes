@@ -11,7 +11,8 @@ module.exports = {
       options: {
         contentPath: "notes",
         basePath: "/",
-        logo: "assets/logo.png",
+        logo:
+          "https://raw.githubusercontent.com/lkcozy/code-notes/master/assets/logo.png",
         showThemeInfo: false,
         showDescriptionInSidebar: true,
         gitRepoContentPath:
@@ -31,7 +32,7 @@ module.exports = {
         background_color: `hsl(285, 5%, 17%)`,
         theme_color: `hsl(285, 5%, 17%)`,
         display: `standalone`,
-        icon: `assets/logo.png`,
+        icon: `https://raw.githubusercontent.com/lkcozy/code-notes/master/assets/logo.png `,
       },
     },
   ],
