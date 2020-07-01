@@ -1,6 +1,7 @@
 ---
 title: Git
 tags:
+  - git
   - cheatsheet
 ---
 
