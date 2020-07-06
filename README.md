@@ -1,6 +1,8 @@
 <div align="center">
   <img src="assets/logo.png" width="320">
 
+[Online Version](lkcozy.github.io/code-notes/)
+
 L&W code-related notes and snippets
 
   <p>
@@ -10,9 +12,7 @@ L&W code-related notes and snippets
     <a>
       <img src="https://img.shields.io/github/package-json/v/lkcozy/code-notes" alt="Current version." />
     </a>
-    <a href="https://npmcharts.com/compare/gatsby-theme-code-notes?minimal=true">
-      <img src="https://github.com/lkcozy/code-notes/workflows/Deployment/badge.svg" alt="Deployment" />
-    </a>
+    <img src="https://github.com/lkcozy/code-notes/workflows/Deployment/badge.svg" alt="Deployment" />
     <a href="https://repl.it/github/lkcozy/code-notes">
       <img src="https://repl.it/badge/github/lkcozy/code-notes " alt="Run Code Notes on Repl.it" />
     </a>
