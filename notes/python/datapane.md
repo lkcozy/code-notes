@@ -3,6 +3,7 @@ title: Datapane
 emoji: 🐍
 tags:
   - python
+  - analysis
 link: https://github.com/datapane/datapane/
 ---
 

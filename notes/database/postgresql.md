@@ -4,6 +4,7 @@ emoji: 🐘
 tags:
   - postgresql
   - sql
+  - database
 link:
 ---
 

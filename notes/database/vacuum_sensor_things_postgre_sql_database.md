@@ -4,6 +4,9 @@ emoji: 📝
 tags:
   - postgresql
   - sensorthings
+  - sql
+  - database
+  - analysis
 ---
 
 ## Solution
