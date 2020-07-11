@@ -31,6 +31,12 @@ git branch --merged | egrep -v "(^\*|master|develop)"
 git branch -d branch_name
 ```
 
+### Deleting remote branches
+
+```sh
+git push <remote_name> -d branch_name
+```
+
 ### Delete all branches but keeping others like “develop” and “master”
 
 ```sh
@@ -43,7 +49,7 @@ git branch | grep -v "develop" | grep -v "master" | xargs git branch -D
 git push origin --delete branch1 branch2
 ```
 
-## Stashes
+## [Stashes](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
 
 ### Save changes to a stash
 
@@ -57,10 +63,34 @@ git push origin --delete branch1 branch2
 git stash list
 ```
 
-### Apply a stash and delete it from stash list
+### Annotate stashes with a description
+
+```sh
+git stash -u save 'message'
+```
+
+### Re-apply the most recently created stash and delete it from stash list
 
 ```sh
 git stash pop
+```
+
+### Apply the specified stash by passing its identifier
+
+```sh
+git stash apply stash@{2}
+```
+
+### Partial stash
+
+```sh
+git stash -p
+```
+
+### Creating a branch from your stash
+
+```sh
+git stash branch add-stylesheet stash@{1}
 ```
 
 ## Tags
@@ -81,7 +111,9 @@ git tag --delete v1.9.2
 git push --follow-tags origin master
 ```
 
----
+## Sources
+
+[Top 10 VSCode Extensions](https://codebond.co/@codebond.cb/top-10-vscode-extensions)
 
 [gitsheet.wtf](https://gitsheet.wtf/)
 
