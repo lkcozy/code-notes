@@ -3,6 +3,8 @@ title: SQL cheatsheet
 emoji: 💡
 tags:
   - sql
+  - database
+  - cheatsheet
 link: https://codebond.co/tutorial/other/sql-cheatsheet
 ---
 

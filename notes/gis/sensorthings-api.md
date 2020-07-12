@@ -38,3 +38,18 @@ http://edmonton-aq-sta.sensorup.com/v1.0/Datastreams?$expand=Thing,Sensor,Observ
 ```
 http://edmonton-aq-sta.sensorup.com/v1.0/Datastreams(124139)/Observations?$aggregate=mean_hour:America/Edmonton
 ```
+
+## Resources
+
+- [STA EXplorer](https://explorer.sensorup.com/?url=https://toronto-bike-snapshot.sensorup.com/v1.0) Generic visualization dashboard for SensorThings
+-
+- [STA Pipes](https://sdk.sensorup.com/app/pipes/#/)
+
+- [STA Share](share.sensorup.com)
+
+Create and share snippets of code to showcase SensorThings
+
+## TODO
+
+- [] Review existing tools
+- [] Setup a dev plan

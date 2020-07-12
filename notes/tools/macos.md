@@ -1,5 +1,5 @@
 ---
-title: MacOS 
+title: MacOS
 emoji: ⚙
 tags:
   - macos
@@ -9,7 +9,6 @@ tags:
 ## Tutorial
 
 ### [MacOS file management scheme](https://eurychen.me/post/solutions-of-macos-file-management/)
-
 
 ## Tools
 
@@ -39,3 +38,5 @@ end if
 end repeat
 end tell
 ```
+
+## [Awesome macOS open source applications](https://github.com/serhii-londar/open-source-mac-os-apps/blob/master/README.md)
