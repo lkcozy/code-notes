@@ -49,6 +49,10 @@ http://edmonton-aq-sta.sensorup.com/v1.0/Datastreams(124139)/Observations?$aggre
 
 Create and share snippets of code to showcase SensorThings
 
+- [FROST-GeoJSON-Importer](https://github.com/hylkevds/FROST-GeoJsonImporter)
+
+A tool for importing GeoJSON FeatureCollections as Locations & Things into a SensorThings API compatible service.
+
 ## TODO
 
 - [] Review existing tools

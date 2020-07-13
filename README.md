@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" width="320">
+  <img src="assets/logo-large.png" width="320">
 
 [Online Version](lkcozy.github.io/code-notes/)
 
