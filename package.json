@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "L&W code-related code notes and snippets",
   "homepage": "http://lkcozy.github.io/code-notes",
-  "repository": "git@github.com-lkcozy:lkcozy/code-notes.git",
+  "repository": "git@github.com:lkcozy/code-notes.git",
   "author": "Kan Luo <lkklcozy@gmail.com>",
   "license": "MIT",
   "main": "index.js",
@@ -11,12 +11,12 @@
   "dependencies": {
     "gatsby": "^2.24.x",
     "gatsby-plugin-manifest": "^2.4.x",
-    "gatsby-theme-code-notes": "^1.10.x",
+    "gatsby-theme-code-notes": "^1.13.x",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.x"
+    "gh-pages": "^3.1.0"
   },
   "scripts": {
     "start": "gatsby develop",

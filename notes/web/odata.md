@@ -1,7 +1,8 @@
 ---
 title: OData
 emoji: 📝
-tags: -odata
+tags:
+  - odata
 link: https://www.odata.org/
 ---
 
