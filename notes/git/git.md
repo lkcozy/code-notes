@@ -113,10 +113,12 @@ git push --follow-tags origin master
 
 ## Sources
 
-[Top 10 VSCode Extensions](https://codebond.co/@codebond.cb/top-10-vscode-extensions)
+- [git-tips](https://github.com/git-tips/tips)
 
-[gitsheet.wtf](https://gitsheet.wtf/)
+- [Top 10 VSCode Extensions](https://codebond.co/@codebond.cb/top-10-vscode-extensions)
 
-[gitexplorer.com](https://gitexplorer.com/)
+- [gitsheet.wtf](https://gitsheet.wtf/)
 
-[Setting Up Git Identities](https://www.micah.soy/posts/setting-up-git-identities/)
+- [gitexplorer.com](https://gitexplorer.com/)
+
+- [Setting Up Git Identities](https://www.micah.soy/posts/setting-up-git-identities/)
