@@ -73,3 +73,10 @@ GitHub contribution graph colors: `#C6E48B` `#7AC96F` `#249A3C` `#196127`
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
 Browser extension that enhances GitHub code review and exploration.
+
+
+## Tutorials
+
+- [How to track and display profile views on GitHub](https://rushter.com/blog/github-profile-markdown/)
+
+- [Building a self-updating profile README for GitHub](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/)

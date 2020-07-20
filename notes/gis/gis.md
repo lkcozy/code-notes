@@ -40,6 +40,18 @@ GIS Lounge is an information site covering research and case studies about the a
 
 Geography Realm is an information site about all things geography. Find information here about physical and human geography as well as guides for learning about geography and developing a career in geography.
 
+- [GEOSPATIAL PR](https://www.geospatialpr.com/)
+
+Geospatial PR is a site that publishes press releases from GIS and geospatial companies.
+
+- [Directions Magazine](https://www.directionsmag.com/)
+
+An interactive and engaged community of geospatial professionals, teaching and learning from one another.
+
+- [The Esri Newsroom](https://www.esri.com/about/newsroom/overview/)
+
+Thought-provoking stories on location intelligence and critical technology trends
+
 - [Mango GIS Tutorials](https://mangomap.com/what-is-gis)
 
 - [The MapScaping Podcast](https://mapscaping.com/)
