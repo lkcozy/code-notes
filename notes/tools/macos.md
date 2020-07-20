@@ -12,11 +12,21 @@ tags:
 
 ## Tools
 
-## [AltTab](https://github.com/lwouis/alt-tab-macos)
+### [AltTab](https://github.com/lwouis/alt-tab-macos)
 
 ![](https://github.com/lwouis/alt-tab-macos/raw/master/docs/public/demo/frontpage.jpg)
 
 AltTab brings the power of Windows alt-tab to macOS
+
+### [jitouch](https://www.jitouch.com/)
+
+jitouch is a Mac application that expands the set of multi-touch gestures for the new MacBook, the Magic Mouse, and the Magic Trackpad.
+
+### [Multitouch](https://multitouch.app/)
+
+![](https://multitouch.app/images/screenshot.png)
+
+Easily add more gestures to macOS
 
 ## Star/Unstar selected folder
 
