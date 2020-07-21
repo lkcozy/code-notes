@@ -32,8 +32,6 @@ To add a code snippet: select the lines you want to reference, open the inline t
 
 #### Keyboard tags
 
-You can use <kbd> tags to make text appear like a button, which is slightly different from regular backticked text. It’s perfect for documenting things like keyboard shortcuts or game controls in your READMEs/wikis.
-
 ```sh
 Press <kbd>W</kbd> to go up, and <kbd>A</kbd> to go down.
 If you can find the <kbd>ESC</kbd>, pressing that will fire missiles 🚀
@@ -103,6 +101,23 @@ GitHub contribution graph colors: `#C6E48B` `#7AC96F` `#249A3C` `#196127`
     </td>
   </tr>
 </table>
+```
+
+### Delete a bunch of Github Repositories
+
+```sh
+#!/bin/sh
+
+# Delete a bunch of GitHub repos
+nukem="repo1 repo2"
+user=""
+password_or_oauth_token=""
+
+for repo in $nukem; do
+    echo "Deleting https://github.com/repos/$user/$repo"
+    curl -v -u "$user:$password_or_oauth_token" -X DELETE \
+       "https://api.github.com/repos/$user/$repo"
+done
 ```
 
 ## Extensions
