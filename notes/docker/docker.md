@@ -67,9 +67,34 @@ volumes:
     postgis_volume:
 ```
 
+## Generate a dockerfile by the [jk](https://github.com/jkcfg/jk)
 
+```js
+import * as param from "@jkcfg/std/param";
+
+// input is the the 'service' input parameter.
+const input = param.Object("service");
+
+// Our docker images are based on alpine
+const baseImage = "alpine:3.8";
+
+// Dockerfile is a function generating a Dockerfile from a service object.
+const Dockerfile = (service) => `FROM ${baseImage}
+EXPOSE ${service.port}
+COPY ${service.name} /
+ENTRYPOINT /${service.name}
+`;
+
+// Instruct generate to produce a Dockerfile with the value returned by the
+// Dockerfile function.
+export default [{ path: "Dockerfile", value: Dockerfile(input) }];
+```
 
 ## References
+
+- [Intro Guide to Dockerfile Best Practices](https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/)
+
+This blog series will cover five areas for Dockerfile best practices to help you write better Dockerfiles: incremental build time, image size, maintainability, security and repeatability.
 
 - [An enterprise-style Node.js REST API setup with Docker Compose, Express and Postgres](https://codewithhugo.com/node-postgres-express-docker-compose/)
 

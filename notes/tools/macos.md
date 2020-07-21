@@ -24,6 +24,12 @@ jitouch is a Mac application that expands the set of multi-touch gestures for th
 
 ### [Multitouch](https://multitouch.app/)
 
+### [hat.sh](https://github.com/sh-dv/hat.sh)
+
+![](https://camo.githubusercontent.com/e1e78e542cc049cb79f55627b2eb602bad1d952e/68747470733a2f2f692e696d6775722e636f6d2f62745a526533632e676966)
+
+Encrypt and decrypt files in your browser. Fast, Secure client-side File Encryption and Decryption using the web crypto api
+
 ![](https://multitouch.app/images/screenshot.png)
 
 Easily add more gestures to macOS

@@ -35,3 +35,5 @@ A javascript Bitcoin library for node.js and browsers. Written in TypeScript, bu
 ## Results
 
 - [Deconstructing Blockchains: Concepts, Systems, and Insights](http://folk.uio.no/romanvi/Papers/bc-tutorial-debs-master.pdf)
+
+- [MAXathon Blockchain Hackathon](https://hackathon.maxonrow.com/)

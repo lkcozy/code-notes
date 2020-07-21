@@ -68,12 +68,52 @@ GitHub contribution graph colors: `#C6E48B` `#7AC96F` `#249A3C` `#196127`
 </div>
 ```
 
+#### Inserting a table
+
+|      Type       |              Battery-powered End Device               |         Always-on End Device          |       IoT Gateway        | Cloud Backend Traditional |
+| :-------------: | :---------------------------------------------------: | :-----------------------------------: | :----------------------: | :-----------------------: |
+| Traditional IoT |              Sensor with Custom Protocol              |      Sensor with Custom Protocol      |    Transparent Proxy     | Centralized Core Services |
+| Blockchain IoT  | Server-trusting Client or Sensor with Custom Protocol | Thin Client or Server-trusting Client | Full Node or Thin Client |   Miners and Full Nodes   |
+
+#### Inserting a table with html
+
+```html
+<table>
+  <tr>
+    <th width="50%">
+      <a title="show-whitespace"></a> Show whitespace characters.
+    </th>
+    <th width="50%">
+      Adds one-click merge conflict fixers
+    </th>
+  </tr>
+  <tr>
+    <!-- Prevent zebra stripes -->
+  </tr>
+  <tr>
+    <td>
+      <img
+        src="https://user-images.githubusercontent.com/1402241/61187598-f9118380-a6a5-11e9-985a-990a7f798805.png"
+      />
+    </td>
+    <td>
+      <img
+        src="https://user-images.githubusercontent.com/1402241/54978791-45906080-4fdc-11e9-8fe1-45374f8ff636.png"
+      />
+    </td>
+  </tr>
+</table>
+```
+
 ## Extensions
+
+- [Refined GitHub](https://github.com/sindresorhus/refined-github)
+
+Browser extension that simplifies the GitHub interface and adds useful features
 
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
 Browser extension that enhances GitHub code review and exploration.
-
 
 ## Tutorials
 
