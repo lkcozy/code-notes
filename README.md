@@ -20,3 +20,7 @@ L&W code-related notes and snippets
 </div>
 
 This application was built with [gatsby-theme-code-notes](https://github.com/mrmartineau/gatsby-theme-code-notes)
+
+## Todo
+
+- [ ] [Post deployment status to the slack](https://www.freecodecamp.org/news/what-are-github-actions-and-how-can-you-automate-tests-and-slack-notifications/#part-2-post-new-pull-requests-to-slack)
