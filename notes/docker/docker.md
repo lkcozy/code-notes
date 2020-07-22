@@ -90,6 +90,14 @@ ENTRYPOINT /${service.name}
 export default [{ path: "Dockerfile", value: Dockerfile(input) }];
 ```
 
+## Tools
+
+- [dive](https://github.com/wagoodman/dive)
+
+![](https://github.com/wagoodman/dive/raw/master/.data/demo.gif)
+
+A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image.
+
 ## References
 
 - [Intro Guide to Dockerfile Best Practices](https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/)
