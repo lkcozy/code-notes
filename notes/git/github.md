@@ -2,7 +2,8 @@
 title: Github Tips
 emoji: 📝
 tags:
-  -
+  - github
+  - git
 link: https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/
 ---
 
@@ -32,9 +33,9 @@ To add a code snippet: select the lines you want to reference, open the inline t
 
 #### Keyboard tags
 
-```sh
-Press <kbd>W</kbd> to go up, and <kbd>A</kbd> to go down.
-If you can find the <kbd>ESC</kbd>, pressing that will fire missiles 🚀
+```html
+Press <kbd>W</kbd> to go up, and <kbd>A</kbd> to go down. If you can find the
+<kbd>ESC</kbd>, pressing that will fire missiles 🚀
 ```
 
 #### Visualizing hex codes
