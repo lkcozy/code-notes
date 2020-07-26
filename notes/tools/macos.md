@@ -34,6 +34,14 @@ Encrypt and decrypt files in your browser. Fast, Secure client-side File Encrypt
 
 Easily add more gestures to macOS
 
+### [Pock](https://pock.dev/)
+
+![](https://pock.dev/assets/img/preview/pock_widgets.png)
+
+Display macOS Dock in Touch Bar.
+
+
+
 ## Star/Unstar selected folder
 
 ```applescript
