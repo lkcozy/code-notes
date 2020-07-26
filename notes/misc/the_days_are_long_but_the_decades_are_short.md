@@ -6,6 +6,9 @@ tags:
 link: https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short
 ---
 
+
+the_days_are_long_but_the_decades_are_short
+
 ## Life advice in the past decade worth passing on
 
 1. Never put your family, friends, or significant other low on your priority list. Prefer a handful of truly close friends to a hundred acquaintances. Don’t lose touch with old friends. Occasionally stay up until the sun rises talking to people. Have parties.

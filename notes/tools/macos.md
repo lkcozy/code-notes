@@ -40,7 +40,11 @@ Easily add more gestures to macOS
 
 Display macOS Dock in Touch Bar.
 
+### [Turbo Boost Switcher for Mac OS X](http://tbswitcher.rugarciap.com/)
 
+![](https://www.rugarciap.com/wp-content/uploads/2019/07/captura_web_main.png)
+
+Turbo Boost Switcher is a little application for Mac computers that allows to enable and/or disable the Turbo Boost feature.
 
 ## Star/Unstar selected folder
 

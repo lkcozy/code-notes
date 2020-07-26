@@ -32,6 +32,10 @@ A javascript Bitcoin library for node.js and browsers. Written in TypeScript, bu
 
 ### [Mnemonic Code Converter](https://eurychen.me/tools/mnemonic.html#english)
 
+### [Core functionality for the XYO NodeJS projects.](https://github.com/XYOracleNetwork/sdk-core-nodejs)
+
+Core functionality for the XYO NodeJS projects. This repository implements the core objects and services used in the XYO protocol. Additionally it provides core XYO features like performing bound-witnesses, hashing, signing, serialization, origin-chain management and TCP Network services. Alas, it exposes a number of CLI applications for running archivists and diviners.
+
 ## Results
 
 - [Deconstructing Blockchains: Concepts, Systems, and Insights](http://folk.uio.no/romanvi/Papers/bc-tutorial-debs-master.pdf)
