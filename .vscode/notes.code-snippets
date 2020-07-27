@@ -27,5 +27,18 @@
       ""
     ],
     "description": "Management Tips"
+  },
+  "Translation Template": {
+    "prefix": "translation-section",
+    "body": [
+      "## Translations",
+      "",
+      "<details>",
+      "   <summary>🇨🇳</summary>",
+      "",
+      "</details>",
+      ""
+    ],
+    "description": "Translation"
   }
 }

@@ -17,3 +17,7 @@ Linguee is a web service that provides an online dictionary for a number of lang
 ## [Online Picture Converter](https://renzhezhilu.github.io/webp2jpg-online/)
 
 Picture converter without uploading-simple, privacy
+
+## [xiezuocat](https://xiezuocat.com/#/)
+
+The xiezuocat is focusd on providing AI assistance to professionals through technical training in high-frequency sub-professional scenes (such as clerical writing, legal translation, etc.) to maximize the quality and efficiency of professionals.
