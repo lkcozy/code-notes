@@ -10,6 +10,30 @@ tags:
 
 ### [MacOS file management scheme](https://eurychen.me/post/solutions-of-macos-file-management/)
 
+## Reduce PDF File Size and Control Quality with ColorSync
+
+1. From “Applications > Utilities,” open the ColorSync Utility
+
+2. Go to the Filters tab and find the Reduce File Size option in the filters list
+
+3. Expand the filter by clicking the arrows on the left, so that you can see the details. The default option to “Constrain Size” is set to a max of 512 pixels, which explains why you are getting poor quality PDFs when reducing the file size in Preview. This setting is not just good enough for retaining any detail.
+
+![](https://blog.macsales.com/wp-content/uploads/2020/07/ColorSyncUtility_Preferences.png)
+
+4. Click on the down arrow on the right of this filter and choose Duplicate Filter. This will create a filter named Reduce File Size Copy at the bottom of the list.
+
+5. On the duplicated filter, select the arrow on the left to open it up and change its name and settings. To change the name, double click it. To create some different filter options, create a few with different Resolution and Quality settings.
+
+For example, I have the following custom filters set up:
+
+Reduce File Size (100 dpi, low quality)
+Reduce File Size (100 dpi, high quality)
+Reduce File Size (150 dpi, high quality)
+
+6. As soon as you create your custom filters, they will appear in the Quartz Filter dropdown of Preview’s “File > Export…” menu as well.
+
+![](https://blog.macsales.com/wp-content/uploads/2020/07/Preview_updatedFiltersList.jpg)
+
 ## Tools
 
 ### [AltTab](https://github.com/lwouis/alt-tab-macos)
