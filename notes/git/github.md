@@ -7,6 +7,18 @@ tags:
 link: https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/
 ---
 
+## Github Readme Stats
+
+![](https://github-readme-stats.vercel.app/api?username=lkcozy&show_icons=true&theme=tokyonight&hide_title=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lkcozy&layout=compact&theme=tokyonight)
+
+> Supported by the [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
+
+## [Awesome-Profile-README-templates](https://github.com/kautukkundan/Awesome-Profile-README-templates)
+
+-[Example](https://github.com/kautukkundan/Awesome-Profile-README-templates/blob/master/dynamic-realtime/8bithemant.md)
+
 ## [Tips](https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/)
 
 ### Code Suggestions
@@ -136,3 +148,13 @@ Browser extension that enhances GitHub code review and exploration.
 - [How to track and display profile views on GitHub](https://rushter.com/blog/github-profile-markdown/)
 
 - [Building a self-updating profile README for GitHub](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/)
+
+## Resources
+
+- [HelloGitHub](https://github.com/521xueweihan/HelloGitHub/blob/master/README_en.md)
+
+HelloGitHub is sharing interesting, entry-level open source projects on GitHub.
+
+- [Github APIs](https://developer.github.com/v3/)
+
+The official GitHub REST API v3.

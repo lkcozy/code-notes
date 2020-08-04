@@ -20,6 +20,10 @@ As a result, only specific data elements (such as short transactions or indices)
 
 • It's more private. These transfers are not visible on the public blockchain.
 
+## Consensus
+
+### Practical Byzantine Fault Tolerance (PBFT) 
+
 ## Tutorial
 
 ### [Ethereum dApp development](https://eurychen.me/post/5days-ethereum-develop/day0/)

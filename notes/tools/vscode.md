@@ -7,6 +7,12 @@ tags:
 link:
 ---
 
+## [Fix the screen flicker](https://github.com/Microsoft/vscode/issues/41238)
+
+```sh
+code --disable-gpu
+```
+
 ## Extensions
 
 ### Git
