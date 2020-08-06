@@ -7,11 +7,19 @@ tags:
 link:
 ---
 
-## [Fix the screen flicker](https://github.com/Microsoft/vscode/issues/41238)
+## [Fix the screen flicker](https://code.visualstudio.com/updates/v1_40#_disable-gpu-acceleration)
 
 ```sh
 code --disable-gpu
 ```
+
+or
+
+- Open the Command Palette (`⇧⌘P`).
+- Run the Preferences: Configure Runtime Arguments command.
+- This command will open a `argv.json` file to configure runtime arguments. You might see some default arguments there already.
+- Add `"disable-hardware-acceleration": true`.
+- Restart VS Code.
 
 ## Extensions
 
