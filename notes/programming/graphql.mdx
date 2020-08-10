@@ -1,0 +1,267 @@
+---
+title: Graphql
+emoji: 📝
+tags:
+  - graphql
+  - sql
+  - database
+link:
+---
+
+## Basics
+
+### Fragments
+
+A fragment represents the data requirements of some component or aspect of an application
+
+```graphql
+fragment FullPost on Post {
+  id
+  slug
+  title
+  body
+  contributors {
+    ...Contributor
+  }
+  author {
+    name
+    ...Author
+  }
+}
+```
+
+### Queries
+
+A query represents some operation that fetches data.
+
+```graphql
+query GetPost($id: ID!) {
+  post(id: $id) {
+    __typename
+    id
+    ...FullPost
+  }
+}
+```
+
+### Mutations
+
+A mutation represents some operations which changes data.
+
+### [The difference between `parseValue` and `parseLiteral`](https://stackoverflow.com/questions/41510880/whats-the-difference-between-parsevalue-and-parseliteral-in-graphqlscalartype?answertab=active#tab-top)
+
+The `serialize` method would be called when the value of the type is going to be sent to the client as a response. Since the values on the output is in the form of JSON, the return value of `serialize` could be anything. Could be string, number, array, object ...
+
+The other two methods (`parseValue` and `parseLiteral`) are to read input.
+
+In GraphQL there are two ways of reading input from client, one is inline in the query, like:
+
+```graphql
+query {
+  allUsers(first: 10) {
+    id
+  }
+}
+```
+
+where 10 is the inline value for first argument. Since the input language for GraphQL is not exactly JSON, the value (here 10) is being parsed and converted to AST (Abstract Syntax Tree). In this case, `parseLiteral` comes to play. It inputs the AST and returns the parsed value of the type. Types could be as complex as JSON and `parseLiteral` could traverse the AST and return JSON.
+
+The other way of reading input from clients is through variables:
+
+```graphql
+query($howMany: YourCustomType) {
+  users(first: $howMany) {
+    id
+  }
+}
+```
+
+variables:
+
+```graphql
+{
+  "howMany": {
+    "thisMany": 10
+  }
+}
+```
+
+Since the variables are pure JSON, you don't need AST here, you already have JSON. That's where `parseValue` comes to play. It gets the input as JSON and returns whatever the query resolver should use.
+
+```graphql
+function parseValue(value) {
+let first = value.thisMany;
+return first;
+}
+```
+
+So, you could have different presentation when you read from variables than when you read values inline, but conceptually, they should be the same in terms of presentation. However since the "type" of input is different (inline is GraphQL and variable is JSON), the parsing algorithm could be different. That's why if you define it as input type, you need to provide two separate methods to read them.
+
+## Schema Design
+
+- [GraphQL interfaces and unions - how to design GraphQL schema](https://atheros.ai/blog/graphql-interfaces-and-unions-how-to-design-graphql-schema)
+
+This article go through the use cases for abstract types and how to implement them in the GraphQL schema. Using abstract types can greatly improve your GraphQL schema design and simplify your queries and mutations.
+
+> The interface is a structure that enforces certain properties on the object or class that implements the corresponding interface
+
+**Why it matters**: Interfaces and unions are the only available abstract types in the GraphQL specification. You can leverage them to reduce complexity of your schema, reduce the number of queries and mutations, and describe your data in a much more precise way.
+
+### [GraphQL schema design in Moon Modeler](https://www.datensen.com/graphql-design/graphql-schema-design.html)
+
+![](https://www.datensen.com/media/graphql/graphql-diagram-linked-type.png)
+
+## Resources
+
+### Tutorials
+
+- [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/)
+
+-[Input object type as an argument for GraphQL mutations and queries](https://atheros.ai/blog/input-object-type-as-an-argument-for-graphql-mutations-and-queries)
+
+- [How to Make a Serverless GraphQL API using Lambda and DynamoDB](https://www.serverless.com/blog/make-serverless-graphql-api-using-lambda-dynamodb)
+
+- [GraphQL scalars and their input and result coercion](https://atheros.ai/blog/graphql-scalars-and-their-input-and-result-coercion)
+
+* result coercion:  upholding the contract of a type which we receive from the server (basically upholding the primitive values or object type)
+* input coercion:  upholding the contract of a type for input
+
+- [How to design GraphQL custom scalars](https://atheros.ai/blog/how-to-design-graphql-custom-scalars)
+
+* serialize: result coercion
+* parseValue: input coercion for variables
+* parseLiteral: input coercion for inline arguments
+
+```js
+import { GraphQLScalarType } from "graphql";
+import { isISO8601 } from "validator";
+// This is only very simple DateTime scalar to show how to create your custom scalars. You can use some of the libraries for production use cases.
+const parseISO8601 = (value: any) => {
+  if (isISO8601(value)) {
+    return value;
+  }
+  throw new Error("DateTime cannot represent an invalid ISO-8601 Date string");
+};
+const serializeISO8601 = (value: any) => {
+  if (isISO8601(value)) {
+    return value;
+  }
+  throw new Error("DateTime cannot represent an invalid ISO-8601 Date string");
+};
+const parseLiteralISO8601 = (ast: any) => {
+  if (isISO8601(ast.value)) {
+    return ast.value;
+  }
+  throw new Error("DateTime cannot represent an invalid ISO-8601 Date string");
+};
+const DateTime = new GraphQLScalarType({
+  name: "DateTime",
+  description: "An ISO-8601 encoded UTC date string.",
+  serialize: serializeISO8601,
+  parseValue: parseISO8601,
+  parseLiteral: parseLiteralISO8601,
+});
+export default DateTime;
+```
+
+### Libraries
+
+- [GraphQL.js](https://github.com/graphql/graphql-js)
+
+<details>
+   <summary>A reference implementation of GraphQL for JavaScript</summary>
+
+```js
+import {
+  graphql,
+  GraphQLSchema,
+  GraphQLObjectType,
+  GraphQLString,
+} from "graphql";
+
+var schema = new GraphQLSchema({
+  query: new GraphQLObjectType({
+    name: "RootQueryType",
+    fields: {
+      hello: {
+        type: GraphQLString,
+        resolve() {
+          return "world";
+        },
+      },
+    },
+  }),
+});
+```
+
+</details>
+
+- [graphql-helper](https://github.com/bustle/graphql-helper)
+
+<details>
+   <summary>A simple helper library for constructing GraphQL queries.</summary>
+
+```js
+import { fragment, query } from 'graphql-helper'
+import fetch from 'isomorphic-fetch'
+
+const Contributor = fragment('Contributor', 'User') `{
+  name
+  slug
+}`
+
+const PostPage = fragment('PostPage', 'Post') `{
+  title
+  body
+  contributors {
+    ${Contributor}
+  }
+}`
+
+const PostQuery = query('PostQuery', { postId: 'ID!' }) `{
+  post(id: $postId) {
+    id
+    ${PostPage}
+  }
+}`
+
+
+// Write your own app-specific dispatcher.
+// In this case, we just have a simple function, but this could live in
+// a react library, an elm effects module, an ember service...
+
+function runQuery(op, vars): Promise<Result> {
+  return fetch('http://localhost:3000/graphql', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        query: op,
+        variables: vars,
+      }),
+    })
+    .then(r => r.json())
+    .then({ data, errors }) => errors ? Promise.reject(errors) : Promise.resolve(data))
+   })
+}
+
+
+// Usage
+runQuery(PostQuery, { postId: 123 })
+  .then(data => {
+    // data = {
+    //   post: {
+    //     id: 123,
+    //     title: "foo",
+    //     body: "bar",
+    //     contributors: [
+    //       { name: 'Daria Morgendorffer', slug: '/daria' },
+    //       { name: 'Jane Lane', slug: '/jane' }
+    //     ]
+    //   }
+    // }
+  })
+```
+
+</details>

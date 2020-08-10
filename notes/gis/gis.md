@@ -30,6 +30,14 @@ Maps are the geographic container for the data layers and analytics you want to 
 
 Modern GIS is about participation, sharing, and collaboration. Discover how the technology is strengthening relationships, driving efficiencies, and opening communications channels in your community.
 
+## Tutorials
+
+- [Automating GIS and remote sensing workflows with open python libraries](https://towardsdatascience.com/automating-gis-and-remote-sensing-workflows-with-open-python-libraries-e71dd6b049ee)
+
+![](https://cdn-images-1.medium.com/fit/t/1600/480/1*8Lw11QZOFqw5kH-LAL8bYw.gif)
+
+A hands-on guide for implementing some of the most beloved tools in the spatial python community
+
 ## Resources
 
 - [GIS Lounge](https://www.gislounge.com/)
