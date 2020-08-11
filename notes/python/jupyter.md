@@ -1,5 +1,5 @@
 ---
-title:
+title: Jupyter
 emoji: 📝
 tags:
   - python

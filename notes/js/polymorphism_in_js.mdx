@@ -1,0 +1,127 @@
+---
+title: Polymorphism in JavaScript
+emoji: 📝
+tags:
+  - javascript
+link: https://zellwk.com/blog/polymorphism-javascript/
+---
+
+## What is Polymorphism
+
+Polymorphism comes from the word Polymorph.
+
+- Poly: Many.
+- Morph: Change from one form to another.
+  So Polymorphism is the ability to take on multiple forms.
+
+**There are three kinds of Polymorphism in programming:**
+
+1. Adhoc Polymorphism - Change something from one form to another on the spot.
+2. Parametric Polymorphism - Data that can contain many types of data or Functions that can work with many types of data
+3. Subtype Polymorphisms - Create derivative objects from a parent object
+
+## Adhoc polymorphism
+
+### Operator Overloading
+
+Overloading means being able to do more than one thing.
+
+Example:
+
+The + operator in JavaScript does many things. You can use it to add numbers. You can also use it to concatenate strings.
+
+```js
+// Adding numbers
+1 + 1; // Results in 2
+
+// Adding Strings
+"Hello" + " " + "World"; // Results in 'Hello World'
+
+// Adding Numbers to Strings
+1 + "up"; // Results in '1up'
+```
+
+### Function Overloading
+
+Function overloading means creating two (or more) functions with the same name. Each function does something different depending on the arguments given to it.
+
+```js
+function volumeCuboid(length, breadth, height) {
+  return length * breadth * height;
+}
+
+function volumeCube(length) {
+  return volumeCuboid(length, length, length);
+}
+
+// Overloading happens here
+function calculateVolume(...args) {
+  if (args.length === 3) return volumeCuboid(...args);
+  return volumeCube(args[0]);
+}
+```
+
+### Coercion Polymorphism
+
+JavaScript has Type coercion. It converts value from one type to another while evaluating them.
+
+```js
+const string = "hello";
+if (string) {
+  console.log(string);
+}
+```
+
+## Parametric Polymorphism
+
+### Data that can contain many types of data
+
+Everything in JavaScript is an Object. So Objects are parametric. It can be converted into other types of data.
+
+Objects can also store multiple types. It doesn’t care what values are stored.
+
+```js
+const object = {
+  str: "hello",
+  num: 123,
+  bool: true,
+};
+```
+
+### Functions that can work with many types of data
+
+Functions that can work with many types of data are called polymorphic functions.
+
+```js
+const toString = [1, 2, 3].map((num) => `${num}`);
+```
+
+## Subtype Polymorphism
+
+Subtype Polymorphism involves creating derivative objects from a parent object.
+
+Derivatives objects can then override a method from the parent and it’ll still work.
+
+```js
+class Human {
+  constructor(name) {
+    this.name = name;
+  }
+
+  sayHi() {
+    console.log(`Hi! My name is ${name}`);
+  }
+}
+
+class Developer extends Human() {
+  sayHi() {
+    console.log(`Hi! My name is ${name}. I am a developer.`);
+  }
+}
+
+class Designer extends Human() {
+  sayHi() {
+    console.log(`Hi! My name is ${name}. I am a designer.`);
+  }
+}
+```
