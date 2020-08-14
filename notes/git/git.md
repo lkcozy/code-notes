@@ -115,8 +115,6 @@ git push --follow-tags origin master
 
 - [git-tips](https://github.com/git-tips/tips)
 
-- [Top 10 VSCode Extensions](https://codebond.co/@codebond.cb/top-10-vscode-extensions)
-
 - [gitsheet.wtf](https://gitsheet.wtf/)
 
 - [gitexplorer.com](https://gitexplorer.com/)
