@@ -133,6 +133,10 @@ for repo in $nukem; do
 done
 ```
 
+## [Workflows](https://zepel.io/blog/5-git-workflows-to-improve-development/)
+
+![](https://zepel.io/blog/content/images/2020/05/GitFlow-git-workflow-2.png)
+
 ## Extensions
 
 - [Refined GitHub](https://github.com/sindresorhus/refined-github)

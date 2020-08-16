@@ -68,3 +68,7 @@ result:
 |      4 | Chris      | Walker    |     5 | 4 jan 2014  |
 +--------+------------+-----------+-------+-------------+
 ```
+
+## Resources
+
+- [Online SQL Teaching](https://www.sqlteaching.com/)
