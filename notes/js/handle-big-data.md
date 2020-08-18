@@ -4,6 +4,7 @@ emoji: 📝
 tags:
   - javascript
   - gis
+  - performance
 link:
 ---
 
@@ -200,3 +201,8 @@ var timeline = new vis.Timeline(container, items, options);
 Network is a visualization to display networks and networks consisting of nodes and edges. The visualization is easy to use and supports custom shapes, styles, colors, sizes, images, and more. The network visualization works smooth on any modern browser for up to a few thousand nodes and edges. To handle a larger amount of nodes, Network has clustering support. Network uses HTML canvas for rendering.
 
 - [Awesome vis.js](https://github.com/visjs/awesome-visjs): A curated list around vis.js
+
+### [LokiJS](https://github.com/techfort/LokiJS)
+
+LokiJS is a document oriented database written in javascript. It supports indexing, querying and filtering of data collections. LokiJS also supports more advanced features such as mapReduce, transactions and lets you implement custom remote synchronization to save data to a server (or a local file on mobile). Persistence to disk is already implemented for CommonJS environment such as nodejs, on a mobile you just have to request the filesystem and pass lokijs's serialize() as content.
+  
