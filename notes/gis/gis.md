@@ -26,12 +26,22 @@ GIS technology applies geographic science with tools for understanding and colla
 
 Maps are the geographic container for the data layers and analytics you want to work with. GIS maps are easily shared and embedded in apps, and accessible by virtually everyone, everywhere.
 
+## [Geospatial analysis](https://learn.arcgis.com/en/arcgis-book/chapter5/)
+
+Spatial analysis allows you to solve complex location-oriented problems and better understand where and what is occurring in your world. It goes beyond mere mapping to let you study the characteristics of places and the relationships between them. Spatial analysis lends new perspectives to your decision-making.
+
+Here are some of the foundational spatial analyses and examples of how they are applied in the real world.
+
+- Determine relationships
+- Understand and describe locations and events
+- Detect and quantify patterns
+- Make predictions
+- Find best locations and paths
+
 ## Who uses GIS
 
 Modern GIS is about participation, sharing, and collaboration. Discover how the technology is strengthening relationships, driving efficiencies, and opening communications channels in your community.
 
-
-## 
 ## Tutorials
 
 - [Automating GIS and remote sensing workflows with open python libraries](https://towardsdatascience.com/automating-gis-and-remote-sensing-workflows-with-open-python-libraries-e71dd6b049ee)
