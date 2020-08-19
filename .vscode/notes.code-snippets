@@ -9,8 +9,7 @@
       "   - note",
       "link:",
       "---",
-      "",
-      "## Title"
+      ""
     ],
     "description": "Code Notes"
   },
@@ -21,10 +20,17 @@
       "title: ",
       "emoji: 💡",
       "tags:",
+      "   - Archived",
       "   - management",
       "link:",
       "---",
-      ""
+      "",
+      "### Translations",
+      "",
+      "<details>",
+      "   <summary>🇨🇳</summary>",
+      "",
+      "</details>"
     ],
     "description": "Management Tips"
   },
