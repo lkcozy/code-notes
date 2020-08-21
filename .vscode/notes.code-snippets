@@ -25,6 +25,8 @@
       "link:",
       "---",
       "",
+      "<iframe height='600' style='width: 100%;' scrolling='no' title='mindmap' src='' frameborder='no' allowtransparency='true' allowfullscreen='true' />",
+      "",
       "### Translations",
       "",
       "<details>",
@@ -47,4 +49,17 @@
     ],
     "description": "Translation"
   }
+
 }
+
+
+<iframe
+  height="600"
+  style="width: 100%;"
+  scrolling="no"
+  title="mindmap"
+  src="https://gitmind.com/app/doc/ec8996536f8268667ca27db8a076ad50"
+  frameborder="no"
+  allowtransparency="true"
+  allowfullscreen="true"
+></iframe>

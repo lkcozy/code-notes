@@ -11,7 +11,7 @@
   "dependencies": {
     "gatsby": "^2.24.x",
     "gatsby-plugin-manifest": "^2.4.x",
-    "gatsby-theme-code-notes": "^1.14.x",
+    "gatsby-theme-code-notes": "^1.15.x",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
