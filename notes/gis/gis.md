@@ -52,6 +52,8 @@ A hands-on guide for implementing some of the most beloved tools in the spatial 
 
 ## Resources
 
+### Trends
+
 - [GIS Lounge](https://www.gislounge.com/)
 
 GIS Lounge is an information site covering research and case studies about the applications of geographic information systems, geospatial technologies, and cartography. The purpose of this site is to provide introductory text for issues relating to GIS as well as interesting news items, tips, and resources for the geospatial field.
@@ -78,6 +80,8 @@ Thought-provoking stories on location intelligence and critical technology trend
 
 The MapScaping Podcast is a weekly podcast featuring interesting people doing amazing work in the geospatial world. During each podcast, they interview experts and feature people that will help you learn more about GIS, geospatial, remote sensing and earth observation.
 
+### Tools
+
 - [GeoJSON.js](https://github.com/caseycesari/GeoJSON.js)
 
 ```js
@@ -96,3 +100,11 @@ GeoJSON.parse(singleobject, {Point: ['lat', 'lng', 'alt']});
 ```
 
 Turn your geo data into GeoJSON.
+
+### Data
+
+- [OpenTopography](https://portal.opentopography.org/datasets)
+
+![](https://i0.wp.com/www.gislounge.com/wp-content/uploads/2020/08/opentopography-map.png?w=1000&ssl=1)
+
+OpenTopography is a portal that provides access to open sources of topographical datasets and processing tools.

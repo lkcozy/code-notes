@@ -104,6 +104,10 @@ A tool for exploring a docker image, layer contents, and discovering ways to shr
 
 This blog series will cover five areas for Dockerfile best practices to help you write better Dockerfiles: incremental build time, image size, maintainability, security and repeatability.
 
+- [A deep dive into the official Docker image for Python](https://pythonspeed.com/articles/official-python-docker-image/)
+
+A step-by-step introduction to how the official Python Docker image is made, and a detailed interpretation of the Dockefile file.
+
 - [An enterprise-style Node.js REST API setup with Docker Compose, Express and Postgres](https://codewithhugo.com/node-postgres-express-docker-compose/)
 
 - [Github Actions - Creating PostgreSQL service containers](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-postgresql-service-containers#testing-the-postgresql-service-container)
