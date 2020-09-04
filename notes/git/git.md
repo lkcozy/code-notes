@@ -5,6 +5,18 @@ tags:
   - cheatsheet
 ---
 
+## [Rebase](https://git-rebase.io/)
+
+```sh
+# amending your last commit
+git commit -a --amend
+```
+
+```sh
+# fixing up older commits, -i for interactive
+git rebase -i HEAD~3
+```
+
 ## Branches
 
 List all local branches

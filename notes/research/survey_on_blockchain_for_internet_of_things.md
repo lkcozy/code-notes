@@ -8,8 +8,6 @@ tags:
 link: https://www.researchgate.net/publication/330351295_Survey_on_Blockchain_for_Internet_of_Things
 ---
 
-
-
 ## Literature Review 2020-08-28
 
 ## Key Insight
