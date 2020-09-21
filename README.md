@@ -23,4 +23,4 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 ## Todo
 
-- [ ] [Post deployment status to the slack](https://www.freecodecamp.org/news/what-are-github-actions-and-how-can-you-automate-tests-and-slack-notifications/#part-2-post-new-pull-requests-to-slack)
+- [X] [Post deployment status to the slack](https://www.freecodecamp.org/news/what-are-github-actions-and-how-can-you-automate-tests-and-slack-notifications/#part-2-post-new-pull-requests-to-slack)

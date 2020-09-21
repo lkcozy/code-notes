@@ -51,18 +51,29 @@
       ""
     ],
     "description": "Translation"
+  },
+  "LeetCode Template": {
+    "prefix": "leetcode-tip",
+    "body": [
+      "---",
+      "title: ",
+      "emoji: 📚",
+      "tags:",
+      "   - leetcode",
+      "   - algorithm",
+      "link:",
+      "---",
+      "## Complete Data",
+      "",
+      "## Description",
+      "",
+      "## Example",
+      "",
+      "## Solution",
+      "",
+      "## Complexity Analysis",
+      ""
+    ],
+    "description": "LeetCode"
   }
-
 }
-
-
-<iframe
-  height="600"
-  style="width: 100%;"
-  scrolling="no"
-  title="mindmap"
-  src="https://gitmind.com/app/doc/ec8996536f8268667ca27db8a076ad50"
-  frameborder="no"
-  allowtransparency="true"
-  allowfullscreen="true"
-></iframe>
