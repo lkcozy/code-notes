@@ -3,7 +3,7 @@ title: VACUUM PostgreSQL Database
 emoji: 📝
 tags:
   - postgresql
-  - sensorthings
+  - SensorThings API
   - sql
   - database
   - analysis

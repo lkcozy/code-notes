@@ -2,7 +2,7 @@
 title: Blockchain
 emoji: 🅱
 tags:
-  - Blockchain
+  - blockchain
 link:
 ---
 

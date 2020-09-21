@@ -4,8 +4,8 @@ emoji: 🐳
 tags:
   - docker
   - github
-  - postgres
-  - databases
+  - postgresql
+  - database
 link: https://docs.docker.com/get-started/overview/
 ---
 
@@ -43,7 +43,7 @@ services:
   app:
     build: .
     depends_on:
-      - postgres
+      - postgresql
     environment:
       DATABASE_URL: postgres://user:pass@postgres:5432/db
       NODE_ENV: development

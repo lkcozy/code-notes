@@ -3,8 +3,8 @@ title: Data Analysis
 emoji: 📝
 tags:
   - analysis
-  - Python
-  - Jupyter
+  - python
+  - jupyter
 link:
 ---
 

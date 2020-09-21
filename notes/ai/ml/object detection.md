@@ -2,7 +2,7 @@
 title: Building an object detection service using YOLO and Docker
 emoji: 📝
 tags:
-  - YOLO
+  - yolo
   - python
   - docker
   - data science
