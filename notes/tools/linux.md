@@ -2,7 +2,7 @@
 title: Most Helpful Linux Command
 emoji: 💡
 tags:
-  - Linux
+  - linux
   - cli
 link: https://codebond.co/tutorial/other/most-helpful-linux-command
 ---

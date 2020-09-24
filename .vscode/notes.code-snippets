@@ -63,14 +63,15 @@
       "   - algorithm",
       "link:",
       "---",
-      "## Complete Data",
+      "## Complete Data: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
       "",
       "## Description",
       "",
       "## Example",
       "",
       "## Solution",
-      "",
+      "```js",
+      "```",s
       "## Complexity Analysis",
       ""
     ],
