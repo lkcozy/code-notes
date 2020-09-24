@@ -57,7 +57,7 @@
     "body": [
       "---",
       "title: ",
-      "emoji: 📚",
+      "emoji: 👨‍💻",
       "tags:",
       "   - leetcode",
       "   - algorithm",
@@ -68,10 +68,12 @@
       "## Description",
       "",
       "## Example",
+      "```",
+      "```",
       "",
       "## Solution",
       "```js",
-      "```",s
+      "```",
       "## Complexity Analysis",
       ""
     ],
