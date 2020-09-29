@@ -72,10 +72,11 @@
       "```",
       "",
       "## Solution",
-      "```js",
+      "```ts",
       "```",
       "## Complexity Analysis",
-      ""
+      "- Time complexity: 0()",
+      "- Space complexity: O()"
     ],
     "description": "LeetCode"
   }

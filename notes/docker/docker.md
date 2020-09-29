@@ -67,6 +67,8 @@ volumes:
     postgis_volume:
 ```
 
+[More information about the compose file.](https://docs.docker.com/compose/compose-file/)
+
 ## Generate a dockerfile by the [jk](https://github.com/jkcfg/jk)
 
 ```js
