@@ -102,6 +102,8 @@ A tool for exploring a docker image, layer contents, and discovering ways to shr
 
 ## References
 
+- [Docker for beginners](https://docker-curriculum.com/#introduction)
+
 - [Intro Guide to Dockerfile Best Practices](https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/)
 
 This blog series will cover five areas for Dockerfile best practices to help you write better Dockerfiles: incremental build time, image size, maintainability, security and repeatability.
@@ -113,3 +115,7 @@ A step-by-step introduction to how the official Python Docker image is made, and
 - [An enterprise-style Node.js REST API setup with Docker Compose, Express and Postgres](https://codewithhugo.com/node-postgres-express-docker-compose/)
 
 - [Github Actions - Creating PostgreSQL service containers](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-postgresql-service-containers#testing-the-postgresql-service-container)
+
+- [Dockerfile Security Best Practices](https://cloudberry.engineering/article/dockerfile-security-best-practices/)
+
+Container security is a broad problem space and there are many low hanging fruits one can harvest to mitigate risks. A good starting point is to follow some rules when writing Dockerfiles.
