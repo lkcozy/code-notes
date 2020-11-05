@@ -1,0 +1,133 @@
+---
+title: Ramda
+emoji: 📝
+tags:
+  - javascript
+  - functional
+link: https://ramdajs.com/
+---
+
+A practical functional library for JavaScript programmers. Function first，data last.
+
+![](http://www.ruanyifeng.com/blogimg/asset/2017/bg2017030901.jpg)
+
+## The primary distinguishing features of Ramda are:
+
+1. Ramda emphasizes a purer functional style. <Highlight>Immutability and side-effect free</Highlight> functions are at the heart of its design philosophy. This can help you get the job done with simple, elegant code.
+
+2. Ramda functions are <Highlight>automatically curried</Highlight>. This allows you to easily build up new functions from old ones simply by not supplying the final parameters.
+
+3. The parameters to Ramda functions are arranged to make it convenient for currying. The data to be operated on is generally supplied last.
+
+The last two points together make it very easy to build functions as sequences of simpler functions, each of which transforms the data and passes it along to the next. Ramda is designed to support this style of coding.
+
+> Note: Currying is the process of turning a function that expects multiple parameters into one that, when supplied fewer parameters, returns a new function that awaits the remaining ones.
+
+## Example
+
+This example is demonstrating the Ramda utility functions alongside the currying aspects of Ramda.
+
+```js
+var data = {
+  result: "SUCCESS",
+  interfaceVersion: "1.0.3",
+  requested: "10/17/2013 15:31:20",
+  lastUpdated: "10/16/2013 10:52:39",
+  tasks: [
+    {
+      id: 104,
+      complete: false,
+      priority: "high",
+      dueDate: "2013-11-29",
+      username: "Scott",
+      title: "Do something",
+      created: "9/22/2013",
+    },
+    {
+      id: 105,
+      complete: false,
+      priority: "medium",
+      dueDate: "2013-11-22",
+      username: "Lena",
+      title: "Do something else",
+      created: "9/22/2013",
+    },
+    {
+      id: 107,
+      complete: true,
+      priority: "high",
+      dueDate: "2013-11-22",
+      username: "Mike",
+      title: "Fix the foo",
+      created: "9/22/2013",
+    },
+    {
+      id: 108,
+      complete: false,
+      priority: "low",
+      dueDate: "2013-11-15",
+      username: "Punam",
+      title: "Adjust the bar",
+      created: "9/25/2013",
+    },
+    {
+      id: 110,
+      complete: false,
+      priority: "medium",
+      dueDate: "2013-11-15",
+      username: "Scott",
+      title: "Rename everything",
+      created: "10/2/2013",
+    },
+    {
+      id: 112,
+      complete: true,
+      priority: "high",
+      dueDate: "2013-11-27",
+      username: "Lena",
+      title: "Alter all quuxes",
+      created: "10/5/2013",
+    },
+    // , ...
+  ],
+};
+```
+
+### Version 1
+
+```js
+var getIncompleteTaskSummaries = function (membername) {
+  return fetchData()
+    .then(R.get("tasks"))
+    .then(R.filter(R.propEq("username", membername)))
+    .then(R.reject(R.propEq("complete", true)))
+    .then(R.map(R.pick(["id", "dueDate", "title", "priority"])))
+    .then(R.sortBy(R.get("dueDate")));
+};
+```
+
+### Version 2
+
+```js
+var SelectTasks = R.prop("tasks");
+
+var filterMember = (member) => R.filter(R.propEq("username", member));
+
+var excludeCompletedTasks = R.reject(R.propEq("complete", true));
+
+var selectFields = R.map(R.pick(["id", "dueDate", "title", "priority"]));
+
+var sortByDueDate = R.sortBy(R.prop("dueDate"));
+
+var getIncompleteTaskSummaries = function (membername) {
+  return fetchData().then(
+    R.pipe(
+      SelectTasks,
+      filterMember(membername),
+      excludeCompletedTasks,
+      selectFields,
+      sortByDueDate
+    )
+  );
+};
+```
