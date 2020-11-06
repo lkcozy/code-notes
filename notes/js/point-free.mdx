@@ -1,0 +1,69 @@
+---
+title:
+emoji: 📝
+tags:
+  - point free
+  - javascript
+link:
+---
+
+[Point-free] is a <Highlight>programming paradigm in which function definitions do not identify the arguments (or "points") on which they operate</Highlight>.
+
+## Gotchas in JavaScript
+
+As much as point-free style is useful in other (functional) languages, in JavaScript it often brings problems that <Highlight>might not be worth the conciseness it brings</Highlight>. I still use it sometimes <Highlight>when the function called is under my control</Highlight>. After these experiences I will be more careful with it, though.
+
+### Gotcha #1: Function taking more parameters than you expected
+
+```js
+const nums = ["25", "45", "11"];
+// logs [ 25, 45, 11 ]
+console.log(nums.map((num) => Number.parseInt(num)));
+// logs [ 25, NaN, 3 ]
+console.log(nums.map(Number.parseInt));
+```
+
+The reason for this is that while Number.parseFloat only takes one argument – the string to parse – Number.parseInt takes an additional optional argument – the radix of the number to be output (for example 16 for hexadecimal strings). Thus when used in a map like that this is what actually happens:
+
+```js
+console.log(
+  nums.map((item, index, array) =>
+    Number.parseInt(/* string: */ item, /* radix: */ index, array)
+  )
+);
+```
+
+As we can see the radix argument of `Number.parseInt` is set using the index of the current item. That explains the 3 output for the 11 input as 3 is 11 in binary.
+
+This is the first type of issue that can arise from point-free in JavaScript: functions taking more arguments than you expect.
+
+There is no fool-proof way to protect yourself against this other than <Highlight>using point-free only with functions you know the signature of and know are not going to change</Highlight>, otherwise your code can break unexpectedly.
+
+Solution: [Ramda unary](ramdajs.com/docs/#unary)
+
+
+### Gotcha #2: Unexpected `this`
+```js
+const obj = {
+  message: "Hello",
+  getMessage() {
+    console.log(this.message);
+  },
+};
+
+// Broken
+setTimeout(obj.getMessage, 0);
+```
+
+There are two way to fix this:
+
+```js
+// Fix A - closure
+setTimeout(() => obj.getMessage(), 0);
+// Fix B - binding
+setTimeout(obj.getMessage.bind(obj), 0);
+```
+
+The first one uses a closure to <Highlight>implicitly set `this` of the getMessage call</Highlight> to the proper value.
+
+The second (point-free) one makes use of the bind method to <Highlight>set the value of this explicitly</Highlight>.
