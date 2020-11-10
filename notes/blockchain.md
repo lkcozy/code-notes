@@ -22,11 +22,19 @@ As a result, only specific data elements (such as short transactions or indices)
 
 ## Consensus
 
-### Practical Byzantine Fault Tolerance (PBFT) 
+### Practical Byzantine Fault Tolerance (PBFT)
 
 ## Tutorial
 
 ### [Ethereum dApp development](https://eurychen.me/post/5days-ethereum-develop/day0/)
+
+### [BlockChain Full Stack](https://github.com/itheima1/BlockChain)
+
+### [Build Blockchain Insurance Application](https://github.com/IBM/build-blockchain-insurance-app)
+
+![](https://github.com/IBM/build-blockchain-insurance-app/raw/master/images/app-arch.png)
+
+This project showcases the use of blockchain in insurance domain for claim processing. In this application, it has four participants, namely insurance, police, repair shop and the shop. Furthermore, each participant will own its own peer node. The insurance peer is the insurance company providing the insurance for the products and it is responsible for processing the claims. Police peer is responsible for verifying the theft claims. Repair shop peer is responsible for repairs of the product while shop peer sells the products to consumer. The value of running this network on the IBM Blockchain Platform is that you can easily customize the network infrastructure as needed, whether that is the location of the nodes, the CPU and RAM of the hardware, the endorsement policy needed to reach consensus, or adding new organizations and members to the network.
 
 ## Libraries
 
@@ -40,8 +48,30 @@ A javascript Bitcoin library for node.js and browsers. Written in TypeScript, bu
 
 Core functionality for the XYO NodeJS projects. This repository implements the core objects and services used in the XYO protocol. Additionally it provides core XYO features like performing bound-witnesses, hashing, signing, serialization, origin-chain management and TCP Network services. Alas, it exposes a number of CLI applications for running archivists and diviners.
 
+### [Hyperledger Explorer](https://github.com/hyperledger/blockchain-explorer)
+
+Hyperledger Explorer is a simple, powerful, easy-to-use, well maintained, open source utility to browse activity on the underlying blockchain network. Users have the ability to configure and build Hyperledger Explorer on MacOS and Ubuntu.
+
+### [Hyperledger Iroha](https://github.com/hyperledger/iroha)
+
+![](https://iroha.readthedocs.io/en/master/_images/iroha_logo.png)
+
+Iroha is a straightforward distributed ledger technology (DLT), inspired by Japanese Kaizen principle — eliminate excessiveness (muri). Iroha has essential functionality for your asset, information and identity management needs, at the same time being an efficient and trustworthy crash fault-tolerant tool for your enterprise needs.
+
+Iroha is Crash Fault Tolerant and has its own consensus algorithm - [YAC](https://arxiv.org/pdf/1809.00554.pdf)
+
+### [Etherchain Light](https://github.com/gobitfly/etherchain-light)
+
+Etherchain Light is an Ethereum blockchain explorer built with NodeJS, Express and Parity. It does not require an external database and retrieves all information on the fly from a backend Ethereum node.
+
+## References
+
+### [Blockchain Resources In Chinese](https://github.com/LiuBoyu/blockchain)
+
+### [awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn)
+
 ## Results
 
-- [Deconstructing Blockchains: Concepts, Systems, and Insights](http://folk.uio.no/romanvi/Papers/bc-tutorial-debs-master.pdf)
+### [Deconstructing Blockchains: Concepts, Systems, and Insights](http://folk.uio.no/romanvi/Papers/bc-tutorial-debs-master.pdf)
 
-- [MAXathon Blockchain Hackathon](https://hackathon.maxonrow.com/)
+### [MAXathon Blockchain Hackathon](https://hackathon.maxonrow.com/)
