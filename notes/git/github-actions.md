@@ -268,6 +268,43 @@ jobs:
         run: npm test
 ```
 
+- [Auto Assign Reviewer By Issuer](https://github.com/shufo/auto-assign-reviewer-by-issuer)
+  A GitHub Action to automatically assigns reviewer by issuer
+
+- [Condition based Pull Request Labeler](https://github.com/srvaroa/labeler)
+  Implements a GitHub Action that labels Pull Requests based on configurable conditions.It is inspired by the example Pull Request Labeller, but intends to provide a richer set of options.
+
+```yml
+version: 1
+labels:
+  - label: "work in progress"
+    title: ".*(?i)wip.*"
+  - label: "feature"
+    title: ".*(?i)feat.*"
+  - label: "hot fix"
+    title: ".*(?i)hot fix.*"
+  - label: "fix"
+    title: ".*Fix.*"
+  - label: "enhancement"
+    title: ".*(?i)enhancement.*"
+  - label: "refactor"
+    title: ".*(?i)refactor.*"
+  - label: "PoC"
+    title: ".*(?i)poc.*"
+  - label: "map"
+    title: ".*(?i)map.*"
+  - label: "issue"
+    title: ".*(?i)issue.*"
+  - label: "user"
+    title: ".*(?i)user.*"
+  - label: "workflow"
+    title: ".*(?i)workflow.*"
+  - label: "asset"
+    title: ".*(?i)asset.*"
+  - label: "test"
+    title: ".*Test.*"
+```
+
 ## References
 
 - [GitHub Actions Documentation](https://help.github.com/en/actions)
