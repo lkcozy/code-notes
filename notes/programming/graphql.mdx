@@ -115,6 +115,21 @@ This article go through the use cases for abstract types and how to implement th
 
 ### Tutorials
 
+- [Migrating Existing REST APIs to GraphQL](https://blog.bitsrc.io/migrating-existing-rest-apis-to-graphql-2c5de3db647d)
+
+![](https://miro.medium.com/max/641/1*5SAc8xEDZJoCLspC4A4k8A.jpeg)
+
+This blog post will help you understand what parts of a REST API need to be modified when you want to migrate an existing REST API to GraphQL API. We will also see which components can be combined together to make up a GraphQL API.
+
+The APIs in this Node.js app is following the very common design of service, controller and repository layers.
+
+- Controller layer: responsible for acting as a bridge between client-side and the service layer.
+- Service layer: responsible for holding various business logic.
+- Repository layer: responsible for interacting with data source or database and passing the data to the service layer.
+
+Let’s see how this is going to help in maintaining the app in future, suppose if we want to change the database from Mysql to Postgres, then only the code in the repository layer needs to be changed, the controller and service layer will remain untouched. <Highlight>This abstraction helps in defining the boundaries and efficiently distributes the responsibilities</Highlight>.
+This design will also help us in migrating from REST to GraphQL. We need to only make changes in the controller layer and rest everything remains the same.
+
 - [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/)
 
 -[Input object type as an argument for GraphQL mutations and queries](https://atheros.ai/blog/input-object-type-as-an-argument-for-graphql-mutations-and-queries)
@@ -171,6 +186,7 @@ export default DateTime;
 <details>
    <summary>A reference implementation of GraphQL for JavaScript</summary>
 
+
 ```js
 import {
   graphql,
@@ -196,10 +212,12 @@ var schema = new GraphQLSchema({
 
 </details>
 
+
 - [graphql-helper](https://github.com/bustle/graphql-helper)
 
 <details>
    <summary>A simple helper library for constructing GraphQL queries.</summary>
+
 
 ```js
 import { fragment, query } from 'graphql-helper'
@@ -265,3 +283,4 @@ runQuery(PostQuery, { postId: 123 })
 ```
 
 </details>
+

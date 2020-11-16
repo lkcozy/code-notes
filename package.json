@@ -9,8 +9,8 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
-    "gatsby": "^2.24.x",
-    "gatsby-plugin-manifest": "^2.4.x",
+    "gatsby": "^2.26.0",
+    "gatsby-plugin-manifest": "^2.6.0",
     "gatsby-theme-code-notes": "^1.15.x",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
