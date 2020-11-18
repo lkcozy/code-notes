@@ -113,6 +113,12 @@ Geo Data Viewer 🗺️ comes with a built-in map gallery for devs to try kepler
 
 Data Preview 🈸 extension for importing 📤 viewing 🔎 slicing 🔪 dicing 🎲 charting 📊 & exporting 📥 large .json array .arrow .avro data files, .config .env .properties .ini .yml configurations files, .csv/.tsv & .xlsx/.xlsb Excel files and .md markdown tables.
 
+- [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
+
+![](https://image.ibb.co/dysw7p/insert_log_message.gif)
+
+This extension make debugging much easier by automating the operation of writing meaningful log message.
+
 ## References
 
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode)
