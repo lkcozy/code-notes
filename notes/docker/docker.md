@@ -100,6 +100,10 @@ export default [{ path: "Dockerfile", value: Dockerfile(input) }];
 
 A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image.
 
+- [DockerSlim](https://github.com/docker-slim/docker-slim)
+
+docker-slim will optimize and secure your containers by understanding your application and what it needs using various analysis techniques. It will throw away what you don't need, reducing the attack surface of your container. What if you need some of those extra things to debug your container? You can use dedicated debugging side-car containers for that (more details below).
+
 ## References
 
 - [Docker for beginners](https://docker-curriculum.com/#introduction)

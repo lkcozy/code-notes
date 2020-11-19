@@ -4,6 +4,8 @@ emoji: 📝
 tags:
   - database
   - dynamodb
+  - python
+  - aws
 link: https://www.dynamodbguide.com/what-is-dynamo-db
 ---
 
@@ -32,7 +34,7 @@ A good primary key does at least two things:
 - use the Store Number as a simple primary key
 - A global secondary index
   - a HASH key of Country, indicating the country where the store is located, and
-  - a RANGE key named StateCityPostcode that is a string combining the State, City, and Postcode with each element separated by the pound sign (<STATE>#<CITY>#<POSTCODE>). For example, a store in Omaha, NE would be stored as NE#OMAHA#68144.
+  - a RANGE key named StateCityPostcode that is a string combining the State, City, and Postcode with each element separated by the pound sign (`<STATE>#<CITY>#<POSTCODE>`). For example, a store in Omaha, NE would be stored as `NE#OMAHA#68144`.
 
 ### Create a dynamodb table
 
