@@ -23,6 +23,11 @@ DynamoDB is a particularly good fit for the following use cases:
 
 - **Data sets with simple, known access patterns**. If you're generating recommendations and serving them to users, DynamoDB's simple key-value access patterns make it a fast, reliable choice.
 
+## Scan vs Query
+
+- scan: scan fetches all elements and only after does filtering. It is not efficient.
+- query: Query only works `against index fields`. You can't run a query against a non index field. If you could run query against any field then there would be no reason for scan to exist. If you want to run a query instead of an inefficient scan, `you have to use a field you have defined in either the primary key, or a secondary index`.
+
 ## [Hierarchical Data](https://www.dynamodbguide.com/hierarchical-data)
 
 A good primary key does at least two things:
