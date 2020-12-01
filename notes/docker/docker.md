@@ -112,6 +112,12 @@ docker-slim will optimize and secure your containers by understanding your appli
 
 This blog series will cover five areas for Dockerfile best practices to help you write better Dockerfiles: incremental build time, image size, maintainability, security and repeatability.
 
+- [Docker guide](https://www.robertcooper.me/docker-guide)
+
+![](https://www.robertcooper.me/static/0bb9633ce24b684c12c8651863819a6c/64296/docker-objects.webp)
+
+The purpose of this guide is to explain the most important concepts related to Docker to be able to effectively work with Docker for application development purposes.
+
 - [A deep dive into the official Docker image for Python](https://pythonspeed.com/articles/official-python-docker-image/)
 
 A step-by-step introduction to how the official Python Docker image is made, and a detailed interpretation of the Dockefile file.

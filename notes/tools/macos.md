@@ -70,6 +70,12 @@ Display macOS Dock in Touch Bar.
 
 Turbo Boost Switcher is a little application for Mac computers that allows to enable and/or disable the Turbo Boost feature.
 
+### [Pap.er](https://paper.meiyuan.in/)
+
+![](https://www.maxiapple.com/wp-content/uploads/2019/06/pap-er-paper-macos-mac-gratuit-2.jpg)
+
+Elegant Wallpaper App for macOS. Deliver fresh and stunning wallpapers everyday
+
 ## Star/Unstar selected folder
 
 ```applescript
