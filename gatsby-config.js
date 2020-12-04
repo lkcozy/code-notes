@@ -20,6 +20,8 @@ module.exports = {
         openSearch: {
           siteUrl: "http://lkcozy.github.io/code-notes",
         },
+        showDate: true,
+        showDate: true,
       },
     },
     {
