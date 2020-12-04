@@ -36,6 +36,12 @@ Reduce File Size (150 dpi, high quality)
 
 ## Tools
 
+## [Stats](https://github.com/exelban/stats)
+
+![](https://github.com/exelban/stats/releases)
+
+macOS system monitor in your menu bar
+
 ### [AltTab](https://github.com/lwouis/alt-tab-macos)
 
 ![](https://github.com/lwouis/alt-tab-macos/raw/master/docs/public/demo/frontpage.jpg)
