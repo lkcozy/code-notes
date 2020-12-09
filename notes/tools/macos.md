@@ -36,6 +36,12 @@ Reduce File Size (150 dpi, high quality)
 
 ## Tools
 
+## [Falcon](https://github.com/plotly/falcon)
+
+![](https://github.com/plotly/falcon-sql-client/raw/master/static/images/falcon_hero.gifs)
+
+Falcon is a free, open-source SQL editor with inline data visualization. It currently supports connecting to RedShift, MySQL, PostgreSQL, IBM DB2, Impala, MS SQL, Oracle, SQLite and more (for connecting to Oracle, please, see here the instructions to install the required free Oracle Instant Client).
+
 ## [Stats](https://github.com/exelban/stats)
 
 ![](https://github.com/exelban/stats/releases)
