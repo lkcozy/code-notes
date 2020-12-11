@@ -1,0 +1,75 @@
+---
+title: Validate Binary Search Tree
+emoji: 👨‍💻
+tags:
+  - leetcode
+  - bst
+  - tree
+  - algorithm
+link: https://leetcode.com/problems/validate-binary-search-tree/
+---
+
+## Complete Data: 2020-12-10
+
+## Description
+
+Given the root of a binary tree, determine if it is a valid binary search tree (BST).
+
+A valid BST is defined as follows:
+
+- The left subtree of a node contains only nodes with keys less than the node's key.
+- The right subtree of a node contains only nodes with keys greater than the node's key.
+- Both the left and right subtrees must also be binary search trees.
+
+Constraints:
+
+- The number of nodes in the tree is in the range [1, 10^4].
+- -2^31 <= Node.val <= 2^31 - 1
+
+## Example
+
+![](https://assets.leetcode.com/uploads/2020/12/01/tree1.jpg)
+
+```
+Input: root = [2,1,3]
+Output: true
+```
+
+## Solution
+
+```ts
+var isValidBST = function (root) {
+  const isValidBSTHelper = (root, min, max) => {
+    if (!root) return true;
+    const { val, left, right } = root;
+    if (val <= min || val >= max) return false;
+    return (
+      isValidBSTHelper(left, min, val) && isValidBSTHelper(right, val, max)
+    );
+  };
+
+  return isValidBSTHelper(root);
+};
+```
+
+## Complexity Analysis
+
+- Time complexity: 0(n) since we visit each node exactly once
+- Space complexity: O(n) since we keep up to the entire tree
+
+### Inorder Traversal
+
+![](https://leetcode.com/problems/validate-binary-search-tree/Figures/145_transverse.png)
+
+Compute inorder traversal list inorder.
+Check if each element in inorder is smaller than the next one.
+
+![](https://leetcode.com/problems/validate-binary-search-tree/Figures/98/98_bst_inorder.png)
+
+`Left -> Node -> Right order of inorder traversal means for BST that each element should be smaller than the next one.`
+
+Do we need to keep the whole inorder traversal list?
+
+Actually, no. The last added inorder element is enough to ensure at each step that the tree is BST (or not). Hence one could merge both steps into one and reduce the used space.
+
+> Neither BFS or DFS is slow nor fast. It dependes on the depths of the first node that does not satisfy the BST property. For such nodes that are too deep (close to root) BFS works better.

@@ -33,3 +33,9 @@ fi
 
 echo Hello World
 ```
+
+## Kill processes on port
+
+```sh
+kill -9 $(lsof -t -i:"4004")
+```

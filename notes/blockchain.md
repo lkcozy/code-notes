@@ -6,6 +6,16 @@ tags:
 link:
 ---
 
+## Basic
+
+The basic concept of blockchain is quite simple: a distributed database that maintains a continuously growing list of ordered records.
+
+### Block structure
+
+The first logical step is to decide the block structure. To keep things as simple as possible we include only the most necessary: index, timestamp, data, hash and previous hash.
+
+![](https://miro.medium.com/max/1400/1*pbyFH4U5sO27UE1EjnImoA.png)
+
 ## On-Chain Versus Off-Chain
 
 While blockchain is fundamentally a storage solution, it principally differs from a database. A database is an organized collection of data representing the current system state. The main functionality of a database is to allow efficient data retrieval, fusion, and aggregation triggered by user queries. In contrast, most blockchain implementations represent a ledger in which a history of changes to the system state is recorded, which results in blockchain space being more expensive and the storage less efficient compared to a database.
@@ -25,6 +35,8 @@ As a result, only specific data elements (such as short transactions or indices)
 ### Practical Byzantine Fault Tolerance (PBFT)
 
 ## Tutorial
+
+### [A blockchain in 200 lines of code](https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54)
 
 ### [Ethereum dApp development](https://eurychen.me/post/5days-ethereum-develop/day0/)
 
