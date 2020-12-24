@@ -75,7 +75,7 @@
       "```ts",
       "```",
       "## Complexity Analysis",
-      "- Time complexity: 0()",
+      "- Time complexity: O()",
       "- Space complexity: O()"
     ],
     "description": "LeetCode"
