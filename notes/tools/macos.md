@@ -36,13 +36,13 @@ Reduce File Size (150 dpi, high quality)
 
 ## Tools
 
-## [Falcon](https://github.com/plotly/falcon)
+### [Falcon- SQL editor](https://github.com/plotly/falcon)
 
 ![](https://github.com/plotly/falcon-sql-client/raw/master/static/images/falcon_hero.gifs)
 
 Falcon is a free, open-source SQL editor with inline data visualization. It currently supports connecting to RedShift, MySQL, PostgreSQL, IBM DB2, Impala, MS SQL, Oracle, SQLite and more (for connecting to Oracle, please, see here the instructions to install the required free Oracle Instant Client).
 
-## [Stats](https://github.com/exelban/stats)
+### [Stats-system monitor](https://github.com/exelban/stats)
 
 ![](https://github.com/exelban/stats/releases)
 
@@ -60,7 +60,7 @@ jitouch is a Mac application that expands the set of multi-touch gestures for th
 
 ### [Multitouch](https://multitouch.app/)
 
-### [hat.sh](https://github.com/sh-dv/hat.sh)
+### [hat.sh-client side file encryption](https://github.com/sh-dv/hat.sh)
 
 ![](https://camo.githubusercontent.com/e1e78e542cc049cb79f55627b2eb602bad1d952e/68747470733a2f2f692e696d6775722e636f6d2f62745a526533632e676966)
 
@@ -70,11 +70,11 @@ Encrypt and decrypt files in your browser. Fast, Secure client-side File Encrypt
 
 Easily add more gestures to macOS
 
-### [Pock](https://pock.dev/)
+### [Pock-display macOS Dock in Touch Bar](https://pock.dev/)
 
 ![](https://pock.dev/assets/img/preview/pock_widgets.png)
 
-Display macOS Dock in Touch Bar.
+.
 
 ### [Turbo Boost Switcher for Mac OS X](http://tbswitcher.rugarciap.com/)
 
@@ -82,11 +82,17 @@ Display macOS Dock in Touch Bar.
 
 Turbo Boost Switcher is a little application for Mac computers that allows to enable and/or disable the Turbo Boost feature.
 
-### [Pap.er](https://paper.meiyuan.in/)
+### [Pap.er-wallpaper](https://paper.meiyuan.in/)
 
 ![](https://www.maxiapple.com/wp-content/uploads/2019/06/pap-er-paper-macos-mac-gratuit-2.jpg)
 
 Elegant Wallpaper App for macOS. Deliver fresh and stunning wallpapers everyday
+
+### [Diagrams.net](https://www.diagrams.net/)
+
+![](https://www.diagrams.net/assets/svg/home-dia1.svg)
+
+Diagrams.net is a free, high-quality browser-based end-user diagramming application. Diagrams.net lets you store your diagram files where you need them - on Google Drive, OneDrive, Github, GitLab, Dropbox, or on your local device. It also provides a desktop version across major platforms.
 
 ## Star/Unstar selected folder
 
