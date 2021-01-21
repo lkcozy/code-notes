@@ -94,6 +94,12 @@ Elegant Wallpaper App for macOS. Deliver fresh and stunning wallpapers everyday
 
 Diagrams.net is a free, high-quality browser-based end-user diagramming application. Diagrams.net lets you store your diagram files where you need them - on Google Drive, OneDrive, Github, GitLab, Dropbox, or on your local device. It also provides a desktop version across major platforms.
 
+### [Kris-ai powered noise cancelling app](https://krisp.ai/)
+
+![](https://krisp.ai/wp-content/themes/KrispLight/imgs/tech-img-2.svg)
+
+An AI-powered noise cancelling app that mutes background noise during calls
+
 ## Star/Unstar selected folder
 
 ```applescript
