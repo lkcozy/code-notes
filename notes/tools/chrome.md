@@ -9,6 +9,18 @@ link: https://alfilatov.com/posts/run-chrome-without-cors/
 
 ## Extensions
 
+- [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
+
+HTTPS Everywhere is a browser extension that automatically switches thousands of sites from insecure “HTTP” to secure “HTTPS”
+
+- [Decentraleyes](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
+
+Decentraleyes, a local CDN emulation, “prevents a lot of requests from reaching networks like Google Hosted Libraries, and serves local files to keep sites from breaking
+
+- [One Tab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+
+OneTab converts all of your tabs into a list.
+
 - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
 
 A lightweight extension to reduce chrome's memory footprint. Perfect if you have a lot of tabs open at the same time. Tabs that have not been viewed after a configurable length of time will be automagically suspended in the background, freeing up the memory and CPU being consumed by that tab.
