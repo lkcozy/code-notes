@@ -1,7 +1,7 @@
 {
   "name": "code-notes",
   "version": "1.0.0",
-  "description": "L&W code-related snotes and snippets",
+  "description": "L&W code-related insights, notes and snippets",
   "homepage": "http://lkcozy.github.io/code-notes",
   "repository": "git@github.com:lkcozy/code-notes.git",
   "author": "Kan Luo <lkklcozy@gmail.com>",
@@ -9,9 +9,9 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
-    "gatsby": "^2.29.0",
-    "gatsby-plugin-manifest": "^2.9.0",
-    "gatsby-theme-code-notes": "2.0.0-1",
+    "gatsby": "^2.31.1",
+    "gatsby-plugin-manifest": "^2.11.0",
+    "gatsby-theme-code-notes": "2.0.0-2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
