@@ -23,10 +23,75 @@ DynamoDB is a particularly good fit for the following use cases:
 
 - **Data sets with simple, known access patterns**. If you're generating recommendations and serving them to users, DynamoDB's simple key-value access patterns make it a fast, reliable choice.
 
-## Scan vs Query
+## [Scan vs Query](https://dynobase.dev/dynamodb-nodejs/)
 
 - scan: scan fetches all elements and only after does filtering. It is not efficient.
 - query: Query only works `against index fields`. You can't run a query against a non index field. If you could run query against any field then there would be no reason for scan to exist. If you want to run a query instead of an inefficient scan, `you have to use a field you have defined in either the primary key, or a secondary index`.
+
+### [Could I limit the return query/scan items size from dynamodb?](https://stackoverflow.com/questions/63680861/dynamodb-limit-on-query)
+
+No. Unfortunately there is no Query options or any other operation that can guarantee `x` items in a single request.
+
+To understand why this is the case (it's not just laziness on Amazon's side), consider the following extreme case: you have a huge database with one billion items, but do a very specific query which has just 5 matching items, and now making the request you wished for: "give me back 5 items". Such a request would need to read the entire database of a billion items, before it can return anything, and the client will surely give up by then. So this is not how DyanmoDB's Limit works. It limits the amount of work that DyanamoDB needs to do before responding. So if Limit = 100, DynamoDB will read internally 100 items, which takes a bounded amount of time. But you are right that you have no idea whether it will respond with 100 items (if all of them matched the filter) or 0 items (if none of them matched the filter).
+
+So to do what you want to do efficiently, you'll need to think of a different way to model your data - i.e., how to organize the partition and sort keys. There are different ways to do it, each has its own benefits and downsides, you'll need to consider your options for yourself.
+
+### [Query with Sorting](https://dynobase.dev/dynamodb-nodejs/#query-items)
+
+DynamoDB offers only one way of sorting the results on the database side - using the sort key. If your table does not have one, your sorting capabilities are limited to sorting items in application code after fetching the results. However, if you need to sort DynamoDB results on sort key descending or ascending, you can use following syntax:
+
+```js
+const AWS = require('aws-sdk');
+AWS.config.update({region:'us-east-1'});
+const dynamoDB = new AWS.DynamoDB.DocumentClient();
+
+dynamoDB
+  .query({
+    TableName: 'my-table',
+    IndexName: 'Index', // Main one
+    KeyConditionExpression: 'id = :hashKey and date > :rangeKey'
+    ExpressionAttributeValues: {
+      ':hashKey': '123',
+      ':rangeKey': 20150101
+    },
+    ScanIndexForward: true // true or false to sort by "date" Sort/Range key ascending or descending
+  })
+  .promise()
+  .then(data => console.log(data.Items))
+  .catch(console.error);
+```
+
+### Query (and Scan) DynamoDB Pagination
+
+Both Query and Scan operations returns results `up to 1MB of items`. If you need to fetch more records, you need to invoke a second call to fetch the next page of results. If LastEvaluatedKey is present in response object, this table has more items like requested and another call with ExclusiveStartKey should be sent to fetch more of them:
+
+```js
+const getAll = async () => {
+  let result, accumulated, ExclusiveStartKey;
+
+  do {
+    result = await DynamoDB.query({
+      TableName: argv.table,
+      ExclusiveStartKey,
+      Limit: 100,
+      KeyConditionExpression: 'id = :hashKey and date > :rangeKey'
+      ExpressionAttributeValues: {
+        ':hashKey': '123',
+        ':rangeKey': 20150101
+      },
+    }).promise();
+
+    ExclusiveStartKey = result.LastEvaluatedKey;
+    accumulated = [...accumulated, ...result.Items];
+  } while (result.Items.length || result.LastEvaluatedKey);
+
+  return accumulated;
+};
+
+getAll()
+  .then(console.log)
+  .catch(console.error);
+```
 
 ## [Hierarchical Data](https://www.dynamodbguide.com/hierarchical-data)
 
@@ -224,3 +289,11 @@ def query_store_locations(country, state, city, postcode, default_state, default
 if __name__ == "__main__":
     query_store_locations()
 ```
+
+## References
+
+### [How to use DynamoDB global secondary indexes to improve query performance and reduce costs](https://aws.amazon.com/blogs/database/how-to-use-dynamodb-global-secondary-indexes-to-improve-query-performance-and-reduce-costs/)
+
+![](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2018/12/19/DynamoDBSecondaryIndexes1.png)
+
+Global secondary indexes enhance the querying capability of DynamoDB. This post shows how you can use global secondary indexes along with patterns such as data filtering and data ordering to achieve read isolation and reduce query costs. The recent limit increase of the maximum number of global secondary indexes per DynamoDB table from 5 to 20 can help you apply these usage patterns without worrying about hitting limits.

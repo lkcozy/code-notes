@@ -7,6 +7,10 @@ tags:
 link:
 ---
 
+## [Oh My Zsh ](https://github.com/ohmyzsh/ohmyzsh)
+
+Oh My Zsh is an open source, community-driven framework for managing your zsh configuration.
+
 ## [Powerlevel10K - a theme for Zsh](https://github.com/romkatv/powerlevel10k)
 
 ![powerlevel10k](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/prompt-styles-high-contrast.png)
@@ -23,15 +27,14 @@ Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
 3. Restart Zsh.
 4. Type p10k configure if the configuration wizard doesn't start automatically.
+5. Install `zsh-autosuggestions`
 
-## [zsh-syntax-highlighting]()
-
-```zsh
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```sh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-Activate the plugin in ~/.zshrc:
+Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
 
-```zsh
-plugins=( [plugins...] zsh-syntax-highlighting)
+```sh
+plugins=(zsh-autosuggestions)
 ```

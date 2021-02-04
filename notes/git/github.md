@@ -94,9 +94,7 @@ GitHub contribution graph colors: `#C6E48B` `#7AC96F` `#249A3C` `#196127`
     <th width="50%">
       <a title="show-whitespace"></a> Show whitespace characters.
     </th>
-    <th width="50%">
-      Adds one-click merge conflict fixers
-    </th>
+    <th width="50%">Adds one-click merge conflict fixers</th>
   </tr>
   <tr>
     <!-- Prevent zebra stripes -->
@@ -132,6 +130,10 @@ for repo in $nukem; do
        "https://api.github.com/repos/$user/$repo"
 done
 ```
+
+## https://stackoverflow.com/questions/29473255/make-jira-links-clickable-in-github
+
+https://github.blog/2019-10-14-introducing-autolink-references/
 
 ## [Workflows](https://zepel.io/blog/5-git-workflows-to-improve-development/)
 
