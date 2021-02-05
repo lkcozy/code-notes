@@ -21,7 +21,6 @@ module.exports = {
           siteUrl: "http://lkcozy.github.io/code-notes",
         },
         showDate: true,
-        showDate: true,
       },
     },
     {
@@ -35,6 +34,13 @@ module.exports = {
         theme_color: `hsl(285, 5%, 17%)`,
         display: `standalone`,
         icon: `assets/logo.png`,
+        showDate: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/*`, `/tag/*`],
       },
     },
   ],
