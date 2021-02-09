@@ -2,7 +2,7 @@
 title: Visual Studio Code
 emoji: 📝
 tags:
-  - tool
+  - tools
   - vscode
 link:
 ---

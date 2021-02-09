@@ -3,7 +3,7 @@ title: Chrome
 emoji: 📝
 tags:
   - chrome
-  - tool
+  - tools
 link: https://alfilatov.com/posts/run-chrome-without-cors/
 ---
 

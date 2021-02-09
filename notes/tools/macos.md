@@ -3,7 +3,7 @@ title: MacOS
 emoji: ⚙
 tags:
   - macos
-  - tool
+  - tools
 ---
 
 ## Tutorial
