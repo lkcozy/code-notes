@@ -112,6 +112,10 @@ docker-slim will optimize and secure your containers by understanding your appli
 
 This blog series will cover five areas for Dockerfile best practices to help you write better Dockerfiles: incremental build time, image size, maintainability, security and repeatability.
 
+- [The Docker handbook](https://www.freecodecamp.org/news/the-docker-handbook/)
+
+This full-length Docker book is rich with code examples. It will teach you all about containerization, custom Docker images and online registries, and how to work with multiple containers using Docker Compose.
+
 - [Docker guide](https://www.robertcooper.me/docker-guide)
 
 ![](https://www.robertcooper.me/static/0bb9633ce24b684c12c8651863819a6c/64296/docker-objects.webp)
