@@ -21,6 +21,12 @@ link: https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secret
 
 ## [Tips](https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/)
 
+### One second to read GitHub code with VS Code.
+
+![](https://raw.githubusercontent.com/conwnet/github1s/master/resources/images/vs-code-github1s.png)
+
+Just add 1s after github and press Enter in the browser address bar for any repository you want to read.
+
 ### Code Suggestions
 
 ```suggestion

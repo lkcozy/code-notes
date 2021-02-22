@@ -73,9 +73,9 @@ git push <remote_name> -d branch_name
 git branch | grep -v "develop" | grep -v "master" | xargs git branch -D
 ```
 
-> grep: global regular expression - print lines matching a pattern
-> v: invert-match, select non-matching lines
-> xargs: read lines of text from the standard input or from the output of another command command and `turn them into commands and execute them`, which is used for building execution pipelines using the standard data streams
+> - **grep**: global regular expression - print lines matching a pattern
+> - **v**: invert-match, select non-matching lines
+> - **xargs**: read lines of text from the standard input or from the output of another command command and `turn them into commands and execute them`, which is used for building execution pipelines using the standard data streams
 
 ### Delete remote branches
 
