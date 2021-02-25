@@ -7,6 +7,10 @@ tags:
 link:
 ---
 
+## Shortcut
+
+- Duplicate line: Alt + Shift + Down Arrow
+
 ## [Fix the screen flicker](https://code.visualstudio.com/updates/v1_40#_disable-gpu-acceleration)
 
 ```sh
