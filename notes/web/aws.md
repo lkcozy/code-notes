@@ -6,6 +6,10 @@ tags:
 link:
 ---
 
+## Step Functions
+
+AWS Step Functions is a serverless function orchestrator that makes it easy to sequence AWS Lambda functions and multiple AWS services into business-critical applications.
+
 ## DynamoDB
 
 ### [The difference between scan and query in dynamodb? When use scan / query?](https://stackoverflow.com/questions/43452219/what-is-the-difference-between-scan-and-query-in-dynamodb-when-use-scan-query)
