@@ -108,6 +108,8 @@ docker-slim will optimize and secure your containers by understanding your appli
 
 - [Docker for beginners](https://docker-curriculum.com/#introduction)
 
+Learn to build and deploy your distributed applications easily to the cloud with Docker
+
 - [Intro Guide to Dockerfile Best Practices](https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/)
 
 This blog series will cover five areas for Dockerfile best practices to help you write better Dockerfiles: incremental build time, image size, maintainability, security and repeatability.
