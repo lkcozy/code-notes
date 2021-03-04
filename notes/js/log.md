@@ -1,10 +1,12 @@
 ---
 title: Log
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - log
   - javascript
-link:
+link: null
+created: 2020-07-05T04:30:54.000Z
+modified: 2021-01-05T22:58:30.000Z
 ---
 
 ## Console

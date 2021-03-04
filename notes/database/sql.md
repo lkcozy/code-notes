@@ -1,11 +1,13 @@
 ---
 title: SQL cheatsheet
-emoji: 💡
+emoji: "\U0001F4A1"
 tags:
   - sql
   - database
   - cheatsheet
-link: https://codebond.co/tutorial/other/sql-cheatsheet
+link: 'https://codebond.co/tutorial/other/sql-cheatsheet'
+created: 2020-07-11T05:16:40.000Z
+modified: 2020-08-16T05:33:09.000Z
 ---
 
 ## Create Database

@@ -1,9 +1,11 @@
 ---
 title: Online Free Stock
-emoji: 🆓
+emoji: "\U0001F193"
 tags:
   - stock
-link:
+link: null
+created: 2020-07-21T19:52:58.000Z
+modified: 2020-08-16T05:33:09.000Z
 ---
 
 ## [Mixkit](https://mixkit.co/)

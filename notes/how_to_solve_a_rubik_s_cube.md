@@ -1,9 +1,11 @@
 ---
 title: How to Solve a Rubik's Cube
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - note
-link:
+link: null
+created: 2020-09-09T18:18:45.000Z
+modified: 2020-09-09T18:18:45.000Z
 ---
 
 ## Simple Solution

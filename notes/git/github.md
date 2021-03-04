@@ -1,10 +1,13 @@
 ---
 title: Github Tips
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - github
   - git
-link: https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/
+link: >-
+  https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/
+created: 2020-07-18T05:59:45.000Z
+modified: 2021-02-22T23:30:00.000Z
 ---
 
 ## Github Readme Stats

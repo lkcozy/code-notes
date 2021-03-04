@@ -1,9 +1,11 @@
 ---
 title: Side effects
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - programming
-link: https://en.wikipedia.org/wiki/Side_effect_(computer_science)
+link: 'https://en.wikipedia.org/wiki/Side_effect_(computer_science)'
+created: 2020-07-19T06:00:44.000Z
+modified: 2020-07-19T06:00:44.000Z
 ---
 
 ## Title

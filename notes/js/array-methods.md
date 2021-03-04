@@ -2,8 +2,10 @@
 title: Array methods summarized
 tags:
   - javascript
-emoji:
-link: https://notes.zander.wtf/array-methods/
+emoji: null
+link: 'https://notes.zander.wtf/array-methods/'
+created: 2020-06-24T07:06:39.000Z
+modified: 2020-07-06T17:04:14.000Z
 ---
 
 ## Intro

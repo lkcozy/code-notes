@@ -1,12 +1,14 @@
 ---
 title: DynamoDB
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - database
   - dynamodb
   - python
   - aws
-link: https://www.dynamodbguide.com/what-is-dynamo-db
+link: 'https://www.dynamodbguide.com/what-is-dynamo-db'
+created: 2020-11-16T04:20:05.000Z
+modified: 2021-02-04T23:14:59.000Z
 ---
 
 DynamoDB is a hosted NoSQL database offered by Amazon Web Services (AWS). It offers:

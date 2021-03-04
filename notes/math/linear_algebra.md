@@ -1,11 +1,13 @@
 ---
 title: Introduction to Linear Algebra for Applied Machine Learning with Python
-emoji: 🧮
+emoji: "\U0001F9EE"
 tags:
   - math
   - linear algebra
   - python
-link: https://pabloinsente.github.io/intro-linear-algebra
+link: 'https://pabloinsente.github.io/intro-linear-algebra'
+created: 2020-12-01T06:23:33.000Z
+modified: 2020-12-01T06:23:33.000Z
 ---
 
 Linear algebra is to machine learning as flour to bakery: every machine learning model is based in linear algebra, as every cake is based in flour. It is not the only ingredient, of course. Machine learning models need vector calculus, probability, and optimization, as cakes need sugar, eggs, and butter. Applied machine learning, like bakery, is essentially about combining these mathematical ingredients in clever ways to create useful (tasty?) models.

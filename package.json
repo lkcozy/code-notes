@@ -17,13 +17,22 @@
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "frontmatter-date-setter": "^0.1.0",
+    "gh-pages": "^3.1.0",
+    "husky": "^5.1.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn timestamp"
+    }
   },
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",
     "serve": "gatsby serve",
+    "timestamp": "frontmatter-date-setter --directory='notes' --fileExtension=.md  --fileExtension=.mdx",
+    "predeploy": "yarn timestamp",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   }
 }

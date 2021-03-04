@@ -1,10 +1,12 @@
 ---
 title: Datapane
-emoji: 🐍
+emoji: "\U0001F40D"
 tags:
   - python
   - analysis
-link: https://github.com/datapane/datapane/
+link: 'https://github.com/datapane/datapane/'
+created: 2020-06-26T21:24:54.000Z
+modified: 2020-07-06T17:04:14.000Z
 ---
 
 ![Report Example](https://camo.githubusercontent.com/ba9c05164dafde230fd6c3edbad1129ca2c892ed/68747470733a2f2f692e696d6775722e636f6d2f52477037527a4d2e706e67)

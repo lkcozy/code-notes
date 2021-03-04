@@ -1,9 +1,11 @@
 ---
 title: Bash
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - bash
-link: https://linuxhandbook.com/tag/bash-beginner/
+link: 'https://linuxhandbook.com/tag/bash-beginner/'
+created: 2021-03-02T05:35:19.000Z
+modified: 2021-03-02T05:35:19.000Z
 ---
 
 ## Count the total number of lines that exist in whatever file the user enters:

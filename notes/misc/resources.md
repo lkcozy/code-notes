@@ -1,9 +1,11 @@
 ---
 title: Useful Resources
-emoji: 📦
+emoji: "\U0001F4E6"
 tags:
   - tools
-link:
+link: null
+created: 2020-07-26T23:48:33.000Z
+modified: 2020-08-06T04:22:39.000Z
 ---
 
 ## 🥢 [Library Genesis](http://gen.lib.rus.ec/)

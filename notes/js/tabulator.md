@@ -1,9 +1,11 @@
 ---
 title: Tabulator
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - javascript
-link: http://www.tabulator.info/
+link: 'http://www.tabulator.info/'
+created: 2020-08-13T05:34:28.000Z
+modified: 2020-08-13T05:34:28.000Z
 ---
 
 Tabulator is an easy to use interactive table generation JavaScript library

@@ -1,10 +1,12 @@
 ---
 title: Github Actions
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - git
   - github
-link:
+link: null
+created: 2020-06-29T05:54:14.000Z
+modified: 2020-11-10T22:17:13.000Z
 ---
 
 ## What Are GitHub Actions?

@@ -1,10 +1,12 @@
 ---
 title: Zsh
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - cli
   - zsh
-link:
+link: null
+created: 2021-01-27T22:11:10.000Z
+modified: 2021-02-04T23:14:59.000Z
 ---
 
 ## [Oh My Zsh ](https://github.com/ohmyzsh/ohmyzsh)

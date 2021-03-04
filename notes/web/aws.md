@@ -1,9 +1,11 @@
 ---
 title: AWS Service
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - aws
-link:
+link: null
+created: 2020-08-14T23:48:18.000Z
+modified: 2021-03-02T05:35:19.000Z
 ---
 
 ## Step Functions

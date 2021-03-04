@@ -1,11 +1,13 @@
 ---
 title: PostgreSQL
-emoji: 🐘
+emoji: "\U0001F418"
 tags:
   - postgresql
   - sql
   - database
-link:
+link: null
+created: 2020-07-01T16:33:32.000Z
+modified: 2020-07-22T00:48:08.000Z
 ---
 
 ## Reinstall PostgreSQL

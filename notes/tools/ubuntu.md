@@ -1,9 +1,11 @@
 ---
 title: Ubuntu
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - ubuntu
-link:
+link: null
+created: 2020-09-24T05:00:14.000Z
+modified: 2020-09-24T05:00:14.000Z
 ---
 
 ## Install Node

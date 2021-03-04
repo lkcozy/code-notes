@@ -1,9 +1,12 @@
 ---
 title: Don’t Penalize Employees who raise problems
-emoji: 💡
+emoji: "\U0001F4A1"
 tags:
   - management
-link: https://hbr.org/2020/01/dont-demonize-employees-who-raise-problems?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs
+link: >-
+  https://hbr.org/2020/01/dont-demonize-employees-who-raise-problems?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs
+created: 2020-06-29T06:06:08.000Z
+modified: 2020-09-09T18:18:45.000Z
 ---
 
 ## Tip

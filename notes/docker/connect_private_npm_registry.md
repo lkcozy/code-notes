@@ -1,11 +1,13 @@
 ---
 title: Connect to a private npm registry in the docker
-emoji: 🐳
+emoji: "\U0001F433"
 tags:
   - yarn
   - npm
   - docker
-link:
+link: null
+created: 2020-07-12T22:38:08.000Z
+modified: 2020-07-12T22:38:08.000Z
 ---
 
 ```yml

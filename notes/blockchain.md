@@ -1,9 +1,11 @@
 ---
 title: Blockchain
-emoji: 🅱
+emoji: "\U0001F171"
 tags:
   - blockchain
-link:
+link: null
+created: 2020-07-14T00:34:09.000Z
+modified: 2020-12-11T03:32:52.000Z
 ---
 
 ## Basic

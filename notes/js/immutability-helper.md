@@ -1,8 +1,10 @@
 ---
-title: Using immutability-helper with Array, Object, Map
+title: 'Using immutability-helper with Array, Object, Map'
 tags:
   - javascript
-link: https://github.com/kolodny/immutability-helper
+link: 'https://github.com/kolodny/immutability-helper'
+created: 2020-06-23T22:03:19.000Z
+modified: 2020-07-06T17:04:14.000Z
 ---
 
 ## Array of simple values

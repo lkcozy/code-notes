@@ -1,9 +1,11 @@
 ---
 title: LeetCode
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - algorithm
-link:
+link: null
+created: 2020-07-20T16:49:36.000Z
+modified: 2020-09-09T18:18:45.000Z
 ---
 
 ## Resources

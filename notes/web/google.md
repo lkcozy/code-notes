@@ -1,9 +1,11 @@
 ---
 title: Google
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - google
-link:
+link: null
+created: 2020-07-21T19:52:58.000Z
+modified: 2020-07-29T03:56:46.000Z
 ---
 
 ## [Let me google that for you](https://lmgtfy.com/)

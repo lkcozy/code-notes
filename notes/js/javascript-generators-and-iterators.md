@@ -1,9 +1,11 @@
 ---
 title: Javascript Generators and Iterators
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - javascript
 link: javascript-generators-and-iterators
+created: 2020-07-01T16:33:32.000Z
+modified: 2020-07-06T17:04:14.000Z
 ---
 
 ## Title

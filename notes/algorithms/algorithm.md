@@ -1,9 +1,11 @@
 ---
 title: Algorithm
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - algorithm
-link:
+link: null
+created: 2020-08-04T22:05:52.000Z
+modified: 2020-08-04T22:05:52.000Z
 ---
 
 ## [Hello Algorithm](https://github.com/geekxh/hello-algorithm)

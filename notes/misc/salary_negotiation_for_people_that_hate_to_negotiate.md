@@ -1,9 +1,12 @@
 ---
 title: Salary Negotiation for People That Hate To Negotiate
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - career
-link: https://dev.to/joshpuetz/salary-negotiation-for-people-that-hate-to-negotiate-with-josh-puetz-1f76
+link: >-
+  https://dev.to/joshpuetz/salary-negotiation-for-people-that-hate-to-negotiate-with-josh-puetz-1f76
+created: 2020-07-26T05:56:03.000Z
+modified: 2020-09-24T23:55:40.000Z
 ---
 
 This talk is for developers of all skill and experience levels.

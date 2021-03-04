@@ -1,9 +1,11 @@
 ---
 title: OData
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - odata
-link: https://www.odata.org/
+link: 'https://www.odata.org/'
+created: 2020-07-12T22:38:08.000Z
+modified: 2020-07-14T00:34:09.000Z
 ---
 
 OData (Open Data Protocol) is an ISO/IEC approved, OASIS standard that defines a set of best practices for building and consuming RESTful APIs. OData helps you focus on your business logic while building RESTful APIs without having to worry about the various approaches to define request and response headers, status codes, HTTP methods, URL conventions, media types, payload formats, query options, etc. OData also provides guidance for tracking changes, defining functions/actions for reusable procedures, and sending asynchronous/batch requests.
