@@ -37,6 +37,16 @@ ecd2c1d HEAD@{6}: commit: re-enable settings app
 git reset HEAD@{2}
 ```
 
+## Count all tracked files in a git respository
+
+```sh
+git ls-files notes| wc -l
+```
+
+- `git ls-files`: prints out a list of all the tracked files in the repository, one per line.
+- `|`: operator funnels the output from the preceding command into the command following the pipe.
+- `wc -l`: calls the [word count (wc)](http://en.wikipedia.org/wiki/Wc_%28Unix%29) program. Passing the `-l` flag asks it to return the total number of lines.
+
 ## Branches
 
 List all local branches

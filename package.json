@@ -31,6 +31,7 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "serve": "gatsby serve",
+    "count:notes": "git ls-files notes| wc -l",
     "timestamp": "frontmatter-date-setter --directory='notes' --fileExtension=.md  --fileExtension=.mdx",
     "predeploy": "yarn timestamp",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
