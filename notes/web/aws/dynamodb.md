@@ -7,11 +7,13 @@ tags:
 link: https://www.serverlesslife.com/DynamoDB_Design_Patterns_for_Single_Table_Design.html
 ---
 
-- Global secondary index is the central part of most design patterns in a #DynamoDB single table design.
+DynamoDB is designed to `hold a large amount of data`. That is why data is partitioned. When you request the data, you `do not` want to spend time and compute power to `gather data from various tables`. That is why DynamoDB `does not have joins`. The solution is to `store data in a form that is already prepared for our access patterns.`
+
+## Highlights
+
+- `Global secondary index (GSI)` is the central part of most design patterns in a #DynamoDB single table design.
 
 - Principals of #DynamoDB data modeling: `draw ER`, `GET ALL ACCESS PATTERNS`, `denormalize`, `avoid scans`, `filters`, `transactions`, `prefers eventually consistent reads`, learn #singletabledesign
-
-DynamoDB is designed to `hold a large amount of data`. That is why data is partitioned. When you request the data, you `do not` want to spend time and compute power to `gather data from various tables`. That is why DynamoDB `does not have joins`. The solution is to `store data in a form that is already prepared for our access patterns.`
 
 - The most simple denormalization is to `contain all the data in one item`.
 
@@ -52,7 +54,7 @@ A `scan` operation always `scan the entire table` before it filters out the desi
 
 ![](https://images.ctfassets.net/i8bfc4nr05rq/2qinBjIq0PNtAb2SF7tdRX/96fd0055966c7362d7f66ce3777e6528/asset_A4WDXnNV.png)
 
-## tools
+## Tools
 
 ### [DynamoDB Toolbox](https://github.com/jeremydaly/dynamodb-toolbox)
 
@@ -137,3 +139,23 @@ Sample output
   }
 }
 ```
+
+### [Spark+DynamoDB](https://github.com/audienceproject/spark-dynamodb)
+
+Plug-and-play implementation of an Apache Spark custom data source for AWS DynamoDB.
+
+### [Serverless Console](https://marketplace.visualstudio.com/items?itemName=devAdvice.serverlessconsole)
+
+![](https://github.com/domagojk/serverless-console/raw/master/gifs/dynamodb.gif)
+
+Serverless Console is an alternative UI for AWS Cloudwatch. Its focus is on "serverless functions" but it can also be used for any kind of log group.
+
+## References
+
+- [How to use DynamoDB global secondary indexes to improve query performance and reduce costs](https://aws.amazon.com/blogs/database/how-to-use-dynamodb-global-secondary-indexes-to-improve-query-performance-and-reduce-costs/)
+
+![](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2018/12/19/DynamoDBSecondaryIndexes1.png)
+
+Global secondary indexes enhance the querying capability of DynamoDB. This post shows how you can use global secondary indexes and patterns such as data filtering and data ordering to achieve read isolation and reduce query costs. The recent limit increase of the maximum number of global secondary indexes per DynamoDB table from 5 to 20 can help you apply these usage patterns without worrying about hitting limits.
+
+- [How to Make a Serverless GraphQL API using Lambda and DynamoDB](https://www.serverless.com/blog/make-serverless-graphql-api-using-lambda-dynamodb)
