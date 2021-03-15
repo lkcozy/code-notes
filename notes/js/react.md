@@ -9,18 +9,57 @@ created: 2020-07-20T16:49:36.000Z
 modified: 2021-02-25T17:44:21.000Z
 ---
 
-## Tools
+## Libraries
+
+## Framework
 
 - [Create React App](https://github.com/facebook/create-react-app): a `tool` to bootstrap a new React frontend project with no build configuration
 - [next.js](https://github.com/vercel/next.js): an open-source React front-end development web `framework` for production.
-- [Brick Design](https://github.com/brick-design/react-visual-editor): Visual drag and drop, free nesting, real-time preview of components, real-time tracking, WYSIWYG, perfect UI design restoration, source code Generated
+- [react-boilerplate](react-boilerplate): a highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.
+- [Blitz](https://github.com/blitz-js/blitz): the Fullstack React Framework — built on Next.js. Blitz adds all the missing features and functionality that turns Next into a true fullstack framework. These key features include direct database access, middleware, and authentication.
+- [React Starter Kit](https://github.com/kriasoft/react-starter-kit): an opinionated boilerplate for web development built on top of Node.js, Express, GraphQL and React, containing modern web development tools such as Webpack, Babel and Browsersync.
+- [Relay Fullstack](https://github.com/lvarayut/relay-fullstack): a Relay scaffolding application that aims to help you get up and running a project without worrying about integrating tools.
+- [React Enterprise Starter Kit](https://github.com/anandgupta193/react-enterprise-starter-kit): a Highly Scalable, performant and amazing react boilerplate for react developers to get started and improve web building capabilities.
+
+### UI
+
+- [Brick Design](https://github.com/brick-design/react-visual-editor): visual drag and drop, free nesting, real-time preview of components, real-time tracking, WYSIWYG, perfect UI design restoration, source code Generated
   ![](https://user-images.githubusercontent.com/15995127/85188005-7e4de100-b2d6-11ea-9441-2bd5570b14a9.gif)
+- [react-spring](https://github.com/pmndrs/react-spring): a spring-physics based animation library that should cover most of your UI related animation needs.
+- [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd): a beautiful and accessible drag and drop for lists with React.
+- [React-Grid-Layout](https://github.com/react-grid-layout/react-grid-layout): a draggable and resizable grid layout with responsive breakpoints, for React.
+- [React Styleguidist](https://github.com/styleguidist/react-styleguidist): a isolated React component development environment with a living style guide.
+- [react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form): a simple React component capable of using JSON Schema to declaratively build and customize web forms.
+
+### Hook
+
+- [react-use](https://github.com/streamich/react-use): a collection of essential React Hooks.
+- [ahooks](https://github.com/alibaba/hooks): a large set of essential react hooks, with demos and examples for each one of them.
+
+### Tools
+
+- [Ink](https://github.com/vadimdemedes/ink): React for CLIs. Build and test your CLI output using components.
+- [Docz](https://github.com/doczjs/docz/): easily write and publish beautiful interactive documentation for your code.
+
+### Database
+
+- [RxDB](https://github.com/pubkey/rxdb): A realtime Database for JavaScript Applications
+- [Watermelon DB](https://github.com/Nozbe/WatermelonDB): a reactive database framework. Build powerful React and React Native apps that scale from hundreds to tens of thousands of records and remain fast ⚡️.
 
 ### State Management
 
+- [Constate](https://github.com/diegohaz/constate): write local state using React Hooks and lift it up to React Context only when needed with minimum effort.
 - [Redux](https://github.com/reduxjs/redux): a predictable state container for JavaScript apps; `single store with objects`
 - [MobX](https://github.com/mobxjs/mobx): a simple scalable state management. `multiple stores` (one for the UI state and one or more for the domain state ) `with observable/noticeable data` to automatically track changes through subscriptions
   ![mobx](https://mobx.js.org/assets/getting-started-assets/overview.png)
+
+### Test
+
+### General
+
+- [Classnames](https://github.com/JedWatson/classnames): a simple JavaScript utility for conditionally joining classNames together.
+- [immutable](https://github.com/immutable-js/immutable-js): provides many Persistent Immutable data structures including: List, Stack, Map, OrderedMap, Set, OrderedSet and Record.
+- [normalizr](https://github.com/paularmstrong/normalizr): a small, but powerful utility for taking JSON with a schema definition and returning nested entities with their IDs, gathered in dictionaries.
 
 ## Tutorial
 
