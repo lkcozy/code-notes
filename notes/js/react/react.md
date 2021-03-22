@@ -6,7 +6,7 @@ tags:
   - javascript
 link: null
 created: 2020-07-20T16:49:36.000Z
-modified: 2021-02-25T17:44:21.000Z
+modified: 2021-03-22T17:44:21.000Z
 ---
 
 ## Libraries
@@ -30,6 +30,8 @@ modified: 2021-02-25T17:44:21.000Z
 - [React-Grid-Layout](https://github.com/react-grid-layout/react-grid-layout): a draggable and resizable grid layout with responsive breakpoints, for React.
 - [React Styleguidist](https://github.com/styleguidist/react-styleguidist): a isolated React component development environment with a living style guide.
 - [react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form): a simple React component capable of using JSON Schema to declaratively build and customize web forms.
+- [react-virtualized](https://github.com/bvaughn/react-virtualized): React components for efficiently rendering large lists and tabular data
+- [react-window](https://github.com/bvaughn/react-window): a complete rewrite of react-virtualized, which focus on making the package smaller1 and faster
 
 ### Hook
 
@@ -64,3 +66,15 @@ modified: 2021-02-25T17:44:21.000Z
 ## Tutorial
 
 - [Why I Stopped Using Redux](https://dev.to/g_abud/why-i-quit-redux-1knl)
+-
+- [On the direction of react performance optimization](https://developpaper.com/on-the-direction-of-react-performance-optimization/)
+
+![](https://imgs.developpaper.com/imgs/vl.png)
+
+The author shares several react performance optimization tips from three directions:
+
+- reduce the amount of calculation
+- using cache
+- precise recalculation range
+
+[Original](https://zhuanlan.zhihu.com/p/74229420)
