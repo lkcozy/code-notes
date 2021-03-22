@@ -101,6 +101,33 @@ measurements and device parameters in Sensor Measurement Lists
 
 Liang, Steve H.L., Chih-Yuan Huang, and Tania Khalafbeigi. "OGC SensorThings API Part I:Sensing" OGC® Implementation Standard (2016)
 
+
+## [JSON-LD](https://json-ld.org/)
+
+`JSON-LD is a lightweight Linked Data format.` It is easy for humans to read and write. It is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale. JSON-LD is an ideal data format for programming environments, REST Web services, and unstructured databases such as Apache CouchDB and MongoDB.
+
+```json
+{
+  "@context": "https://json-ld.org/contexts/person.jsonld",
+  "@id": "http://dbpedia.org/resource/John_Lennon",
+  "name": "John Lennon",
+  "born": "1940-10-09",
+  "spouse": "http://dbpedia.org/resource/Cynthia_Lennon"
+}
+```
+
+
+## MQTT
+Currently the STA MQTT extension only allows for:
+
+• subscriptions on modifications,
+• the creation of new Observations
+
+This means that the MQTT extension does not allow for request/response type data retrieval.
+
+`MQTT5` has formalised the way to do request/response data exchange over MQTT, so this makes it possible to apply the complete SensorThingsAPI rest interface to MQTT as well, instead of just HTTP.
+
+
 ## TODO
 
 - [] Review existing tools

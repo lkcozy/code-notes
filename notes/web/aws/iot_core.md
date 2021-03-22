@@ -2,21 +2,26 @@
 title: AWS IoT Core
 emoji: 📝
 tags:
-   - aws
-   - iot
+  - aws
+  - iot
 link: https://dev.to/techmagic/aws-iot-platform-for-the-internet-of-things-benefits-examples-5fb0
 created: 2021-03-16T15:35:16.000Z
 modified: 2021-03-16T15:35:16.000Z
 ---
-AWS IoT core  could provide the `scalability, agility, security and high availability`.
 
+AWS IoT core could provide the `scalability, agility, security and high availability`.
+
+## [AWS IoT to Timestream architecture overview](https://aws.amazon.com/blogs/database/patterns-for-aws-iot-time-series-data-ingestion-with-amazon-timestream/)
+
+The following diagram illustrates a typical architecture that you can use to develop artifacts for ingestion and consumption of IoT data with Timestream.
+
+![](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/01/31/DBBLOG-1354-1.jpg)
 
 ## [How to Bridge Mosquitto MQTT Broker to AWS IoT](https://aws.amazon.com/blogs/iot/how-to-bridge-mosquitto-mqtt-broker-to-aws-iot/)
 
 ### Why Bridge your MQTT Broker to AWS IoT?
 
 If you have legacy IoT deployments, you might already have devices connected to an MQTT broker such as Mosquitto. In that scenario, your MQTT broker can be very close to where your sensors are deployed (local MQTT broker) or in a remote location like the Cloud.
-
 
 ![](https://d2908q01vomqb2.cloudfront.net/f6e1126cedebf23e1463aee73f9df08783640400/2020/05/04/Schema-How-to-bridge-Mosquitto-to-AWS-IoT-Core.png)
 
