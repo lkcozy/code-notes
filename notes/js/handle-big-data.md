@@ -5,9 +5,10 @@ tags:
   - javascript
   - gis
   - performance
+  - big data
 link: null
 created: 2020-08-06T04:22:39.000Z
-modified: 2020-08-18T21:43:58.000Z
+modified: 2021-03-22T21:43:58.000Z
 ---
 
 ## Geospatial
@@ -102,6 +103,10 @@ const pointLayer = new PointLayer()
 
 scene.addLayer(pointLayer);
 ```
+
+### [H3: A Hexagonal Hierarchical Geospatial Indexing System](https://github.com/uber/h3)
+
+H3 is a geospatial indexing system using a hexagonal grid that can be (approximately) subdivided into finer and finer hexagonal grids, combining the benefits of a hexagonal grid with S2's hierarchical subdivisions.
 
 ## General
 
@@ -207,4 +212,10 @@ Network is a visualization to display networks and networks consisting of nodes 
 ### [LokiJS](https://github.com/techfort/LokiJS)
 
 LokiJS is a document oriented database written in javascript. It supports indexing, querying and filtering of data collections. LokiJS also supports more advanced features such as mapReduce, transactions and lets you implement custom remote synchronization to save data to a server (or a local file on mobile). Persistence to disk is already implemented for CommonJS environment such as nodejs, on a mobile you just have to request the filesystem and pass lokijs's serialize() as content.
-  
+
+### [react-window](https://github.com/bvaughn/react-window)
+
+React window works by only rendering part of a large data set (just enough to fill the viewport). This helps address some common performance bottlenecks:
+
+- It reduces the amount of work (and time) required to render the initial view and to process updates.
+- It reduces the memory footprint by avoiding over-allocation of DOM nodes.
