@@ -3,7 +3,7 @@ title: GIS(Geographic Information System)
 emoji: "\U0001F30D"
 tags:
   - gis
-link: 'https://www.esri.com/en-us/what-is-gis/overview'
+link: "https://www.esri.com/en-us/what-is-gis/overview"
 created: 2020-07-20T00:06:59.000Z
 modified: 2020-09-01T22:22:09.000Z
 ---
@@ -83,6 +83,20 @@ Thought-provoking stories on location intelligence and critical technology trend
 The MapScaping Podcast is a weekly podcast featuring interesting people doing amazing work in the geospatial world. During each podcast, they interview experts and feature people that will help you learn more about GIS, geospatial, remote sensing and earth observation.
 
 ### Tools
+
+- [Mapshaper](https://github.com/mbloch/mapshaper)
+
+![](https://handsondataviz.org/images/13-transform/mapshaper-edit-annotated.png)
+
+Mapshaper is software for editing Shapefile, GeoJSON, TopoJSON, CSV and several other data formats, written in JavaScript.
+
+Mapshaper supports essential map making tasks like `simplifying shapes, editing attribute data, clipping, erasing, dissolving, filtering` and more.
+
+Mapshaper includes several command line programs, which can be run under Mac OS X, Linux and Windows.
+
+- `mapshaper` Runs mapshaper commands.
+- `mapshaper-xl` Works the same as mapshaper, but runs with more RAM to support larger files.
+- `mapshaper-gui` Runs the mapshaper Web interface locally.
 
 - [GeoJSON.js](https://github.com/caseycesari/GeoJSON.js)
 

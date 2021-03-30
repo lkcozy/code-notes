@@ -38,6 +38,12 @@ Reduce File Size (150 dpi, high quality)
 
 ## Tools
 
+### [SwitchHosts](https://github.com/oldj/SwitchHosts)
+
+![](https://raw.githubusercontent.com/oldj/SwitchHosts/master/screenshots/sh_light.png)
+
+SwitchHosts is an App for managing hosts file, it is based on Electron , React, UmiJS , Chakra UI, CodeMirror, etc.
+
 ### [Falcon- SQL editor](https://github.com/plotly/falcon)
 
 ![](https://github.com/plotly/falcon-sql-client/raw/master/static/images/falcon_hero.gifs)
