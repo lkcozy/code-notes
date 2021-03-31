@@ -1,5 +1,5 @@
 ---
-title:
+title: Pipenv
 emoji: 🐍
 tags:
   - python
@@ -25,12 +25,6 @@ brew install pipenv
 
 ```sh
 pipenv install
-```
-
-- Use the virtualenv
-
-```sh
-pipenv shell
 ```
 
 - Use the virtualenv

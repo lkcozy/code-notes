@@ -6,7 +6,7 @@ tags:
   - communication
 link:
 created: 2021-03-14T17:08:09.000Z
-modified: 2021-03-28T17:08:09.000Z
+modified: 2021-03-31T17:08:09.000Z
 ---
 
 - Bit `facilitates` the process of collaborating on UI components.
@@ -22,3 +22,4 @@ modified: 2021-03-28T17:08:09.000Z
 - It maybe more or less case by case
 - It would be `impractical` to do sth due to the cost and time `implications`
 - I'll also share this with the rest of the team to take to heart for future improvements.
+- It seems there is no urgency to do anything quickly or `in a cost effective manner`.
