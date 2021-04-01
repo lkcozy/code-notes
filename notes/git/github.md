@@ -7,8 +7,43 @@ tags:
 link: >-
   https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/
 created: 2020-07-18T05:59:45.000Z
-modified: 2021-02-22T23:30:00.000Z
+modified: 2021-04-01T23:30:00.000Z
 ---
+
+## [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+GitHub Pages is designed to host your personal, organization, or project pages from a GitHub repository.
+
+GitHub Pages is disabled by default, endable it in each repository's setting
+
+## [Cli](https://cli.github.com/manual/)
+
+`gh` is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
+
+```sh
+brew install gh
+brew upgrade gh
+
+gh auth login
+gh config set git_protocol ssh
+```
+
+## [Set Secrets](https://cli.github.com/manual/gh_secret_set)
+
+```sh
+gh secret set SLACK_WEBHOOK_URL -b"" --repos="code-notes,blockchain"
+```
+
+> Note: get slack webhook url from [here](https://api.slack.com/apps)
+
+## Work with fuzzy-finder tools such as [fzf](https://github.com/junegunn/fzf)
+
+```sh
+brew install fzf
+gh pr list | fzf
+```
+
+> Note: The fzf utility allows interactively filtering the input stream and prints the selected line as its output.
 
 ## Github Readme Stats
 

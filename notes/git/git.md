@@ -7,6 +7,12 @@ created: 2020-06-24T07:06:39.000Z
 modified: 2021-02-22T23:30:00.000Z
 ---
 
+## Change Git Remote URL
+
+```sh
+git remote set-url origin git@github.com-lkcozy:lkcozy/code-notes.git
+```
+
 ## [Rebase](https://git-rebase.io/)
 
 ```sh
