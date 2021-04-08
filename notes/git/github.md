@@ -7,7 +7,7 @@ tags:
 link: >-
   https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/
 created: 2020-07-18T05:59:45.000Z
-modified: 2021-04-01T23:30:00.000Z
+modified: 2021-04-06T23:30:00.000Z
 ---
 
 ## [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
@@ -34,7 +34,7 @@ gh config set git_protocol ssh
 gh secret set SLACK_WEBHOOK_URL -b"" --repos="code-notes,blockchain"
 ```
 
-> Note: get slack webhook url from [here](https://api.slack.com/apps)
+> Note: get slack webhook url from [here](https://api.slack.com/apps/A017PRMPCEB/incoming-webhooks)
 
 ## Work with fuzzy-finder tools such as [fzf](https://github.com/junegunn/fzf)
 
