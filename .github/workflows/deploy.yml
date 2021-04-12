@@ -14,7 +14,7 @@ jobs:
         run: echo '::set-output name=counts::$(git ls-files notes | wc -l)'
 
       - name: 🚀 Deploy
-        uses: enriikke/gatsby-gh-pages-action@v2
+        uses: enriikke/gatsby-gh-pages-action@2.1.1
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
