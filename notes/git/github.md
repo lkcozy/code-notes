@@ -31,7 +31,9 @@ gh config set git_protocol ssh
 ## [Set Secrets](https://cli.github.com/manual/gh_secret_set)
 
 ```sh
-gh secret set SLACK_WEBHOOK_URL -b"" --repos="code-notes,blockchain"
+gh secret set EMAIL_USERNAME -b"lkklcozy@gmail.com"
+gh secret set EMAIL_PASSWORD -b"zksicwoiuicuysib"
+gh secret set SLACK_WEBHOOK_URL -b""
 ```
 
 > Note: get slack webhook url from [here](https://api.slack.com/apps/A017PRMPCEB/incoming-webhooks)
