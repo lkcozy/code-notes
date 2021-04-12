@@ -6,10 +6,20 @@ tags:
   - mapbox
 link: https://docs.mapbox.com/api/maps/static-images/
 created: 2021-03-23T13:02:08.000Z
-modified: 2021-03-31T13:02:08.000Z
+modified: 2021-04-01T13:02:08.000Z
 ---
 
 The Mapbox Static Images API serves standalone, static map images generated from Mapbox Studio styles. These images can be displayed on web and mobile devices without the aid of a mapping library or API. They look like an embedded map, but do not have interactivity or controls.
+
+## [MapBox Static Images API Playground](https://docs.mapbox.com/playground/static/)
+
+![](https://assets.website-files.com/5f2a93fe880654a977c51043/6065d017ad1315f7422ae324_Static%20images%20playground_hero-p-2000.jpeg)
+
+`MapBox Static Images API Playground is an interactive image builder with full api support and live preview.`
+
+Before, developers needed to read API documentation and implement features in code to work with the Static Images API. Now, developers can see how Static Images API responses will look based on the position, resolution, padding, overlays, and any style parameters using just a few clicks in the Static Playground.
+
+Developers can test with a variety of inputs, then copy the Static Image API URL directly into mobile apps, emails, or websites to easily add dynamic maps.
 
 ## [PADDING & BOUNDING BOX IN THE STATIC IMAGES API](https://www.mapbox.com/blog/padding-bounding-box-in-the-static-images-api)
 
