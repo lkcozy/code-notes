@@ -21,12 +21,7 @@ L&W code-related notes and snippets
 
 This application was built with [gatsby-theme-code-notes](https://github.com/mrmartineau/gatsby-theme-code-notes)
 
-## Update notes creation and modification date
-
-```sh
-yarn timestamp
-```
-
 ## Todo
 
 - [x] [Post deployment status to the slack](https://www.freecodecamp.org/news/what-are-github-actions-and-how-can-you-automate-tests-and-slack-notifications/#part-2-post-new-pull-requests-to-slack)
+- [x] [Send email notifications](https://medium.com/ravsam-web-solutions/send-an-email-notification-when-github-actions-fails-ea83cbeabbe0)

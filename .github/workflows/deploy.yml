@@ -9,7 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - id: build-notes
+        uses: actions/checkout@master
+        run: echo '::set-output name=counts::$(git ls-files notes | wc -l)'
 
       - name: 🚀 Deploy
         uses: enriikke/gatsby-gh-pages-action@v2
@@ -19,10 +21,10 @@ jobs:
           gatsby-args: --prefix-paths
 
       - name: 💬 Send message to Slack
+        if: always()
         uses: craftech-io/slack-action@v1
         with:
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: always()
 
       - name: ✉️ Send mail
         if: always()
@@ -32,7 +34,7 @@ jobs:
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: ${{ job.status }} - ${{ github.job }} job of ${{ github.repository }}
+          subject: ${{ job.status }}!${{ github.workflow }}(total notes:${{steps.build-notes.counts}})
           body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
           to: lkklcozy@gmail.com
           from: lkcozy
