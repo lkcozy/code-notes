@@ -11,7 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
+      - name: Get Notes Statistics
+        id: get_notes_stats
+        run: |
+          count=$(git ls-files notes | wc -l)
+          echo "::set-output name=counts::$count"
+
       - name: 🚀 Deploy
+        if: ${{ !env.ACT }}
         uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
@@ -19,24 +26,20 @@ jobs:
           gatsby-args: --prefix-paths
 
       - name: 💬 Send message to Slack
+        if: ${{ !env.ACT && always() }}
         uses: craftech-io/slack-action@v1
         with:
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: always()
 
       - name: ✉️ Send mail
-        id: send_email
         if: always()
         uses: dawidd6/action-send-mail@v2
-        run: |
-          MY_STRING="123"
-          echo "::set-output name=counts::$MY_STRING"
         with:
           server_address: smtp.gmail.com
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: ${{ job.status }} - ${{ github.job }} job of ${{ github.repository }}- total notes:${{steps.send_email.outputs.counts}}
+          subject: ${{ job.status }} - ${{ github.job }} job of ${{ github.repository }}- total notes:${{steps.get_notes_stats.outputs.counts}}
           body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
           to: lkklcozy@gmail.com
           from: lkcozy
