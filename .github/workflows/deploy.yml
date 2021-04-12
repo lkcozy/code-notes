@@ -22,7 +22,7 @@ jobs:
 
       - name: 💬 Send message to Slack
         if: always()
-        uses: craftech-io/slack-action@v1
+        uses: craftech-io/slack-action@v1.1.0
         with:
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
 
