@@ -205,6 +205,32 @@ build-and-deploy:
         FOLDER: build # The folder the action should deploy.
 ```
 
+### Job outputs
+
+GitHub Actions now allows you to take step outputs and output them into other jobs. Now if you have a job that is dependent on some data from another job, instead of needing to save it in a file and upload an Artifact, you can just use Job Outputs and save just the data itself with minimal encoding:
+
+```YAML
+name: Do things
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    outputs:
+      url: ${{ steps.step1.outputs.url }} # map step output to job output
+    steps:
+      - id: step1
+        name: send url to other job
+        run: echo "::set-output name=url::https://google.com"
+
+  job2:
+    runs-on: ubuntu-latest
+    needs: job1
+    steps:
+      - run: user/some-action@v1
+        with:
+          url: ${{ needs.job1.outputs.url }} # grab job output here
+```
+
 ## Useful Github Actions
 
 - [GitHub Pages Deploy Action](https://github.com/JamesIves/github-pages-deploy-action)
