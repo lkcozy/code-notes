@@ -31,8 +31,8 @@ gh config set git_protocol ssh
 ## [Set Secrets](https://cli.github.com/manual/gh_secret_set)
 
 ```sh
-gh secret set EMAIL_USERNAME -b"lkklcozy@gmail.com"
-gh secret set EMAIL_PASSWORD -b"zksicwoiuicuysib"
+gh secret set EMAIL_USERNAME -b""
+gh secret set EMAIL_PASSWORD -b""
 gh secret set SLACK_WEBHOOK_URL -b""
 ```
 

@@ -1,3 +1,14 @@
+---
+title: Count changed files
+emoji: 📝
+tags:
+  - git
+link:
+created: 2021-04-12T20:10:44.000Z
+modified: 2021-04-12T20:10:44.000Z
+---
+
+```sh
 #!/bin/sh
 
 folder='notes/'
@@ -28,3 +39,4 @@ TOTAL=$(git ls-files $folder | $count_length)
 NOW=$(date +"%Y-%m-%d")
 SUMMARY="Summary($NOW);Today: $TODAY;LAST 7d: $WEEK;Last Month: $MONTH;Last Year: $YEAR;Total: ${TOTAL}"
 echo "::set-output name=summary::$SUMMARY"
+```
