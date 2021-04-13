@@ -24,6 +24,7 @@ getCount year '1 year'
 YEAR=$?
 
 TOTAL=$(git ls-files $folder | $count_length)
+echo "::set-output name=total::$TOTAL"
 
 NOW=$(date +"%Y-%m-%d")
 SUMMARY="Summary($NOW);Today: $TODAY;LAST 7d: $WEEK;Last Month: $MONTH;Last Year: $YEAR;Total: ${TOTAL}"
