@@ -21,6 +21,18 @@ L&W code-related notes and snippets
 
 This application was built with [gatsby-theme-code-notes](https://github.com/mrmartineau/gatsby-theme-code-notes)
 
+## Local Test Github Actions
+
+Install [act](https://github.com/nektos/act)
+
+```sh
+brew install act
+```
+
+```sh
+act --secret-file act.secrets
+```
+
 ## Todo
 
 - [x] [Post deployment status to the slack](https://www.freecodecamp.org/news/what-are-github-actions-and-how-can-you-automate-tests-and-slack-notifications/#part-2-post-new-pull-requests-to-slack)

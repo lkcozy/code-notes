@@ -11,11 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: Get Notes Statistics
+      - name: 🧮  Get Notes Statistics
         id: get_notes_stats
-        run: |
-          count=$(git ls-files notes | wc -l)
-          echo "::set-output name=counts::$count"
+        run: ./scripts/stats.sh
 
       - name: 🚀 Deploy
         if: ${{ !env.ACT }}
@@ -39,7 +37,7 @@ jobs:
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: ${{ job.status }} - ${{ github.job }} job of ${{ github.repository }}- total notes:${{steps.get_notes_stats.outputs.counts}}
-          body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+          subject: ${{ job.status }} - Updated ${{steps.get_notes_stats.outputs.day}} notes ${{ github.job }} job of ${{ github.repository }}
+          body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}. Today:${{steps.get_notes_stats.outputs.summary}}
           to: lkklcozy@gmail.com
           from: lkcozy
