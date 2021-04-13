@@ -4,10 +4,12 @@ emoji: "\U0001F4DD"
 tags:
   - github
   - git
+  - shell
+  - cli
 link: >-
   https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/
 created: 2020-07-18T05:59:45.000Z
-modified: 2021-04-06T23:30:00.000Z
+modified: 2021-04-12T23:30:00.000Z
 ---
 
 ## [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
@@ -127,6 +129,8 @@ GitHub contribution graph colors: `#C6E48B` `#7AC96F` `#249A3C` `#196127`
 
 #### Inserting a table
 
+[Online tool to convert other formats to markdown table](https://tableconvert.com/)
+
 |      Type       |              Battery-powered End Device               |         Always-on End Device          |       IoT Gateway        | Cloud Backend Traditional |
 | :-------------: | :---------------------------------------------------: | :-----------------------------------: | :----------------------: | :-----------------------: |
 | Traditional IoT |              Sensor with Custom Protocol              |      Sensor with Custom Protocol      |    Transparent Proxy     | Centralized Core Services |
@@ -175,6 +179,18 @@ for repo in $nukem; do
     curl -v -u "$user:$password_or_oauth_token" -X DELETE \
        "https://api.github.com/repos/$user/$repo"
 done
+```
+
+### Count total files
+
+```sh
+git ls-files $notes | wc -l
+```
+
+### Count diff files
+
+```sh
+git diff --name-only "@{1 day ago}" $notes | wc -l
 ```
 
 ## https://stackoverflow.com/questions/29473255/make-jira-links-clickable-in-github
