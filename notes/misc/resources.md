@@ -3,14 +3,19 @@ title: Useful Resources
 emoji: "\U0001F4E6"
 tags:
   - tools
+  - converter
 link: null
 created: 2020-07-26T23:48:33.000Z
-modified: 2020-08-06T04:22:39.000Z
+modified: 2021-04-14T04:22:39.000Z
 ---
 
 ## 🥢 [Library Genesis](http://gen.lib.rus.ec/)
 
 Library Genesis or LibGen is a search engine for scientific articles and books, which allows free access to otherwise paywalled content. Among others it carries PDFs of content from Elsevier's ScienceDirect web-portal.
+
+## [Online Docs Converter](https://pandoc.org/try/)
+
+Pandoc is a Haskell library for `converting from one markup format to another`, and a command-line tool that uses this library.
 
 ## [Linguee](https://www.linguee.com/)
 

@@ -10,9 +10,9 @@ created: 2021-04-14T11:33:53.000Z
 modified: 2021-04-14T11:33:53.000Z
 ---
 
-[Online](https://pandoc.org/try/)
+[Online Converter](https://pandoc.org/try/)
 
-Pandoc is a Haskell library for `converting from one markup format to another`, and a command-line tool that uses this library. It can convert from
+Pandoc is a Haskell library for `converting from one markup format to another`, and a command-line tool that uses this library.
 
 Pandoc can also produce PDF output via LaTeX, Groff ms, or HTML.
 
