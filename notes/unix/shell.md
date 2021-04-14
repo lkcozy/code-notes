@@ -78,3 +78,39 @@ echo "Download  ${S1} Config ${CONFIG_PATH} successfully"
 mkdir -p public/config/ && curl -o ${TEMP_CONFIG_PATH} ${CONFIG_PATH}
 react-scripts start
 ```
+
+## Loop through all the files with a specific extension
+
+Recursively add subfolders
+
+- Simple example
+
+```sh
+for i in `find . -name "*.java" -type f`; do
+    echo "$i"
+done
+```
+
+- Advanced example
+
+```sh
+for i in `find . -name "*.java" -type f`; do
+ # Strip longest match of */ from start
+    filename="${fullpath##*/}"
+    # Substring from 0 thru pos of filename
+    dir="${fullpath:0:${#fullpath}-${#filename}}"
+    # Strip shortest match of . plus at least one non-dot char from end
+    base="${filename%.[^.]*}"
+    # Substring from len of base thru end
+    ext="${filename:${#base}+1}"
+    # If we have an extension and no base, it's really the base
+    if [[ -z "$base" && -n "$ext" ]]; then
+        base=".$ext"
+        ext=""
+    fi
+    # echo -e "$fullpath:\n\tdir  : \"$dir\"\n\tbase = \"$base\"\n\text  = \"$ext\""
+    echo -e "$fullpath:\n\tdir: \$dir\\n\tbase: \$base\\n\text: $ext"
+done
+```
+
+## [Convert Asciidoc To Docx](https://lkcozy.github.io/code-notes/misc/convert_asciidoc_docx)

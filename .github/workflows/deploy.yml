@@ -38,6 +38,6 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: ${{ job.status }} - Total ${{steps.get_notes_stats.outputs.total}} notes ${{ github.job }} job of ${{ github.repository }}
-          body: Today:${{steps.get_notes_stats.outputs.summary}}
+          body: Today:${{steps.get_notes_stats.outputs.summary}}. Online Code Notes:https://lkcozy.github.io/code-notes/
           to: lkklcozy@gmail.com
           from: lkcozy
