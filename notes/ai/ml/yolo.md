@@ -1,5 +1,5 @@
 ---
-title: YOLO (You only Look Once )
+title: YOLO (You only Look Once )-A real-time object detection algorithma
 emoji: 🤖
 tags:
   - ai

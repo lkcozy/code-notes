@@ -1,5 +1,5 @@
 ---
-title: Blockchain
+title: Blockchain-An immutable distributed database
 emoji: "\U0001F171"
 tags:
   - blockchain
@@ -10,7 +10,7 @@ modified: 2020-12-11T03:32:52.000Z
 
 ## Basic
 
-The basic concept of blockchain is quite simple: a distributed database that maintains a continuously growing list of ordered records.
+The basic concept of blockchain is quite simple: a distributed database that maintains a continuously growing list of ordered time-stamped series of immutable records.
 
 ### Block structure
 

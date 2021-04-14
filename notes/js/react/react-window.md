@@ -1,5 +1,5 @@
 ---
-title: react-window
+title: React Window-Efficiently rendering large lists and tabular data
 emoji: 📝
 tags:
   - react

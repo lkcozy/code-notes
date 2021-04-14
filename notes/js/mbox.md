@@ -1,5 +1,5 @@
 ---
-title: MobX
+title: MobX-State management
 emoji: 📝
 tags:
   - js

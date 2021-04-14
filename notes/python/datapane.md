@@ -1,13 +1,15 @@
 ---
-title: Datapane
+title: Datapane-A python report builder
 emoji: "\U0001F40D"
 tags:
   - python
   - analysis
-link: 'https://github.com/datapane/datapane/'
+link: "https://github.com/datapane/datapane/"
 created: 2020-06-26T21:24:54.000Z
 modified: 2020-07-06T17:04:14.000Z
 ---
+
+![](https://camo.githubusercontent.com/c99c761de24cc2d4642483d3ffa1a60bace989aca4fac0cdaf1e917f3dc79eba/68747470733a2f2f696d6775722e636f6d2f50546953434d302e706e67)
 
 ![Report Example](https://camo.githubusercontent.com/ba9c05164dafde230fd6c3edbad1129ca2c892ed/68747470733a2f2f692e696d6775722e636f6d2f52477037527a4d2e706e67)
 

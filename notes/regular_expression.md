@@ -1,5 +1,5 @@
 ---
-title: Regular Expression
+title: Regular Expression-A pattern describing a certain amount of text.
 emoji: "\U0001F4DD"
 tags:
   - regex

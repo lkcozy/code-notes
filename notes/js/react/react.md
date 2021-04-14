@@ -1,17 +1,18 @@
 ---
-title: React
+title: React-A JS library for building user interfaces.
 emoji: "\U0001F4DD"
 tags:
   - react
   - javascript
-link: null
+  - ui
+link: https://reactjs.org/
 created: 2020-07-20T16:49:36.000Z
 modified: 2021-03-22T17:44:21.000Z
 ---
 
 ## Libraries
 
-## Framework
+### Framework
 
 - [Create React App](https://github.com/facebook/create-react-app): a `tool` to bootstrap a new React frontend project with no build configuration
 - [next.js](https://github.com/vercel/next.js): an open-source React front-end development web `framework` for production.

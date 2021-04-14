@@ -1,11 +1,11 @@
 ---
-title: Arquero
+title: Arquero-JS library for query processing and transformation of array-backed data tables
 emoji: "\U0001F4DD"
 tags:
   - note
   - javascript
   - big data
-link: 'https://uwdata.github.io/arquero/'
+link: "https://uwdata.github.io/arquero/"
 created: 2020-11-20T01:47:15.000Z
 modified: 2020-11-20T01:47:15.000Z
 ---

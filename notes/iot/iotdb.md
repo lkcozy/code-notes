@@ -1,9 +1,9 @@
 ---
-title: IoTDB
+title: IoTDB-A data management system for time series data
 emoji: "\U0001F4DD"
 tags:
   - iot
-link: 'https://github.com/apache/incubator-iotdb'
+link: "https://github.com/apache/incubator-iotdb"
 created: 2020-08-04T22:05:52.000Z
 modified: 2020-08-04T22:05:52.000Z
 ---

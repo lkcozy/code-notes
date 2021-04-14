@@ -1,5 +1,5 @@
 ---
-title: Pandoc
+title: Pandoc-Doc Converter
 emoji: 📝
 tags:
   - pandoc

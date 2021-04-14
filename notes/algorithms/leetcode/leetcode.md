@@ -1,5 +1,5 @@
 ---
-title: LeetCode
+title: LeetCode-An Online Learning Programming Platform
 emoji: "\U0001F4DD"
 tags:
   - algorithm

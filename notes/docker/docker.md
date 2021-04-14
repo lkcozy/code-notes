@@ -1,12 +1,12 @@
 ---
-title: Docker
+title: Docker-An open-source containerization platform
 emoji: "\U0001F433"
 tags:
   - docker
   - github
   - postgresql
   - database
-link: 'https://docs.docker.com/get-started/overview/'
+link: "https://docs.docker.com/get-started/overview/"
 created: 2020-07-02T20:13:36.000Z
 modified: 2021-03-03T16:39:03.000Z
 ---

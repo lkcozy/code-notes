@@ -1,5 +1,6 @@
 ---
-title: Git
+title: Git-Version control system
+emoji: 💡
 tags:
   - git
   - cheatsheet

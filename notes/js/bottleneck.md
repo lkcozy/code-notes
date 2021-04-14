@@ -1,10 +1,10 @@
 ---
-title: Bottleneck
+title: Bottleneck - NodeJS Task Scheduler and Rate Limiter
 emoji: "\U0001F4DD"
 tags:
   - javascript
   - node
-link: 'https://github.com/SGrondin/bottleneck'
+link: "https://github.com/SGrondin/bottleneck"
 created: 2020-07-02T20:13:36.000Z
 modified: 2020-07-06T17:04:14.000Z
 ---
