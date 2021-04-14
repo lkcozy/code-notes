@@ -17,7 +17,7 @@ jobs:
 
       - name: 🚀 Deploy
         if: ${{ !env.ACT }}
-        uses: enriikke/gatsby-gh-pages-action@v2
+        uses: enriikke/gatsby-gh-pages-action@2.1.1
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
@@ -25,7 +25,7 @@ jobs:
 
       - name: 💬 Send message to Slack
         if: ${{ !env.ACT && always() }}
-        uses: craftech-io/slack-action@v1
+        uses: craftech-io/slack-action@v1.1.0
         with:
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
 
