@@ -5,8 +5,50 @@ tags:
   - git
   - cheatsheet
 created: 2020-06-24T07:06:39.000Z
-modified: 2021-02-22T23:30:00.000Z
+modified: 2021-04-19T23:30:00.000Z
 ---
+
+## Alias
+
+<details>
+   <summary>A list of git aliases to include in your `~/.gitconfig` file:</summary>
+
+```sh
+
+[alias]
+s=status
+br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+undo=reset HEAD~1 --mixed
+cm = commit --all -m
+cma = commit -a
+co = checkout
+cob = checkout -b
+del= branch -D
+st = stash -u
+pop = stash pop
+stat = log --shortstat
+d = diff --color-words
+who = shortlog -s --
+lg = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+lpo = log --pretty=oneline --abbrev-commit --graph --decorate --all
+scrub = !git reset --hard && git clean -fd
+rv = remote -v
+sts = status
+blg = log --graph --decorate --all --abbrev-commit --pretty=oneline
+slog = log --graph --simplify-by-decoration --all --abbrev-commit --pretty=oneline
+busythisweek = shortlog --since=one.week.ago -n #https://git.wiki.kernel.org/index.php?title=Aliases
+aliases = !git config --get-regexp 'alias.\*' | colrm 1 6 | sed 's/[ ]/ = /'
+whitespaceviolations = "!git diff --check $(git empty-tree-sha1)"
+app = commit -a --amend --no-edit
+cia = commit -a --amend
+up = remote update --prune
+publish = !git checkout -b $1 && git push -u origin
+prb=pull --rebase
+sm=!git st && git co master && git prb
+
+```
+
+</details>
 
 ## Change Git Remote URL
 

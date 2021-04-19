@@ -1,5 +1,5 @@
 ---
-title: jq
+title: jq-A command-line JSON processor
 emoji: "\U0001F4DD"
 tags:
   - json
