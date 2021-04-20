@@ -1,6 +1,6 @@
 ---
 title: Javascript Generators and Iterators
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - javascript
 link: javascript-generators-and-iterators

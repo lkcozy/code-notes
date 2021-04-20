@@ -1,6 +1,6 @@
 ---
 title: Bash
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - bash
 link: "https://linuxhandbook.com/tag/bash-beginner/"

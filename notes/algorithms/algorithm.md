@@ -1,6 +1,6 @@
 ---
 title: Algorithm
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - algorithm
 link: null

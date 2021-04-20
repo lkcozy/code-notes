@@ -1,11 +1,11 @@
 ---
 title: Serverless Framework
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - devops
   - serverless
   - terraform
-link: 'https://www.serverless.com/'
+link: "https://www.serverless.com/"
 created: 2020-11-20T01:47:15.000Z
 modified: 2020-11-20T01:47:15.000Z
 ---

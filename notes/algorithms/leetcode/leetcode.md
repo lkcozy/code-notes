@@ -1,6 +1,6 @@
 ---
 title: LeetCode-An Online Learning Programming Platform
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - algorithm
 link: null

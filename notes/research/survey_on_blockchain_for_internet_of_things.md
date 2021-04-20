@@ -1,6 +1,6 @@
 ---
 title: Survey on blockchain for Internet of Things
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - research
   - blockchain

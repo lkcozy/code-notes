@@ -1,6 +1,6 @@
 ---
 title: Chrome
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - chrome
   - tools

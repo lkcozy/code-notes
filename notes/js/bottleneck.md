@@ -1,6 +1,6 @@
 ---
 title: Bottleneck - NodeJS Task Scheduler and Rate Limiter
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - javascript
   - node

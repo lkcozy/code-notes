@@ -1,6 +1,6 @@
 ---
 title: Setup Ruby
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - ruby
 link: null

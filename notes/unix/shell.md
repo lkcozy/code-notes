@@ -1,6 +1,6 @@
 ---
 title: Shell
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - shell
   - cli

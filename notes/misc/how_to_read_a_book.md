@@ -1,11 +1,11 @@
 ---
 title: How to read a book
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - note
   - methodology
   - efficiency
-link: 'https://sspai.com/post/62340'
+link: "https://sspai.com/post/62340"
 created: 2020-11-20T01:47:15.000Z
 modified: 2020-11-20T01:47:15.000Z
 ---

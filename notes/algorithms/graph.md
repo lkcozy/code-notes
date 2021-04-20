@@ -1,10 +1,10 @@
 ---
 title: Graph Data Structure
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - algorithm
   - javascript
-link: 'https://codebond.co/tutorial/javascript/implementation-of-a-graph-javascript'
+link: "https://codebond.co/tutorial/javascript/implementation-of-a-graph-javascript"
 created: 2020-07-11T05:16:40.000Z
 modified: 2020-07-11T05:16:40.000Z
 ---

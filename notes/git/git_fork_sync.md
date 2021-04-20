@@ -1,6 +1,6 @@
 ---
 title: Sync Your Fork with the Original Git Repository
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - git
   - github

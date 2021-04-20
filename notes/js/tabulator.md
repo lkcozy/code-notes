@@ -1,6 +1,6 @@
 ---
 title: Tabulator-A JS table library
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - javascript
 link: "http://www.tabulator.info/"

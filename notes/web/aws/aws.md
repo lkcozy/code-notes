@@ -1,6 +1,6 @@
 ---
 title: AWS Service
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - aws
 link: https://adayinthelifeof.nl/2020/05/20/aws.html

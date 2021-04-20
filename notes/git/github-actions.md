@@ -1,6 +1,6 @@
 ---
 title: Github Actions
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - git
   - github

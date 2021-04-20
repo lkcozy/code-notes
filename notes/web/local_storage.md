@@ -1,6 +1,6 @@
 ---
 title: Local Storage-Part of web storage API to
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - node
   - javascript

@@ -1,6 +1,6 @@
 ---
 title: RxJS
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - javascript
   - rxjs
@@ -9,4 +9,3 @@ link: >-
 created: 2021-01-05T22:58:30.000Z
 modified: 2021-01-05T22:58:30.000Z
 ---
-

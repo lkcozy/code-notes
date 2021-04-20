@@ -1,6 +1,6 @@
 ---
 title: Jupyter-An interactive tool visual data sets and insights
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - python
   - jupyter

@@ -1,6 +1,6 @@
 ---
 title: OData
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - odata
   - best practices

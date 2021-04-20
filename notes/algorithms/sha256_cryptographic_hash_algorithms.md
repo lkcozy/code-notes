@@ -1,12 +1,12 @@
 ---
 title: SHA-256 Cryptographic Hash Algorithm
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - crypto
   - hash
   - algorithm
   - blockchain
-link: 'https://movable-type.co.uk/scripts/sha256.html'
+link: "https://movable-type.co.uk/scripts/sha256.html"
 created: 2021-02-25T17:44:00.000Z
 modified: 2021-02-25T17:44:00.000Z
 ---

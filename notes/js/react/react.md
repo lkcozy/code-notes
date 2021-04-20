@@ -1,6 +1,6 @@
 ---
 title: React-A JS library for building user interfaces.
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - react
   - javascript

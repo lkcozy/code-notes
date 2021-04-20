@@ -1,6 +1,6 @@
 ---
 title: How to Solve a Rubik's Cube
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - note
 link: null

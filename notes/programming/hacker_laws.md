@@ -1,6 +1,6 @@
 ---
 title: Hacker Laws
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - laws
   - theories

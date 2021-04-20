@@ -6,10 +6,13 @@ tags:
   - communication
 link:
 created: 2021-03-14T17:08:09.000Z
-modified: 2021-04-11T17:08:09.000Z
+modified: 2021-04-19T17:08:09.000Z
 ---
 
+## Tech
+
 - Bit `facilitates` the process of collaborating on UI components.
+- Apollo Workbench is a design tool that `facilitates` planning changes to your supergraph.
 - Gentle `nudge` to everybody please do sth
 - A stub, `in this context`, means a mock implementation
 - In some specific cases, though, avoiding the adoption is entirely justified.

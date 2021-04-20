@@ -1,6 +1,6 @@
 ---
 title: Github Tips
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - github
   - git

@@ -1,6 +1,6 @@
 ---
 title: Ubuntu
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - ubuntu
 link: null

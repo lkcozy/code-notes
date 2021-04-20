@@ -1,10 +1,10 @@
 ---
 title: P(rocess) M(anager) 2
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - pm2
   - cli
-link: 'https://github.com/Unitech/pm2'
+link: "https://github.com/Unitech/pm2"
 created: 2020-09-24T05:00:14.000Z
 modified: 2020-09-24T05:00:14.000Z
 ---

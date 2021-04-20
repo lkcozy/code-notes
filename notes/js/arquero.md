@@ -1,6 +1,6 @@
 ---
 title: Arquero-JS library for query processing and transformation of array-backed data tables
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - note
   - javascript

@@ -1,6 +1,6 @@
 ---
 title: Log
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - log
   - javascript

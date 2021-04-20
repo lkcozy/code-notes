@@ -1,6 +1,6 @@
 ---
 title: Data Analysis
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - analysis
   - python

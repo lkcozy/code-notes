@@ -1,6 +1,6 @@
 ---
 title: Visual Studio Code
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - tools
   - vscode

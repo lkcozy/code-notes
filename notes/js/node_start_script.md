@@ -1,6 +1,6 @@
 ---
 title: Node Start Script
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - node
   - shell

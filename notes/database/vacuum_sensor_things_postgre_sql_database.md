@@ -1,6 +1,6 @@
 ---
 title: VACUUM PostgreSQL Database
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - postgresql
   - sensorThings API

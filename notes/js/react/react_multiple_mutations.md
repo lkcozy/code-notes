@@ -1,6 +1,6 @@
 ---
 title: Clean way of writing multiple useMutation custom hooks
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - react
   - graphql

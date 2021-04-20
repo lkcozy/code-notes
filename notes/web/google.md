@@ -1,6 +1,6 @@
 ---
 title: Google
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - google
 link: null
