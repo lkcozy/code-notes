@@ -1,15 +1,45 @@
 ---
-title: OGC SensorThings API
-emoji: "\U0001F30D"
+title: OGC SensorThings API-Address the IoT interoperability challenge on the Web
+emoji: 🌍
 tags:
   - sta
   - ogc
   - gis
   - iot
-link: 'https://developers.sensorup.com/docs/'
+  - interoperability
+  - web
+link: "https://developers.sensorup.com/docs/"
 created: 2020-06-24T16:24:59.000Z
-modified: 2021-03-04T20:14:56.000Z
+modified: 2021-04-20T20:14:56.000Z
 ---
+
+## Highlights
+
+- `The OGC SensorThings API is designed to address the IoT interoperability challenge on the Web`.
+- The OGC SensorThings API has also become an official ITU-T standard (ITU-T Y.4473), and an official INSPIRE download service good practice.
+
+- [Part 1: Sensing(2016)](http://docs.opengeospatial.org/is/15-078r6/15-078r6.html): Management and reception of observations or measurements made by IoT sensors
+- [Part 2: Tasking Core(2019)](http://docs.opengeospatial.org/is/17-079r1/17-079r1.html): Tell the sensor/actuator what to do
+- Part 3: Rules Engine: TBD
+- Part 4: Tasking Extensions: TBD
+
+## Current Trends
+
+- [Develope SensorThings API 2.0 Part1-Sensing](https://github.com/opengeospatial/sensorthings/blob/master/charter/sensorthings_charter_2021-03.adoc)
+
+  - Propose a new task for the `STA 2.0-Sensing`
+
+    - Incorporate the learned lessons, feature requests, and latest technology trends
+    - Pub-sub first, run independently of RESTful request-response pattern
+    - OGC Observations and Measurements (O&M) V3.0, which is the underlying data mode of the STA
+    - Harmonization of STA and OGC API: follow OGC API pattern
+    - Considering OData v4, MQTT v5, Security, and JSON-LD
+    - Evaluate each Change Request Proposals (CRPs)
+
+  - Develop new and maintain `discussion papers and best practices` of STA
+    - promote the standard and demonstrate the best practices of using STA in a more specific domain
+    - Best Practice of the OGC SensorThings API - Methane Emissions
+  - `Review draft Engineering Reports` from the OGC innovatin Programme related to STA
 
 ## Introduction
 
@@ -28,6 +58,8 @@ The answer is YES. This might be the #1 question get asked. SensorThings API is 
 The OGC SensorThings API is an OGC standard providing an open and unified framework to interconnect IoT devices, data, and applications over the Web. It is non-proprietary, platform-independent, and perpetual royalty-free. The OGC SensorThings API significantly simplifies and accelerates the development of IoT applications. Application developers can connect to various IoT devices and create innovative applications without worrying the daunting heterogeneous protocols of the different IoT devices. The OGC SensorThings API can also be embedded within various IoT hardware and software platforms, so that the various IoT devices can effortlessly connect with the OGC standard-compliant servers around the world. In summary, the OGC SensorThings API is transforming the numerous disjointed IoT systems into a fully connected platform where complex tasks can be synchronized and performed.
 
 ### Why do we develop the OGC SensorThings API?
+
+The Internet of Things (IoT) represents the next evolution of the Internet. It’s estimated that by 2025, more than 20 billion sensors and actuators will be embedded in real-world objects. All of these objects will be connected to the Internet and generating data at a high velocity continuously. The majority of these objects will be Industrial IoT devices used by industries, not consumers. The IoT represents a significant business opportunity, providing organizations with strategic insights and operational efficiencies in real-time. `But harvesting the benefits of a sensor-rich world presents many data management challenges`. One of the biggest challenges is to enable the `IoT interoperability, i.e., the ability to interoperate heterogeneous IoT systems` so that collectively they become coherent system-of-systems. The OGC SensorThings API is designed to address the IoT interoperability challenge on the Web.
 
 In today's world, most sensors have proprietary software interfaces defined by their manufacturers and used selectively. New APIs are requested and developed on an as needed basis. This situation causes significant burden not only on developers who develop applications with new sensors, but also on providers of gateways, portals or services where observations are used. The OGC SensorThings API defines standardized interfaces for sensors in the Web of Things (WoT) and Internet of Things (IoT), two terms that are frequently used interchangeably. These standardized interfaces will permit the proliferation of new high value services with lower overhead of development and wider reach, and will also lower the cost for sensor and gateway providers.
 
@@ -101,7 +133,6 @@ measurements and device parameters in Sensor Measurement Lists
 
 Liang, Steve H.L., Chih-Yuan Huang, and Tania Khalafbeigi. "OGC SensorThings API Part I:Sensing" OGC® Implementation Standard (2016)
 
-
 ## [JSON-LD](https://json-ld.org/)
 
 `JSON-LD is a lightweight Linked Data format.` It is easy for humans to read and write. It is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale. JSON-LD is an ideal data format for programming environments, REST Web services, and unstructured databases such as Apache CouchDB and MongoDB.
@@ -116,8 +147,8 @@ Liang, Steve H.L., Chih-Yuan Huang, and Tania Khalafbeigi. "OGC SensorThings API
 }
 ```
 
-
 ## MQTT
+
 Currently the STA MQTT extension only allows for:
 
 • subscriptions on modifications,
@@ -126,7 +157,6 @@ Currently the STA MQTT extension only allows for:
 This means that the MQTT extension does not allow for request/response type data retrieval.
 
 `MQTT5` has formalised the way to do request/response data exchange over MQTT, so this makes it possible to apply the complete SensorThingsAPI rest interface to MQTT as well, instead of just HTTP.
-
 
 ## TODO
 

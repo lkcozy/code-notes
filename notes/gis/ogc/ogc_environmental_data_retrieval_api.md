@@ -1,6 +1,6 @@
 ---
 title: OGC API - Environmental Data Retrieval Standard
-emoji: 📝
+emoji: 🌍
 tags:
   - edr
   - ogc
