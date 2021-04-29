@@ -99,6 +99,21 @@ on:
     - cron: "*/15 * * * *"
 ```
 
+> [crontab guru](https://crontab.guru/): The quick and simple editor for cron schedule expressions
+
+Some helpful patterns
+
+```js
+// Every Monday at 1PM UTC (9AM EST)
+0 13 * * 1
+
+// At the end of every day
+0 0 * * *
+
+// Every 10 minutes
+*/10 * * * *
+```
+
 **jobs**: A workflow run is made up of one or more jobs. Jobs run in parallel by default. You can run an unlimited number of jobs as long as you are within the workflow usage limits. For more information, see "[Usage limits](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#usage-limits)."
 
 ```yaml
@@ -177,6 +192,12 @@ jobs:
 [act](https://github.com/nektos/act)
 
 When you run act it reads in your GitHub Actions from .github/workflows/ and determines the set of actions that need to be run. It uses the Docker API to either pull or build the necessary images, as defined in your workflow files and finally determines the execution path based on the dependencies that were defined. Once it has the execution path, it then uses the Docker API to run containers for each action based on the images prepared earlier. The environment variables and filesystem are all configured to match what GitHub provides.
+
+```sh
+brew install act
+
+act --secret-file act.secrets
+```
 
 ## Example
 
