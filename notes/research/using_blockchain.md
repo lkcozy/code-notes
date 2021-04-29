@@ -1,7 +1,7 @@
 ---
 title: Using Blockchain for Trustworthy Mobile Contact Tracing
 Citation: null
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - blockchain
   - contact tracking
@@ -15,7 +15,6 @@ modified: 2021-02-09T21:43:05.000Z
 ---
 
 **Journal：** Multimodal Technologies and Interaction
-
 
 ## Key Insight
 
