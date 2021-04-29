@@ -32,11 +32,14 @@
     "clean": "gatsby clean",
     "serve": "gatsby serve",
     "count:notes": "git ls-files notes| wc -l",
-    "test": "echo '${yarn count:notes}'",
     "timestamp": "frontmatter-date-setter --directory='notes' --fileExtension=.md  --fileExtension=.mdx",
     "predeploy": "yarn timestamp",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "preversion": "yarn test",
-    "postversion": "git push --tags && yarn publish . --tag $npm_package_version && git push && echo \"Successfully released version $npm_package_version!\""
+    "version:base": "yarn version --no-commit-hooks --no-git-tag-version",
+    "version:major": "yarn version:base --major",
+    "version:minor": "yarn version:base --minor",
+    "version:patch": "yarn version:base --patch",
+    "preversion": "yarn count:notes",
+    "postversion": "git commit -a -m v$npm_package_version --no-verify && git push --tags && git push && echo \"Successfully released version $npm_package_version!\""
   }
 }
