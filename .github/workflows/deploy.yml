@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: '0'
+          fetch-depth: 0
 
       - name: 🧮  Get Notes Statistics
         id: get_notes_stats
@@ -36,7 +36,7 @@ jobs:
 
       - name: ✉️ Send mail
         if: ${{ !env.ACT && always() }}
-        uses: dawidd6/action-send-mail@v2
+        uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
           server_port: 465
