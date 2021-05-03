@@ -4,10 +4,15 @@ emoji: "\U0001F4E6"
 tags:
   - tools
   - converter
+  - resources
 link: null
 created: 2020-07-26T23:48:33.000Z
-modified: 2021-04-14T04:22:39.000Z
+modified: 2021-05-01T04:22:39.000Z
 ---
+
+## [Js Image Carver Content Aware Image Resizer](https://trekhleb.dev/js-image-carver/)
+
+## [Bundlephobia - find out the cost of adding a new frontend dependenc](https://bundlephobia.com/)
 
 ## 🥢 [Library Genesis](http://gen.lib.rus.ec/)
 
@@ -32,3 +37,5 @@ The xiezuocat is focusd on providing AI assistance to professionals through tech
 ## [PDF24 Creator](https://tools.pdf24.org/en/)
 
 ![](https://tools.pdf24.org/static/img/creator/ui_file_tools_1_thumb.jpg?v=5d19dac8)
+
+## [Connected Papers-A visual tool for academic research](https://medium.com/connectedpapers/connected-papers-partners-with-arxiv-8ce8122f6b4c)

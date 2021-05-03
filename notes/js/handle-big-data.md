@@ -8,7 +8,7 @@ tags:
   - big data
 link: null
 created: 2020-08-06T04:22:39.000Z
-modified: 2021-03-22T21:43:58.000Z
+modified: 2021-05-02T21:43:58.000Z
 ---
 
 ## Geospatial
@@ -39,7 +39,7 @@ RBush is a high-performance JavaScript library for 2D spatial indexing of points
 
 A spatial index is a special data structure for points and rectangles that allows you to perform queries like "all items within this bounding box" very efficiently (e.g. hundreds of times faster than looping over all items). It's most commonly used in maps and data visualizations.
 
-3. [polygon-lookup](https://github.com/pelias/polygon-lookup)
+### [polygon-lookup](https://github.com/pelias/polygon-lookup)
 
 A data-structure for performing fast, accurate point-in-polygon intersections against (potentially very large) sets of polygons. PolygonLookup builds an R-tree, or bounding-box spatial index, for its polygons and uses it to quickly narrow down the set of candidate polygons for any given point. If there are any ambiguities, it'll perform point-in-polygon intersections to identify the one that intersects. PolygonLookup operates entirely in memory and works best for polygons with little overlap.
 
@@ -109,6 +109,10 @@ scene.addLayer(pointLayer);
 H3 is a geospatial indexing system using a hexagonal grid that can be (approximately) subdivided into finer and finer hexagonal grids, combining the benefits of a hexagonal grid with S2's hierarchical subdivisions.
 
 ## General
+
+### [PapaParse](https://github.com/mholt/PapaParse)
+
+Fast and powerful CSV (delimited text) parser that gracefully handles large files and malformed input
 
 ### [Scramjet](https://github.com/signicode/scramjet)
 

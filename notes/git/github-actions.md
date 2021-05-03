@@ -6,7 +6,7 @@ tags:
   - github
 link: null
 created: 2020-06-29T05:54:14.000Z
-modified: 2020-11-10T22:17:13.000Z
+modified: 2021-05-01T22:17:13.000Z
 ---
 
 ## What Are GitHub Actions?
@@ -198,6 +198,19 @@ brew install act
 
 act --secret-file act.secrets
 ```
+
+## Debug a Github Actions' secrets
+
+```sh
+echo ${{secrets.YOUR_SECRET }} | sed 's/./& /g'
+```
+
+![](https://zellwk.com/images/2021/debug-github-actions-secret/separate-characters.png)
+
+This would output the secret with spaces between each character, Github will not recognize the secret and will not hide it.
+
+> ! Beware that the secret will then be in the actions logs in clear form, and everybody having access to the repo will be able to see it.
+> `sed` is a stream editor, `s`: substitution, `.`: match anything which is greedy, `/g`: global replacement
 
 ## Example
 

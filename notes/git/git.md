@@ -5,7 +5,7 @@ tags:
   - git
   - cheatsheet
 created: 2020-06-24T07:06:39.000Z
-modified: 2021-04-19T23:30:00.000Z
+modified: 2021-05-01T23:30:00.000Z
 ---
 
 ## Alias
@@ -67,6 +67,31 @@ git commit -a --amend
 # fixing up older commits, -i for interactive
 git rebase -i HEAD~3
 ```
+
+[When should I use git pull --rebase?](https://stackoverflow.com/questions/2472254/when-should-i-use-git-pull-rebase)
+
+_Point 1_
+Use `git pull --rebase` only if you know you forgot to push your commits before someone else does the same.
+
+If you did not commit anything, but your working space is not clean, just git stash before to git pull. This way you won't silently rewrite your history (which could silently drop some of your work).
+
+_Point 2_
+I think you should use `git pull --rebase` when collaborating with others on the same branch, which will avoid the extra merge commits.
+
+[Don't git pull, use git pull --rebase instead](https://blog.manos-liakos.dev/rebase-vs-pull/)
+
+![](https://blog.manos-liakos.dev/static/39833f875652a1793abffbbc15973e33/74200/git-rebase.webp)
+
+```sh
+git pull = git fetch + git merge FETCH_HEAD
+git pull --rebase =  git fetch + git rebase FETCH_HEAD
+```
+
+`Git pull --rebase` effectively reapplying our local changes on top of the remote changes, resulting in a tidy, linear commit history.
+
+> Tip #1: Use git config --global pull.rebase true to avoid typing the --rebase flag each time you pull 🧐
+
+> Tip #2: Don't forget that you can do all sorts of editing to your commits, before pushing them by using interactive rebase.
 
 ## Recover from git reset --hard
 

@@ -4,9 +4,9 @@ emoji: "\U0001F4A1"
 tags:
   - linux
   - cli
-link: 'https://codebond.co/tutorial/other/most-helpful-linux-command'
+link: "https://codebond.co/tutorial/other/most-helpful-linux-command"
 created: 2020-07-11T05:16:40.000Z
-modified: 2020-09-24T05:00:14.000Z
+modified: 2021-05-01T05:00:14.000Z
 ---
 
 ## ls
@@ -54,3 +54,19 @@ The cat commands allow you to view the content of a file in terminal.
 ## history
 
 If you using tons of command you ended up forgetting. history command show recently-executed commands. The cool part is you can access those commands without typing actual command you just need to type id of that command. example !id
+
+## [sed](https://gist.github.com/ssstonebraker/6140154)
+
+A a stream editor that works on piped input or files of text. It doesn’t have an interactive text editor interface, however. Rather, you provide instructions for it to follow as it works through the text.
+
+```sh
+echo howtogonk | sed 's/gonk/geek/
+# The string “gonk” is replaced by “geek,”
+```
+
+There are four parts to this substitute command:
+
+s Substitute command
+/../../ Delimiter
+one Regular Expression Pattern Search Pattern
+ONE Replacement string
