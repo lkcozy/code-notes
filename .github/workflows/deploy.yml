@@ -9,11 +9,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: '0'
 
       - name: 🧮  Get Notes Statistics
         id: get_notes_stats
-        run: ./scripts/stats.sh
+        run: yarn stats
 
       - name: 🚀 Deploy
         if: ${{ !env.ACT }}
@@ -25,12 +27,15 @@ jobs:
 
       - name: 💬 Send message to Slack
         if: ${{ !env.ACT && always() }}
-        uses: craftech-io/slack-action@v1.1.0
-        with:
-          slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_COLOR: ${{ job.status }}
+          SLACK_ICON: https://raw.githubusercontent.com/lkcozy/code-notes/master/assets/logo.png
+          SLACK_MESSAGE:  ${{job.status}} - ${{steps.get_notes_stats.outputs.summary}}.
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
 
       - name: ✉️ Send mail
-        if: always()
+        if: ${{ !env.ACT && always() }}
         uses: dawidd6/action-send-mail@v2
         with:
           server_address: smtp.gmail.com
