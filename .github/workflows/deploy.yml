@@ -13,6 +13,8 @@ jobs:
         with:
           fetch-depth: 0
 
+      - run: git fetch origin
+
       - name: 🧮  Get Notes Statistics
         id: get_notes_stats
         run: yarn stats
