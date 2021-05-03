@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: git fetch origin
+      - run: git checkout HEAD^
 
       - name: 🧮  Get Notes Statistics
         id: get_notes_stats
