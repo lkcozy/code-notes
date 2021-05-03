@@ -11,9 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          ref: 'main'
           fetch-depth: 0
 
-      - run: git checkout HEAD^
+      - run: git pull origin main
 
       - name: 🧮  Get Notes Statistics
         id: get_notes_stats
