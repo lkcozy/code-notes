@@ -1,5 +1,7 @@
 #!/bin/sh
 
+git fetch origin
+
 folder='notes/'
 count_length='wc -l'
 
