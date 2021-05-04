@@ -45,3 +45,10 @@ modified: 2021-04-27T17:08:09.000Z
 - This `intriguing` book is both thoughtful and informative.
 - `Factoring in`(Considering) its construction and operation, the drone cost $85 million.
 - `Effortlessly` go from the golf course to dinner in this `tastefully striped` cotton polo.
+
+## Management
+
+- If you `lead through` intimidation, or if you lead through fear, then that's not leadership.
+- You have to `lead through collaboration` and `cajoling(persuading)`, not control.
+- Like trust, respect is also something you earn-and by `leading through your actions, not your words`.
+- Taking a broad, systemic view of the issues at hand

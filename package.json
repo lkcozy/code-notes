@@ -23,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn timestamp"
+      "pre-commit": "yarn stats"
     }
   },
   "scripts": {
