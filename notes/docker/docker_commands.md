@@ -96,24 +96,3 @@ RUN mkdir -p /usr/src/things \
  | tar -xJC /usr/src/things \
  && make -C /usr/src/things all
 ```
-
-For other items (files, directories) that do not require ADD’s tar auto-extraction capability, you should always use COPY.
-
-The major difference is that ADD can do more than COPY
-
-ADD allows <src> to be a URL
-If the <src> parameter of ADD is an archive in a recognised compression format, it will be unpacked.
-
-The best practices for writing Dockerfiles suggests using COPY where the magic of ADD is not required. Otherwise you are likely to get surprised someday when you mean to copy
-
-ERROR: Pool overlaps with other one on this address space
-
-docker network ls
-
-NETWORK ID NAME DRIVER SCOPE  
-8518cc751c09 bridge bridge local  
-5ebc27713033 pool_network bridge local  
-25ff8d61d971 host host local  
-85c5507b6e64 none null local
-remove the pool_network
-docker network rm pool_network
