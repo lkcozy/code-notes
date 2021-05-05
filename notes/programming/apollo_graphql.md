@@ -21,6 +21,23 @@ One of the key principles of GraphQL involves having a single data graph of the 
 
 ## [Implementing Federated GraphQL Microservices using Apollo Federation](https://www.velotio.com/engineering-blog/implementing-federated-graphql-microservices-using-apollo-federation)
 
+## [Subscriptions](https://www.apollographql.com/docs/apollo-server/data/subscriptions/)
+
+> Subscriptions are not currently supported in Apollo Federation.
+
+Subscriptions are long-lasting GraphQL read operations that can update their result whenever a particular server-side event occurs. Most commonly, updated results are pushed from the server to subscribing clients. For example, a chat application's server might use a subscription to push newly received messages to all clients in a particular chat room.
+
+## [Using Subscriptions with a Federated Data Graph](https://github.com/apollographql/federation-subscription-tools)
+
+This demonstration library shows how a decoupled subscription service can run alongside a federated data graph to provide real-time updates to a client.
+
+## [Apollo AWS Lambda with GraphQL subscriptions](https://github.com/michalkvasnicak/aws-lambda-graphql)
+
+With this library you can do:
+
+same things as with apollo-server-lambda by utiizing AWS API Gateway v1
+GraphQL subscriptions over WebSocket by utilizing AWS API Gateway v2 and subscriptions-transport-ws
+
 ## References
 
 - [Awesome Apollo GraphQL](https://github.com/ooade/awesome-apollo-graphql)

@@ -1,6 +1,6 @@
 ---
 title: GIS(Geographic Information System)
-emoji: "\U0001F30D"
+emoji: 🌏
 tags:
   - gis
 link: "https://www.esri.com/en-us/what-is-gis/overview"

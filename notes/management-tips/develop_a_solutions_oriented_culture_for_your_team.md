@@ -1,0 +1,50 @@
+---
+title: Develop a Solutions-Oriented Culture for Your Team
+emoji: 💡
+tags:
+  - management
+link:
+created: 2021-05-05T15:42:21.000Z
+modified: 2021-05-05T15:42:21.000Z
+---
+
+## Mindmap
+
+<iframe height='600' style='width: 100%;' scrolling='no' title='mindmap' src='' frameborder='no' allowtransparency='true' allowfullscreen='true' />
+
+## Tip
+
+When presented with new initiatives, some teams are really good at spotting potential problems. They readily ask tough questions and point out possible risks. But a team overly focused on finding problems, rather than solving them, can be detrimental to morale and productivity. So how do you change your team’s culture to become more solutions oriented? Here are a few dos and don’ts:
+
+Do:
+
+- Practice what you preach. Role model the problem-solving behavior and attitude you’d like to see in your team.
+- Identify a trigger word to remind team members to focus on solutions. That way, when conversations veer off course, colleagues can help get it back on track.
+- Reflect on how you can create an environment that allows for both creativity and critical thinking.
+
+Don’t:
+
+- Ignore or discount resistance to an obstacle. Instead, explore possible solutions by asking questions.
+- Go it alone. Invite a consultant or a member of a different department to attend a team meeting. They might spark new strands of conversation.
+- Be stingy with compliments. Publicly acknowledging team members’ creative thinking helps increase the sense that norms are shifting.
+
+## Translations
+
+<details>
+   <summary>🇨🇳 为您的团队培养一种以解决方案为导向的文化</summary>
+
+有些团队在提出新计划时确实擅长于发现潜在问题。他们很容易提出尖锐的问题，指出可能存在的风险。但是，如果一个团队过于专注发现问题而忽视解决问题，就会降低士气和工作效率。因此，你如何改变你的团队文化，使其更加面向解决方案呢? 这里油几点需要注意:
+
+实施:
+
+- 以身作则。在解决问题时，展现你希望在团队中看到的行为和态度。
+- 确定一个触发词，以提醒团队成员关注解决方案。 这样一来，当谈话偏离了轨道，同事们可以让谈话回到正轨。
+- 思考如何创造一个既有创造性又有批判性思维的环境。
+
+拒绝:
+
+- 忽视或减少对障碍的抵抗力。相反，通过提问来寻找可能的解决方法。
+- 单干。邀请一位顾问或其他部门的成员参加团队会议。 他们可能会引发新的对话
+- 吝啬赞美。 对团队成员的创造性思维的公开认可有助于增强规范变化感。
+
+</details>

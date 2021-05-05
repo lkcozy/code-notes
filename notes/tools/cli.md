@@ -1,6 +1,6 @@
 ---
 title: Five interesting command-line tools
-emoji: 📝
+emoji: 🛠
 tags:
   - cli
   - macos

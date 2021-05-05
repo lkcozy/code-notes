@@ -1,12 +1,14 @@
 ---
 title: Blockchain-An immutable distributed database
-emoji: "\U0001F171"
+emoji: "  "
 tags:
   - blockchain
 link: null
 created: 2020-07-14T00:34:09.000Z
 modified: 2020-12-11T03:32:52.000Z
 ---
+
+[[ethereum]]
 
 ## Basic
 
@@ -73,10 +75,6 @@ Hyperledger Explorer is a simple, powerful, easy-to-use, well maintained, open s
 Iroha is a straightforward distributed ledger technology (DLT), inspired by Japanese Kaizen principle — eliminate excessiveness (muri). Iroha has essential functionality for your asset, information and identity management needs, at the same time being an efficient and trustworthy crash fault-tolerant tool for your enterprise needs.
 
 Iroha is Crash Fault Tolerant and has its own consensus algorithm - [YAC](https://arxiv.org/pdf/1809.00554.pdf)
-
-### [Etherchain Light](https://github.com/gobitfly/etherchain-light)
-
-Etherchain Light is an Ethereum blockchain explorer built with NodeJS, Express and Parity. It does not require an external database and retrieves all information on the fly from a backend Ethereum node.
 
 ## References
 

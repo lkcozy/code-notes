@@ -1,10 +1,10 @@
 ---
 title: Well-known Text Representation of geometry
-emoji: "\U0001F30D"
+emoji: 🌏
 tags:
   - gis
   - wkt
-link: 'http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/html/wkt-wkb.html'
+link: "http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/html/wkt-wkb.html"
 created: 2020-12-04T02:15:45.000Z
 modified: 2020-12-04T02:15:45.000Z
 ---
