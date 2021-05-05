@@ -19,12 +19,20 @@
   "devDependencies": {
     "frontmatter-date-setter": "^0.1.0",
     "gh-pages": "^3.1.0",
-    "husky": "^6.0.0"
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn stats"
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn stats"
     }
+  },
+  "lint-staged": {
+    "{*.md,*.mdx}": [
+      "yarn timestamp",
+      "yarn stats"
+    ]
   },
   "scripts": {
     "start": "gatsby develop",
@@ -33,7 +41,7 @@
     "serve": "gatsby serve",
     "count:notes": "git ls-files notes| wc -l",
     "stats": "./scripts/stats.sh",
-    "timestamp": "frontmatter-date-setter --directory='notes' --fileExtension=.md  --fileExtension=.mdx",
+    "timestamp": "frontmatter-date-setter --directory='notes' --fileExtension=.md --fileExtension=.mdx",
     "predeploy": "yarn timestamp",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "version:base": "yarn version --no-commit-hooks",
