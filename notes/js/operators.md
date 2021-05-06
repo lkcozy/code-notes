@@ -1,12 +1,12 @@
 ---
 title: JavaScript Operators
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - javascript
   - operators
-link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators"
+link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators'
 created: 2021-01-05T22:58:30.000Z
-modified: 2021-01-05T22:58:30.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ```js

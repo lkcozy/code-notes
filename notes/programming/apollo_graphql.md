@@ -1,14 +1,14 @@
 ---
-title: Apollo GraphQL-A complete system to build, manage, and access a data graph
-emoji: 📝
+title: 'Apollo GraphQL-A complete system to build, manage, and access a data graph'
+emoji: "\U0001F4DD"
 tags:
   - graphql
   - api
   - apollo
   - microservices
-link: https://www.apollographql.com/docs/federation/federation-spec/
-created: 2021-04-19T17:33:35.000Z
-modified: 2021-04-19T17:33:35.000Z
+link: 'https://www.apollographql.com/docs/federation/federation-spec/'
+created: 2021-04-20T16:05:46.000Z
+modified: 2021-05-05T22:03:31.000Z
 ---
 
 ## Federated GraphQL Microservices

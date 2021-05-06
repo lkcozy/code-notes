@@ -1,14 +1,14 @@
 ---
 title: Puppeteer-Headless Chrome Node.js API
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - note
   - js
   - test
   - web
-link:
-created: 2021-04-28T23:23:19.000Z
-modified: 2021-04-28T23:23:19.000Z
+link: null
+created: 2021-05-03T20:08:26.000Z
+modified: 2021-05-03T20:08:26.000Z
 ---
 
 Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.

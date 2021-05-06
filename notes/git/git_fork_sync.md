@@ -1,13 +1,13 @@
 ---
 title: Sync Your Fork with the Original Git Repository
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - git
   - github
 link: >-
   https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/
 created: 2021-03-02T01:18:02.000Z
-modified: 2021-03-02T01:18:02.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ```sh

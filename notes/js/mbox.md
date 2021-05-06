@@ -1,12 +1,12 @@
 ---
 title: MobX-State management
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - js
   - react
-link: https://mobx.js.org/README.html
-created: 2021-03-30T19:48:22.000Z
-modified: 2021-03-30T19:48:22.000Z
+link: 'https://mobx.js.org/README.html'
+created: 2021-03-31T20:55:09.000Z
+modified: 2021-04-14T23:11:23.000Z
 ---
 
 Simple, scalable state management.

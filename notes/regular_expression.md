@@ -1,11 +1,11 @@
 ---
 title: Regular Expression-A pattern describing a certain amount of text.
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - regex
-link: "https://www.regular-expressions.info/quickstart.html?wlr=1"
+link: 'https://www.regular-expressions.info/quickstart.html?wlr=1'
 created: 2020-07-11T05:16:40.000Z
-modified: 2020-11-10T22:18:22.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 A regular expression, or regex for short, is a pattern describing a certain amount of text.

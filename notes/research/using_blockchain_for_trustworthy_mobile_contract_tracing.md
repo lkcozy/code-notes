@@ -1,14 +1,14 @@
 ---
 title: Using Blockchain for Trustworthy Mobile Contract Tracing
-emoji:  
+emoji: "\_"
 tags:
   - research
   - blockchain
   - iot
   - security
-link:
-created: 2021-01-05T22:58:30.000Z
-modified: 2021-04-01T22:58:30.000Z
+link: null
+created: 2021-04-04T04:38:43.000Z
+modified: 2021-04-04T04:38:43.000Z
 ---
 
 

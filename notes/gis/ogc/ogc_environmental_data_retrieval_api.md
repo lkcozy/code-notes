@@ -1,14 +1,14 @@
 ---
 title: OGC API - Environmental Data Retrieval Standard
-emoji: 🌍
+emoji: "\U0001F30D"
 tags:
   - edr
   - ogc
   - gis
   - iot
-link: "https://docs.opengeospatial.org/DRAFTS/19-086.html"
-created: 2021-03-03T16:47:35.000Z
-modified: 2021-03-04T20:14:56.000Z
+link: 'https://docs.opengeospatial.org/DRAFTS/19-086.html'
+created: 2021-03-04T20:22:23.000Z
+modified: 2021-04-21T06:01:22.000Z
 ---
 
 ## Introduction

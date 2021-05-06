@@ -1,11 +1,11 @@
 ---
 title: Markdown
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - markdown
-link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-created: 2021-04-06T13:18:16.000Z
-modified: 2021-04-06T13:18:16.000Z
+link: 'https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet'
+created: 2021-04-06T19:36:16.000Z
+modified: 2021-04-06T19:36:16.000Z
 ---
 
 ## [Writing Mathematic Fomulars in Markdown](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/)

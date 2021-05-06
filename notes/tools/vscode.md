@@ -1,12 +1,12 @@
 ---
 title: Visual Studio Code
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - tools
   - vscode
 link: null
 created: 2020-07-02T20:13:36.000Z
-modified: 2021-02-25T17:44:21.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ## Shortcut

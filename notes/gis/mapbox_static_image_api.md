@@ -1,12 +1,12 @@
 ---
 title: Mapbox Static Images API
-emoji: 🌍
+emoji: "\U0001F30D"
 tags:
   - gis
   - mapbox
-link: https://docs.mapbox.com/api/maps/static-images/
-created: 2021-03-23T13:02:08.000Z
-modified: 2021-04-01T13:02:08.000Z
+link: 'https://docs.mapbox.com/api/maps/static-images/'
+created: 2021-03-26T20:36:09.000Z
+modified: 2021-04-12T19:04:15.000Z
 ---
 
 The Mapbox Static Images API serves standalone, static map images generated from Mapbox Studio styles. These images can be displayed on web and mobile devices without the aid of a mapping library or API. They look like an embedded map, but do not have interactivity or controls.

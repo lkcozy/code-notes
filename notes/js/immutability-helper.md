@@ -4,7 +4,7 @@ tags:
   - javascript
 link: 'https://github.com/kolodny/immutability-helper'
 created: 2020-06-23T22:03:19.000Z
-modified: 2020-07-06T17:04:14.000Z
+modified: 2021-03-04T20:22:23.000Z
 ---
 
 ## Array of simple values

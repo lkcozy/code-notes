@@ -1,12 +1,12 @@
 ---
 title: Pipenv-Python Dev Workflow for Humans
-emoji: 🐍
+emoji: "\U0001F40D"
 tags:
   - python
   - pipenv
-link:
-created: 2021-03-29T23:32:15.000Z
-modified: 2021-03-29T23:32:15.000Z
+link: null
+created: 2021-03-30T16:55:25.000Z
+modified: 2021-04-14T23:11:23.000Z
 ---
 
 Pipenv is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.

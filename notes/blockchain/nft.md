@@ -1,12 +1,14 @@
 ---
-title: Non-fungible token - Ownership of something unique, which can not be interchanged or copied
+title: >-
+  Non-fungible token - Ownership of something unique, which can not be
+  interchanged or copied
 emoji: ₿
 tags:
   - blockchain
   - Ethereum
-link: https://bitcoinik.com/what-are-non-fungible-tokens-nfts-beginner-guide/
-created: 2021-05-04T10:36:25.000Z
-modified: 2021-05-04T10:36:25.000Z
+link: 'https://bitcoinik.com/what-are-non-fungible-tokens-nfts-beginner-guide/'
+created: 2021-05-04T20:13:50.000Z
+modified: 2021-05-04T20:13:50.000Z
 ---
 
 ![](https://coindoo.com/wp-content/uploads/2018/12/fungible-vs-NFT.jpg)

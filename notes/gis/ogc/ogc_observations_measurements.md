@@ -1,13 +1,13 @@
 ---
 title: OGC Observations and Measurements-An encoding for observation services
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - ogc
   - gis
   - sta
-link: https://www.ogc.org/Standards/Om
-created: 2021-04-21T10:29:56.000Z
-modified: 2021-04-21T10:29:56.000Z
+link: 'https://www.ogc.org/Standards/Om'
+created: 2021-04-21T21:25:10.000Z
+modified: 2021-04-21T21:25:10.000Z
 ---
 
 This encoding is an essential dependency for the OGC Sensor Observation Service (SOS) Interface Standard. More specifically, this standard defines XML/JSON `schemas for observations, and for features involved in sampling when making observations`.

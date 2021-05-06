@@ -1,13 +1,13 @@
 ---
 title: Data Analysis
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - analysis
   - python
   - jupyter
 link: null
 created: 2020-08-04T22:05:52.000Z
-modified: 2020-09-21T19:59:11.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ## Covid-19

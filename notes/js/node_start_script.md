@@ -1,13 +1,13 @@
 ---
 title: Node Start Script
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - node
   - shell
   - javascript
 link: null
 created: 2020-11-16T04:20:05.000Z
-modified: 2020-11-16T04:20:05.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ```js

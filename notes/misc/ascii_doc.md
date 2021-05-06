@@ -1,13 +1,13 @@
 ---
 title: AsciiDoc-AsciiDoc Converter
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - asciidoc
   - cli
   - shell
-link: https://asciidoc.org/
-created: 2021-04-14T11:41:30.000Z
-modified: 2021-04-14T11:41:30.000Z
+link: 'https://asciidoc.org/'
+created: 2021-04-14T17:50:18.000Z
+modified: 2021-04-14T23:11:23.000Z
 ---
 
 AsciiDoc is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, man page.

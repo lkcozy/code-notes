@@ -1,13 +1,15 @@
 ---
-title: OGC SensorML (Sensor Model Language)-Describe sensors, actuators, and processes
-emoji: 🌍
+title: >-
+  OGC SensorML (Sensor Model Language)-Describe sensors, actuators, and
+  processes
+emoji: "\U0001F30D"
 tags:
   - ogc
   - gis
   - swe
-link: https://www.ogc.org/standards/sensorml
-created: 2021-04-21T15:11:01.000Z
-modified: 2021-04-21T15:11:01.000Z
+link: 'https://www.ogc.org/standards/sensorml'
+created: 2021-04-21T21:25:10.000Z
+modified: 2021-04-21T21:25:10.000Z
 ---
 
 - Provide a robust and semantically-tied means of defining processes and processing components associated with the measurement and post-measurement transformation of observations.

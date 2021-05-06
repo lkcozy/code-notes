@@ -1,15 +1,16 @@
 ---
 title: Convert ASCIDOC to DOCX
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - asciidoc
   - docx
   - shell
   - pandoc
   - asciidoc
-link: https://rmoff.net/2020/04/16/converting-from-asciidoc-to-google-docs-and-ms-word/
-created: 2021-04-14T11:29:52.000Z
-modified: 2021-04-14T11:29:52.000Z
+link: >-
+  https://rmoff.net/2020/04/16/converting-from-asciidoc-to-google-docs-and-ms-word/
+created: 2021-04-14T17:50:18.000Z
+modified: 2021-04-14T18:07:25.000Z
 ---
 
 ```sh

@@ -7,7 +7,7 @@ tags:
   - resources
 link: null
 created: 2020-07-26T23:48:33.000Z
-modified: 2021-05-01T04:22:39.000Z
+modified: 2021-05-03T20:08:26.000Z
 ---
 
 ## [Js Image Carver Content Aware Image Resizer](https://trekhleb.dev/js-image-carver/)

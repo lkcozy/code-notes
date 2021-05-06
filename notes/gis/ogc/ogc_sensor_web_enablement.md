@@ -1,13 +1,13 @@
 ---
 title: OGC Sensor Web Enablement
-emoji: 🌍
+emoji: "\U0001F30D"
 tags:
   - ogc
   - gis
   - sta
-link: http://docs.opengeospatial.org/wp/07-165r1/
-created: 2021-04-21T15:16:55.000Z
-modified: 2021-04-21T15:16:55.000Z
+link: 'http://docs.opengeospatial.org/wp/07-165r1/'
+created: 2021-05-03T21:56:32.000Z
+modified: 2021-05-03T21:56:32.000Z
 ---
 
 

@@ -1,14 +1,14 @@
 ---
 title: React Window-Efficiently rendering large lists and tabular data
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - react
   - big data
   - ui
   - js
-link: https://github.com/bvaughn/react-window
-created: 2021-03-22T14:23:07.000Z
-modified: 2021-03-22T14:23:07.000Z
+link: 'https://github.com/bvaughn/react-window'
+created: 2021-03-22T20:39:52.000Z
+modified: 2021-04-14T23:11:23.000Z
 ---
 
 React components for efficiently rendering large lists and tabular data

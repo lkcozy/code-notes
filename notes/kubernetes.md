@@ -1,15 +1,16 @@
 ---
 title: Kubernetes
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - container
   - orchestrator
   - microservices
   - docker
   - kubernetes
-link: https://medium.com/javarevisited/kubernetes-step-by-step-with-spring-boot-docker-gke-35e9481f6d5f
-created: 2021-04-09T22:12:33.000Z
-modified: 2021-04-09T22:12:33.000Z
+link: >-
+  https://medium.com/javarevisited/kubernetes-step-by-step-with-spring-boot-docker-gke-35e9481f6d5f
+created: 2021-04-12T19:04:15.000Z
+modified: 2021-04-12T19:04:15.000Z
 ---
 
 Kubernetes is an open-source `container-orchestration system` for automating computer application deployment, scaling, and management.

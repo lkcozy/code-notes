@@ -5,7 +5,7 @@ tags:
   - tips
 link: 'https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short'
 created: 2020-07-26T05:56:03.000Z
-modified: 2020-07-26T23:48:33.000Z
+modified: 2021-03-04T20:22:23.000Z
 ---
 
 

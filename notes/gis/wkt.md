@@ -1,12 +1,12 @@
 ---
 title: Well-known Text Representation of geometry
-emoji: 🌏
+emoji: "\U0001F30F"
 tags:
   - gis
   - wkt
-link: "http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/html/wkt-wkb.html"
+link: 'http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/html/wkt-wkb.html'
 created: 2020-12-04T02:15:45.000Z
-modified: 2020-12-04T02:15:45.000Z
+modified: 2021-05-05T22:03:31.000Z
 ---
 
 Geometry is a very complex data type: accordingly to this, OGC-SFS defines two alternative standard notations allowing to represent Geometry values:

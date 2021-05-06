@@ -1,6 +1,6 @@
 ---
 title: JS Libraries that handle large datasets
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - javascript
   - gis
@@ -8,7 +8,7 @@ tags:
   - big data
 link: null
 created: 2020-08-06T04:22:39.000Z
-modified: 2021-05-02T21:43:58.000Z
+modified: 2021-05-03T20:08:26.000Z
 ---
 
 ## Geospatial

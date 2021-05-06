@@ -1,13 +1,13 @@
 ---
 title: OGC API - An open standard for querying geospatial information on the web
-emoji: 🌍
+emoji: "\U0001F30D"
 tags:
   - ogc
   - gis
   - api
-link: https://docs.opengeospatial.org/is/17-069r3/17-069r3.html
-created: 2021-03-17T10:02:56.000Z
-modified: 2021-04-27T10:02:56.000Z
+link: 'https://docs.opengeospatial.org/is/17-069r3/17-069r3.html'
+created: 2021-04-28T06:43:51.000Z
+modified: 2021-04-28T06:43:51.000Z
 ---
 
 [GitHub](https://github.com/opengeospatial/ogcapi-features)

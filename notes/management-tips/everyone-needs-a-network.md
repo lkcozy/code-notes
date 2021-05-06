@@ -6,7 +6,7 @@ emoji: "\U0001F4A1"
 link: >-
   https://hbr.org/2020/02/build-a-network-even-when-you-dont-think-you-need-one?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs
 created: 2020-06-25T22:26:37.000Z
-modified: 2020-09-09T18:18:45.000Z
+modified: 2021-03-04T20:22:23.000Z
 ---
 
 ## Tip

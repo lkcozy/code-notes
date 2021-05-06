@@ -1,13 +1,13 @@
 ---
 title: How to read a book
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - note
   - methodology
   - efficiency
-link: "https://sspai.com/post/62340"
+link: 'https://sspai.com/post/62340'
 created: 2020-11-20T01:47:15.000Z
-modified: 2020-11-20T01:47:15.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ## Step 1: Overview - establish a context

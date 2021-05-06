@@ -1,12 +1,12 @@
 ---
 title: Lead Through Uncertainty
-emoji: 💡
+emoji: "\U0001F4A1"
 tags:
   - management
   - leadership
-link: https://hbr.org/2021/04/6-strategies-for-leading-through-uncertainty
-created: 2021-05-04T10:29:16.000Z
-modified: 2021-05-04T10:29:16.000Z
+link: 'https://hbr.org/2021/04/6-strategies-for-leading-through-uncertainty'
+created: 2021-05-04T20:13:50.000Z
+modified: 2021-05-04T20:13:50.000Z
 ---
 
 ## Tip

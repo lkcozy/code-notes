@@ -1,13 +1,13 @@
 ---
 title: Academic Writing
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - writing
   - academic
   - research
-link:
-created: 2021-03-14T17:06:56.000Z
-modified: 2021-04-27T17:06:56.000Z
+link: null
+created: 2021-03-22T20:40:15.000Z
+modified: 2021-04-28T06:26:41.000Z
 ---
 
 ## Misc

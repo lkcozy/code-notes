@@ -1,14 +1,15 @@
 ---
-title: Design patterns for high-volume, time-series data in Amazon DynamoDB
-emoji: 📝
+title: 'Design patterns for high-volume, time-series data in Amazon DynamoDB'
+emoji: "\U0001F4DD"
 tags:
   - aws
   - dynamodb
   - database
   - time
-link: https://aws.amazon.com/blogs/database/design-patterns-for-high-volume-time-series-data-in-amazon-dynamodb/
-created: 2021-03-26T20:12:48.000Z
-modified: 2021-03-26T20:12:48.000Z
+link: >-
+  https://aws.amazon.com/blogs/database/design-patterns-for-high-volume-time-series-data-in-amazon-dynamodb/
+created: 2021-03-30T16:55:25.000Z
+modified: 2021-03-30T16:55:25.000Z
 ---
 
 Time-series data requires optimization techniques generally considered to be anti-patterns for DynamoDB. One of these techniques is using `multiple tables for each time period`. This technique maximizes write throughput and optimizes costs for both data that is not accessed frequently and analytical queries.

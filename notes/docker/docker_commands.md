@@ -1,11 +1,11 @@
 ---
 title: Docker Commands
-emoji: 🐳
+emoji: "\U0001F433"
 tags:
   - docker
-link:
-created: 2020-07-12T22:38:08.000Z
-modified: 2021-05-01T22:38:08.000Z
+link: null
+created: 2021-05-04T20:13:50.000Z
+modified: 2021-05-05T02:50:43.000Z
 ---
 
 ## Find Docker Usage

@@ -1,6 +1,6 @@
 ---
 title: VACUUM PostgreSQL Database
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - postgresql
   - sensorThings API
@@ -8,7 +8,7 @@ tags:
   - database
   - analysis
 created: 2020-07-06T16:46:50.000Z
-modified: 2021-02-09T21:43:05.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ## Solution

@@ -1,12 +1,12 @@
 ---
 title: Open Geospatial Standards
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - gis
   - ogc
-link: https://www.gislounge.com/open-geospatial-standards/
-created: 2021-05-03T13:49:44.000Z
-modified: 2021-05-03T13:49:44.000Z
+link: 'https://www.gislounge.com/open-geospatial-standards/'
+created: 2021-05-03T20:08:26.000Z
+modified: 2021-05-03T20:08:26.000Z
 ---
 
 ![](https://live.osgeo.org/archive/10.5/_images/publish_find_bind3.jpg)

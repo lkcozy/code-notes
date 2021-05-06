@@ -9,7 +9,7 @@ tags:
 link: >-
   https://mapscaping.com/blogs/the-mapscaping-podcast/proof-of-location-bringing-the-blockchain-to-the-real-world
 created: 2020-07-20T16:49:36.000Z
-modified: 2020-07-20T16:49:36.000Z
+modified: 2021-03-04T20:22:23.000Z
 ---
 
 ## Title

@@ -1,13 +1,13 @@
 ---
 title: Pandoc-Doc Converter
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - pandoc
   - cli
   - shell
-link: https://github.com/jgm/pandoc
-created: 2021-04-14T11:33:53.000Z
-modified: 2021-04-14T11:33:53.000Z
+link: 'https://github.com/jgm/pandoc'
+created: 2021-04-14T17:50:18.000Z
+modified: 2021-04-14T23:11:23.000Z
 ---
 
 [Online Converter](https://pandoc.org/try/)

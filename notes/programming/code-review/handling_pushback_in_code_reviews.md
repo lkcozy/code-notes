@@ -1,12 +1,12 @@
 ---
 title: Handling pushback in code reviews
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - code-review
   - best-practices
-link: https://google.github.io/eng-practices/review/reviewer/pushback.html
-created: 2021-04-16T14:43:42.000Z
-modified: 2021-04-16T14:43:42.000Z
+link: 'https://google.github.io/eng-practices/review/reviewer/pushback.html'
+created: 2021-04-19T23:30:57.000Z
+modified: 2021-04-19T23:30:57.000Z
 ---
 
 Sometimes a developer will push back on a code review. Either they will disagree with your suggestion or they will complain that you are being too strict in general.

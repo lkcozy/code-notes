@@ -1,10 +1,12 @@
 ---
 title: Chmod
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - sh
   - unix
-link: https://en.wikipedia.org/wiki/Chmod
+link: 'https://en.wikipedia.org/wiki/Chmod'
+created: 2021-03-11T22:28:24.000Z
+modified: 2021-03-11T22:28:24.000Z
 ---
 
 - chmod: change modes, which is used to change access permissions of file systems objects (files and directories)

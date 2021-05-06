@@ -1,12 +1,12 @@
 ---
 title: Chart Libraries
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - js
   - chart
-link:
-created: 2021-05-03T13:51:42.000Z
-modified: 2021-05-03T13:51:42.000Z
+link: null
+created: 2021-05-03T20:08:26.000Z
+modified: 2021-05-03T20:08:26.000Z
 ---
 
 ## [Sketchviz](https://sketchviz.com/new)

@@ -1,13 +1,14 @@
 ---
 title: AWS DynamoDB
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - aws
   - database
   - dynamodb
-link: https://www.serverlesslife.com/DynamoDB_Design_Patterns_for_Single_Table_Design.html
-created: 2021-03-26T20:12:48.000Z
-modified: 2021-03-26T20:12:48.000Z
+link: >-
+  https://www.serverlesslife.com/DynamoDB_Design_Patterns_for_Single_Table_Design.html
+created: 2021-03-05T07:28:49.000Z
+modified: 2021-03-30T16:55:25.000Z
 ---
 
 DynamoDB is designed to `hold a large amount of data`. That is why data is partitioned. When you request the data, you `do not` want to spend time and compute power to `gather data from various tables`. That is why DynamoDB `does not have joins`. The solution is to `store data in a form that is already prepared for our access patterns.`

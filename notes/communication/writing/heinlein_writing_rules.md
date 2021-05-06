@@ -1,11 +1,11 @@
 ---
 title: Heinlein's Writing Rules
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - writing
-link:
-created: 2021-04-07T15:48:56.000Z
-modified: 2021-04-07T15:48:56.000Z
+link: null
+created: 2021-05-03T21:56:32.000Z
+modified: 2021-05-03T21:56:32.000Z
 ---
 
 - Rule One: You Must Write

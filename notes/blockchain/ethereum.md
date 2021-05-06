@@ -1,13 +1,13 @@
 ---
 title: Ethereum
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - js
   - blockchain
   - Ethereum
-link:
-created: 2021-05-05T14:03:57.000Z
-modified: 2021-05-05T14:03:57.000Z
+link: null
+created: 2021-05-05T22:03:31.000Z
+modified: 2021-05-05T22:03:31.000Z
 ---
 
 ## Tools

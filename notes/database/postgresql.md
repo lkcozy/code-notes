@@ -7,7 +7,7 @@ tags:
   - database
 link: null
 created: 2020-07-01T16:33:32.000Z
-modified: 2020-07-22T00:48:08.000Z
+modified: 2021-03-04T20:22:23.000Z
 ---
 
 ## Reinstall PostgreSQL

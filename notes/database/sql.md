@@ -7,7 +7,7 @@ tags:
   - cheatsheet
 link: 'https://codebond.co/tutorial/other/sql-cheatsheet'
 created: 2020-07-11T05:16:40.000Z
-modified: 2020-08-16T05:33:09.000Z
+modified: 2021-03-04T20:22:23.000Z
 ---
 
 ## Create Database

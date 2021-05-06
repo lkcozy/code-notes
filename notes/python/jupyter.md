@@ -1,12 +1,12 @@
 ---
 title: Jupyter-An interactive tool visual data sets and insights
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - python
   - jupyter
 link: null
 created: 2020-08-11T16:49:22.000Z
-modified: 2020-08-11T17:03:35.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ![](http://jupyterlab.io/assets/jupyterpreview.png)

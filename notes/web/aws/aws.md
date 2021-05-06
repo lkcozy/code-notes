@@ -1,11 +1,11 @@
 ---
 title: AWS Service
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - aws
-link: https://adayinthelifeof.nl/2020/05/20/aws.html
-created: 2020-08-14T23:48:18.000Z
-modified: 2021-03-02T05:35:19.000Z
+link: 'https://adayinthelifeof.nl/2020/05/20/aws.html'
+created: 2021-03-05T07:28:49.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ![aws](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3r76jz8za3nz.cloudfront.net%2Fwp-content%2Fuploads%2F2017%2F02%2FAWS-cloud-computing-IaaS.jpg&f=1&nofb=1)

@@ -1,13 +1,13 @@
 ---
 title: YOLO (You only Look Once )-A real-time object detection algorithma
-emoji: 🤖
+emoji: "\U0001F916"
 tags:
   - ai
   - yolo
   - object detection
-link: https://arxiv.org/abs/1506.02640
-created: 2021-04-06T11:02:43.000Z
-modified: 2021-04-06T11:02:43.000Z
+link: 'https://arxiv.org/abs/1506.02640'
+created: 2021-04-06T19:48:18.000Z
+modified: 2021-04-14T23:11:23.000Z
 ---
 
 YOLO is a state-of-art real-time object detection algorithm.

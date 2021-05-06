@@ -1,13 +1,13 @@
 ---
 title: AWS MQ-Message broker service
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - aws
   - iot
   - mqtt
-link:
-created: 2021-03-16T15:38:55.000Z
-modified: 2021-03-16T15:38:55.000Z
+link: null
+created: 2021-03-18T16:00:21.000Z
+modified: 2021-04-14T23:11:23.000Z
 ---
 
 Amazon MQ is a managed `message broker service` for Apache ActiveMQ and RabbitMQ that makes it easy to set up and operate message brokers in the cloud.

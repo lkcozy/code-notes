@@ -1,11 +1,11 @@
 ---
 title: Git-Version control system
-emoji: 💡
+emoji: "\U0001F4A1"
 tags:
   - git
   - cheatsheet
 created: 2020-06-24T07:06:39.000Z
-modified: 2021-05-01T23:30:00.000Z
+modified: 2021-05-03T20:08:26.000Z
 ---
 
 ## Alias

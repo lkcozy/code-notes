@@ -1,11 +1,11 @@
 ---
 title: jq-A command-line JSON processor
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - json
-link: "https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/"
+link: 'https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/'
 created: 2021-03-02T05:35:19.000Z
-modified: 2021-03-02T05:35:19.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 [jq playground](https://jqplay.org/)

@@ -1,13 +1,13 @@
 ---
 title: DA2PP Vaccine
-emoji: 🐶
+emoji: "\U0001F436"
 tags:
   - note
   - dog
   - vaccine
-link: https://www.petsepark.com/2019/10/13/da2pp-vaccine-for-dogs/
-created: 2021-05-02T17:57:39.000Z
-modified: 2021-05-02T17:57:39.000Z
+link: 'https://www.petsepark.com/2019/10/13/da2pp-vaccine-for-dogs/'
+created: 2021-05-03T20:08:26.000Z
+modified: 2021-05-03T20:08:26.000Z
 ---
 
 DA2PP vaccine for dogs is an essential vaccine given whether they are puppies or adult pets. It is important to protect them against several diseases that are serious, contagious, and can possibly result in fatal condition.

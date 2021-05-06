@@ -1,12 +1,12 @@
 ---
 title: Node.js
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - node
   - javascript
-link: "https://github.com/goldbergyoni/nodebestpractices"
+link: 'https://github.com/goldbergyoni/nodebestpractices'
 created: 2020-07-22T00:48:08.000Z
-modified: 2020-07-22T00:48:08.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ## [Best Practices](https://github.com/goldbergyoni/nodebestpractices)

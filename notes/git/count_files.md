@@ -1,11 +1,11 @@
 ---
 title: Count changed files
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - git
-link:
-created: 2021-04-12T20:10:44.000Z
-modified: 2021-04-12T20:10:44.000Z
+link: null
+created: 2021-04-13T02:14:22.000Z
+modified: 2021-04-13T02:14:22.000Z
 ---
 
 ```sh

@@ -1,12 +1,12 @@
 ---
 title: General Writing
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - writing
   - communication
-link:
-created: 2021-03-14T17:08:09.000Z
-modified: 2021-04-27T17:08:09.000Z
+link: null
+created: 2021-03-15T16:13:36.000Z
+modified: 2021-05-04T20:13:50.000Z
 ---
 
 ## Tech

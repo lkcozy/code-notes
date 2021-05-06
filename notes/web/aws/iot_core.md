@@ -1,12 +1,13 @@
 ---
 title: AWS IoT Core
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - aws
   - iot
-link: https://dev.to/techmagic/aws-iot-platform-for-the-internet-of-things-benefits-examples-5fb0
-created: 2021-03-16T15:35:16.000Z
-modified: 2021-03-16T15:35:16.000Z
+link: >-
+  https://dev.to/techmagic/aws-iot-platform-for-the-internet-of-things-benefits-examples-5fb0
+created: 2021-03-18T16:00:21.000Z
+modified: 2021-03-22T20:40:49.000Z
 ---
 
 AWS IoT core could provide the `scalability, agility, security and high availability`.

@@ -4,9 +4,9 @@ emoji: "\U0001F40D"
 tags:
   - python
   - analysis
-link: "https://github.com/datapane/datapane/"
+link: 'https://github.com/datapane/datapane/'
 created: 2020-06-26T21:24:54.000Z
-modified: 2020-07-06T17:04:14.000Z
+modified: 2021-04-14T23:11:23.000Z
 ---
 
 ![](https://camo.githubusercontent.com/c99c761de24cc2d4642483d3ffa1a60bace989aca4fac0cdaf1e917f3dc79eba/68747470733a2f2f696d6775722e636f6d2f50546953434d302e706e67)

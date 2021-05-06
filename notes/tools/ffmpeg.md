@@ -4,9 +4,9 @@ tags:
   - cli
   - video
   - audio
-link: "https://sspai.com/post/60772"
+link: 'https://sspai.com/post/60772'
 created: 2020-06-25T22:26:37.000Z
-modified: 2021-04-14T22:02:32.000Z
+modified: 2021-04-14T23:11:23.000Z
 ---
 
 FFmpeg is a free and open-source software project consisting of a large suite of libraries and programs for handling video, audio, and other multimedia files and streams.

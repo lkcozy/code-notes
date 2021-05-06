@@ -1,13 +1,13 @@
 ---
 title: Clean way of writing multiple useMutation custom hooks
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - react
   - graphql
 link: >-
   https://stackoverflow.com/questions/63967225/react-query-clean-way-of-writing-multiple-usemutation-custom-hooks
 created: 2020-11-18T23:26:04.000Z
-modified: 2020-11-18T23:26:04.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 ```js

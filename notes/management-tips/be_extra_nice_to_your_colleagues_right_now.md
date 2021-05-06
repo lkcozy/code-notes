@@ -6,7 +6,7 @@ tags:
 link: >-
   https://hbr.org/2020/03/what-your-coworkers-need-right-now-is-compassion?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs
 created: 2020-07-07T17:20:02.000Z
-modified: 2020-09-09T18:18:45.000Z
+modified: 2021-03-04T20:22:23.000Z
 ---
 
 ## Tip

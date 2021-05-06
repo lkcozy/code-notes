@@ -1,15 +1,15 @@
 ---
 title: Hacker Laws
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - laws
   - theories
   - principles
   - patterns
   - develop
-link: "https://github.com/dwmkerr/hacker-laws"
+link: 'https://github.com/dwmkerr/hacker-laws'
 created: 2020-07-22T00:48:08.000Z
-modified: 2021-03-22T00:48:08.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 Laws, Theories, Principles and Patterns that developers will find useful.

@@ -1,12 +1,12 @@
 ---
 title: P(rocess) M(anager) 2
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - pm2
   - cli
-link: "https://github.com/Unitech/pm2"
+link: 'https://github.com/Unitech/pm2'
 created: 2020-09-24T05:00:14.000Z
-modified: 2020-09-24T05:00:14.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 PM2 is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.

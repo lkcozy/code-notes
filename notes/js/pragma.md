@@ -1,13 +1,14 @@
 ---
 title: pragma - a directive indicates how the contents should be compiled
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - js
   - react
   - web
-link: https://dev.to/gugadev/use-custom-elements-in-react-using-a-custom-jsx-pragma-3kc
-created: 2021-05-05T13:38:33.000Z
-modified: 2021-05-05T13:38:33.000Z
+link: >-
+  https://dev.to/gugadev/use-custom-elements-in-react-using-a-custom-jsx-pragma-3kc
+created: 2021-05-05T22:03:31.000Z
+modified: 2021-05-05T22:03:31.000Z
 ---
 
 A pragma (short for "pragmatic information") is a compiler directive. It tells the compiler how it should handle the contents of a file.

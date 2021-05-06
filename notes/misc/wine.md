@@ -1,11 +1,11 @@
 ---
 title: Wine 101
-emoji: 🍷
+emoji: "\U0001F377"
 tags:
   - wine
-link: https://www.youtube.com/watch?v=2lkk0_aZrVQ
-created: 2021-03-29T14:36:40.000Z
-modified: 2021-03-29T14:36:40.000Z
+link: 'https://www.youtube.com/watch?v=2lkk0_aZrVQ'
+created: 2021-03-30T16:55:25.000Z
+modified: 2021-03-30T16:55:25.000Z
 ---
 
 ![](https://media.winefolly.com/white-vs-red-wine-fermentation-winefolly.jpg)

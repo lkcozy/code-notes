@@ -1,14 +1,14 @@
 ---
 title: Testing Strategies in a Microservice Architecture
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - web
   - test
   - microservice
   - architecture
-link: https://martinfowler.com/articles/microservice-testing/
-created: 2021-03-22T17:33:26.000Z
-modified: 2021-03-22T17:33:26.000Z
+link: 'https://martinfowler.com/articles/microservice-testing/'
+created: 2021-03-26T20:36:09.000Z
+modified: 2021-03-26T20:36:09.000Z
 ---
 
 ## Microservice Architecture Style

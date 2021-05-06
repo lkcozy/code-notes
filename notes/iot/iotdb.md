@@ -1,11 +1,11 @@
 ---
 title: IoTDB-A data management system for time series data
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - iot
-link: "https://github.com/apache/incubator-iotdb"
+link: 'https://github.com/apache/incubator-iotdb'
 created: 2020-08-04T22:05:52.000Z
-modified: 2020-08-04T22:05:52.000Z
+modified: 2021-04-20T16:05:46.000Z
 ---
 
 IoTDB (Internet of Things Database) is a data management system for time series data, which can provide users specific services, such as, data collection, storage and analysis. Due to its light weight structure, high performance and usable features together with its seamless integration with the Hadoop and Spark ecology, IoTDB meets the requirements of massive dataset storage, high throughput data input, and complex data analysis in the industrial IoT field.

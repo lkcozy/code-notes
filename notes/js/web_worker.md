@@ -1,13 +1,13 @@
 ---
 title: Web Workers- web content to run scripts in background threads
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - js
   - nodejs
   - web
-link: https://www.hongkiat.com/blog/web-workers-javascript-api/
-created: 2021-05-02T18:50:08.000Z
-modified: 2021-05-02T18:50:08.000Z
+link: 'https://www.hongkiat.com/blog/web-workers-javascript-api/'
+created: 2021-05-03T20:08:26.000Z
+modified: 2021-05-03T20:08:26.000Z
 ---
 
 Web Workers is a JavaScript API that allows you to run scripts in a separate thread from the main one.

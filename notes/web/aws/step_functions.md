@@ -1,12 +1,12 @@
 ---
 title: AWS Step Functions
-emoji: 📝
+emoji: "\U0001F4DD"
 tags:
   - aws
   - step functions
-link: https://aws.amazon.com/step-functions/
-created: 2021-03-16T15:38:55.000Z
-modified: 2021-03-16T15:38:55.000Z
+link: 'https://aws.amazon.com/step-functions/'
+created: 2021-03-05T07:28:49.000Z
+modified: 2021-04-14T23:11:23.000Z
 ---
 
 AWS Step Functions is a serverless function orchestrator that makes it easy to sequence AWS Lambda functions and multiple AWS services into business-critical applications.
