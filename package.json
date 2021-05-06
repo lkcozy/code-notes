@@ -9,10 +9,10 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
-    "gatsby": "^3.4.0",
-    "gatsby-plugin-manifest": "^3.4.0",
-    "gatsby-plugin-offline": "^4.4.0",
-    "gatsby-theme-code-notes": "^2.3.0",
+    "gatsby": "^2.32.2",
+    "gatsby-plugin-manifest": "^2.12.0",
+    "gatsby-plugin-offline": "^3.10.0",
+    "gatsby-theme-code-notes": "2.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -30,7 +30,7 @@
   },
   "lint-staged": {
     "{*.md,*.mdx}": [
-      "yarn stats"
+      "yarn count:notes"
     ]
   },
   "scripts": {
