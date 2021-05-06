@@ -1,12 +1,14 @@
 ---
-title: Puppeteer-Headless Chrome Node.js API
+title: Puppeteer-The API to control the browsers programmatically
 emoji: "\U0001F4DD"
 tags:
   - note
   - js
   - test
   - web
-link: null
+  - scraping
+  - automation
+link: https://oxylabs.io/blog/puppeteer-tutorial
 created: 2021-05-03T20:08:26.000Z
 modified: 2021-05-03T20:08:26.000Z
 ---
