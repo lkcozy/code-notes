@@ -30,7 +30,6 @@
   },
   "lint-staged": {
     "{*.md,*.mdx}": [
-      "yarn timestamp",
       "yarn stats"
     ]
   },
