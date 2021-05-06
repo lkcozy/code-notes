@@ -4,22 +4,32 @@ module.exports = {
     title: "L&W Code Notes",
     description: `Code-related notes and snippets`,
     author: "Kan Luo",
+    keywords: [
+      "gis",
+      "ogc",
+      "sensorthings",
+      "blockchain",
+      "ethereum",
+      "js",
+      "react",
+      "nodejs",
+    ],
   },
   plugins: [
     {
       resolve: "gatsby-theme-code-notes",
       options: {
-        contentPath: "notes",
         basePath: "/",
-        logo:
-          "https://raw.githubusercontent.com/lkcozy/code-notes/master/assets/logo.png",
-        showThemeInfo: false,
-        showDescriptionInSidebar: true,
+        contentPath: "notes",
         gitRepoContentPath:
           "https://github.com/lkcozy/code-notes/tree/master/notes/",
+        showDescriptionInSidebar: true,
+        showThemeInfo: false,
         openSearch: {
           siteUrl: "http://lkcozy.github.io/code-notes",
         },
+        logo:
+          "https://raw.githubusercontent.com/lkcozy/code-notes/master/assets/logo.png",
         showDate: true,
       },
     },
@@ -35,12 +45,6 @@ module.exports = {
         display: `standalone`,
         icon: `assets/logo.png`,
         showDate: true,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: [`/*`, `/tag/*`],
       },
     },
   ],

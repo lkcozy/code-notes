@@ -6,7 +6,6 @@
   "repository": "git@github.com:lkcozy/code-notes.git",
   "author": "Kan Luo <lkklcozy@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
   "private": true,
   "dependencies": {
     "gatsby": "^2.32.2",
@@ -35,19 +34,19 @@
   },
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean",
     "serve": "gatsby serve",
     "count:notes": "git ls-files notes| wc -l",
     "stats": "./scripts/stats.sh",
     "timestamp": "frontmatter-date-setter --directory='notes' --fileExtension=.md --fileExtension=.mdx",
     "predeploy": "yarn timestamp",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "yarn build && gh-pages -d public",
+    "preversion": "yarn count:notes",
     "version:base": "yarn version --no-commit-hooks",
     "version:major": "yarn version:base --major",
     "version:minor": "yarn version:base --minor",
     "version:patch": "yarn version:base --patch",
-    "preversion": "yarn count:notes",
     "postversion": "git push --tags && git push && echo \"Successfully released version $npm_package_version!\""
   }
 }

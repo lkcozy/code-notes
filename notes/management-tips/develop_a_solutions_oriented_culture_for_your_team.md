@@ -8,25 +8,21 @@ created: 2021-05-05T22:03:31.000Z
 modified: 2021-05-05T22:03:31.000Z
 ---
 
-## Mindmap
-
-<iframe height='600' style='width: 100%;' scrolling='no' title='mindmap' src='' frameborder='no' allowtransparency='true' allowfullscreen='true' />
-
 ## Tip
 
 When presented with new initiatives, some teams are really good at spotting potential problems. They readily ask tough questions and point out possible risks. But a team overly focused on finding problems, rather than solving them, can be detrimental to morale and productivity. So how do you change your team’s culture to become more solutions oriented? Here are a few dos and don’ts:
 
 Do:
 
-- Practice what you preach. Role model the problem-solving behavior and attitude you’d like to see in your team.
-- Identify a trigger word to remind team members to focus on solutions. That way, when conversations veer off course, colleagues can help get it back on track.
+- **Practice what you preach**. Role model the problem-solving behavior and attitude you’d like to see in your team.
+- **Identify a trigger word to remind team members to focus on solutions.** That way, when conversations veer off course, colleagues can help get it back on track.
 - Reflect on how you can create an environment that allows for both creativity and critical thinking.
 
 Don’t:
 
-- Ignore or discount resistance to an obstacle. Instead, explore possible solutions by asking questions.
-- Go it alone. Invite a consultant or a member of a different department to attend a team meeting. They might spark new strands of conversation.
-- Be stingy with compliments. Publicly acknowledging team members’ creative thinking helps increase the sense that norms are shifting.
+- **Ignore or discount resistance to an obstacle**. Instead, explore possible solutions by asking questions.
+- **Go it alone**. Invite a consultant or a member of a different department to attend a team meeting. They might spark new strands of conversation.
+- **Be stingy with compliments**. Publicly acknowledging team members’ creative thinking helps increase the sense that norms are shifting.
 
 ## Translations
 
