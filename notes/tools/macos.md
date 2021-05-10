@@ -5,7 +5,7 @@ tags:
   - macos
   - tools
 created: 2020-06-29T05:54:14.000Z
-modified: 2021-03-30T16:55:25.000Z
+modified: 2021-05-07T16:55:25.000Z
 ---
 
 ## Tutorial
@@ -37,6 +37,12 @@ Reduce File Size (150 dpi, high quality)
 ![](https://blog.macsales.com/wp-content/uploads/2020/07/Preview_updatedFiltersList.jpg)
 
 ## Tools
+
+### [Triangula](https://github.com/RH12503/Triangula)
+
+![](https://github.com/RH12503/triangula/raw/main/assets/triangula.gif)
+
+An iterative algorithm to generate high quality triangulated images.
 
 ### [SwitchHosts](https://github.com/oldj/SwitchHosts)
 

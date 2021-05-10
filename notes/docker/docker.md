@@ -6,7 +6,7 @@ tags:
   - github
   - postgresql
   - database
-link: 'https://docs.docker.com/get-started/overview/'
+link: "https://docs.docker.com/get-started/overview/"
 created: 2020-07-02T20:13:36.000Z
 modified: 2021-04-14T23:11:23.000Z
 ---
@@ -137,3 +137,37 @@ A step-by-step introduction to how the official Python Docker image is made, and
 - [Dockerfile Security Best Practices](https://cloudberry.engineering/article/dockerfile-security-best-practices/)
 
 Container security is a broad problem space and there are many low hanging fruits one can harvest to mitigate risks. A good starting point is to follow some rules when writing Dockerfiles.
+
+## Examples
+
+- [Full-stack monorepo - Part I: Go services](https://medium.com/burak-tasci/full-stack-monorepo-part-i-go-services-967bb3527bb8)
+
+```Dockerfile
+# Start from golang base image
+FROM golang:1.13-alpine as builder
+
+# Set the current working directory inside the container
+WORKDIR /build
+
+# Copy go.mod, go.sum files and download deps
+COPY go.mod go.sum ./
+RUN go mod download
+
+# Copy sources to the working directory
+COPY . .
+
+# Build the Go app
+ARG project
+RUN GOOS=linux CGO_ENABLED=0 GOARCH=amd64 go build -a -v -o server $project
+
+# Start a new stage from busybox
+FROM busybox:latest
+
+WORKDIR /dist
+
+# Copy the build artifacts from the previous stage
+COPY --from=builder /build/server .
+
+# Run the executable
+CMD ["./server"]
+```

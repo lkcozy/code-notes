@@ -35,6 +35,14 @@ modified: 2021-05-04T20:13:50.000Z
 - While some doctors `are skeptical of` AI, others may trust it too much, which also can lead to errors.
 - Practitioners in 'a wide variety of fields will need to `cultivate a balance `between `skepticism and trust` in machine learning systems.
 - This is `extensively` discussed in the repo.
+- AWS Lambda and API Gateway are incredible flexible, but they can `be tedious to` set up, especially for simple scenarios.
+- Generic frameworks support more runtimes, but leave the developers to deal with language-specific issues.
+- It s a trap. Avoid focusing on `vanity metrics` in software testing.
+- Because these vanity metrics — not always a true reflection of quality.
+- The only way to avoid more bugs is to not ship more software, and that’s not a solution.
+- Many tests are useless because they are incredibly unlikely to fail.
+- The amount of effort invested, versus having a set of smoke tests of critical features was very `arguably a misuse of time`
+- The hard work comes `when we get into` refactoring and consolidation.
 
 ## General
 
@@ -45,6 +53,7 @@ modified: 2021-05-04T20:13:50.000Z
 - This `intriguing` book is both thoughtful and informative.
 - `Factoring in`(Considering) its construction and operation, the drone cost $85 million.
 - `Effortlessly` go from the golf course to dinner in this `tastefully striped` cotton polo.
+- She `bluntly`(directly,without considering other people's feeling) said that didn’t matter.
 
 ## Management
 
