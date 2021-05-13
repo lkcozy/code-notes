@@ -27,9 +27,6 @@
       "created: $CURRENT_YEAR-$CURRENT_MONTH-${CURRENT_DATE}T$CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND.000Z",
       "modified: $CURRENT_YEAR-$CURRENT_MONTH-${CURRENT_DATE}T$CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND.000Z",
       "---",
-      "## Mindmap",
-      "",
-      "<iframe height='600' style='width: 100%;' scrolling='no' title='mindmap' src='' frameborder='no' allowtransparency='true' allowfullscreen='true' />",
       "",
       "## Tip",
       "",
@@ -38,7 +35,11 @@
       "<details>",
       "   <summary>🇨🇳</summary>",
       "",
-      "</details>"
+      "</details>",
+      "",
+      "## Mindmap",
+      "",
+      "<iframe height='600' style='width: 100%;' scrolling='no' title='mindmap' src='' frameborder='no' allowtransparency='true' allowfullscreen='true' />"
     ],
     "description": "Management Tips"
   },
