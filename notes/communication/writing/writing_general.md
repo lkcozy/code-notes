@@ -43,6 +43,9 @@ modified: 2021-05-04T20:13:50.000Z
 - Many tests are useless because they are incredibly unlikely to fail.
 - The amount of effort invested, versus having a set of smoke tests of critical features was very `arguably a misuse of time`
 - The hard work comes `when we get into` refactoring and consolidation.
+- The reason for this is the `sheer size `of the network of IoT devices that can locate AirTags.
+- The issue count doesn’t `correlate` to code quality
+- The urql has `advantages over` Apollo Client `when it comes to` its unified community, great documentation, and first-party plugins and caching system.
 
 ## General
 
@@ -54,6 +57,8 @@ modified: 2021-05-04T20:13:50.000Z
 - `Factoring in`(Considering) its construction and operation, the drone cost $85 million.
 - `Effortlessly` go from the golf course to dinner in this `tastefully striped` cotton polo.
 - She `bluntly`(directly,without considering other people's feeling) said that didn’t matter.
+- Writing is the act of dissecting ideas and putting them back together again.
+- The best way to understand an idea is to pull it apart and put it back together again, which you do by writing.
 
 ## Management
 

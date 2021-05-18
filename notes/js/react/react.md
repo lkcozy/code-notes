@@ -5,10 +5,14 @@ tags:
   - react
   - javascript
   - ui
-link: 'https://reactjs.org/'
+link: "https://reactjs.org/"
 created: 2020-07-20T16:49:36.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
+
+### Cheat Sheet
+
+- [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react): Cheatsheets for experienced React developers getting started with TypeScript
 
 ## Libraries
 
