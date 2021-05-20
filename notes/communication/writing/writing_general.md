@@ -43,7 +43,7 @@ modified: 2021-05-20T20:13:50.000Z
 - Many tests are useless because they are incredibly unlikely to fail.
 - The amount of effort invested, versus having a set of smoke tests of critical features was very `arguably a misuse of time`
 - The hard work comes `when we get into` refactoring and consolidation.
-- The reason for this is the `sheer size `of the network of IoT devices that can locate AirTags.
+- The reason for this is the `sheer size` of the network of IoT devices that can locate AirTags.
 - The issue count doesn’t `correlate` to code quality
 - The urql has `advantages over` Apollo Client `when it comes to` its unified community, great documentation, and first-party plugins and caching system.
 
@@ -69,3 +69,8 @@ modified: 2021-05-20T20:13:50.000Z
 - This is a perfect opportunity to `reflect on` how you want your team to operate differently going forward.
 - Start by `identifying` which new practices were successful, why they were successful, and `under which circumstance` they'll continue to be useful.
 - Most people will `instinctively` revert to old routines. So `reinforce` the new practices and procedures until they `turn into` habits.
+- When you develop a reasonable narrative, you can `proactively` address these concerns and make the best possible impression.
+- Focus on you accomplishments `rather than` your time spent in each role.
+- `Emphasize` how working alongside different leadership styles has `contributed to` your professional growth.
+- Highlight how each experience `exposed you to` best practices.
+- Shifting your mindset `in this way` will help you start to build genuine relationship.
