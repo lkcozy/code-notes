@@ -6,7 +6,7 @@ tags:
   - communication
 link: null
 created: 2021-03-15T16:13:36.000Z
-modified: 2021-05-04T20:13:50.000Z
+modified: 2021-05-20T20:13:50.000Z
 ---
 
 ## Tech
@@ -66,3 +66,6 @@ modified: 2021-05-04T20:13:50.000Z
 - You have to `lead through collaboration` and `cajoling(persuading)`, not control.
 - Like trust, respect is also something you earn-and by `leading through your actions, not your words`.
 - Taking a broad, systemic view of the issues at hand
+- This is a perfect opportunity to `reflect on` how you want your team to operate differently going forward.
+- Start by `identifying` which new practices were successful, why they were successful, and `under which circumstance` they'll continue to be useful.
+- Most people will `instinctively` revert to old routines. So `reinforce` the new practices and procedures until they `turn into` habits.
