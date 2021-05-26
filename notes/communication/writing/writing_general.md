@@ -6,7 +6,7 @@ tags:
   - communication
 link: null
 created: 2021-03-15T16:13:36.000Z
-modified: 2021-05-20T20:13:50.000Z
+modified: 2021-05-24T20:13:50.000Z
 ---
 
 ## Tech
@@ -46,6 +46,8 @@ modified: 2021-05-20T20:13:50.000Z
 - The reason for this is the `sheer size` of the network of IoT devices that can locate AirTags.
 - The issue count doesn’t `correlate` to code quality
 - The urql has `advantages over` Apollo Client `when it comes to` its unified community, great documentation, and first-party plugins and caching system.
+- Show `initiative` by finding answers on your own if they're already published.
+- Having a bug tracking system doesn't `make` bug handling `efficient` and CI/CD doesn't mean your time to deliver `is necessarily short`.
 
 ## General
 
@@ -59,6 +61,7 @@ modified: 2021-05-20T20:13:50.000Z
 - She `bluntly`(directly,without considering other people's feeling) said that didn’t matter.
 - Writing is the act of dissecting ideas and putting them back together again.
 - The best way to understand an idea is to pull it apart and put it back together again, which you do by writing.
+- Remember that things tend to be fluid, re-organizations happens often
 
 ## Management
 
@@ -74,3 +77,6 @@ modified: 2021-05-20T20:13:50.000Z
 - `Emphasize` how working alongside different leadership styles has `contributed to` your professional growth.
 - Highlight how each experience `exposed you to` best practices.
 - Shifting your mindset `in this way` will help you start to build genuine relationship.
+- Scrum is a way to take a below average or poor developer and `turn them into` an average developer.
+- It's also great at taking great developers and turning them into average developers.
+- Scrum exists because managers don't trust developers to get things done without constant supervision.
