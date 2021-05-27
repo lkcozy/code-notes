@@ -14,6 +14,20 @@ modified: 2021-04-20T16:05:46.000Z
 
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react): Cheatsheets for experienced React developers getting started with TypeScript
 
+### Performance
+
+- Lazy load images
+
+```html
+<img src="/earth.jpeg" loading="lazy" />
+```
+
+- Lazy load all your routes
+
+```jsx
+const Home = React.lazy(() => import("../component/Home"));
+```
+
 ## Libraries
 
 ### Framework
@@ -72,8 +86,10 @@ modified: 2021-04-20T16:05:46.000Z
 
 ## Tutorial
 
+- [5 Advanced React Patterns](https://javascript.plainenglish.io/5-advanced-react-patterns-a6b7624267a6)
+
 - [Why I Stopped Using Redux](https://dev.to/g_abud/why-i-quit-redux-1knl)
--
+
 - [On the direction of react performance optimization](https://developpaper.com/on-the-direction-of-react-performance-optimization/)
 
 ![](https://imgs.developpaper.com/imgs/vl.png)
