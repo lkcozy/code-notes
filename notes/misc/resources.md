@@ -7,8 +7,14 @@ tags:
   - resources
 link: null
 created: 2020-07-26T23:48:33.000Z
-modified: 2021-05-03T20:08:26.000Z
+modified: 2021-05-31T20:08:26.000Z
 ---
+
+## [QuillBot](https://quillbot.com/)
+
+QuillBot's paraphraser will re-write your text but keep the meaning.
+
+QuillBot's summarizer can quickly condense articles, papers, or documents to the key points.
 
 ## [Js Image Carver Content Aware Image Resizer](https://trekhleb.dev/js-image-carver/)
 

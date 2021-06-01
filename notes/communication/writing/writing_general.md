@@ -62,6 +62,9 @@ modified: 2021-05-24T20:13:50.000Z
 - Writing is the act of dissecting ideas and putting them back together again.
 - The best way to understand an idea is to pull it apart and put it back together again, which you do by writing.
 - Remember that things tend to be fluid, re-organizations happens often
+- But by ignoring the `wisdom of crowds`, he’s attracted `an ocean of like-minded` super fans.
+- Depending on the article, you can `either` write for yourself `or` one other person.
+- My writing is `a protest against` the superficial babble that passes for `intellectual discourse.`
 
 ## Management
 
@@ -80,3 +83,4 @@ modified: 2021-05-24T20:13:50.000Z
 - Scrum is a way to take a below average or poor developer and `turn them into` an average developer.
 - It's also great at taking great developers and turning them into average developers.
 - Scrum exists because managers don't trust developers to get things done without constant supervision.
+- He’s a `well-read` startup founder whose `appetite for rigorous thinking` is balanced by an impatience for `hollow ideas`
