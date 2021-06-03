@@ -10,9 +10,9 @@ modified: 2021-06-02T15:44:05.000Z
 ---
 
 - Interview questions for juniors and seniors have a different goal.
-
 - In the `junior` case we are interested in figuring out if there is a `potential` in the candidate to become `productive`
 - In the `senior` case we are looking for `experience`.
+- **When interviewing strong candidates, you should leave the interview feeling like you learned something from them.**
 
 ## [Senior React interview questions](https://raw.githubusercontent.com/fChristenson/senior-react-interview-questions/master/README.md)
 
