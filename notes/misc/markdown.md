@@ -3,10 +3,18 @@ title: Markdown
 emoji: "\U0001F4DD"
 tags:
   - markdown
-link: 'https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet'
+link: "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
 created: 2021-04-06T19:36:16.000Z
 modified: 2021-04-06T19:36:16.000Z
 ---
+
+## Tools
+
+### [Narakeet](https://www.narakeet.com/docs/script/#more-examples)
+
+![](https://www.narakeet.com/assets/howto/nk-script-screencast-20200829-pic-x304.jpg)
+
+Narakeet makes it easy to script videos using plain text (Markdown) files.
 
 ## [Writing Mathematic Fomulars in Markdown](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/)
 

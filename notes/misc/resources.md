@@ -45,3 +45,11 @@ The xiezuocat is focusd on providing AI assistance to professionals through tech
 ![](https://tools.pdf24.org/static/img/creator/ui_file_tools_1_thumb.jpg?v=5d19dac8)
 
 ## [Connected Papers-A visual tool for academic research](https://medium.com/connectedpapers/connected-papers-partners-with-arxiv-8ce8122f6b4c)
+
+## [unscreen](https://www.unscreen.com/): Remove Video Background
+
+## [Tools for better thinking](https://untools.co/)
+
+![](https://camo.githubusercontent.com/6a7a8fe3e4a3d3fd7d17caa8955ced88938502c2/68747470733a2f2f7777772e77616e67626173652e636f6d2f626c6f67696d672f61737365742f3230323030352f6267323032303035333030352e6a7067)
+
+Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.

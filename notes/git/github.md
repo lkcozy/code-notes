@@ -8,8 +8,12 @@ tags:
   - cli
 link: https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/
 created: 2020-07-18T05:59:45.000Z
-modified: 2021-04-20T16:05:46.000Z
+modified: 2021-06-04T16:05:46.000Z
 ---
+
+## [octokit.js](https://github.com/octokit/octokit.js)
+
+The all-batteries included GitHub SDK for Browsers, Node.js, and Deno.
 
 ## [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 

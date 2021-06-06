@@ -5,8 +5,16 @@ tags:
   - git
   - cheatsheet
 created: 2020-06-24T07:06:39.000Z
-modified: 2021-05-19T20:08:26.000Z
+modified: 2021-06-06T20:08:26.000Z
 ---
+
+## Tools
+
+- [git-split-diffs](https://github.com/banga/git-split-diffs)
+
+![](https://github.com/banga/git-split-diffs/raw/main/screenshots/dark.png?raw=true)
+
+GitHub style split diffs with syntax highlighting in your terminal.
 
 ## Undoing Mistakes
 

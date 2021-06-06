@@ -9,6 +9,10 @@ created: 2020-07-20T16:49:36.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
 
+## [You Don't Need GUI](https://github.com/you-dont-need/You-Dont-Need-GUI)
+
+A curated list of commands to execute everyday tasks which might be tempted to do in GUI.
+
 ## [Help message for shell scripts](https://samizdat.dev/help-message-for-shell-scripts/)
 
 ```sh

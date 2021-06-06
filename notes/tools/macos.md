@@ -5,7 +5,7 @@ tags:
   - macos
   - tools
 created: 2020-06-29T05:54:14.000Z
-modified: 2021-05-07T16:55:25.000Z
+modified: 2021-06-06T16:55:25.000Z
 ---
 
 ## Tutorial
@@ -37,6 +37,12 @@ Reduce File Size (150 dpi, high quality)
 ![](https://blog.macsales.com/wp-content/uploads/2020/07/Preview_updatedFiltersList.jpg)
 
 ## Tools
+
+### [Touch Bar System Monitor](https://github.com/spagnuolocarmine/touchbar-systemmonitor/blob/master/README.md)
+
+![](https://raw.githubusercontent.com/spagnuolocarmine/touchbar-systemmonitor/master/screenshots/touchbar_systemmonitor3.gif?token=ACPXSE7ILAQY5H4V4VO2B526OUIEQ)
+
+A better simple reactive system monitor on macOS for your MacBook pro. It was built with Electron.
 
 ### [Triangula](https://github.com/RH12503/Triangula)
 

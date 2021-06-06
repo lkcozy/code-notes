@@ -71,10 +71,12 @@ const Home = React.lazy(() => import("../component/Home"));
 
 ### State Management
 
+- [Recoil](https://github.com/facebookexperimental/Recoil): A new State Management Library for React
 - [Constate](https://github.com/diegohaz/constate): write local state using React Hooks and lift it up to React Context only when needed with minimum effort.
 - [Redux](https://github.com/reduxjs/redux): a predictable state container for JavaScript apps; `single store with objects`
 - [MobX](https://github.com/mobxjs/mobx): a simple scalable state management. `multiple stores` (one for the UI state and one or more for the domain state ) `with observable/noticeable data` to automatically track changes through subscriptions
   ![mobx](https://mobx.js.org/assets/getting-started-assets/overview.png)
+- [hookstate](https://github.com/avkonst/hookstate): a simple but compelling and swift state management for React that is based on hooks
 
 ### Test
 
