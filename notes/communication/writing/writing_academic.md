@@ -7,7 +7,7 @@ tags:
   - research
 link: null
 created: 2021-03-22T20:40:15.000Z
-modified: 2021-04-28T06:26:41.000Z
+modified: 2021-06-06T06:26:41.000Z
 ---
 
 ## Misc
@@ -19,7 +19,7 @@ modified: 2021-04-28T06:26:41.000Z
 
 ## Introduction
 
-- Our goal is to explore the option of developing a system that facilitates anonymity and trustworthiness. To achieve this, the following objectives are outlined:
+- Our goal is to explore the option of developing a system that facilitates anonymity and trustworthiness. To achieve this, the following objectives are outlined
 
 ## Challenges
 
@@ -29,6 +29,11 @@ modified: 2021-04-28T06:26:41.000Z
 
 - Current IoT, access management technologies, are based `on centralized models` which introduce a new variety of technical `limitations to manage them globally.`
 - Centralized access control systems `lack the ability to deal with` increased load efficiently
+
+## Contribution
+
+- We have analyzed a collection of documents and generated a survey regarding the use of blockchain within information systems.
+- The survey contains a brief reporting on several different study.
 
 ## Objectives
 
@@ -42,6 +47,7 @@ modified: 2021-04-28T06:26:41.000Z
 - The various primary layers are described as follows
 - The data that is stored in the cache is not stored in the raw form. Instead, it is encrypted using an asymmetric encryption technique.
 - The architecture is backed by a proof of concept implementation and evaluated in realistic IoT scenarios
+- The following discourse(serious discussion) contains out analysis and understanding of blockchain and its `implications` as well as impacts on information system altogether.
 
 ## Related Work
 
