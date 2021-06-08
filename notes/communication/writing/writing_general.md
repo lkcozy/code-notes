@@ -48,6 +48,8 @@ modified: 2021-05-24T20:13:50.000Z
 - The urql has `advantages over` Apollo Client `when it comes to` its unified community, great documentation, and first-party plugins and caching system.
 - Show `initiative` by finding answers on your own if they're already published.
 - Having a bug tracking system doesn't `make` bug handling `efficient` and CI/CD doesn't mean your time to deliver `is necessarily short`.
+- A system design interview `entails asking` a candidate to design a system that solves a specific problem.
+- You have spent `a considerable amount of time internalizing` its solution space, scalability limitations, tradeoffs, and failure modes.
 
 ## General
 
