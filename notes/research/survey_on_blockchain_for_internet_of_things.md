@@ -1,13 +1,12 @@
 ---
-title: Survey on blockchain for Internet of Things
+title: A Survey on blockchain for Internet of Things
 emoji: "\U0001F4DD"
 tags:
   - research
   - blockchain
   - iot
-link: >-
-  https://www.researchgate.net/publication/330351295_Survey_on_Blockchain_for_Internet_of_Things
-created: 2020-09-01T22:22:09.000Z
+link: https://www.researchgate.net/publication/330351295_Survey_on_Blockchain_for_Internet_of_Things
+created: 2020-04-20T22:22:09.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
 

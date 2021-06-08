@@ -21,6 +21,7 @@ These are trying times. But the job of a leader is to set a tone that empowers p
 
 <details>
   <summary>🇨🇳 提升团队的乐观情绪</summary>
+
 现在是困难时期。但领导的工作就是定好基调，让员工把工作做好。因此，当全世界都感到沮丧时，你如何引导你的团队走向乐观?以下是四条建议:
 
 1. 为“组织上的愚蠢”余留空间。虽然周密规划和项目管理非常重要，但你也需要创造空间来释放团队的想象力、创造力和乐趣。

@@ -24,6 +24,7 @@ modified: 2021-06-06T06:26:41.000Z
 ## Challenges
 
 - One of the technical challenges of having billions of devices deployed worldwide is the ability to manage them
+- There are a wide variety of different systems tat implement different standards for interaction. As a result, there is an interoperability challenge with the system.
 
 ## Current state
 
