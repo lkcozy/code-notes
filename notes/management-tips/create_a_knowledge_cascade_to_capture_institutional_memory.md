@@ -3,7 +3,7 @@ title: Create a “Knowledge Cascade” to Capture Institutional Memory
 emoji: "\U0001F4A1"
 tags:
   - management
-link: null
+link: https://hbr.org/2019/12/how-your-organizations-experts-can-share-their-knowledge?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs
 created: 2020-08-02T03:27:49.000Z
 modified: 2021-05-11T20:22:23.000Z
 ---
