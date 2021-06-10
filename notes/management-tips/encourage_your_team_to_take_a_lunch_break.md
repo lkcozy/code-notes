@@ -21,7 +21,7 @@ You can use the time to catch up with a friend, step away from your desk, or jus
 ## Translations
 
 <details>
-   <summary>🇨🇳 鼓励你的团队午餐休息/summary>
+   <summary>🇨🇳 鼓励你的团队午餐休息</summary>
 
 对我们中的许多人来说，向居家工作的转变导致了更长的工作日，更多的电子邮件和会议，以及工作-生活界限的普遍模糊。但有一件事可以帮助你恢复平衡感:你的午餐休息时间。
 
