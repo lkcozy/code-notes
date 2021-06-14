@@ -16,6 +16,8 @@ QuillBot's paraphraser will re-write your text but keep the meaning.
 
 QuillBot's summarizer can quickly condense articles, papers, or documents to the key points.
 
+## [Fronted Toolkit](https://www.fetoolkit.io/): Utilities for your recurring Frontend tasks
+
 ## [Js Image Carver Content Aware Image Resizer](https://trekhleb.dev/js-image-carver/)
 
 ## [Bundlephobia - find out the cost of adding a new frontend dependenc](https://bundlephobia.com/)

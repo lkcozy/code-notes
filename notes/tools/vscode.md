@@ -13,6 +13,18 @@ modified: 2021-04-20T16:05:46.000Z
 
 - Duplicate line: Alt + Shift + Down Arrow
 
+## Font: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
+A monospaced fonts with cool coding ligatures.
+
+```json
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true
+}
+```
+
 ## [Fix the screen flicker](https://code.visualstudio.com/updates/v1_40#_disable-gpu-acceleration)
 
 ```sh
