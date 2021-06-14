@@ -62,7 +62,7 @@ modified: 2021-05-24T20:13:50.000Z
 - `Factoring in`(Considering) its construction and operation, the drone cost $85 million.
 - `Effortlessly` go from the golf course to dinner in this `tastefully striped` cotton polo.
 - She `bluntly`(directly,without considering other people's feeling) said that didn’t matter.
-- Writing is the act of dissecting ideas and putting them back together again.
+- Writing is `the act of dissecting ideas` and putting them back together again.
 - The best way to understand an idea is to pull it apart and put it back together again, which you do by writing.
 - Remember that things tend to be fluid, re-organizations happens often
 - But by ignoring the `wisdom of crowds`, he’s attracted `an ocean of like-minded` super fans.
@@ -89,3 +89,10 @@ modified: 2021-05-24T20:13:50.000Z
 - It's also great at taking great developers and turning them into average developers.
 - Scrum exists because managers don't trust developers to get things done without constant supervision.
 - He’s a `well-read` startup founder whose `appetite for rigorous thinking` is balanced by an impatience for `hollow ideas`
+- Look for opportunities to `build up` your team's `capacity`, and `delegate` when you can.
+- This self-audit will help you `paint a more realistic picture` of how your future calendar will be populated.
+- `Take the pulse of` your team.
+- Stay focus on future opportunities and your `collective` goals.
+- `The bottom line` is that we have to make a decision today.
+- Identify the `least disruptive way` to gather the information you need from someone else.
+- Don't make your request `without context`.
