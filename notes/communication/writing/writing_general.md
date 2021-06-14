@@ -50,11 +50,12 @@ modified: 2021-05-24T20:13:50.000Z
 - Having a bug tracking system doesn't `make` bug handling `efficient` and CI/CD doesn't mean your time to deliver `is necessarily short`.
 - A system design interview `entails asking` a candidate to design a system that solves a specific problem.
 - You have spent `a considerable amount of time internalizing` its solution space, scalability limitations, tradeoffs, and failure modes.
+- For readability we recommend against using more than 80 characters.
+- When humans write code, they don't `strive to` reach the maximum number of columns on every line.
 
 ## General
 
 - The lighter your shoes, the faster you can `zip around`(move) the court.
-
 - An average year would `feature`(have) 14 named storms and seven hurricanes.
 - Perhaps the most `intriguing`(attractive) reason is the search for extraterrestrial life.
 - This `intriguing` book is both thoughtful and informative.
@@ -67,6 +68,8 @@ modified: 2021-05-24T20:13:50.000Z
 - But by ignoring the `wisdom of crowds`, he’s attracted `an ocean of like-minded` super fans.
 - Depending on the article, you can `either` write for yourself `or` one other person.
 - My writing is `a protest against` the superficial babble that passes for `intellectual discourse.`
+- I fully expect you to `weigh in with` your own opinions.
+- If you feel differently, please `weigh in with` comments.
 
 ## Management
 

@@ -5,6 +5,8 @@ tags:
   - react
   - javascript
   - ui
+  - eslint
+  - nodejs
 link: "https://reactjs.org/"
 created: 2020-07-20T16:49:36.000Z
 modified: 2021-04-20T16:05:46.000Z
@@ -103,3 +105,72 @@ The author shares several react performance optimization tips from three directi
 - precise recalculation range
 
 [Original](https://zhuanlan.zhihu.com/p/74229420)
+
+## ESLint Configuration
+
+ESLint is a static code analysis tool for identifying problematic patterns found in JavaScript code
+
+```js
+module.exports = {
+  extends: [
+    "react-app",
+    "react-app/jest",
+    "airbnb",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended",
+  ],
+  parser: "babel-eslint",
+  rules: {
+    "no-unused-vars": [1, { ignoreRestSiblings: true }],
+    "prefer-const": 2,
+    "no-var": 2,
+    "no-await-in-loop": 0,
+    "no-nested-ternary": 0,
+    "no-underscore-dangle": 0,
+    "no-param-reassign": 0,
+    "no-plusplus": [1, { allowForLoopAfterthoughts: true }],
+    "import/prefer-default-export": 0,
+    "import/no-named-as-default": 0,
+    "click-events-have-key-events": 0,
+    "class-methods-use-this": 0,
+    "react/prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
+    "max-classes-per-file": 0,
+    "no-console": 1,
+    "arrow-body-style": 0,
+    "react-hooks/exhaustive-deps": [
+      "warn",
+      {
+        additionalHooks:
+          "^use(Async|AsyncFn|AsyncRetry|Debounce|UpdateEffect|IsomorphicLayoutEffect|DeepCompareEffect|ShallowCompareEffect)$",
+      },
+    ],
+  },
+  plugins: ["html", "@emotion"],
+  settings: {
+    "import/resolver": {
+      node: {
+        paths: ["src"],
+      },
+    },
+    "import/core-modules": ["@deck.gl/extensions"],
+  },
+};
+```
+
+## Prettier Configuration
+
+An opinionated code formatter.
+
+[Options](https://prettier.io/docs/en/options.html)
+
+```js
+module.exports = {
+  singleQuote: true,
+  arrowParens: "avoid",
+  htmlWhitespaceSensitivity: "strict",
+  jsxSingleQuote: true,
+  semi: false,
+};
+```
