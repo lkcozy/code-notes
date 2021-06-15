@@ -8,7 +8,7 @@ created: 2021-05-12T23:22:29.000Z
 modified: 2021-05-12T23:22:29.000Z
 ---
 
-[![npm version](https://badge.fury.io/js/lodash.svg)](https://badge.fury.io/js/lodash)
+[![Latest Version](https://badge.fury.io/js/lodash.svg)](https://badge.fury.io/js/lodash)
 
 ## [\_.template](https://docs-lodash.com/v4/template/)
 

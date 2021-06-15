@@ -35,7 +35,7 @@ source ~/.zshrc
 
 To download, compile, and install the latest release of node, do this:
 
-[![npm version](https://badge.fury.io/js/node.svg)](https://badge.fury.io/js/node)
+[![Latest version](https://badge.fury.io/js/node.svg)](https://badge.fury.io/js/node)
 
 ```sh
 nvm install node # "node" is an alias for the latest version
@@ -49,7 +49,7 @@ nvm alias default {VERSION}
 
 Get the latest supported npm version on the current node version:
 
-[![npm version](https://badge.fury.io/js/npm.svg)](https://badge.fury.io/js/npm)
+[![Latest Version](https://badge.fury.io/js/npm.svg)](https://badge.fury.io/js/npm)
 
 ```sh
 nvm install-latest-npm

@@ -70,6 +70,8 @@ modified: 2021-05-24T20:13:50.000Z
 - My writing is `a protest against` the superficial babble that passes for `intellectual discourse.`
 - I fully expect you to `weigh in with` your own opinions.
 - If you feel differently, please `weigh in with` comments.
+- The key to `breaking this circle` is to become more `aware of` the reward reinforcing your behavior.
+- Your bad behaviors may not change immediately, but `stick with it`.
 
 ## Management
 
@@ -96,3 +98,11 @@ modified: 2021-05-24T20:13:50.000Z
 - `The bottom line` is that we have to make a decision today.
 - Identify the `least disruptive way` to gather the information you need from someone else.
 - Don't make your request `without context`.
+- Create space for `reconciliation` and establish a direction for the future.
+- Most bad leaders' actions are `rooted in` good intentions.
+- Do your best to `oblige`.
+- You become a good leader by `distinguishing` yourself, being inclusive, and having an eye `toward` the future.
+- They'll be more likely to `bet on you` the next time a promotion opportunity `opens up`.
+- How can you `channel` feelings of self-doubt into something more constructive and productive?
+- `Ironically`, you appear more confident when you `demonstrate the humility` and courage to ask about what you don't know.
+- Assume good will from the feedback giver.

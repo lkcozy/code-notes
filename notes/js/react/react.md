@@ -12,7 +12,7 @@ created: 2020-07-20T16:49:36.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
 
-[![npm version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
+[![Latest Version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
 
 ### Cheat Sheet
 
