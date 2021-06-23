@@ -6,12 +6,12 @@ tags:
   - sql
   - database
   - api
-link: 'https://graphql.org/'
+link: "https://graphql.org/"
 created: 2020-08-10T22:40:43.000Z
-modified: 2021-05-03T20:08:26.000Z
+modified: 2021-06-23T20:08:26.000Z
 ---
 
-GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015
+GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.
 
 ## [GraphQL Best Practices Resources and Design Patterns](https://www.moesif.com/blog/api-guide/graphql-best-practices-resources-and-design-patterns/)
 
@@ -20,7 +20,7 @@ GraphQL is an open-source data query and manipulation language for APIs, and a r
 - `code-first`: the schema was generated automatically from the code
 
 - `schema-first`: it indicates that we first `define the schema` for the GraphQL service and then we `implement the code by matching the definitions` in the schema.
-  - A list of challenges that schemafirst requires some tool to solve
+  - A list of `challenges` that schema-first requires some tool to solve
     - Inconsistencies between schema definitions and resolvers
     - Modularization of GraphQL schemas
     - Redundancy in schema definitions (code reuse)
@@ -218,17 +218,19 @@ export default DateTime;
 
 ### Libraries
 
-- [Nexus](https://github.com/graphql-nexus/nexus)
+- [GraphQL Tools ![GitHub](https://img.shields.io/github/stars/ardatan/graphql-tools)![npm](https://img.shields.io/npm/dt/graphql-tools.svg)](https://github.com/ardatan/graphql-tools): Build, mock, and stitch a GraphQL schema using the schema language
 
-Declarative, code-first and strongly typed GraphQL schema construction for TypeScript & JavaScript.
+- [TypeGraphQL![TypeGraphQL](https://img.shields.io/github/stars/MichalLytek/type-graphql)![npm](https://img.shields.io/npm/dt/type-graphql.svg)](https://github.com/MichalLytek/type-graphql): Create GraphQL schema and resolvers with TypeScript, using classes and decorators!
 
-If you’ve been following an SDL-first approach to building your GraphQL server and want to see what your code looks like when written with GraphQL Nexus, you can use the [SDL converter](https://nexus.js.org/converter).
+- [Nexus![GitHub](https://img.shields.io/github/stars/graphql-nexus/nexus)![npm](https://img.shields.io/npm/dt/graphql-nexus.svg)](https://github.com/graphql-nexus/nexus): Declarative, code-first and strongly typed GraphQL schema construction for TypeScript & JavaScript.
 
-- [graphql-normalizr](https://github.com/monojack/graphql-normalizr)
+- [graphql-compose![graphql-compose](https://img.shields.io/github/stars/graphql-compose/graphql-compose)![npm](https://img.shields.io/npm/dt/graphql-compose.svg)](https://github.com/graphql-compose/graphql-compose): provides a type registry with a bunch of methods for programmatic schema construction. It allows not only to extend types but also remove fields, interfaces, args.
 
-Normalize GraphQL responses for persisting in the client cache/state
+> If you’ve been following an SDL-first approach to building your GraphQL server and want to see what your code looks like when written with GraphQL Nexus, you can use the [SDL converter](https://nexus.js.org/converter).
 
-- [json-to-graphql-query](https://github.com/dupski/json-to-graphql-query)
+- [graphql-normalizr![graphql-compose](https://img.shields.io/github/stars/monojack/graphql-normalizr)![npm](https://img.shields.io/npm/dt/graphql-normalizr.svg)](https://github.com/monojack/graphql-normalizr): aNormalize GraphQL responses for persisting in the client cache/state
+
+- [json-to-graphql-query![graphql-compose](https://img.shields.io/github/stars/dupski/json-to-graphql-query)![npm](https://img.shields.io/npm/dt/json-to-graphql-query.svg)](https://github.com/dupski/json-to-graphql-query)
 
 <details>
    <summary>Simple module that converts JavaScript objects to GraphQL query syntax</summary>
@@ -279,8 +281,6 @@ var schema = new GraphQLSchema({
 ```
 
 </details>
-
-- [graphql-normalizr](https://github.com/monojack/graphql-normalizr) - Normalize GraphQL responses for persisting in the client cache/state
 
 - [graphql-helper](https://github.com/bustle/graphql-helper)
 

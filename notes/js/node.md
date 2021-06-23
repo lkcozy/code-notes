@@ -11,6 +11,8 @@ modified: 2021-04-20T16:05:46.000Z
 
 [![Latest Version](https://badge.fury.io/js/node.svg)](https://badge.fury.io/js/node)
 
+## [NPM Trends](https://www.npmtrends.com/): Compare package download counts over time
+
 ## [Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 
 ![](https://github.com/goldbergyoni/nodebestpractices/raw/master/assets/images/banner-2.jpg)
