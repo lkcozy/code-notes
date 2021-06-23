@@ -52,6 +52,8 @@ modified: 2021-05-24T20:13:50.000Z
 - You have spent `a considerable amount of time internalizing` its solution space, scalability limitations, tradeoffs, and failure modes.
 - For readability we recommend against using more than 80 characters.
 - When humans write code, they don't `strive to` reach the maximum number of columns on every line.
+- I will be following the convention of naming an Observable variable with a $ suffix
+- We'll have to `differentiate between` the attributes we want to filter and search on.
 
 ## General
 
@@ -106,3 +108,9 @@ modified: 2021-05-24T20:13:50.000Z
 - How can you `channel` feelings of self-doubt into something more constructive and productive?
 - `Ironically`, you appear more confident when you `demonstrate the humility` and courage to ask about what you don't know.
 - Assume good will from the feedback giver.
+
+## Basketball
+
+- I know the perception of me is that I can score the basketball well.
+- I'm aware that the public perceives me as a good basketball scorer.
+- i've been asked to do pretty much everything from rebounding to defending to initiating to scoring.

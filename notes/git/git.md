@@ -8,6 +8,10 @@ created: 2020-06-24T07:06:39.000Z
 modified: 2021-06-06T20:08:26.000Z
 ---
 
+## Tips
+
+- `.gitkeep`: a dummy file to enable git to track a completely empty directory
+
 ## Tools
 
 - [git-split-diffs](https://github.com/banga/git-split-diffs)

@@ -20,6 +20,9 @@ modified: 2021-06-06T06:26:41.000Z
 ## Introduction
 
 - Our goal is to explore the option of developing a system that facilitates anonymity and trustworthiness. To achieve this, the following objectives are outlined
+- Gaming and simulation is taking center stage (gaining prominence)
+- An emphasis on domain awareness and collaboration can help create additional traction across industries.
+- Greater awareness will aid in the evolution of these key technologies.
 
 ## Challenges
 
@@ -49,6 +52,7 @@ modified: 2021-06-06T06:26:41.000Z
 - The data that is stored in the cache is not stored in the raw form. Instead, it is encrypted using an asymmetric encryption technique.
 - The architecture is backed by a proof of concept implementation and evaluated in realistic IoT scenarios
 - The following discourse(serious discussion) contains out analysis and understanding of blockchain and its `implications` as well as impacts on information system altogether.
+- The below graph `illustrates` the efficiency improvement we'll make to the sample batch processing task.
 
 ## Related Work
 
