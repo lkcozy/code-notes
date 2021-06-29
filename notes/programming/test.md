@@ -103,10 +103,19 @@ Accelerating the shipping of quality product by reducing these issues will reduc
 
 - [Avoid Focusing on Vanity Metrics in Software Testing](https://itnext.io/its-a-trap-avoid-focusing-on-vanity-metrics-in-software-testing-7a627c7848)
 
-```
+## [Fakes In Unit Testing](https://stackoverflow.com/a/27151309)
 
-```
+- Stub - override methods to `return hard-coded values`, also referred to as `state-based`.
 
-```
+  > Example: Your test class depends on a method Calculate() taking 5 minutes to complete. Rather than wait for 5 minutes you can replace its real implementation with stub that returns hard-coded values; taking only a small fraction of the time.
 
-```
+- Mock - very similar to Stub but `interaction-based` rather than state-based. This means you don't expect from Mock to return some value, but to `assume that specific order of method calls are made`.
+
+  > Example: You're testing a user registration class. After calling Save, it should call SendConfirmationEmail.
+
+- Dummy - just bogus values to satisfy the API.
+
+  > Example: If you're testing a method of a class which requires many mandatory parameters in a constructor which have no effect on your test, then you may create dummy objects for the purpose of creating new instances of a class.
+
+- Fake - create a test implementation of a class which may have a dependency on some external infrastructure. (It's good practice that your unit test does NOT actually interact with external infrastructure.)
+  > Example: Create fake implementation for accessing a database, replace it with in-memory collection.
