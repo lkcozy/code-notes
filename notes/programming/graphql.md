@@ -13,6 +13,10 @@ modified: 2021-06-23T20:08:26.000Z
 
 GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.
 
+## [Starter Kit](https://github.com/atherosai/graphql-gateway-apollo-express)
+
+Creating high performance and secure GraphQL APIs with Node.js, Apollo server, GraphQL and TypeScript
+
 ## [GraphQL Best Practices Resources and Design Patterns](https://www.moesif.com/blog/api-guide/graphql-best-practices-resources-and-design-patterns/)
 
 ## [Code-first vs. schema-first development in GraphQL](https://blog.logrocket.com/code-first-vs-schema-first-development-graphql/)
@@ -129,6 +133,47 @@ This article go through the use cases for abstract types and how to implement th
 
 ![](https://www.datensen.com/media/graphql/graphql-diagram-linked-type.png)
 
+### [Extending Types And Interfaces](https://stackoverflow.com/a/54948335)
+
+The `extend` keyword is effectively used to modify an existing type within a schema. This is most commonly used in two scenarios:
+
+The extend keyword can only modify existing types; it is not a vehicle for inheritance. `In fact, GraphQL does not support type inheritance.` Interfaces provide a level of abstraction over existing types, but types that implement an interface do not inherit any fields from that interface.
+
+- 1. `Concatenating multiple strings that represent a single schema.` You can have your schema broken up across multiple files, divided by domain. You can then do something like
+
+```graphql
+#base.graphql
+type Query {
+  viewer: User
+}
+
+# user.graphql
+extend type Query {
+  users: [User!]!
+}
+
+# post.graphql
+extend type Query {
+  post: [Post!]!
+}
+```
+
+This results in a schema that's effectively the same as:
+
+```graphql
+type Query {
+  viewer: User
+  users: [User!]!
+  post: [Post!]!
+}
+```
+
+- 2. `Extending from a base schema.`
+
+```graphql
+extend type SomeType @customDirective
+```
+
 ## [Subscription](https://www.apollographql.com/docs/react/data/subscriptions/)
 
 Get real-time updates from your GraphQL server
@@ -151,6 +196,10 @@ Low-latency, real-time updates. For example, a chat application's client wants t
 ## Resources
 
 ### Tutorials
+
+- [9 Ways To Secure your GraphQL API — GraphQL Security Checklist](https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/)
+
+- [Using Subscriptions with Your Federated Data Graph](https://www.apollographql.com/blog/backend/federation/using-subscriptions-with-your-federated-data-graph/)
 
 - [Migrating Existing REST APIs to GraphQL](https://blog.bitsrc.io/migrating-existing-rest-apis-to-graphql-2c5de3db647d)
 
@@ -229,6 +278,8 @@ export default DateTime;
 > If you’ve been following an SDL-first approach to building your GraphQL server and want to see what your code looks like when written with GraphQL Nexus, you can use the [SDL converter](https://nexus.js.org/converter).
 
 - [graphql-normalizr![graphql-compose](https://img.shields.io/github/stars/monojack/graphql-normalizr)![npm](https://img.shields.io/npm/dt/graphql-normalizr.svg)](https://github.com/monojack/graphql-normalizr): aNormalize GraphQL responses for persisting in the client cache/state
+
+- [graphql-cost-analysis](https://github.com/pa-bru/graphql-cost-analysis): A GraphQL request cost analyzer.
 
 - [json-to-graphql-query![graphql-compose](https://img.shields.io/github/stars/dupski/json-to-graphql-query)![npm](https://img.shields.io/npm/dt/json-to-graphql-query.svg)](https://github.com/dupski/json-to-graphql-query)
 

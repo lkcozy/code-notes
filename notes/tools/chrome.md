@@ -4,7 +4,7 @@ emoji: "\U0001F4DD"
 tags:
   - chrome
   - tools
-link: 'https://alfilatov.com/posts/run-chrome-without-cors/'
+link: "https://alfilatov.com/posts/run-chrome-without-cors/"
 created: 2020-06-28T05:41:12.000Z
 modified: 2021-05-03T20:08:26.000Z
 ---
@@ -12,6 +12,14 @@ modified: 2021-05-03T20:08:26.000Z
 ## Delete a specific URL prediction
 
 `Shift`+`Del`
+
+## Filter HTTP requests
+
+`method:GET/POST/PUT/PATCH/OPTIONS`
+
+![](https://i.stack.imgur.com/9Zp8z.png)
+
+- filter all pre-flight requests: Choose the XHR filter
 
 ## Extensions
 
