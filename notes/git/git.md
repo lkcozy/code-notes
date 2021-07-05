@@ -20,6 +20,29 @@ modified: 2021-06-06T20:08:26.000Z
 
 GitHub style split diffs with syntax highlighting in your terminal.
 
+- [gum](https://github.com/gauseen/gum): manage multiple git user config
+
+```sh
+yarn global add @gauseen/gum
+gum list
+gum set user1 --name 'user 1' --email user1@email.com
+gum use user1
+```
+
+## Check Git config
+
+```sh
+git config --list
+git config user.name
+git config user.email
+```
+
+## Change Git Remote URL
+
+```sh
+git remote set-url origin git@github.com-lkcozy:lkcozy/code-notes.git
+```
+
 ## Undoing Mistakes
 
 ```sh
@@ -36,12 +59,6 @@ git branch happy-ending e5b19e4
 # Restore A Single File From A Previous State
 git log -- <filename>
 git checkout <deletion commit hash>~1 -- <filename>
-```
-
-## Change Git Remote URL
-
-```sh
-git remote set-url origin git@github.com-lkcozy:lkcozy/code-notes.git
 ```
 
 ## [Rebase](https://git-rebase.io/)

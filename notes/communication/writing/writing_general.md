@@ -74,6 +74,7 @@ modified: 2021-05-24T20:13:50.000Z
 - If you feel differently, please `weigh in with` comments.
 - The key to `breaking this circle` is to become more `aware of` the reward reinforcing your behavior.
 - Your bad behaviors may not change immediately, but `stick with it`.
+- What a scorcher(extremely hot day) it is today.
 
 ## Management
 
