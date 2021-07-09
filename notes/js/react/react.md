@@ -32,7 +32,14 @@ modified: 2021-04-20T16:05:46.000Z
 const Home = React.lazy(() => import("../component/Home"));
 ```
 
-## Libraries
+## Resources
+
+### General
+
+- [React Bits](https://github.com/vasanthk/react-bits): A compilation of React Patterns, techniques, tips and tricks.
+- [Classnames](https://github.com/JedWatson/classnames): a simple JavaScript utility for conditionally joining classNames together.
+- [immutable](https://github.com/immutable-js/immutable-js): provides many Persistent Immutable data structures including: List, Stack, Map, OrderedMap, Set, OrderedSet and Record.
+- [normalizr](https://github.com/paularmstrong/normalizr): a small, but powerful utility for taking JSON with a schema definition and returning nested entities with their IDs, gathered in dictionaries.
 
 ### Framework
 
@@ -46,6 +53,7 @@ const Home = React.lazy(() => import("../component/Home"));
 
 ### UI
 
+- [Bit](https://github.com/teambit/bit): A tool for component-driven application development.
 - [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd): a beautiful and accessible drag and drop for lists with React.
 - [React-Grid-Layout](https://github.com/react-grid-layout/react-grid-layout): a draggable and resizable grid layout with responsive breakpoints, for React.
 - [react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form): a simple React component capable of using JSON Schema to declaratively build and customize web forms.
@@ -83,12 +91,6 @@ const Home = React.lazy(() => import("../component/Home"));
 - [hookstate](https://github.com/avkonst/hookstate): a simple but compelling and swift state management for React that is based on hooks
 
 ### Test
-
-### General
-
-- [Classnames](https://github.com/JedWatson/classnames): a simple JavaScript utility for conditionally joining classNames together.
-- [immutable](https://github.com/immutable-js/immutable-js): provides many Persistent Immutable data structures including: List, Stack, Map, OrderedMap, Set, OrderedSet and Record.
-- [normalizr](https://github.com/paularmstrong/normalizr): a small, but powerful utility for taking JSON with a schema definition and returning nested entities with their IDs, gathered in dictionaries.
 
 ## Tutorial
 

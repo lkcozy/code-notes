@@ -54,6 +54,9 @@ modified: 2021-05-24T20:13:50.000Z
 - When humans write code, they don't `strive to` reach the maximum number of columns on every line.
 - I will be following the convention of naming an Observable variable with a $ suffix
 - We'll have to `differentiate between` the attributes we want to filter and search on.
+- I `vaguely` recall this relating to sth
+- This is more `versatile`
+- This is not the fault of the `presumably`(by reasonable assumption) `well-intentioned` extension authors.
 
 ## General
 
@@ -75,6 +78,7 @@ modified: 2021-05-24T20:13:50.000Z
 - The key to `breaking this circle` is to become more `aware of` the reward reinforcing your behavior.
 - Your bad behaviors may not change immediately, but `stick with it`.
 - What a scorcher(extremely hot day) it is today.
+- The `rationale`(fundamental) for sharing has not changed since the architecture was `conceived`(design/idea).
 
 ## Management
 

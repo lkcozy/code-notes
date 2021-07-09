@@ -78,6 +78,8 @@ Session Buddy is a session manager that allows you to:
 
 Adds a toolbar button with various web developer tools.
 
+- [Proxy SwitchyProxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif): Manage and switch between multiple proxies quickly & easily.
+
 ## Run Chrome browser without CORS
 
 ### OSX
