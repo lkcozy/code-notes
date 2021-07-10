@@ -4,10 +4,14 @@ emoji: 📝
 tags:
   - note
   - personal-growth
-link: https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f
+link:
 created: 2021-06-28T10:45:21.000Z
 modified: 2021-06-28T10:45:21.000Z
 ---
+
+## [Drunk Post: Things I've learned as a Sr Engineer](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
+
+## [An Incomplete List Of Skills Senior Engineers Need Beyond Coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f)
 
 - How to run a meeting, and no, being the person who talks the most in the meeting is not the same thing as running it
 - How to write a design doc, take feedback, and drive it to resolution, in a reasonable period of time
@@ -32,3 +36,7 @@ modified: 2021-06-28T10:45:21.000Z
 - How to find interesting work on your own, instead of waiting for someone to bring it to you
 - How to tell someone they’re wrong without making them feel ashamed
 - How to take negative feedback gracefully
+
+## [Things I Learnt from a Senior Software Engineer](https://neilkakkar.com/things-I-learnt-from-a-senior-dev.html#documentation-and-code-comments)
+
+## [On Being A Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
