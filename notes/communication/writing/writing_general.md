@@ -6,7 +6,7 @@ tags:
   - communication
 link: null
 created: 2021-03-15T16:13:36.000Z
-modified: 2021-05-24T20:13:50.000Z
+modified: 2021-07-12T20:13:50.000Z
 ---
 
 ## Tech
@@ -57,6 +57,7 @@ modified: 2021-05-24T20:13:50.000Z
 - I `vaguely` recall this relating to sth
 - This is more `versatile`
 - This is not the fault of the `presumably`(by reasonable assumption) `well-intentioned` extension authors.
+- Technical lead is a position that requires `intricate`(complex) calibration of various personality `traits`(feature)
 
 ## General
 
@@ -113,6 +114,8 @@ modified: 2021-05-24T20:13:50.000Z
 - How can you `channel` feelings of self-doubt into something more constructive and productive?
 - `Ironically`, you appear more confident when you `demonstrate the humility` and courage to ask about what you don't know.
 - Assume good will from the feedback giver.
+- Lighting a spark under a `disengaged`(incompetent) employee won’t happen overnight.
+- Open an honest and `empathetic`(kind) dialogue
 
 ## Basketball
 

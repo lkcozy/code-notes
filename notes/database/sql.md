@@ -5,10 +5,24 @@ tags:
   - sql
   - database
   - cheatsheet
-link: 'https://codebond.co/tutorial/other/sql-cheatsheet'
+link: "https://codebond.co/tutorial/other/sql-cheatsheet"
 created: 2020-07-11T05:16:40.000Z
 modified: 2021-03-04T20:22:23.000Z
 ---
+
+## [SQL queries order](https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/)
+
+![](https://cdn.beekka.com/blogimg/asset/202105/bg2021052806.jpg)
+
+In a non-image format, the order is:
+
+- FROM/JOIN and all the ON conditions
+- WHERE
+- GROUP BY
+- HAVING
+- SELECT (including window functions)
+- ORDER BY
+- LIMIT
 
 ## Create Database
 
