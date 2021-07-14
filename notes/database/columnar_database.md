@@ -15,3 +15,9 @@ As the illustration above shows. A typical relational database `stores its data 
 A columnar database, however, `stores each of these fields in separate columns`.
 
 > OLAP means online analytical processing.
+
+## Three Main Benefits Of Storing Your Data In Columns
+
+- Columnar databases have higher read efficiency.
+- Columnar databases also compress better than row-based relational databases
+- The final benefit is that compression and dense-packing in columnar databases free up space
