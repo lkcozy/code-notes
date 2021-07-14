@@ -3,10 +3,12 @@ title: Regular Expression-A pattern describing a certain amount of text.
 emoji: "\U0001F4DD"
 tags:
   - regex
-link: 'https://www.regular-expressions.info/quickstart.html?wlr=1'
+link: "https://www.regular-expressions.info/quickstart.html?wlr=1"
 created: 2020-07-11T05:16:40.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
+
+[Playground](https://regex101.com/)
 
 A regular expression, or regex for short, is a pattern describing a certain amount of text.
 
@@ -26,6 +28,23 @@ A valid regex consists of `alphanumeric characters` representing the set of inpu
 
 ![](https://cdn.sspai.com/editor/u_sanko/15903151099127.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
 ![](https://cdn.sspai.com/editor/u_sanko/15903151099105.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
+
+- replace different strings with the same string
+  `/color: (rgb\(255, 255, 255\)|#f{6}}|#fff|white)/g, 'color: #000')`
+
+- Modifier
+  - `gi`: means global, case-insensitive,
+  - 
+- Multipliers
+
+  - `* -` item occurs zero or more times.
+  - `+ -` item occurs one or more times.
+  - `? -` item occurs zero or one times.
+  - {5} - item occurs five times.
+  - {3,7} - item occurs between 3 and 7 times.
+  - {2,} - item occurs at least 2 times.
+
+- `l.*?k`: Are you looking at the lock or the silk?
 
 ## Basic
 
