@@ -22,6 +22,8 @@ modified: 2021-07-12T06:26:41.000Z
 - One of the technical challenges of having billions of devices deployed worldwide is the ability to manage them
 - There are a wide variety of different systems tat implement different standards for interaction. As a result, there is an interoperability challenge with the system.
 - `With the massive growth of data`, new data information security problems have been `emerging`
+- This requires multiple types of data that can exist in many different forms and use a diverse set of standards.
+- This vital information as a result becomes difficult and costly to access and `decipher`(interpret/understand).
 
 ## Current state
 
@@ -72,3 +74,4 @@ modified: 2021-07-12T06:26:41.000Z
 - Assessing both the temporal and spatial dimensions of data `adds significant complexity to the data analysis process.
 - At a time of rising climate change impacts, there is a vital and growing need to prepare for, respond to, and recover from natural disasters.
 - But there is a critical communication gap between authorities and citizens.
+- He'd rather read ten papers `superficially`(not deeply/surface) than one paper in-depth to get as much inspiration as possible.

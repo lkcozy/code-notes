@@ -1,23 +1,25 @@
 ---
-title: 'Apollo GraphQL-A complete system to build, manage, and access a data graph'
+title: "Apollo GraphQL-A complete system to build, manage, and access a data graph"
 emoji: "\U0001F4DD"
 tags:
   - graphql
   - api
   - apollo
   - microservices
-link: 'https://www.apollographql.com/docs/federation/federation-spec/'
+link: "https://www.apollographql.com/docs/federation/federation-spec/"
 created: 2021-04-20T16:05:46.000Z
 modified: 2021-05-05T22:03:31.000Z
 ---
 
 ## Federated GraphQL Microservices
 
-![](https://global-uploads.webflow.com/5d2dd7e1b4a76d8b803ac1aa/5fcdce31a0b65b529653139c_xiE7OS3vv_SpWMy6YI7oONp-8763LH71OrtgLxaszZsOr5z5grXaUe9B14mTC5wiAEkLIplAsM-rqP_Y-OwbaaB17_LuMkaNriJl4teAb8mU2NbAGwoltLjungCvW44C5AWvhC-c.png)
+![](https://wp.apollographql.com/wp-content/uploads/2021/07/image-1024x419.png)
 
 `Federation is an architecture for composing two or more graphs (called subgraphs) into a single data graph (called a supergraph).` A supergraph’s schema is made up of all the composed subgraph schemas, plus some metadata.
 
 One of the key principles of GraphQL involves having a single data graph of the implementing services that will allow the client to have a unified interface to access more data and services through a single query.
+
+A `gateway` is responsible for receiving incoming queries and splitting them up across whichever services are required to resolve them. The gateway then takes each service’s response and combines them into a single response that’s returned to the querying client.
 
 ## [Implementing Federated GraphQL Microservices using Apollo Federation](https://www.velotio.com/engineering-blog/implementing-federated-graphql-microservices-using-apollo-federation)
 

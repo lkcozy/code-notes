@@ -11,9 +11,14 @@ modified: 2021-06-22T15:24:21.000Z
 ![](https://www.wangbase.com/blogimg/asset/202006/bg2020061306.jpg)
 
 - **Use a comment when it is infeasible to make your code `self-explanatory`**
+- **Comment the Why, not the What**
 - Avoid comments that just repeat what the code does
 - When to comment
   - `Reveal your intent`: explain why the code does something as opposed to what it does.
   - `Protect` a well-meaning future editor from mistakenly `fixing` your code
   - `Clarification`: a question that came up during code review or that readers of the code might have.
   - Explain your rationale for what looks like a bad software engineering practice
+
+## Resources
+
+- [On Comments in Code](https://henrikwarne.com/2021/06/15/on-comments-in-code/)

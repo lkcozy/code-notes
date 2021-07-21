@@ -80,6 +80,7 @@ modified: 2021-07-12T20:13:50.000Z
 - Your bad behaviors may not change immediately, but `stick with it`.
 - What a scorcher(extremely hot day) it is today.
 - The `rationale`(fundamental) for sharing has not changed since the architecture was `conceived`(design/idea).
+- We're `grinding through`(process/solve/treat) it.
 
 ## Management
 
@@ -116,6 +117,7 @@ modified: 2021-07-12T20:13:50.000Z
 - Assume good will from the feedback giver.
 - Lighting a spark under a `disengaged`(incompetent) employee won’t happen overnight.
 - Open an honest and `empathetic`(kind) dialogue
+- Matching prospective employers and employees is a `nuanced`(subtle difference) process, and any attempt to automate it requires the utmost `rigor`(severe)
 
 ## Basketball
 
