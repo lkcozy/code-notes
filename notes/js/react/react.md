@@ -14,6 +14,10 @@ modified: 2021-04-20T16:05:46.000Z
 
 [![Latest Version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
 
+## Guidelines
+
+- [Beginner to Intermediate React](https://www.reactguide.dev/?ck_subscriber_id=1238258824): Provide the reader with a set of tools and guidelines for creating better React components.
+
 ### Cheat Sheet
 
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react): Cheatsheets for experienced React developers getting started with TypeScript

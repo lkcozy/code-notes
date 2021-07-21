@@ -6,7 +6,7 @@ tags:
   - communication
 link: null
 created: 2021-03-15T16:13:36.000Z
-modified: 2021-07-12T20:13:50.000Z
+modified: 2021-07-20T20:13:50.000Z
 ---
 
 ## Tech
@@ -58,6 +58,9 @@ modified: 2021-07-12T20:13:50.000Z
 - This is more `versatile`
 - This is not the fault of the `presumably`(by reasonable assumption) `well-intentioned` extension authors.
 - Technical lead is a position that requires `intricate`(complex) calibration of various personality `traits`(feature)
+- This feature is a `tremendous`(huge) `addition`(complement/supplement) to the TypeScript language.
+- It should have a significant, long-term, positive impact on how people write code with TypeScript.
+- In JavaScript, we often have to `probe`(examine) a variable in different ways to see if it has a more specific type that we can use.
 
 ## General
 
