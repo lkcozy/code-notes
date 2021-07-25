@@ -6,7 +6,7 @@ tags:
   - communication
 link: null
 created: 2021-03-15T16:13:36.000Z
-modified: 2021-07-20T20:13:50.000Z
+modified: 2021-07-22T20:13:50.000Z
 ---
 
 ## Tech
@@ -33,7 +33,7 @@ modified: 2021-07-20T20:13:50.000Z
 - When it chooses to delay better coding and building internal pieces, the debt should be there `for various reasons.
 - The graphic below shows an `admittedly` simplified representation of a `typical setup` for machine learning.
 - While some doctors `are skeptical of` AI, others may trust it too much, which also can lead to errors.
-- Practitioners in 'a wide variety of fields will need to `cultivate a balance `between `skepticism and trust` in machine learning systems.
+- Practitioners in 'a wide variety of fields will need to `cultivate a balance` between `skepticism and trust` in machine learning systems.
 - This is `extensively` discussed in the repo.
 - AWS Lambda and API Gateway are incredible flexible, but they can `be tedious to` set up, especially for simple scenarios.
 - Generic frameworks support more runtimes, but leave the developers to deal with language-specific issues.
@@ -61,6 +61,17 @@ modified: 2021-07-20T20:13:50.000Z
 - This feature is a `tremendous`(huge) `addition`(complement/supplement) to the TypeScript language.
 - It should have a significant, long-term, positive impact on how people write code with TypeScript.
 - In JavaScript, we often have to `probe`(examine) a variable in different ways to see if it has a more specific type that we can use.
+- `Interconnectivity` is crucial to the survival of innovative technologies.
+- The `allure`(attraction) of a strong tech ecosystem
+- Teaching kids to write code has been a topic of `intense debate` for the past decade or so.
+
+## Blockchain
+
+- An increase in difficulty made CPU mining `obsolete`(outdated) and miners started moving to GPUs.
+- The time between `successive`(consecutive/sequent) Bitcoin blocks decreases from the approximate 10 mins
+- What happens if the price of Bitcoin `pegged`(tied) to `fiat`(legal) currencies like the US dollar goes up
+- The mining datacenters are primarily located in countries with a cooler climate and cheaper electricity so as to `drive their recurring costs down`.
+- Due to the high `upfront cost`, lack of `general availability`, and power requirements,a lot of hobbyists miners mine other cryptocurrencies, also called Altcoins.
 
 ## General
 
@@ -84,6 +95,18 @@ modified: 2021-07-20T20:13:50.000Z
 - What a scorcher(extremely hot day) it is today.
 - The `rationale`(fundamental) for sharing has not changed since the architecture was `conceived`(design/idea).
 - We're `grinding through`(process/solve/treat) it.
+- A `catalyst`(accelerator) for community
+- `Out of this need` for collaboration
+- It exists to `nurture`(foster/raise) and `accelerate` the success of Internet of Things economy
+- `with the ultimate objective` to establish it as a world leader in Internet of Things
+- It feels great to be able to exchange ideas and build community with other innovators in `emerging technologies landscape`
+- Parents do not want their kids to miss on the learning to code `bandwagon`(popular idea/activity)
+- With every passing decade, the world is getting more `homogeneous`(similar).
+- Sadly, a lot of present-day teaching to code is focused on `jargon`(special words/terminology) and language constructs
+- We started with basic hard-coded robots, adding in our own `heuristics`(learning from your own experiences) over time.
+- `For a considerable amount of time`, I also `dabbled`(play around) in competitive programming
+- We all pretend to ourselves that we are `offbeat`(unusual)
+- problem-solving in general with a `vague`(not clear) idea of how to proceed and with limited tools `at our disposal`.
 
 ## Management
 
@@ -121,9 +144,11 @@ modified: 2021-07-20T20:13:50.000Z
 - Lighting a spark under a `disengaged`(incompetent) employee won’t happen overnight.
 - Open an honest and `empathetic`(kind) dialogue
 - Matching prospective employers and employees is a `nuanced`(subtle difference) process, and any attempt to automate it requires the utmost `rigor`(severe)
+- When industry leaders, established businesses and newly `minted`(created) companies `collide` on the topic of cutting edge technologies, collaboration can spur innovation
+- The spirit of interconnection `with regard to` the IoT ecosystem `compelled`(strongly urged) us to take part in the tournament.
 
 ## Basketball
 
-- I know the perception of me is that I can score the basketball well.
+- I know the `perception`(opinion) of me is that I can score the basketball well.
 - I'm aware that the public perceives me as a good basketball scorer.
 - i've been asked to do pretty much everything from rebounding to defending to initiating to scoring.

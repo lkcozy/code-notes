@@ -4,10 +4,14 @@ emoji: "\U0001F4A1"
 tags:
   - linux
   - cli
-link: 'https://codebond.co/tutorial/other/most-helpful-linux-command'
+link: "https://codebond.co/tutorial/other/most-helpful-linux-command"
 created: 2020-07-11T05:16:40.000Z
 modified: 2021-05-03T20:08:26.000Z
 ---
+
+[every Linux networking tool I know](https://wizardzines.com/networking-tools-poster.pdf)
+
+![](https://i.pinimg.com/originals/01/90/f9/0190f909c09dc3f60db7b6a6e64f69f0.jpg)
 
 ## ls
 

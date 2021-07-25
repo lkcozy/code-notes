@@ -13,6 +13,14 @@ modified: 2021-05-03T20:08:26.000Z
 
 ## Geospatial
 
+### [OmniSciDB](https://github.com/omnisci/omniscidb)
+
+![](https://gblobscdn.gitbook.com/assets%2F-M6kHkWH17KJKscL0Cc4%2F-M7wjUQ_xO3yDFMQMfoa%2F-M7wk9wbyiRfPY0CX_SP%2FCapture%20d%E2%80%99e%CC%81cran%2C%20le%202020-05-22%20a%CC%80%2010.15.34.jpg?alt=media&token=60046196-a687-4b9a-87f5-4a2638549f27)
+
+OmniSciDB is an open source SQL-based, relational, columnar database engine that leverages the full performance and parallelism of modern hardware (both CPUs and GPUs) to enable querying of multi-billion row datasets in milliseconds, without the need for indexing, pre-aggregation, or downsampling.
+
+OmniSciDB can store and query data using native Open Geospatial Consortium (OGC) types, including POINT, LINESTRING, POLYGON, and MULTIPOLYGON. With geo type support, you can query geo data at scale using special geospatial functions. Using the power of GPU processing, you can quickly and interactively calculate distances between two points and intersections between objects.
+
 ### [Deck.gl](https://deck.gl/)
 
 ![](https://www.bram.us/wordpress/wp-content/uploads/2016/11/deck-gl.gif)
