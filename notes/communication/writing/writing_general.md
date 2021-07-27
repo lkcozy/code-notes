@@ -64,6 +64,7 @@ modified: 2021-07-22T20:13:50.000Z
 - `Interconnectivity` is crucial to the survival of innovative technologies.
 - The `allure`(attraction) of a strong tech ecosystem
 - Teaching kids to write code has been a topic of `intense debate` for the past decade or so.
+- Instead of looking at them as a competitor, think of the person as a `potential ally` who might help you achieve your goals
 
 ## Blockchain
 
@@ -72,6 +73,8 @@ modified: 2021-07-22T20:13:50.000Z
 - What happens if the price of Bitcoin `pegged`(tied) to `fiat`(legal) currencies like the US dollar goes up
 - The mining datacenters are primarily located in countries with a cooler climate and cheaper electricity so as to `drive their recurring costs down`.
 - Due to the high `upfront cost`, lack of `general availability`, and power requirements,a lot of hobbyists miners mine other cryptocurrencies, also called Altcoins.
+- Encourage them to develop more `empathy`(another's feeling) and consider their colleagues’ `perspectives` and `viewpoints`
+- Don’t expect your efforts to `yield`(bring) immediate results
 
 ## General
 
@@ -107,6 +110,11 @@ modified: 2021-07-22T20:13:50.000Z
 - `For a considerable amount of time`, I also `dabbled`(play around) in competitive programming
 - We all pretend to ourselves that we are `offbeat`(unusual)
 - problem-solving in general with a `vague`(not clear) idea of how to proceed and with limited tools `at our disposal`.
+- It's relatively easy for women to `envision`(imagine) themselves as a key part of that picture of prosperity
+- Show specific appreciation before laying out criticism and state your positive `intentions`(purpose).
+- Going over the same, unsolvable problem repeatedly `won't do either of you` any good
+- Set clear `ground`(basic) rules and guidelines around communication
+- `Resign yourself to`(obey/comply) not getting help with those things
 
 ## Management
 
@@ -146,6 +154,9 @@ modified: 2021-07-22T20:13:50.000Z
 - Matching prospective employers and employees is a `nuanced`(subtle difference) process, and any attempt to automate it requires the utmost `rigor`(severe)
 - When industry leaders, established businesses and newly `minted`(created) companies `collide` on the topic of cutting edge technologies, collaboration can spur innovation
 - The spirit of interconnection `with regard to` the IoT ecosystem `compelled`(strongly urged) us to take part in the tournament.
+- Having all this information makes it really easy for me to explain why your work is so great.
+- Do you `have a sense of` why they might have a higher salary than I do?
+- What kinds of information `get factored into` compensation decisions here?
 
 ## Basketball
 

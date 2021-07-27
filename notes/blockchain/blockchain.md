@@ -35,3 +35,12 @@ The two common types are the Public Blockchain and the Private Blockchain.
 
 - A `public` blockchain allows any node that has internet connection to access the blockchain by issuing either a write a read request. Some of the popular public blockchain available today are Bitcoins, Ethereum, Factom, Blockstream, and so on.
 - A `private` blockchain allows nodes to issue similar requests but these nodes must be predefined and authorized.
+
+## [How is the Bitcoin Mining Block Reward Determined?](https://www.bitcoinmining.com/what-is-the-bitcoin-block-reward/)
+
+- One of Bitcoin’s central rules and cannot be changed without agreement between the entire Bitcoin network
+- The block reward started at 50 BTC in block #1 and `halves every 210,000 blocks`.
+- The reward is halved every 4 years
+- Block reward halvings cut miners’ earnings in half
+- Block reward halvings also decrease supply, which as discussed above may cause Bitcoin’s price to increase.
+- A Bitcoin price increase can help offset the block reward halving.
