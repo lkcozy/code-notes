@@ -38,6 +38,11 @@ const Home = React.lazy(() => import("../component/Home"));
 
 ## Resources
 
+## Performance
+
+- [react-lazyload](https://github.com/twobin/react-lazyload): Lazy load your component, image or anything matters the performance.
+- [why-did-you-render](https://github.com/welldone-software/why-did-you-render#readme): notify you about potentially avoidable re-renders.
+
 ### General
 
 - [React Bits](https://github.com/vasanthk/react-bits): A compilation of React Patterns, techniques, tips and tricks.
