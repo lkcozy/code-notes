@@ -157,6 +157,18 @@ modified: 2021-07-22T20:13:50.000Z
 - Having all this information makes it really easy for me to explain why your work is so great.
 - Do you `have a sense of` why they might have a higher salary than I do?
 - What kinds of information `get factored into` compensation decisions here?
+- Is there `dysfunction`(problem) `simmering`(brewing) beneath the surface?
+- An insistence on politeness can `result in` a lack of honest communication
+- If you’re concerned your organization’s culture has `veered`(change) into `toxic`(poisonous) `niceness`(good things), try these `tactics`(strategies).
+- Be `explicit`(clear) that you want people to give `candid`(honest) feedback and ask tough questions
+- When people do express `dissenting`(strongly different) views don’t `reprimand`(blame) them — thank them.
+- Addressing pay `inequity` in your organization isn't just a `moral`(beliefs about what is right or wrong) `imperative`(necessary)
+- Don’t assume your perspective is obvious.
+- `Steer clear` of phrases like “clearly,” “obviously,” or “without a doubt,” which are likely to insult your counterpart.
+- Answering them will `narrow down` your options and help you focus on what’s important.
+- What `matters` to you?
+- you’ve gained new skills or experiences that make you especially `marketable`
+- In a `turbulent`(unrest) environment, `straying outside your lane` could cause additional chaos or confusion
 
 ## Basketball
 
