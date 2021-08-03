@@ -65,6 +65,7 @@ modified: 2021-07-22T20:13:50.000Z
 - The `allure`(attraction) of a strong tech ecosystem
 - Teaching kids to write code has been a topic of `intense debate` for the past decade or so.
 - Instead of looking at them as a competitor, think of the person as a `potential ally` who might help you achieve your goals
+- This issue sometimes `manifests`(demonstrate) as concept `drift`
 
 ## Blockchain
 
@@ -75,6 +76,10 @@ modified: 2021-07-22T20:13:50.000Z
 - Due to the high `upfront cost`, lack of `general availability`, and power requirements,a lot of hobbyists miners mine other cryptocurrencies, also called Altcoins.
 - Encourage them to develop more `empathy`(another's feeling) and consider their colleagues’ `perspectives` and `viewpoints`
 - Don’t expect your efforts to `yield`(bring) immediate results
+
+## AI/ML
+
+- These problems will `recede`(weaken) as data-centric AI tools and methodologies `evolve`.
 
 ## General
 
@@ -168,7 +173,8 @@ modified: 2021-07-22T20:13:50.000Z
 - Answering them will `narrow down` your options and help you focus on what’s important.
 - What `matters` to you?
 - you’ve gained new skills or experiences that make you especially `marketable`
-- In a `turbulent`(unrest) environment, `straying outside your lane` could cause additional chaos or confusion
+- In a `turbulent`(unrest) environment, `straying outside your lane` could cause additional chaos or confusion.
+- People are more likely to `rely on` their own judgment and to forgo asking others for feedback when working remotely.
 
 ## Basketball
 

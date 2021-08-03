@@ -55,3 +55,5 @@ The xiezuocat is focusd on providing AI assistance to professionals through tech
 ![](https://camo.githubusercontent.com/6a7a8fe3e4a3d3fd7d17caa8955ced88938502c2/68747470733a2f2f7777772e77616e67626173652e636f6d2f626c6f67696d672f61737365742f3230323030352f6267323032303035333030352e6a7067)
 
 Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.
+
+## [Pitch Deck Hunt](https://www.pitchdeckhunt.com/): A collection of 150+ pitch decks from industry-leading startups all around the world.

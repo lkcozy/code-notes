@@ -11,10 +11,10 @@ modified: 2021-07-26T20:20:04.000Z
 
 Making a big career decision — whether to accept a job offer, or leave your current job, or make a career pivot — is hard, especially because there’s usually no “right” answer. To figure out what’s right for you, ask yourself these four simple questions. Answering them will narrow down your options and help you focus on what’s important.
 
-- What are your feelings telling you? Think about the kind of work you’re doing now, or the kind of work you’re planning to do. Brainstorm and jot down ideas of different careers you’re considering. What feelings come up?
-- What matters to you? Understanding your values will allow you to make choices that align with the things you care most about.
-- What matters to other people? Consider how your decision will impact your loved ones. Ask them for their thoughts, input, and feelings.
-- What is the reality of the situation? You want to make choices for the right reasons so be objective. Consider the facts and data, not just your hopes and assumptions. If you make the decision based on an erroneous interpretation of your options, you’re likely to be disappointed in the long run.
+- `What are your feelings telling you`? Think about the kind of work you’re doing now, or the kind of work you’re planning to do. Brainstorm and jot down ideas of different careers you’re considering. What feelings come up?
+- `What matters to you`? Understanding your values will allow you to make choices that align with the things you care most about.
+- `What matters to other people`? Consider how your decision will impact your loved ones. Ask them for their thoughts, input, and feelings.
+- `What is the reality of the situation`? You want to make choices for the right reasons so be objective. Consider the facts and data, not just your hopes and assumptions. If you make the decision based on an erroneous interpretation of your options, you’re likely to be disappointed in the long run.
 
 ## Translations
 
