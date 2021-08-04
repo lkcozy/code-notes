@@ -1,10 +1,10 @@
 ---
 title: Well-known Text Representation of geometry
-emoji: "\U0001F30F"
+emoji: 🌍
 tags:
   - gis
   - wkt
-link: 'http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/html/wkt-wkb.html'
+link: "http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/html/wkt-wkb.html"
 created: 2020-12-04T02:15:45.000Z
 modified: 2021-05-05T22:03:31.000Z
 ---
@@ -19,3 +19,7 @@ Geometry is a very complex data type: accordingly to this, OGC-SFS defines two a
 | Point      | POINT (30 10)                                 |
 | LineString | LINESTRING (30 10, 10 30, 40 40)              |
 | Polygon    | POLYGON ((30 10, 40 40, 20 40, 10 20, 30 10)) |
+
+## Tools
+
+- [wellknown](https://github.com/mapbox/wellknown): Parse & stringify [Well-Known Text](http://en.wikipedia.org/wiki/Well-known_text) into [GeoJSON]

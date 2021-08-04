@@ -21,6 +21,21 @@ OmniSciDB is an open source SQL-based, relational, columnar database engine that
 
 OmniSciDB can store and query data using native Open Geospatial Consortium (OGC) types, including POINT, LINESTRING, POLYGON, and MULTIPOLYGON. With geo type support, you can query geo data at scale using special geospatial functions. Using the power of GPU processing, you can quickly and interactively calculate distances between two points and intersections between objects.
 
+### [supercluster](https://github.com/mapbox/supercluster)
+
+![](https://cloud.githubusercontent.com/assets/25395/11857351/43407b46-a40c-11e5-8662-e99ab1cd2cb7.gif)
+
+```js
+const index = new Supercluster({
+  radius: 40,
+  maxZoom: 16,
+});
+index.load(points);
+index.getClusters([-180, -85, 180, 85], 2);
+```
+
+A very fast geospatial point clustering library for browsers and Node.
+
 ### [Deck.gl](https://deck.gl/)
 
 ![](https://www.bram.us/wordpress/wp-content/uploads/2016/11/deck-gl.gif)

@@ -1,10 +1,10 @@
 ---
 title: Mapbox Static Images API
-emoji: "\U0001F30D"
+emoji: 🌍
 tags:
   - gis
   - mapbox
-link: 'https://docs.mapbox.com/api/maps/static-images/'
+link: "https://docs.mapbox.com/api/maps/static-images/"
 created: 2021-03-26T20:36:09.000Z
 modified: 2021-04-12T19:04:15.000Z
 ---

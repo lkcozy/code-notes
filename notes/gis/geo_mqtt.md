@@ -1,6 +1,6 @@
 ---
 title: GeoMQTT
-emoji: 📝
+emoji: 🌍
 tags:
   - gis
   - sta

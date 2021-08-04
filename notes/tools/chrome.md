@@ -23,6 +23,10 @@ modified: 2021-05-03T20:08:26.000Z
 
 ## Extensions
 
+- [geojson.io](https://chrome.google.com/webstore/detail/geojsonio/oibjgofbhldcajfamjganpeacipebckp/related)
+
+Edit files on GitHub and elsewhere in geojson.io
+
 - [ClearURLs](https://github.com/ClearURLs/Addon)
 
 ClearURLs is an add-on based on the new WebExtensions technology and is optimized for Firefox and Chrome-based browsers.
