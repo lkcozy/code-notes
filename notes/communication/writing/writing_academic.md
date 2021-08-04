@@ -1,14 +1,16 @@
 ---
 title: Academic Writing
-emoji: "\U0001F4DD"
+emoji: 📝
 tags:
   - writing
   - academic
   - research
-link: null
+link:
 created: 2021-03-22T20:40:15.000Z
 modified: 2021-07-12T06:26:41.000Z
 ---
+
+https://mp.weixin.qq.com/s/RjmFeLIGjvVABzAuLP2EzQ
 
 ## Introduction
 
