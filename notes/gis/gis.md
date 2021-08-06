@@ -84,6 +84,10 @@ The MapScaping Podcast is a weekly podcast featuring interesting people doing am
 
 ### Tools
 
+- [GIS Command Line Interfaces](https://lkcozy.github.io/code-notes/gis/geo_cli)
+
+Contains several gis related commands tools.
+
 - [Mapshaper](https://github.com/mbloch/mapshaper)
 
 ![](https://handsondataviz.org/images/13-transform/mapshaper-edit-annotated.png)
@@ -116,6 +120,15 @@ GeoJSON.parse(singleobject, {Point: ['lat', 'lng', 'alt']});
 ```
 
 Turn your geo data into GeoJSON.
+
+- [geojson-area](https://github.com/mapbox/geojson-area)
+
+Calculate the area inside of any GeoJSON geometry.
+
+```js
+var geojsonArea = require("@mapbox/geojson-area");
+var area = geojsonArea.geometry(obj);
+```
 
 ### Data
 

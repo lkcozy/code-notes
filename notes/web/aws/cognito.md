@@ -9,6 +9,10 @@ created: 2021-05-27T10:41:56.000Z
 modified: 2021-05-27T10:41:56.000Z
 ---
 
+## [Customize your Cognito verification emails with html pages using lambda function](https://medium.com/@hasnat_33856/customize-your-cognito-verification-emails-with-html-pages-using-lambda-function-e6fff7ebfb94)
+
+You can create an AWS Lambda function and then trigger that function during user pool operations such as user sign-up, confirmation, and sign-in (authentication) with a Lambda trigger. You can add authentication challenges, migrate users, and customize verification messages.
+
 ## Token
 
 After a user logs in, an Amazon Cognito user pool returns a [JSON Web Token(JWT)](https://tools.ietf.org/html/rfc7519), which is a base64-encoded JSON string that contains information about the user (called claims). Amazon Cognito returns three tokens: the `ID token, access token, and refresh token`—the ID token contains the user fields defined in the Amazon Cognito user pool.

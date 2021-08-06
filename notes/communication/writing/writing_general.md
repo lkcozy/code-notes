@@ -46,6 +46,7 @@ modified: 2021-07-22T20:13:50.000Z
 - Going over the same, unsolvable problem repeatedly `won't do either of you` any good
 - Set clear `ground`(basic) rules and guidelines around communication
 - `Resign yourself to`(obey/comply) not getting help with those things
+- They just criticize and complain but do not `come up with` any help or solutions `on` how to get us out of the economic and health issues that we all find ourselves in
 
 ## Basketball
 

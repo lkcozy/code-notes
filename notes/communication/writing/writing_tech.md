@@ -80,3 +80,10 @@ modified: 2021-08-04T13:12:54.000Z
 ## AI/ML
 
 - These problems will `recede`(weaken) as data-centric AI tools and methodologies `evolve`.
+
+## Developer
+
+- Know how to use the hooks and use it wisely with performance optimizations
+- Improve the code quality and the attention to detail
+- Thoroughly test the feature and take pride in the work
+- Take the work seriously before indicating that it is ready to be reviewed

@@ -66,6 +66,12 @@ modified: 2021-08-04T20:13:50.000Z
 - `Ground`(consolidate/give basic knowledge about sth) yourself with an `intention`(purpose) and make a commitment.
 - `Demonstrate` that your team is `engaged`(participate) no matter where they’re located.
 - Think of your presentation as `an act of service` `as opposed to` a talent show or self-promotional opportunity.
+- But being out of the office often means doing `a mountain of` extra work before and after
+- Your `supposedly`(believed) relaxing time off can actually `exacerbate`(increase) your stress
+- Thoughtful `deliberation`(careful consideration) is an `essential`(elementary) leadership quality that can help you make better decisions and produce better outcomes.
+- However, it can also devolve into overthinking, which can be `paralyzing`(stop/inactive)
+- `Curb`(control) your `perfectionism`(the attitude to be perfect).
+- Determine a date or time `by which` you’ll make a choice.
 
 ## Questions
 
@@ -78,3 +84,5 @@ modified: 2021-08-04T20:13:50.000Z
 - How will you know if you’re making progress?
 - What’s `driving` leaders’ `concerns`?
 - `What’s behind their push` to return?
+- What’s one thing I could do today to bring me closer to my goal?
+- What’s the next step based on the information I have right now?
