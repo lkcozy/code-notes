@@ -66,6 +66,9 @@ modified: 2021-08-04T13:12:54.000Z
 - Teaching kids to write code has been a topic of `intense debate` for the past decade or so.
 - Instead of looking at them as a competitor, think of the person as a `potential ally` who might help you achieve your goals
 - This issue sometimes `manifests`(demonstrate) as concept `drift`
+- It cannot `count on` the United States to `supply` its technology, and it must `cultivate`(foster) domestic alternatives.
+- The combined efforts of the drive and its innovative industry will `accelerate`(speed up) the country’s technological `advancement`(development).
+- It could have had a `ripple effect`(chain reaction) across the country
 
 ## Blockchain
 

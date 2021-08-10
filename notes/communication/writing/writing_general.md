@@ -47,9 +47,5 @@ modified: 2021-07-22T20:13:50.000Z
 - Set clear `ground`(basic) rules and guidelines around communication
 - `Resign yourself to`(obey/comply) not getting help with those things
 - They just criticize and complain but do not `come up with` any help or solutions `on` how to get us out of the economic and health issues that we all find ourselves in
-
-## Basketball
-
-- I know the `perception`(opinion) of me is that I can score the basketball well.
-- I'm aware that the public perceives me as a good basketball scorer.
-- i've been asked to do pretty much everything from rebounding to defending to initiating to scoring.
+- There’s even a `stigma`(shame) `associated with` talking to others at the gym.
+- We’re `optimizing for` individual productivity `at the expense of` community and communication

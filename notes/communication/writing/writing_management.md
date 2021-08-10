@@ -72,6 +72,7 @@ modified: 2021-08-04T20:13:50.000Z
 - However, it can also devolve into overthinking, which can be `paralyzing`(stop/inactive)
 - `Curb`(control) your `perfectionism`(the attitude to be perfect).
 - Determine a date or time `by which` you’ll make a choice.
+- `Take note` of leaders’ unique `approaches`(method) and phrases in meetings. What works, what doesn’t work, and why?
 
 ## Questions
 

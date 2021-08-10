@@ -5,12 +5,10 @@ tags:
   - writing
   - academic
   - research
-link:
+link: https://mp.weixin.qq.com/s/RjmFeLIGjvVABzAuLP2EzQ
 created: 2021-03-22T20:40:15.000Z
-modified: 2021-07-12T06:26:41.000Z
+modified: 2021-08-04T06:26:41.000Z
 ---
-
-https://mp.weixin.qq.com/s/RjmFeLIGjvVABzAuLP2EzQ
 
 ## Introduction
 
@@ -18,6 +16,7 @@ https://mp.weixin.qq.com/s/RjmFeLIGjvVABzAuLP2EzQ
 - Gaming and simulation is taking center stage (gaining prominence)
 - An emphasis on domain awareness and collaboration can help create additional traction across industries.
 - Greater awareness will aid in the evolution of these key technologies.
+- Research shows that `pairing` intuition `with` analytical thinking `helps` you make better decisions.
 
 ## Challenges
 
