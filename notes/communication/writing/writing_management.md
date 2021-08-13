@@ -73,17 +73,44 @@ modified: 2021-08-04T20:13:50.000Z
 - `Curb`(control) your `perfectionism`(the attitude to be perfect).
 - Determine a date or time `by which` you’ll make a choice.
 - `Take note` of leaders’ unique `approaches`(method) and phrases in meetings. What works, what doesn’t work, and why?
+- `As` you become more efficient, you `make room for` even more tasks and feel even more pressure.
+- When you’re feeling overwhelmed, you are better served by `attacking the root cause`: the `sheer`(large) volume of tasks.
+- For tasks that are assigned to you, think in terms of priorities not time.
+- You don’t have to worry about `failing to meet` a critical commitment.
+- Most people know that how you `frame`(define) a problem will influence how you solve it.
+- The metric you use to define success or failure will influence the answers you `come up with`.
+- While it may be `tempting`(attractive) to do sth
+- `Envision`(image) what you want your career and life to look like.
+- You’ll gain a more valuable `outlook`(insights) by `triangulating advice` (combining different suggestions) from multiple mentors at the same time.
 
 ## Questions
 
-- Do you `have a sense of` why they might have a higher salary than I do?
-- What kinds of information `get factored into` compensation decisions here?
-- Is there `dysfunction`(problem) `simmering`(brewing) beneath the surface?
-- What does achieving your goal look like?
-- What `matters` to you?
-- How can you `channel` feelings of self-doubt into something more constructive and productive?
-- How will you know if you’re making progress?
+## Asking Requirements
+
 - What’s `driving` leaders’ `concerns`?
 - `What’s behind their push` to return?
-- What’s one thing I could do today to bring me closer to my goal?
+- What does achieving your goal look like?
+
+## Prioritizing
+
 - What’s the next step based on the information I have right now?
+- Where would you like me to prioritize this against x, y, and z?
+
+## Performance Improving
+
+- What’s one thing I could do today to bring me closer to my goal?
+- How will you know if you’re making progress?
+- Who do you go to for emotional support now?
+- Where are you getting your tactical advice?
+- Who helps you understand the ins and outs of your company?
+
+## Compensation
+
+- Do you `have a sense of` why they might have a higher salary than I do?
+- What kinds of information `get factored into` compensation decisions here?
+
+## Misc
+
+- Is there `dysfunction`(problem) `simmering`(brewing) beneath the surface?
+- What `matters` to you?
+- How can you `channel`(control) feelings of self-doubt into something more constructive and productive?
