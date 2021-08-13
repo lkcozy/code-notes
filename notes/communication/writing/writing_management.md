@@ -82,6 +82,7 @@ modified: 2021-08-04T20:13:50.000Z
 - While it may be `tempting`(attractive) to do sth
 - `Envision`(image) what you want your career and life to look like.
 - You’ll gain a more valuable `outlook`(insights) by `triangulating advice` (combining different suggestions) from multiple mentors at the same time.
+- Get a `sponsor`(supporter) with power and have them advocate on your behalf for an immediate1 catch-up.
 
 ## Questions
 
@@ -107,7 +108,10 @@ modified: 2021-08-04T20:13:50.000Z
 ## Compensation
 
 - Do you `have a sense of` why they might have a higher salary than I do?
-- What kinds of information `get factored into` compensation decisions here?
+- What kinds of information `get factored into` compensation decisions here?(Tenure? Seniority? Scope of impact? Specialty?)
+- Are there salary `bands`? Do you have a sense of where in the band my salary falls? Or my peer’s?
+- How often is compensation adjusted here? What’s the timeline?
+- What’s the process for correcting someone’s compensation here? Have you seen it done before?
 
 ## Misc
 
