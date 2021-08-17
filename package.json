@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "gatsby": "^3.10.0",
-    "gatsby-plugin-manifest": "^3.10.0",
-    "gatsby-plugin-offline": "^4.10.0",
+    "gatsby": "^3.11.0",
+    "gatsby-plugin-manifest": "^3.11.0",
+    "gatsby-plugin-offline": "^4.11.0",
     "gatsby-theme-code-notes": "^2.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -18,14 +18,8 @@
   "devDependencies": {
     "frontmatter-date-setter": "^0.1.0",
     "gh-pages": "^3.2.0",
-    "husky": "4.3.8",
-    "lint-staged": "10.5.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn stats"
-    }
+    "husky": "^7.0.0",
+    "lint-staged": "^11.1.0"
   },
   "lint-staged": {
     "{*.md,*.mdx}": [
