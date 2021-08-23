@@ -83,6 +83,9 @@ modified: 2021-08-04T20:13:50.000Z
 - `Envision`(image) what you want your career and life to look like.
 - You’ll gain a more valuable `outlook`(insights) by `triangulating advice` (combining different suggestions) from multiple mentors at the same time.
 - Get a `sponsor`(supporter) with power and have them advocate on your behalf for an immediate1 catch-up.
+- Becoming `more aware of` these factors will help you become more `empathetic` and `sets the tone` for a more inclusive team culture.
+- `Breaking` tasks `down into` smaller pieces can help make your to-do list feel a little less overwhelming.
+- start small and be `deliberate`(thought carefully) about each effort
 
 ## Communication
 
