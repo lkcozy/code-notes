@@ -13,9 +13,9 @@ modified: 2021-08-23T14:23:41.000Z
 
 Do you have a hard time voicing your thoughts at work, even — especially — when you want to? You’re not alone. The important thing to remember is that your lack of confidence isn’t an inherent flaw. Confidence can be learned and practiced. Here are a couple of steps to help you get started.
 
-Step 1: Connect with yourself. Take the time to understand who you are, where your motivations lie, and what makes you unique, because there’s literally no one else who will share your particular point of view. You have something important to share, no matter how obvious or uninspiring it may seem to you.
+`Step 1: Connect with yourself`. Take the time to understand who you are, where your motivations lie, and what makes you unique, because there’s literally no one else who will share your particular point of view. You have something important to share, no matter how obvious or uninspiring it may seem to you.
 
-Step 2: Focus on building confident behaviors (such as speaking up in a meeting or asserting yourself when someone interrupts you). Don’t worry if that doesn’t happen overnight; any mindset shift is going to take time. So, start small and be deliberate about each effort. Don’t expect change to happen overnight. Confidence is a muscle!
+`Step 2: Focus on building confident behaviors` (such as speaking up in a meeting or asserting yourself when someone interrupts you). Don’t worry if that doesn’t happen overnight; any mindset shift is going to take time. So, start small and be deliberate about each effort. Don’t expect change to happen overnight. Confidence is a muscle!
 
 ## Translations
 
