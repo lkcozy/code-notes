@@ -84,6 +84,15 @@ modified: 2021-08-04T20:13:50.000Z
 - You’ll gain a more valuable `outlook`(insights) by `triangulating advice` (combining different suggestions) from multiple mentors at the same time.
 - Get a `sponsor`(supporter) with power and have them advocate on your behalf for an immediate1 catch-up.
 
+## Communication
+
+- I `addressed`(talk about) this issue with team.
+- That's why I `engaged`(deeply involve) him in the conversation.
+- Please `raise a red flag` when you find something wrong.
+- Let's get `aligned`(on the same page/in consistent with) before we speak to team.
+- Please send me this report `on a daily basis`(daily).
+- It's just a `spur-of-the-moment`(last minute) idea. I haven't yet got chance to run by the team.
+
 ## Questions
 
 ## Asking Requirements
