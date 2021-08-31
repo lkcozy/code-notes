@@ -14,9 +14,21 @@ modified: 2021-05-05T02:50:43.000Z
 docker system df
 ```
 
-## docker system prune
+## docker system prune -a --volume
 
-WARNING! This will remove: - all stopped containers - all networks not used by at least one container - all dangling images - all dangling build cache
+WARNING! This will remove:
+
+- all stopped containers
+- all networks not used by at least one container
+- all volumes not used by at least one container
+- all images without at least one container associated to them
+- all build cache
+
+## Build image
+
+```sh
+docker build -t frontend --build-arg NPM_AUTH_TOKEN=TOKEN .
+```
 
 ## Download newer image
 

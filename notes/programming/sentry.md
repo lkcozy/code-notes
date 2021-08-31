@@ -9,6 +9,22 @@ created: 2021-06-22T15:06:09.000Z
 modified: 2021-06-22T15:06:09.000Z
 ---
 
+## Ignore errors
+
+````ts
+Sentry.init({
+  dsn: "sentry_dsn",
+  ignoreErrors: [
+    'TypeError: Failed to fetch',
+    'TypeError: NetworkError when attempting to fetch resource.',
+    'TypeError: Cancelled'，
+    'TypeError: Preflight response is not successful',
+    // https://browserhow.com/how-to-fix-cannot-parse-response-in-safari-browser/
+    'TypeError: cannot parse response'
+  ],
+});
+```
+
 ## [Handling GraphQL Errors Using Sentry](https://blog.sentry.io/2020/07/22/handling-graphql-errors-using-sentry)
 
 ### Reporting Errors to Sentry with Apollo Server
@@ -46,7 +62,7 @@ didEncounterErrors(ctx) {
     });
   }
 }
-```
+````
 
 ### Tracing Errors, End-To-End
 

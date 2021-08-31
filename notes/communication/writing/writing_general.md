@@ -49,3 +49,4 @@ modified: 2021-07-22T20:13:50.000Z
 - They just criticize and complain but do not `come up with` any help or solutions `on` how to get us out of the economic and health issues that we all find ourselves in
 - There’s even a `stigma`(shame) `associated with` talking to others at the gym.
 - We’re `optimizing for` individual productivity `at the expense of` community and communication
+- Those quotes `highlight the stakes that hinge on` effective schema `stewardship`(management).

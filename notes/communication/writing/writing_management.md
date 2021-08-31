@@ -7,9 +7,11 @@ tags:
   - management
 link:
 created: 2021-03-15T16:13:36.000Z
-modified: 2021-08-04T20:13:50.000Z
+modified: 2021-08-24T20:13:50.000Z
 ---
 
+- Governance is a process where you ask other people for permission to do things and the governing body serves to enforce consistency in things.
+- Stewardship is much more `collaborative process` and involves tending to what exists, guiding rather than dictating what will be.
 - If you `lead through` intimidation, or if you lead through fear, then that's not leadership.
 - You have to `lead through collaboration` and `cajoling(persuading)`, not control.
 - Like trust, respect is also something you earn-and by `leading through your actions, not your words`.
@@ -85,7 +87,8 @@ modified: 2021-08-04T20:13:50.000Z
 - Get a `sponsor`(supporter) with power and have them advocate on your behalf for an immediate1 catch-up.
 - Becoming `more aware of` these factors will help you become more `empathetic` and `sets the tone` for a more inclusive team culture.
 - `Breaking` tasks `down into` smaller pieces can help make your to-do list feel a little less overwhelming.
-- start small and be `deliberate`(thought carefully) about each effort
+- start small and be `deliberate`(thought carefully) about each effort.
+- This will not only help `identify any concerns`, it will also `draw attention to` the fact that this monitoring is happening and therefore encourage managers to `pay careful attention to` their allocations.
 
 ## Communication
 

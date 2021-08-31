@@ -25,7 +25,7 @@ Docker uses a client-server architecture. The Docker client talks to the Docker 
 
 ## [Docker Compose](https://docs.docker.com/compose/#common-use-cases)
 
-Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. To learn more about all the features of Compose, see the [list of features](https://docs.docker.com/compose/#features).
+`Compose is a tool for defining and running multi-container Docker applications in a single host`. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. To learn more about all the features of Compose, see the [list of features](https://docs.docker.com/compose/#features).
 
 Compose works in all environments: production, staging, development, testing, as well as CI workflows. You can learn more about each case in [Common Use Cases](https://docs.docker.com/compose/#common-use-cases).
 
@@ -170,4 +170,37 @@ COPY --from=builder /build/server .
 
 # Run the executable
 CMD ["./server"]
+```
+
+## .dockerignore
+
+Use .dockerignore in every project, where you are building Docker images. It will make your Docker images small, fast and secure. It will help with the Docker cache during local development as well.
+
+```gitignore
+# Items that don't need to be in a Docker image.
+# Anything not used by the build system should go here.
+# overhead
+Dockerfile
+docker-compose.yml
+.dockerignore
+docs
+.vscode
+.gitignore
+.git
+.github
+.cache
+LICENSE
+*.md
+.storybook
+.codeship*
+codeship*.yml
+codeship.aes
+.env.development
+.env.local
+
+# artifacts
+build
+dist
+node_modules
+
 ```

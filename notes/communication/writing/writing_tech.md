@@ -69,6 +69,7 @@ modified: 2021-08-04T13:12:54.000Z
 - It cannot `count on` the United States to `supply` its technology, and it must `cultivate`(foster) domestic alternatives.
 - The combined efforts of the drive and its innovative industry will `accelerate`(speed up) the country’s technological `advancement`(development).
 - It could have had a `ripple effect`(chain reaction) across the country
+- The basic idea of `orthogonality` is that things that are not related conceptually should not be related in the system. 
 
 ## Blockchain
 
