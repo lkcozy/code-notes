@@ -8,10 +8,29 @@ tags:
   - api
 link: "https://graphql.org/"
 created: 2020-08-10T22:40:43.000Z
-modified: 2021-06-23T20:08:26.000Z
+modified: 2021-08-23T20:08:26.000Z
 ---
 
 GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.
+
+- The best architecture to design your application immediately start with your needs.
+- The best way to measure the quality of a schema is to `measure it’s utility to those client applications`.
+- It’s crucial to remind schema authors their goal is to provide service, not just provide access to their service.
+- While GraphQL can be used for service-to-service APIs, it’s uniquely suited and most powerful when used by client applications.
+- Traditional good API schema design(DRY-don't repeat yourself,orthogonal and perfectly abstract) will make the client side code complicated, brittle, difficult to write and execute quickly, and duplicated by each and every client.
+
+## [10 Best Practices for Schema Stewardship](https://www.apollographql.com/blog/community/graphql-champions/10-best-practices-for-schema-stewardship/)
+
+![](https://wp.apollographql.com/wp-content/uploads/2021/08/10-best-preview-1024x574.jpg)
+
+- Adopt a stewardship mindset
+- Begin by understanding all the teams, their motivations, and their struggles
+
+![](https://wp.apollographql.com/wp-content/uploads/2021/08/team-table-1024x575.png)
+
+- Assume good intent
+- Lean into the Friction
+- Adopt a client-centric mindset
 
 ## [Starter Kit](https://github.com/atherosai/graphql-gateway-apollo-express)
 
@@ -91,7 +110,7 @@ where 10 is the inline value for first argument. Since the input language for Gr
 The other way of reading input from clients is through variables:
 
 ```graphql
-query($howMany: YourCustomType) {
+query ($howMany: YourCustomType) {
   users(first: $howMany) {
     id
   }
@@ -198,6 +217,8 @@ Low-latency, real-time updates. For example, a chat application's client wants t
 ### Tutorials
 
 - [9 Ways To Secure your GraphQL API — GraphQL Security Checklist](https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/)
+
+-[Performance Monitoring in GraphQL](https://blog.sentry.io/2021/08/31/guest-post-performance-monitoring-in-graphql): use the Sentry transaction for each graphql request.
 
 - [Using Subscriptions with Your Federated Data Graph](https://www.apollographql.com/blog/backend/federation/using-subscriptions-with-your-federated-data-graph/)
 
