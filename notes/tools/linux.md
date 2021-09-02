@@ -6,7 +6,7 @@ tags:
   - cli
 link: "https://codebond.co/tutorial/other/most-helpful-linux-command"
 created: 2020-07-11T05:16:40.000Z
-modified: 2021-05-03T20:08:26.000Z
+modified: 2021-08-31T20:08:26.000Z
 ---
 
 [every Linux networking tool I know](https://wizardzines.com/networking-tools-poster.pdf)
@@ -74,3 +74,14 @@ s Substitute command
 /../../ Delimiter
 one Regular Expression Pattern Search Pattern
 ONE Replacement string
+
+## [grep](https://phoenixnap.com/kb/grep-command-linux-unix-examples)
+
+Grep is an acronym that stands for Global Regular Expression Print.
+
+```sh
+# Filter out directories
+grep -v ^d
+# find files start with issue
+grep issue
+```

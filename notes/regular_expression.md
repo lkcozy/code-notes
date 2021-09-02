@@ -34,7 +34,6 @@ A valid regex consists of `alphanumeric characters` representing the set of inpu
 
 - Modifier
   - `gi`: means global, case-insensitive,
-  - 
 - Multipliers
 
   - `* -` item occurs zero or more times.

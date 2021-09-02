@@ -29,6 +29,41 @@ overrides: [
 ];
 ```
 
+## [Exploring advanced compiler options in TypeScript](https://blog.logrocket.com/exploring-advanced-compiler-options-typescript/)
+
+This article will cover the following options:
+
+- Nested tsconfig.json files
+- strictPropertyInitialization
+- noImplicitThis
+- noImplicitReturns
+- strictNullChecks
+
+```sh
+├── dist
+└── src
+    ├── tsconfig.json
+    ├── backend
+    │   ├── index.ts
+    │   └── tsconfig.json
+    └── frontend
+        ├── index.ts
+        └── tsconfig.json
+```
+
+```json
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "rootDir": ".",
+    "outDir": "../dist/"
+  },
+  "files": [],
+  "references": [{ "path": "./backend" }, { "path": "./frontend" }]
+}
+```
+
 ## Tools
 
 - [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode): a developer productivity tool for rapid JavaScript / TypeScript prototyping.

@@ -89,6 +89,8 @@ modified: 2021-08-24T20:13:50.000Z
 - `Breaking` tasks `down into` smaller pieces can help make your to-do list feel a little less overwhelming.
 - start small and be `deliberate`(thought carefully) about each effort.
 - This will not only help `identify any concerns`, it will also `draw attention to` the fact that this monitoring is happening and therefore encourage managers to `pay careful attention to` their allocations.
+- I think there is a `temptation`(desire) to try to have opinions, especially the more senior you get.
+- The experience you have `built up` means that you may have a `hard-won lesson` that you want to share to stop someone going down a similar `trecherous`(difficult) path.
 
 ## Communication
 
@@ -132,4 +134,7 @@ modified: 2021-08-24T20:13:50.000Z
 
 - Is there `dysfunction`(problem) `simmering`(brewing) beneath the surface?
 - What `matters` to you?
-- How can you `channel`(control) feelings of self-doubt into something more constructive and productive?
+- How can you `channel`(control) feelings of self-doubt into something more
+- constructive and productive?
+- Will `contributing`(offer/share) my opinion meaningfully impact the discussion's outcome?
+- If it won’t then I can `relish in`(enjoy) the simple beauty of having no opinion.

@@ -5,8 +5,8 @@ tags:
   - presentation
   - writing
 link: https://demystifying-public-speaking.com/writing-your-presentation.html
-created: 2021-08-CURRENT_DATET11:51:07.000Z
-modified: 2021-08-CURRENT_DATET11:51:07.000Z
+created: 2021-08-19T12:45:46.000Z
+modified: 2021-08-19T12:45:46.000Z
 ---
 
 ## Content Structure
