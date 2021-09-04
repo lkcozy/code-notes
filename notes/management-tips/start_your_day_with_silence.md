@@ -33,5 +33,3 @@ We live in a world full of noise and chatter, and it can be hard to find a break
 </details>
 
 ## Mindmap
-
-![]()

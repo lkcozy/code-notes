@@ -5,7 +5,7 @@ tags:
   - ai
   - yolo
   - object detection
-link: 'https://arxiv.org/abs/1506.02640'
+link: https://arxiv.org/abs/1506.02640
 created: 2021-04-06T19:48:18.000Z
 modified: 2021-04-14T23:11:23.000Z
 ---

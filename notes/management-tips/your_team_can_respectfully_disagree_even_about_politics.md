@@ -32,5 +32,3 @@ Talking about politics at work can be dicey. So what should you do as a manager?
 </details>
 
 ## Mindmap
-
-![]()

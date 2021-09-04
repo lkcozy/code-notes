@@ -6,7 +6,7 @@ tags:
   - sql
   - database
   - api
-link: "https://graphql.org/"
+link: https://graphql.org/
 created: 2020-08-10T22:40:43.000Z
 modified: 2021-08-23T20:08:26.000Z
 ---
@@ -31,6 +31,18 @@ GraphQL is an open-source data query and manipulation language for APIs, and a r
 - Assume good intent
 - Lean into the Friction
 - Adopt a client-centric mindset
+
+[Part 2](https://www.apollographql.com/blog/community/graphql-champions/10-best-practices-for-schema-stewardship-part-2-of-2/)
+
+- Keep iterating your organizing model
+  - Siloed
+  - Graph Guild
+  - Central Graph Team
+  - Hybrid
+- Scale your review processes with async reviews and schema tools
+- Pay special attention to a team’s first schema review
+- Adopt a product mindset
+- Keep moving forward
 
 ## [Starter Kit](https://github.com/atherosai/graphql-gateway-apollo-express)
 

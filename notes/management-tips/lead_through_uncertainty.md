@@ -4,7 +4,7 @@ emoji: "\U0001F4A1"
 tags:
   - management
   - leadership
-link: 'https://hbr.org/2021/04/6-strategies-for-leading-through-uncertainty'
+link: https://hbr.org/2021/04/6-strategies-for-leading-through-uncertainty
 created: 2021-05-04T20:13:50.000Z
 modified: 2021-05-04T20:13:50.000Z
 ---

@@ -38,5 +38,3 @@ The bottom line is if you **respond to the departure of a valuable employee by b
 </details>
 
 ## Mindmap
-
-![]()

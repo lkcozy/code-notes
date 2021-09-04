@@ -33,5 +33,3 @@ Imposter syndrome is the persistent, nagging thought that tells us that we’re 
 </details>
 
 ## Mindmap
-
-![]()

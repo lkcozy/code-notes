@@ -43,5 +43,3 @@ No matter what stage you’re at in your career, one of the most important thing
 </details>
 
 ## Mindmap
-
-![]()

@@ -34,5 +34,3 @@ The pandemic has followed us into 2021, and so has WFH burnout. As a manager, yo
 </details>
 
 ## Mindmap
-
-![]()

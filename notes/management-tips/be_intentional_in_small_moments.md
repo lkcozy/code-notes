@@ -4,7 +4,7 @@ emoji: "\U0001F4A1"
 tags:
   - Archived
   - management
-link: 'https://hbr.org/2020/05/do-you-have-a-life-outside-of-work'
+link: https://hbr.org/2020/05/do-you-have-a-life-outside-of-work
 created: 2020-08-21T22:09:36.000Z
 modified: 2021-05-05T22:03:31.000Z
 ---

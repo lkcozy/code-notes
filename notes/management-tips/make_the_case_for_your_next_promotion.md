@@ -31,5 +31,3 @@ During the pandemic, promotions have been hard to come by at many organizations.
 </details>
 
 ## Mindmap
-
-![]()

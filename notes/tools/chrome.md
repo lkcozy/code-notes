@@ -4,7 +4,7 @@ emoji: "\U0001F4DD"
 tags:
   - chrome
   - tools
-link: "https://alfilatov.com/posts/run-chrome-without-cors/"
+link: https://alfilatov.com/posts/run-chrome-without-cors/
 created: 2020-06-28T05:41:12.000Z
 modified: 2021-05-03T20:08:26.000Z
 ---
@@ -43,7 +43,7 @@ Decentraleyes, a local CDN emulation, “prevents a lot of requests from reachin
 
 OneTab converts all of your tabs into a list.
 
-- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
+- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender-origi/ahmkjjgdligadogjedmnogbpbcpofeeo/related)
 
 A lightweight extension to reduce chrome's memory footprint. Perfect if you have a lot of tabs open at the same time. Tabs that have not been viewed after a configurable length of time will be automagically suspended in the background, freeing up the memory and CPU being consumed by that tab.
 

@@ -3,7 +3,7 @@ title: Google
 emoji: "\U0001F4DD"
 tags:
   - google
-link: null
+
 created: 2020-07-21T19:52:58.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---

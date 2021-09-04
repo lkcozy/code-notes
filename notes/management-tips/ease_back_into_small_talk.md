@@ -29,5 +29,3 @@ Are you nervous about having to make small talk with colleagues when you return 
 </details>
 
 ## Mindmap
-
-![]()

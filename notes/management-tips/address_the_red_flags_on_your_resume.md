@@ -30,5 +30,3 @@ Resume “red flags,” such as employment gaps, short stints with multiple comp
 </details>
 
 ## Mindmap
-
-![]()

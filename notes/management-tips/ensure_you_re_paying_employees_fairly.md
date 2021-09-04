@@ -34,5 +34,3 @@ According to a 2019 study, most companies find that up to 5% of employees are el
 </details>
 
 ## Mindmap
-
-![]()

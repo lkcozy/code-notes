@@ -36,5 +36,3 @@ Research shows that having a strong work identity can be tied to your well-being
 </details>
 
 ## Mindmap
-
-![]()

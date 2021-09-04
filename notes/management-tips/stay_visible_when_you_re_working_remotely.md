@@ -36,5 +36,3 @@ If you plan to work remotely full-time — or most of the time — how can you s
 </details>
 
 ## Mindmap
-
-![]()

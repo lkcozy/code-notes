@@ -38,5 +38,3 @@ If leadership is applying pressure for employees to come back to the office, and
 </details>
 
 ## Mindmap
-
-![]()

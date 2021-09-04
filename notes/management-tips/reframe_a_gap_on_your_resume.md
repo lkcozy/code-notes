@@ -35,5 +35,3 @@ Ultimately, if you’re confident in the value that you can bring to others, you
 </details>
 
 ## Mindmap
-
-![]()

@@ -38,5 +38,3 @@ We’re all under intense stress from the pandemic. Taking care to deliver your 
 </details>
 
 ## Mindmap
-
-![]()

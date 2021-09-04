@@ -34,5 +34,3 @@ Difficult conversations are difficult for a reason, and when you’re anxious or
 </details>
 
 ## Mindmap
-
-![]()

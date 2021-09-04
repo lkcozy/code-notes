@@ -5,7 +5,7 @@ tags:
   - odata
   - sta
   - best-practices
-link: "https://www.odata.org/"
+link: https://www.odata.org/
 created: 2020-07-12T22:38:08.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---

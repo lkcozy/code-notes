@@ -6,7 +6,7 @@ emoji: ₿
 tags:
   - blockchain
   - Ethereum
-link: 'https://bitcoinik.com/what-are-non-fungible-tokens-nfts-beginner-guide/'
+link: https://bitcoinik.com/what-are-non-fungible-tokens-nfts-beginner-guide/
 created: 2021-05-04T20:13:50.000Z
 modified: 2021-05-04T20:13:50.000Z
 ---

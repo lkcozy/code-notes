@@ -3,7 +3,7 @@ title: Tabulator-A JS table library
 emoji: "\U0001F4DD"
 tags:
   - javascript
-link: 'http://www.tabulator.info/'
+link: http://www.tabulator.info/
 created: 2020-08-13T05:34:28.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---

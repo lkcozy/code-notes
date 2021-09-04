@@ -36,5 +36,3 @@ You get to decide where and how you express your authentic self. Save your energ
 </details>
 
 ## Mindmap
-
-![]()

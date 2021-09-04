@@ -39,5 +39,3 @@ Then you can `develop new relationships or strengthen existing ones according to
 </details>
 
 ## Mindmap
-
-![]()

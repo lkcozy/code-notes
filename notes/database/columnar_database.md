@@ -8,7 +8,7 @@ created: 2021-06-23T10:48:25.000Z
 modified: 2021-06-23T10:48:25.000Z
 ---
 
-![](https://cdn.beekka.com/blogimg/asset/202105/bg2021051105.jpg)
+![](https://image.slidesharecdn.com/columnstoretutorialvldb09-100418160013-phpapp01/95/vldb-2009-tutorial-on-columnstores-2-728.jpg?cb=1271606504)
 
 As the illustration above shows. A typical relational database `stores its data in row form`. A single row for a transaction, for instance, would contain the fields date, customer, price, product_sku and so on.
 

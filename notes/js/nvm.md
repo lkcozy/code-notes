@@ -3,7 +3,7 @@ title: Node Version Manager (NVM)
 emoji: "\U0001F4DD"
 tags:
   - node
-link: "https://github.com/nvm-sh/nvm"
+link: https://github.com/nvm-sh/nvm
 created: 2021-04-13T16:55:18.000Z
 modified: 2021-04-13T16:55:18.000Z
 ---

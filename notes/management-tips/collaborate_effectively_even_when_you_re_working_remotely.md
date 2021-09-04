@@ -4,7 +4,7 @@ emoji: "\U0001F4A1"
 tags:
   - management
   - remote
-link: "https://hbr.org/2020/10/4-tips-for-effective-virtual-collaboration"
+link: https://hbr.org/2020/10/4-tips-for-effective-virtual-collaboration
 created: 2020-11-04T23:40:19.000Z
 modified: 2021-03-04T20:22:23.000Z
 ---

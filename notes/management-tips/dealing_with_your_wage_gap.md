@@ -35,5 +35,3 @@ Last, `give your sponsors enough details to correct gaps`. Give them details lik
 </details>
 
 ## Mindmap
-
-![]()

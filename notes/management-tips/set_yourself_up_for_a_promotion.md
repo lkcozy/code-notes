@@ -35,5 +35,3 @@ Making a case for your next promotion can be a tedious and trying journey. Prepa
 </details>
 
 ## Mindmap
-
-![]()

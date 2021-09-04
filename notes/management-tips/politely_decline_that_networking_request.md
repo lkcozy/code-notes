@@ -34,5 +34,3 @@ But, remember, it’s OK to set boundaries as long as you communicate them with 
 </details>
 
 ## Mindmap
-
-![]()

@@ -5,7 +5,7 @@ tags:
   - ogc
   - gis
   - sta
-link: "http://docs.opengeospatial.org/wp/07-165r1/"
+link: http://docs.opengeospatial.org/wp/07-165r1/
 created: 2021-05-03T21:56:32.000Z
 modified: 2021-05-03T21:56:32.000Z
 ---
@@ -19,4 +19,3 @@ This domain working group works to find best practices to better connect Space/S
 - SensorThings API (STA) - a RESTful web service based on JSON encoding that provides an open and unified way to interconnect Internet of Things (IoT) devices, data, and applications over the Web. This is the intermediary between a client (e.g., web application) and an observation repository or near real-time IoT sensor/actuator.
 
 ![OGC Sensor Web Enablement SOS 2.0, SensorML and WaterML](https://www.slideshare.net/LuisBermudez9/ogc-sensor-web-enablement-sos-20-sensorml-and-waterml)
-![]()

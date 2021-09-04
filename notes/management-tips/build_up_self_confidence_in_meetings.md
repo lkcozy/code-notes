@@ -37,5 +37,3 @@ Lastly, invite feedback with questions like, â€œHow many of you feel this way?â€
 </details>
 
 ## Mindmap
-
-![]()

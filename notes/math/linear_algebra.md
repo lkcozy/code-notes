@@ -5,7 +5,7 @@ tags:
   - math
   - linear algebra
   - python
-link: 'https://pabloinsente.github.io/intro-linear-algebra'
+link: https://pabloinsente.github.io/intro-linear-algebra
 created: 2020-12-01T06:23:33.000Z
 modified: 2021-03-04T20:22:23.000Z
 ---

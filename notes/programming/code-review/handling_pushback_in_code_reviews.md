@@ -4,7 +4,7 @@ emoji: "\U0001F4DD"
 tags:
   - code-review
   - best-practices
-link: 'https://google.github.io/eng-practices/review/reviewer/pushback.html'
+link: https://google.github.io/eng-practices/review/reviewer/pushback.html
 created: 2021-04-19T23:30:57.000Z
 modified: 2021-04-19T23:30:57.000Z
 ---

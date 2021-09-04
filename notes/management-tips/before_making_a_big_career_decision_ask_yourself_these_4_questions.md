@@ -31,5 +31,3 @@ Making a big career decision — whether to accept a job offer, or leave your cu
 </details>
 
 ## Mindmap
-
-![]()

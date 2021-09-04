@@ -30,5 +30,3 @@ Creating a “nice” company culture is a laudable goal. But has your company t
 </details>
 
 ## Mindmap
-
-![]()

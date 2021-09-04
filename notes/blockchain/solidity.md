@@ -4,7 +4,7 @@ emoji: "\U0001F1E7\U0001F1E7"
 tags:
   - Ethereum
   - blockchain
-link: "https://docs.soliditylang.org/en"
+link: https://docs.soliditylang.org/en
 created: 2021-05-05T22:03:31.000Z
 modified: 2021-05-05T22:03:31.000Z
 ---

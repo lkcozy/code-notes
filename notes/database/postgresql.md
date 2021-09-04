@@ -5,7 +5,7 @@ tags:
   - postgresql
   - sql
   - database
-link: null
+
 created: 2020-07-01T16:33:32.000Z
 modified: 2021-03-04T20:22:23.000Z
 ---

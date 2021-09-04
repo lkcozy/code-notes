@@ -3,7 +3,7 @@ title: Markdown
 emoji: "\U0001F4DD"
 tags:
   - markdown
-link: "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
+link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 created: 2021-04-06T19:36:16.000Z
 modified: 2021-04-06T19:36:16.000Z
 ---

@@ -5,7 +5,7 @@ tags:
   - ogc
   - gis
   - api
-link: "https://docs.opengeospatial.org/is/17-069r3/17-069r3.html"
+link: https://docs.opengeospatial.org/is/17-069r3/17-069r3.html
 created: 2021-04-28T06:43:51.000Z
 modified: 2021-04-28T06:43:51.000Z
 ---

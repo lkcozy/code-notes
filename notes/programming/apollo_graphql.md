@@ -6,7 +6,7 @@ tags:
   - api
   - apollo
   - microservices
-link: "https://www.apollographql.com/docs/federation/federation-spec/"
+link: https://www.apollographql.com/docs/federation/federation-spec/
 created: 2021-04-20T16:05:46.000Z
 modified: 2021-05-05T22:03:31.000Z
 ---

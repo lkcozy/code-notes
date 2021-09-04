@@ -34,5 +34,3 @@ Lastly, `don’t underestimate the power of empathy`. Asking a simple question l
 </details>
 
 ## Mindmap
-
-![]()

@@ -31,5 +31,3 @@ If you’ve been thinking about quitting your job, you’re not alone. Surveys s
 </details>
 
 ## Mindmap
-
-![]()

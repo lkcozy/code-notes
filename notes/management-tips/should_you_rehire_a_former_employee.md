@@ -30,5 +30,3 @@ So, if predictability, short-term impact, and lower training costs are your goal
 </details>
 
 ## Mindmap
-
-![]()

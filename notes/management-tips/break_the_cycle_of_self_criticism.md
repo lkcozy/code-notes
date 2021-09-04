@@ -31,5 +31,3 @@ It’s tempting to think that if you’re tough on yourself, you’ll perform be
 </details>
 
 ## Mindmap
-
-![]()

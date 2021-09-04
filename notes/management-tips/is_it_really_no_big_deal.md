@@ -35,5 +35,3 @@ So, next time you’re inclined to say “It’s no big deal,” stop and consid
 </details>
 
 ## Mindmap
-
-![]()

@@ -5,7 +5,7 @@ tags:
   - note
   - dog
   - vaccine
-link: 'https://www.petsepark.com/2019/10/13/da2pp-vaccine-for-dogs/'
+link: https://www.petsepark.com/2019/10/13/da2pp-vaccine-for-dogs/
 created: 2021-05-03T20:08:26.000Z
 modified: 2021-05-03T20:08:26.000Z
 ---

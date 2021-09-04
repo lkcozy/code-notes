@@ -35,5 +35,3 @@ Your career is a long-term investment; by proactively looking at the range of po
 </details>
 
 ## Mindmap
-
-![]()

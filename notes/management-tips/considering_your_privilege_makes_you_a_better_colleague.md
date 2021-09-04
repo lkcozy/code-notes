@@ -31,5 +31,3 @@ We all benefit from some degree of privilege — whether it's related to your ra
 </details>
 
 ## Mindmap
-
-![]()

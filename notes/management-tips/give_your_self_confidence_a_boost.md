@@ -30,5 +30,3 @@ Do you have a hard time voicing your thoughts at work, even — especially — w
 </details>
 
 ## Mindmap
-
-![]()

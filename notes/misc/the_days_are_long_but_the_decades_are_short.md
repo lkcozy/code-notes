@@ -3,11 +3,10 @@ title: The days are long but the decades are short
 emoji: "\U0001F4A1"
 tags:
   - tips
-link: 'https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short'
+link: https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short
 created: 2020-07-26T05:56:03.000Z
 modified: 2021-03-04T20:22:23.000Z
 ---
-
 
 the_days_are_long_but_the_decades_are_short
 

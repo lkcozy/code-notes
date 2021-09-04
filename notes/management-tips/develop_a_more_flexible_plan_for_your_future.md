@@ -37,5 +37,3 @@ With all the uncertainty of the pandemic and its fallout, it's never been harder
 </details>
 
 ## Mindmap
-
-![]()

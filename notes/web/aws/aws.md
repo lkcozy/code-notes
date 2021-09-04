@@ -3,7 +3,7 @@ title: AWS Service
 emoji: "\U0001F4DD"
 tags:
   - aws
-link: 'https://adayinthelifeof.nl/2020/05/20/aws.html'
+link: https://adayinthelifeof.nl/2020/05/20/aws.html
 created: 2021-03-05T07:28:49.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---

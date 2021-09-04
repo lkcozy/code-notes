@@ -4,7 +4,7 @@ emoji: "\U0001F40D"
 tags:
   - python
   - analysis
-link: 'https://github.com/datapane/datapane/'
+link: https://github.com/datapane/datapane/
 created: 2020-06-26T21:24:54.000Z
 modified: 2021-04-14T23:11:23.000Z
 ---

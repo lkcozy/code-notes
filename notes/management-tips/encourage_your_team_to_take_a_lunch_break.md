@@ -34,5 +34,3 @@ You can use the time to catch up with a friend, step away from your desk, or jus
 </details>
 
 ## Mindmap
-
-![]()

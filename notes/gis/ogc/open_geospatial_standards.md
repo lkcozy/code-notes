@@ -4,7 +4,7 @@ emoji: "\U0001F4DD"
 tags:
   - gis
   - ogc
-link: 'https://www.gislounge.com/open-geospatial-standards/'
+link: https://www.gislounge.com/open-geospatial-standards/
 created: 2021-05-03T20:08:26.000Z
 modified: 2021-05-03T20:08:26.000Z
 ---

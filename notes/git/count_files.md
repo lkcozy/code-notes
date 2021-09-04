@@ -3,7 +3,7 @@ title: Count changed files
 emoji: "\U0001F4DD"
 tags:
   - git
-link: null
+
 created: 2021-04-13T02:14:22.000Z
 modified: 2021-04-13T02:14:22.000Z
 ---

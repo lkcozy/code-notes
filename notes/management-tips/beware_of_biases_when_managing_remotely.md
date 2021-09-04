@@ -30,5 +30,3 @@ Similarly, `keep an eye out for groupthink`. In virtual meetings, employees are 
 </details>
 
 ## Mindmap
-
-![]()

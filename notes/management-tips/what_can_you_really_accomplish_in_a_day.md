@@ -34,5 +34,3 @@ Finally, `look for opportunities to build your team’s capacity`, and delegate 
 </details>
 
 ## Mindmap
-
-![]()

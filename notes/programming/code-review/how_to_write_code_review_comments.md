@@ -3,7 +3,7 @@ title: How to write code review comments
 emoji: "\U0001F4DD"
 tags:
   - code review
-link: 'https://google.github.io/eng-practices/review/reviewer/comments.html'
+link: https://google.github.io/eng-practices/review/reviewer/comments.html
 created: 2021-04-19T23:30:57.000Z
 modified: 2021-04-19T23:30:57.000Z
 ---

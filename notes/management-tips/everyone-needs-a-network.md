@@ -36,5 +36,3 @@ While it may feel uncomfortable at first, we all can stand to benefit from spend
 </details>
 
 ## Mindmap
-
-![]()

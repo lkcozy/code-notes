@@ -6,7 +6,7 @@ tags:
   - big data
   - ui
   - js
-link: 'https://github.com/bvaughn/react-window'
+link: https://github.com/bvaughn/react-window
 created: 2021-03-22T20:39:52.000Z
 modified: 2021-04-14T23:11:23.000Z
 ---

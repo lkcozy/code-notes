@@ -3,7 +3,7 @@ title: Wine 101
 emoji: "\U0001F377"
 tags:
   - wine
-link: 'https://www.youtube.com/watch?v=2lkk0_aZrVQ'
+link: https://www.youtube.com/watch?v=2lkk0_aZrVQ
 created: 2021-03-30T16:55:25.000Z
 modified: 2021-03-30T16:55:25.000Z
 ---
@@ -24,4 +24,3 @@ The alcohol in wine is formed by the fermentation of glucose in the wine
 ## 13 Types of Red Wine
 
 ![](https://www.onlyfoods.net/wp-content/uploads/2019/10/Red-Wine-Types-768x755.jpg)
-

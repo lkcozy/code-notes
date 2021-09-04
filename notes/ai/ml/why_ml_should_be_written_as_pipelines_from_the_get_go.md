@@ -13,7 +13,6 @@ modified: 2021-04-20T16:05:46.000Z
 
 Eliminate technical debt with iterative, reproducible pipelines
 
-
 https://blog.maiot.io/why-zenml/
 
 https://www.producthunt.com/posts/zenml-1

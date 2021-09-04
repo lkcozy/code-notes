@@ -4,7 +4,7 @@ emoji: "\U0001F4A1"
 tags:
   - linux
   - cli
-link: "https://codebond.co/tutorial/other/most-helpful-linux-command"
+link: https://codebond.co/tutorial/other/most-helpful-linux-command
 created: 2020-07-11T05:16:40.000Z
 modified: 2021-08-31T20:08:26.000Z
 ---

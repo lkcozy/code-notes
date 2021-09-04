@@ -35,5 +35,3 @@ These are trying times. But the job of a leader is to set a tone that empowers p
 </details>
 
 ## Mindmap
-
-![]()

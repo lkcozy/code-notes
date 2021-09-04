@@ -36,5 +36,3 @@ If you're a working parent, you know that a childcare emergency can throw your e
 </details>
 
 ## Mindmap
-
-![]()

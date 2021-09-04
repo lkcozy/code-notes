@@ -34,5 +34,3 @@ Then, `adjust your message accordingly`, with the intention of making sure youâ€
 </details>
 
 ## Mindmap
-
-![]()

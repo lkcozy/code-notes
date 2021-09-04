@@ -1,0 +1,47 @@
+{
+  // https://streetsidesoftware.github.io/cspell/configuration/
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  // language - current active spelling language
+  "language": "en",
+  // words - list of words to be always considered correct
+  "words": [
+    "iaqi",
+    "lkcozy",
+    "aqicn",
+    "networkidle",
+    "mrgn",
+
+    // libraries
+    "loglevel"
+  ],
+  // list of the names of the dictionaries to use. https://github.com/streetsidesoftware/cspell-dicts
+  "dictionaries": [
+    "softwareTerms",
+    "typescript",
+    "node",
+    "bash",
+    "fonts",
+    "filetypes",
+    "npm",
+    "en_US",
+    "aws",
+    "html"
+  ],
+  // flagWords - list of words to be always considered incorrect
+  // This is useful for offensive words and common spelling errors.
+  // For example "hte" should be "the"
+  "flagWords": ["hte"],
+  "ignorePaths": [
+    "**/coverage/**",
+    "**/node_modules/**",
+    "**/dist/**",
+    "cspell.config",
+    "yarn.lock",
+    "coverage/**",
+    ".vscode/**",
+    "package.json",
+    "LICENSE",
+    "public/**"
+  ]
+}

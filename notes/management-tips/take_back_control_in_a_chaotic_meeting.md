@@ -34,5 +34,3 @@ This way, you can maintain everyone’s credibility while also creating an oppor
 </details>
 
 ## Mindmap
-
-![]()

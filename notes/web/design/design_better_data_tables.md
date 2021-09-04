@@ -6,7 +6,7 @@ tags:
   - table
   - web
   - UI/UX
-link: 'https://medium.com/nextux/design-better-data-tables-4ecc99d23356'
+link: https://medium.com/nextux/design-better-data-tables-4ecc99d23356
 created: 2021-05-03T20:08:26.000Z
 modified: 2021-05-03T20:08:26.000Z
 ---

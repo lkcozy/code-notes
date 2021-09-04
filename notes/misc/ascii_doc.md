@@ -5,7 +5,7 @@ tags:
   - asciidoc
   - cli
   - shell
-link: 'https://asciidoc.org/'
+link: https://asciidoc.org/
 created: 2021-04-14T17:50:18.000Z
 modified: 2021-04-14T23:11:23.000Z
 ---
@@ -16,7 +16,7 @@ AsciiDoc is a text document format for writing notes, documentation, articles, b
 
 Asciidoctor is a fast, open source text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook, PDF, and other formats. Asciidoctor is written in Ruby and runs on all major operating systems.
 
-It can work with [pandoc](https://lkcozy.github.io/code-notes/misc/pandoc)
+It can work with [pandoc](./pandoc.md)
 
 ```sh
 brew install asciidoctor

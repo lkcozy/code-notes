@@ -4,7 +4,7 @@ emoji: "\U0001F4DD"
 tags:
   - sh
   - unix
-link: 'https://en.wikipedia.org/wiki/Chmod'
+link: https://en.wikipedia.org/wiki/Chmod
 created: 2021-03-11T22:28:24.000Z
 modified: 2021-03-11T22:28:24.000Z
 ---

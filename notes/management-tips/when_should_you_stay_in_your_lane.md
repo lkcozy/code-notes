@@ -33,5 +33,3 @@ Finally, if you do decide you need to pitch in, be prepared to over-communicate 
 </details>
 
 ## Mindmap
-
-![]()

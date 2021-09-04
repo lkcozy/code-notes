@@ -31,5 +31,3 @@ Knowing which work opportunities to accept and which to reject can be really cha
 </details>
 
 ## Mindmap
-
-![]()

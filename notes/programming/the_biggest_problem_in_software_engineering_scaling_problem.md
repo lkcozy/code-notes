@@ -7,6 +7,7 @@ link: https://www.ruanyifeng.com/blog/2021/05/scaling-problem.html
 created: 2021-05-19T22:43:28.000Z
 modified: 2021-05-19T22:43:28.000Z
 ---
+
 Author: Ruan Yifeng
 
 There is a course named "software engineering" for undergraduates, which studies how to organize and manage software projects.

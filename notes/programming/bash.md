@@ -3,7 +3,7 @@ title: Bash
 emoji: "\U0001F4DD"
 tags:
   - bash
-link: 'https://linuxhandbook.com/tag/bash-beginner/'
+link: https://linuxhandbook.com/tag/bash-beginner/
 created: 2021-03-02T05:35:19.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---

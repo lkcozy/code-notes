@@ -35,5 +35,3 @@ This accomplishes two things. First, it communicates that your time is limited a
 </details>
 
 ## Mindmap
-
-![]()

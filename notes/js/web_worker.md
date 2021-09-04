@@ -5,7 +5,7 @@ tags:
   - js
   - nodejs
   - web
-link: 'https://www.hongkiat.com/blog/web-workers-javascript-api/'
+link: https://www.hongkiat.com/blog/web-workers-javascript-api/
 created: 2021-05-03T20:08:26.000Z
 modified: 2021-05-03T20:08:26.000Z
 ---
@@ -26,7 +26,7 @@ The script `executed in a background worker thread` is known as the worker scrip
 
 - Service workers, on the other hand, are a type of web workers.
 - They are useful for modifying responses from network requests.
-- They basically act as `proxies`. 
+- They basically act as `proxies`.
 - They are used for building offline apps.
 
 ![](https://allma.si/blog/wp-content/uploads/2020/11/web-vs-service-worker.png)

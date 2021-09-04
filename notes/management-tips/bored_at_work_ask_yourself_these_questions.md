@@ -32,5 +32,3 @@ We all hit that point sometimes where our job just feels … boring. But that do
 </details>
 
 ## Mindmap
-
-![]()

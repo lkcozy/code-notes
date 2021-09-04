@@ -1,5 +1,5 @@
 ---
-title: 'Design patterns for high-volume, time-series data in Amazon DynamoDB'
+title: "Design patterns for high-volume, time-series data in Amazon DynamoDB"
 emoji: "\U0001F4DD"
 tags:
   - aws

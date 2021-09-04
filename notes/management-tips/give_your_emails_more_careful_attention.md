@@ -39,5 +39,3 @@ And finally: **Would it be helpful to talk instead**? If you receive a vague or 
 </details>
 
 ## Mindmap
-
-![]()

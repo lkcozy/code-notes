@@ -39,5 +39,3 @@ Make sure to be specific with your answers; writing that you’re grateful for y
 </details>
 
 ## Mindmap
-
-![]()

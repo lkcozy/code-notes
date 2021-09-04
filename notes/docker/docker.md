@@ -6,7 +6,7 @@ tags:
   - github
   - postgresql
   - database
-link: "https://docs.docker.com/get-started/overview/"
+link: https://docs.docker.com/get-started/overview/
 created: 2020-07-02T20:13:36.000Z
 modified: 2021-04-14T23:11:23.000Z
 ---

@@ -6,7 +6,7 @@ tags:
   - test
   - microservice
   - architecture
-link: 'https://martinfowler.com/articles/microservice-testing/'
+link: https://martinfowler.com/articles/microservice-testing/
 created: 2021-03-26T20:36:09.000Z
 modified: 2021-03-26T20:36:09.000Z
 ---

@@ -5,12 +5,14 @@ tags:
   - js
   - blockchain
   - Ethereum
-link: null
+
 created: 2021-05-05T22:03:31.000Z
 modified: 2021-05-05T22:03:31.000Z
 ---
+
 A comprehensive survey on blockchain working security
 Analysis privacy threats and potential applications
+
 ## [Transactions](https://ethereum.org/en/developers/docs/transactions/)
 
 ![](https://d33wubrfki0l68.cloudfront.net/d2eeb3431cc8832d9ff342a82ea5b7fa3fa3c682/7e21d/static/570dedb843948d6bef5e21a6769d5c35/302a4/tx.png)
@@ -20,6 +22,7 @@ Transactions are cryptographically signed instructions from accounts. An account
 ## [Ethereum Virtual Machine(EVM)](https://ethereum.org/en/developers/docs/evm/)
 
 ![](https://d33wubrfki0l68.cloudfront.net/1e28992f5356f5cbe6a6cd4ae55afb567603ef5d/b91ce/static/e8aca8381c7b3b40c44bf8882d4ab930/302a4/evm.png)
+
 ## [GAS and Fees](https://ethereum.org/en/developers/docs/gas/)
 
 Gas is essential to the Ethereum network. It is the fuel that allows it to operate, in the same way that a car needs gasoline to run.

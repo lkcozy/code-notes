@@ -3,7 +3,7 @@ title: Basketball
 emoji: "\U0001F3C0"
 tags:
   - basketball
-link: 'https://vocus.cc/article/5dbb4e8bfd8978000187abed'
+link: https://vocus.cc/article/5dbb4e8bfd8978000187abed
 created: 2021-03-30T16:55:25.000Z
 modified: 2021-03-30T16:55:25.000Z
 ---

@@ -4,7 +4,7 @@ emoji: "\U0001F4DD"
 tags:
   - javascript
   - node
-link: 'https://github.com/SGrondin/bottleneck'
+link: https://github.com/SGrondin/bottleneck
 created: 2020-07-02T20:13:36.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---

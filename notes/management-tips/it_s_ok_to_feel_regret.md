@@ -34,5 +34,3 @@ Finally, `make regret productive by thinking about what you can (and cannot) do 
 </details>
 
 ## Mindmap
-
-![]()

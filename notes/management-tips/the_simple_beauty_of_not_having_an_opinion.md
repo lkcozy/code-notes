@@ -35,5 +35,3 @@ Before sharing an opinion, I try to stop and reflect. `Will contributing my opin
 </details>
 
 ## Mindmap
-
-![]()

@@ -4,12 +4,12 @@ emoji: "\U0001F4DD"
 tags:
   - python
   - jupyter
-link: null
+
 created: 2020-08-11T16:49:22.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
 
-![](http://jupyterlab.io/assets/jupyterpreview.png)
+![](https://miro.medium.com/max/2000/1*R5uM8zw8uhW4-HC4F1v9IA.png)
 
 Jupyter Notebook is an interactive web application that interfaces with the iPython repl, allowing you to run structured but iterative Python scripts. It is the de facto choice for data scientists to rapidly prototype pipelines, visualise data, or perform ad hoc analysis.
 

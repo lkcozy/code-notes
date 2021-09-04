@@ -45,6 +45,6 @@ done
 ## References
 
 - [Converting from AsciiDoc to Google Docs and MS Word](https://rmoff.net/2020/04/16/converting-from-asciidoc-to-google-docs-and-ms-word/)
-- [AsciiDoc(Adoc)](https://lkcozy.github.io/code-notes/misc/ascii_doc)
-- [Pandoc](https://lkcozy.github.io/code-notes/misc/pandoc)
+- [AsciiDoc(Adoc)](./ascii_doc.md)
+- [Pandoc](./pandoc.md)
 - [Loop through all the files with a specific extension](https://stackoverflow.com/questions/14505047/loop-through-all-the-files-with-a-specific-extension#14505622)

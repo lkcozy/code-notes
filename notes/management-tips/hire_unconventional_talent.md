@@ -30,5 +30,3 @@ When it comes to hiring, too many managers unconsciously hold onto the notion th
 </details>
 
 ## Mindmap
-
-![]()

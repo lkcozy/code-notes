@@ -31,5 +31,3 @@ Second, `how do you measure the problem`? The metric you use to define success o
 </details>
 
 ## Mindmap
-
-![]()

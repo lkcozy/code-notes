@@ -42,5 +42,3 @@ And, ideally, the company should `create a customized set of recommendations`, m
 </details>
 
 ## Mindmap
-
-![]()

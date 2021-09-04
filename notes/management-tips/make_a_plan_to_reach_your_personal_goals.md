@@ -38,5 +38,3 @@ And don’t forget, as you make progress, to celebrate your successes.
 </details>
 
 ## Mindmap
-
-![]()

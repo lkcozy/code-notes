@@ -16,10 +16,12 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "cspell": "^5.9.0",
     "frontmatter-date-setter": "^0.1.0",
     "gh-pages": "^3.2.0",
     "husky": "^7.0.0",
-    "lint-staged": "^11.1.0"
+    "lint-staged": "^11.1.0",
+    "markdown-link-check": "^3.8.7"
   },
   "lint-staged": {
     "{*.md,*.mdx}": [
@@ -34,13 +36,15 @@
     "count:notes": "git ls-files notes| wc -l",
     "stats": "./scripts/stats.sh",
     "timestamp": "frontmatter-date-setter --directory='notes' --fileExtension=.md --fileExtension=.mdx",
-    "predeploy": "yarn timestamp",
-    "deploy": "yarn build && gh-pages -d public",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d public",
     "preversion": "yarn count:notes",
     "version:base": "yarn version --no-commit-hooks",
     "version:major": "yarn version:base --major",
     "version:minor": "yarn version:base --minor",
     "version:patch": "yarn version:base --patch",
-    "postversion": "git push --tags && git push && echo \"Successfully released version $npm_package_version!\""
+    "postversion": "git push --tags && git push && echo \"Successfully released version $npm_package_version!\"",
+    "spell-check": "cspell --unique --no-progress \"**/*.{md,ts,tsx,js,css,less,json,yml,yaml,html,sh}\"",
+    "markdown-link-check": "find . -name '*.md' -not -path './node_modules/*' -exec sh -c 'markdown-link-check --quiet --verbose {}' \\;"
   }
 }

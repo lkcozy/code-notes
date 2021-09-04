@@ -3,7 +3,7 @@ title: GIS(Geographic Information System)
 emoji: 🌍
 tags:
   - gis
-link: "https://www.esri.com/en-us/what-is-gis/overview"
+link: https://www.esri.com/en-us/what-is-gis/overview
 created: 2020-07-20T00:06:59.000Z
 modified: 2021-05-05T22:03:31.000Z
 ---

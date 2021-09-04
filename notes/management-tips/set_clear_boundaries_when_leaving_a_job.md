@@ -34,5 +34,3 @@ Those last few days on a job can be chaotic, and in wanting to leave on good ter
 </details>
 
 ## Mindmap
-
-![]()

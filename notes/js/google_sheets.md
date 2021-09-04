@@ -4,7 +4,7 @@ emoji: "\U0001F4DD"
 tags:
   - google
   - csv
-link: 'https://zapier.com/blog/google-sheets-importxml-guide/'
+link: https://zapier.com/blog/google-sheets-importxml-guide/
 created: 2021-02-22T23:30:00.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---

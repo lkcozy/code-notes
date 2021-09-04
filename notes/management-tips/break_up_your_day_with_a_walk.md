@@ -35,5 +35,3 @@ If you’ve been working from home for most of the past year, you may find yours
 </details>
 
 ## Mindmap
-
-![]()

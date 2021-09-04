@@ -7,7 +7,7 @@ tags:
   - principles
   - patterns
   - develop
-link: 'https://github.com/dwmkerr/hacker-laws'
+link: https://github.com/dwmkerr/hacker-laws
 created: 2020-07-22T00:48:08.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---

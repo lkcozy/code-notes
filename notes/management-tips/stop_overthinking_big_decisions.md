@@ -30,5 +30,3 @@ Thoughtful deliberation is an essential leadership quality that can help you mak
 </details>
 
 ## Mindmap
-
-![]()

@@ -5,7 +5,7 @@ tags:
   - pandoc
   - cli
   - shell
-link: 'https://github.com/jgm/pandoc'
+link: https://github.com/jgm/pandoc
 created: 2021-04-14T17:50:18.000Z
 modified: 2021-04-14T23:11:23.000Z
 ---

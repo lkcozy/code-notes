@@ -34,5 +34,3 @@ Do your employees come to you with every little question they have during the wo
 </details>
 
 ## Mindmap
-
-![]()

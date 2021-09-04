@@ -39,5 +39,3 @@ Remember: you deserve a restorative vacation. You don’t deserve additional str
 </details>
 
 ## Mindmap
-
-![]()

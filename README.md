@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/logo-large.png" width="320">
 
-[Online Version](lkcozy.github.io/code-notes/)
+[Online Version](https://lkcozy.github.io/code-notes/)
 
 L&W code-related notes and snippets
 

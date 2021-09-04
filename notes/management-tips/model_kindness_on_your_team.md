@@ -34,5 +34,3 @@ Finally, consider small, peer-nominated spot bonuses to allow people to recogniz
 </details>
 
 ## Mindmap
-
-![]()

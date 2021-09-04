@@ -3,7 +3,7 @@ title: Array methods summarized
 tags:
   - javascript
 emoji: null
-link: 'https://notes.zander.wtf/array-methods/'
+link: https://notes.zander.wtf/array-methods/
 created: 2020-06-24T07:06:39.000Z
 modified: 2021-03-04T20:22:23.000Z
 ---

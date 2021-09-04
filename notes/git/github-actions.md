@@ -4,7 +4,7 @@ emoji: "\U0001F4DD"
 tags:
   - git
   - github
-link: null
+
 created: 2020-06-29T05:54:14.000Z
 modified: 2021-05-03T21:46:56.000Z
 ---
@@ -294,6 +294,10 @@ jobs:
         with:
           url: ${{ needs.job1.outputs.url }} # grab job output here
 ```
+
+## [Action composition](https://docs.github.com/en/actions/creating-actions/creating-a-composite-action)
+
+Reference other actions to reduce duplication in your workflows.
 
 ## Useful Github Actions
 

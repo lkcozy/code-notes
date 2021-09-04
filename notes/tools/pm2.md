@@ -4,7 +4,7 @@ emoji: "\U0001F4DD"
 tags:
   - pm2
   - cli
-link: 'https://github.com/Unitech/pm2'
+link: https://github.com/Unitech/pm2
 created: 2020-09-24T05:00:14.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---

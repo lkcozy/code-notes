@@ -5,7 +5,7 @@ tags:
   - ogc
   - gis
   - sta
-link: 'https://www.ogc.org/Standards/Om'
+link: https://www.ogc.org/Standards/Om
 created: 2021-04-21T21:25:10.000Z
 modified: 2021-04-21T21:25:10.000Z
 ---
