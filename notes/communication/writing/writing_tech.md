@@ -69,7 +69,7 @@ modified: 2021-08-04T13:12:54.000Z
 - It cannot `count on` the United States to `supply` its technology, and it must `cultivate`(foster) domestic alternatives.
 - The combined efforts of the drive and its innovative industry will `accelerate`(speed up) the country’s technological `advancement`(development).
 - It could have had a `ripple effect`(chain reaction) across the country
-- The basic idea of `orthogonality` is that things that are not related conceptually should not be related in the system. 
+- The basic idea of `orthogonality` is that things that are not related conceptually should not be related in the system.
 
 ## Blockchain
 
@@ -84,6 +84,7 @@ modified: 2021-08-04T13:12:54.000Z
 ## AI/ML
 
 - These problems will `recede`(weaken) as data-centric AI tools and methodologies `evolve`.
+- Tesla’s promise of full self-driving capability was `premature`
 
 ## Developer
 
@@ -91,3 +92,7 @@ modified: 2021-08-04T13:12:54.000Z
 - Improve the code quality and the attention to detail
 - Thoroughly test the feature and take pride in the work
 - Take the work seriously before indicating that it is ready to be reviewed
+
+## Negotiation
+
+- Since my timeline is now compressed, is there anything you can do to `expedite`(speed up) the process?

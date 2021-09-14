@@ -17,6 +17,11 @@ modified: 2021-08-04T06:26:41.000Z
 - An emphasis on domain awareness and collaboration can help create additional traction across industries.
 - Greater awareness will aid in the evolution of these key technologies.
 - Research shows that `pairing` intuition `with` analytical thinking `helps` you make better decisions.
+- Research reports that provide `granular insights` are a crucial tool.
+- SDIs were created to streamline people, process, technologies, and deliver a wide array of data.
+- `With new challenges being posed by 21st century technologies and data availability, questions about how SDIs can be further optimized to meet modern needs are emerging`.
+- `Now more than ever this data also needs to be delivered safely and securely.`
+- The OGC Modernizing SDI Concept Development Study aims to overcome these challenges to identify technology gaps and define the future of SDIs.
 
 ## Challenges
 
@@ -25,6 +30,7 @@ modified: 2021-08-04T06:26:41.000Z
 - `With the massive growth of data`, new data information security problems have been `emerging`
 - This requires multiple types of data that can exist in many different forms and use a diverse set of standards.
 - This vital information as a result becomes difficult and costly to access and `decipher`(interpret/understand).
+- It’s often difficult to `discern` real growth potential from gossip-fueled hype.
 
 ## Current state
 

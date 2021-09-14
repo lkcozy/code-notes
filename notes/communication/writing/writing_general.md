@@ -6,14 +6,12 @@ tags:
   - communication
 link:
 created: 2021-03-15T16:13:36.000Z
-modified: 2021-07-22T20:13:50.000Z
+modified: 2021-09-09T20:13:50.000Z
 ---
 
-- The lighter your shoes, the faster you can `zip around`(move) the court.
 - An average year would `feature`(have) 14 named storms and seven hurricanes.
 - Perhaps the most `intriguing`(attractive) reason is the search for extraterrestrial life.
 - This `intriguing` book is both thoughtful and informative.
-- `Factoring in`(Considering) its construction and operation, the drone cost $85 million.
 - `Effortlessly` go from the golf course to dinner in this `tastefully striped` cotton polo.
 - She `bluntly`(directly,without considering other people's feeling) said that didn’t matter.
 - Writing is `the act of dissecting ideas` and putting them back together again.
@@ -50,3 +48,6 @@ modified: 2021-07-22T20:13:50.000Z
 - There’s even a `stigma`(shame) `associated with` talking to others at the gym.
 - We’re `optimizing for` individual productivity `at the expense of` community and communication
 - Those quotes `highlight the stakes that hinge on` effective schema `stewardship`(management).
+- Fearless isn’t the absence of fear; it’s having the fear but jumping in anyway.
+- There's a significant `disparity`(difference/inequality) across different cities
+- It kind of made me sad on two `accounts`(aspects).
