@@ -51,3 +51,22 @@ modified: 2021-09-09T20:13:50.000Z
 - Fearless isn’t the absence of fear; it’s having the fear but jumping in anyway.
 - There's a significant `disparity`(difference/inequality) across different cities
 - It kind of made me sad on two `accounts`(aspects).
+- I was shocked and deeply disappointed at this `narrative` they chose to `fabricate`(make)
+- I disclosed all the processes in extreme detail.
+- The agents minimized and `disregarded`(ignore) his experiences as he described his ordeal.
+- A in `concert with` B and C are working together to do sth.
+- The Fed `sat idly by` while the economy crashed and burned
+
+## Negotiation
+
+- You not only `put` yourself `in a position` to strategically `approach`(realize) how to negotiate for what you deserve (e.g., money, recognition, equitable treatment), but you also open the door to even better outcomes.
+- You’ll learn to improve relationships by working through conflicts.
+- You’ll build a stronger “negotiation muscle” that will serve you well in higher-stakes negotiations.
+- Excuse me, but is there a way you can give me the 30% discount today? I’m heading out of town tomorrow, and it would be great to get these shoes for the price that others will pay for them in less than 24 hours.
+
+## Appointment
+
+- Reason->Place->Suggested Dates and Time->Length of the meeting
+- Does Monday, July 20 at 11 am work for you? Alternatively, we are available Monday, July 20 at 4 pm or Tuesday, July 21 at 10 am.
+- Are you available for a 15-minute meeting on May 12, at 9:30 am in our office.
+- We ask for 20 minutes of your time for a brief presentation

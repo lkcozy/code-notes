@@ -5,7 +5,7 @@ tags:
   - bash
 link: https://linuxhandbook.com/tag/bash-beginner/
 created: 2021-03-02T05:35:19.000Z
-modified: 2021-04-20T16:05:46.000Z
+modified: 2021-09-16T16:05:46.000Z
 ---
 
 ## Count the total number of lines that exist in whatever file the user enters:
@@ -50,6 +50,17 @@ mkdir -p public/config/
 curl -o public/config/config-temp.json $endpoint
 
 ```
+
+## Replace values in json file
+
+```sh
+#!/bin/bash
+
+DIRNAME=$(dirname $0)
+gsed -i -r 's;"label": ".*";"label": "'$(git branch --show-current --no-color)'";' ${DIRNAME}/../public/versions.json
+```
+
+> `gsed` is an non-interactive stream editor. `-i`: edit files in place, `-r`: use extended regular expressions
 
 ## [Pass default value](https://www.debuntu.org/how-to-bash-parameter-expansion-and-default-values/)
 
