@@ -70,6 +70,7 @@ modified: 2021-08-04T13:12:54.000Z
 - The combined efforts of the drive and its innovative industry will `accelerate`(speed up) the country’s technological `advancement`(development).
 - It could have had a `ripple effect`(chain reaction) across the country
 - The basic idea of `orthogonality` is that things that are not related conceptually should not be related in the system.
+- There’s a `delicate` balance between protecting the rights of consumers and limiting the freedoms of content providers who rely on platforms to get their message out.
 
 ## Blockchain
 

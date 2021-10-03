@@ -123,5 +123,6 @@ const subscribe = bufferThree.subscribe(
 ## Resources
 
 - [Learn RxJS](https://www.learnrxjs.io/)
+- [Importing Data into Neo4j using RxJS](https://medium.com/neo4j/importing-data-into-neo4j-using-rxjs-ed017004bb25)
 - [How to Understand RxJS Operators](https://www.freecodecamp.org/news/understand-rxjs-operators-by-eating-a-pizza/)
 - [Optimizing Batch Processing Jobs with RxJS](https://medium.com/@ravishivt/batch-processing-with-rxjs-6408b0761f39)

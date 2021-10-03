@@ -7,7 +7,7 @@ tags:
   - management
 link:
 created: 2021-03-15T16:13:36.000Z
-modified: 2021-08-24T20:13:50.000Z
+modified: 2021-09-27T20:13:50.000Z
 ---
 
 - Governance is a process where you ask other people for permission to do things and the governing body serves to enforce consistency in things.
@@ -91,6 +91,8 @@ modified: 2021-08-24T20:13:50.000Z
 - This will not only help `identify any concerns`, it will also `draw attention to` the fact that this monitoring is happening and therefore encourage managers to `pay careful attention to` their allocations.
 - I think there is a `temptation`(desire) to try to have opinions, especially the more senior you get.
 - The experience you have `built up` means that you may have a `hard-won lesson` that you want to share to stop someone going down a similar `trecherous`(difficult) path.
+- Adopt `bigger-picture` thinking.
+- `Crunch`(important) often affects a leader’s `availability`.
 
 ## Communication
 
@@ -100,6 +102,7 @@ modified: 2021-08-24T20:13:50.000Z
 - Let's get `aligned`(on the same page/in consistent with) before we speak to team.
 - Please send me this report `on a daily basis`(daily).
 - It's just a `spur-of-the-moment`(last minute) idea. I haven't yet got chance to run by the team.
+- We’re living with `unprecedented`(new) levels of uncertainty.
 
 ## Questions
 
@@ -138,3 +141,4 @@ modified: 2021-08-24T20:13:50.000Z
 - constructive and productive?
 - Will `contributing`(offer/share) my opinion meaningfully impact the discussion's outcome?
 - If it won’t then I can `relish in`(enjoy) the simple beauty of having no opinion.
+- How can you stay `engaged` when circumstances are constantly changing?
