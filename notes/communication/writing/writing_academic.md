@@ -22,6 +22,7 @@ modified: 2021-08-04T06:26:41.000Z
 - `With new challenges being posed by 21st century technologies and data availability, questions about how SDIs can be further optimized to meet modern needs are emerging`.
 - `Now more than ever this data also needs to be delivered safely and securely.`
 - The OGC Modernizing SDI Concept Development Study aims to overcome these challenges to identify technology gaps and define the future of SDIs.
+- Unauthorized resource access represents a typical security threat in the Internet of Things (IoT), while distributed ledger technologies (e.g., blockchain and IOTA) hold great promise to address this threat.
 
 ## Challenges
 

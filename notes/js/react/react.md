@@ -17,6 +17,15 @@ modified: 2021-04-20T16:05:46.000Z
 ## Guidelines
 
 - [Beginner to Intermediate React](https://www.reactguide.dev/?ck_subscriber_id=1238258824): Provide the reader with a set of tools and guidelines for creating better React components.
+- [React antipatterns to avoid](https://isamatov.com/react-antipatterns?ck_subscriber_id=1238258824)
+  Avoid
+  - Putting everything in Redux
+  - Storing everything as a state
+  - Passing props using spread operator everywhere
+  - Declaring components inside of components
+  - Overoptimizing performance
+  - Huge component trees
+- [react-philosophies](https://github.com/mithi/react-philosophies): a guidelines for writing react code
 
 ### Cheat Sheet
 

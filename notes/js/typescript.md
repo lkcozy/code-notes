@@ -9,6 +9,15 @@ created: 2021-07-08T15:49:56.000Z
 modified: 2021-07-08T15:49:56.000Z
 ---
 
+## [Typescript utility types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
+
+- `keyof`: creates a union type consisting of the property names of the type you pass
+- `Partial`: will return a new type with all of the props set to optional.
+- `Pick` creates a new type by specifying which properties you would like to copy
+- `Omit` will copy all the props, except for the ones you passed:
+- `Exclude` removes a constituent of that union.
+- `Record`:constructs an object type whose property keys are Keys and whose property values are Type
+
 ## [React with TypeScript: Best Practices](https://www.sitepoint.com/react-with-typescript-best-practices/)
 
 ![React with TypeScript](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.imgur.com%2FoeaMGnj.jpg&f=1&nofb=1)

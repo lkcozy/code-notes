@@ -71,6 +71,12 @@ modified: 2021-08-04T13:12:54.000Z
 - It could have had a `ripple effect`(chain reaction) across the country
 - The basic idea of `orthogonality` is that things that are not related conceptually should not be related in the system.
 - There’s a `delicate` balance between protecting the rights of consumers and limiting the freedoms of content providers who rely on platforms to get their message out.
+- Some aspects of this challenge have been left intentionally `vague`(non clear
+- Please complete what you deem necessary and prioritize accordingly
+- The request for tabs in Explorer, especially, has been `overwhelming`(strongly desired).
+- The `underlying` cause of this outage also impacted many internal tools, `complicating` our attempts to quickly `diagnose` and resolve the problem.
+- This disruption to network traffic had a `cascading` effect on the way our data centers communicate, bringing our services to a `halt`(stop).
+- Working extra hours or weekends should only happen on go live situations. All the other deadlines on projects are artificial and only there because the plan has it.
 
 ## Blockchain
 
@@ -87,12 +93,20 @@ modified: 2021-08-04T13:12:54.000Z
 - These problems will `recede`(weaken) as data-centric AI tools and methodologies `evolve`.
 - Tesla’s promise of full self-driving capability was `premature`
 
-## Developer
+## [Developer](https://itnext.io/developers-are-the-most-valuable-resource-when-creating-software-but-their-time-is-undervalued-and-85aab08d7af7)
 
+- Development is not just writing code, understand the complete solution, understand how the business works and the requirements.
+- Developers need to work with the other people on the project, know who to ask for help, know how to ask.
+- More developers add complexity and makes communication harder. It can slow development rather than speed it up.
+- Creating software needs blocks of uninterrupted time for deep work.
+- Constantly interrupted developers with meetings will create non-development tasks and a task switching overhead.
+- Don’t let problems jump from other roles to the developers’ backs. 
 - Know how to use the hooks and use it wisely with performance optimizations
 - Improve the code quality and the attention to detail
 - Thoroughly test the feature and take pride in the work
 - Take the work seriously before indicating that it is ready to be reviewed
+- The advantage of creating types this way is that you keep your types in sync.
+- Changes to the properties of the parent type are automatically adopted by the derived one.
 
 ## Negotiation
 

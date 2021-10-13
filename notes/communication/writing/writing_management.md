@@ -94,6 +94,12 @@ modified: 2021-09-27T20:13:50.000Z
 - Adopt `bigger-picture` thinking.
 - `Crunch`(important) often affects a leader’s `availability`.
 
+## Planning
+
+- When teammates are `floundering`(not to know what to do), or are going in circles, it’s either because the road ahead is `ambiguous`(not clear), or it’s because they don’t have what they need to be successful, or both.
+- Identify and document the most important outcome
+- Identify and document roles
+
 ## Communication
 
 - I `addressed`(talk about) this issue with team.
@@ -105,6 +111,13 @@ modified: 2021-09-27T20:13:50.000Z
 - We’re living with `unprecedented`(new) levels of uncertainty.
 
 ## Questions
+
+## feasibility
+
+- Typically, at some stage in the process of product engineering the design team `approach` the engineering team and ask for `some input` on the `feasibility` of their ideas.
+- I find this question to be `a useful prompt` for those conversations.
+- What is the solution we could put together in a day? A month? A year? What are the `tradeoffs` between them?
+- I find it useful as, fundamentally, a lot of engineering decisions come down to tradeoffs and this puts that question right at the forefront.
 
 ## Asking Requirements
 
