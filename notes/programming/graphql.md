@@ -13,6 +13,9 @@ modified: 2021-08-23T20:08:26.000Z
 
 GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.
 
+- When adopting GraphQL, it’s best to use a client-driven approach to designing your API
+  - remember that a schema is a contract between the client and server.
+  - The schema defines what data the clients can request or change, and the server returns that data to the client.
 - The best architecture to design your application immediately start with your needs.
 - The best way to measure the quality of a schema is to `measure it’s utility to those client applications`.
 - It’s crucial to remind schema authors their goal is to provide service, not just provide access to their service.

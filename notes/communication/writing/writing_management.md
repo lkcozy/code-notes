@@ -93,6 +93,7 @@ modified: 2021-09-27T20:13:50.000Z
 - The experience you have `built up` means that you may have a `hard-won lesson` that you want to share to stop someone going down a similar `trecherous`(difficult) path.
 - Adopt `bigger-picture` thinking.
 - `Crunch`(important) often affects a leader’s `availability`.
+- I think we entrepreneurs are `vulnerable` to admiring the results `rather than `the process.
 
 ## Planning
 

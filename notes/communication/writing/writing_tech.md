@@ -77,6 +77,10 @@ modified: 2021-08-04T13:12:54.000Z
 - The `underlying` cause of this outage also impacted many internal tools, `complicating` our attempts to quickly `diagnose` and resolve the problem.
 - This disruption to network traffic had a `cascading` effect on the way our data centers communicate, bringing our services to a `halt`(stop).
 - Working extra hours or weekends should only happen on go live situations. All the other deadlines on projects are artificial and only there because the plan has it.
+- A complex system that works is `invariably`(always) found to have evolved from a simple system that worked.
+- I think we entrepreneurs are `vulnerable`(easy) to admiring the results rather than the process.
+- Some tools are good for high performance and scaling, but hard to work with, `whereas` others are easy to work with but are not as fast as other tools.
+- It `won't be worth` worrying about the cost `at the scale` of a few messages.
 
 ## Blockchain
 
@@ -100,7 +104,7 @@ modified: 2021-08-04T13:12:54.000Z
 - More developers add complexity and makes communication harder. It can slow development rather than speed it up.
 - Creating software needs blocks of uninterrupted time for deep work.
 - Constantly interrupted developers with meetings will create non-development tasks and a task switching overhead.
-- Don’t let problems jump from other roles to the developers’ backs. 
+- Don’t let problems jump from other roles to the developers’ backs.
 - Know how to use the hooks and use it wisely with performance optimizations
 - Improve the code quality and the attention to detail
 - Thoroughly test the feature and take pride in the work
@@ -111,3 +115,4 @@ modified: 2021-08-04T13:12:54.000Z
 ## Negotiation
 
 - Since my timeline is now compressed, is there anything you can do to `expedite`(speed up) the process?
+- I wonder if this is a recent change?
