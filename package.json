@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "gatsby": "^3.13.0",
+    "gatsby": "^3.14.5",
     "gatsby-plugin-manifest": "^3.13.0",
     "gatsby-plugin-offline": "^4.13.0",
     "gatsby-theme-code-notes": "^2.3.0",
