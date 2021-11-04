@@ -13,6 +13,21 @@ modified: 2021-08-31T20:08:26.000Z
 
 ![](https://i.pinimg.com/originals/01/90/f9/0190f909c09dc3f60db7b6a6e64f69f0.jpg)
 
+## lsof
+
+The lsof command can list all open files in a Linux system.
+
+```sh
+#  find the process using a specific port with the -i :port_number option:
+lsof -i :3000
+
+
+# kill the process using a specific prot
+lsof -t -i :3000 | xargs kill -9
+```
+
+> `xargs`: take the output from one command and send it to another command as parameters.
+
 ## ls
 
 This called List . It is use to list files, sub-directory of the directory. It is one of the most use command in linux.

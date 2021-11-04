@@ -3,7 +3,7 @@ title: Heinlein's Writing Rules
 emoji: "\U0001F4DD"
 tags:
   - writing
-
+link:
 created: 2021-05-03T21:56:32.000Z
 modified: 2021-05-03T21:56:32.000Z
 ---

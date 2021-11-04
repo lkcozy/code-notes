@@ -29,7 +29,7 @@
     ]
   },
   "scripts": {
-    "start": "gatsby develop",
+    "start": "lsof -t -i:8000 | xargs kill -9 && gatsby develop",
     "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean",
     "serve": "gatsby serve",

@@ -81,6 +81,7 @@ modified: 2021-08-04T13:12:54.000Z
 - I think we entrepreneurs are `vulnerable`(easy) to admiring the results rather than the process.
 - Some tools are good for high performance and scaling, but hard to work with, `whereas` others are easy to work with but are not as fast as other tools.
 - It `won't be worth` worrying about the cost `at the scale` of a few messages.
+- At the highest level, cross-platform UI technologies `prioritize` coordinated featurefulness over polished UX.
 
 ## Blockchain
 

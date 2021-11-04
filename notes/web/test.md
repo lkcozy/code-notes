@@ -33,3 +33,20 @@ modified: 2021-03-26T20:36:09.000Z
 - Writing and maintaining end-to-end tests can be very difficult
 - Microservice architectures provide more options for where and how to test.
 - The test pyramid helps us to maintain a balance between the different types of test
+
+## [Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
+- [How to test a select element with React Testing Library](https://returnofthemac.tech/how-to-test-a-select-element-with-react-testing-library?ck_subscriber_id=1238258824)
+
+```js
+it("should allow user to change country", () => {
+  render(<App />);
+  userEvent.selectOptions(
+    // Find the select element, like a real user would.
+    screen.getByRole("combobox"),
+    // Find and select the Ireland option, like a real user would.
+    screen.getByRole("option", { name: "Ireland" })
+  );
+  expect(screen.getByRole("option", { name: "Ireland" }).selected).toBe(true);
+});
+```

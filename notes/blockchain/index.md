@@ -3,7 +3,7 @@ title: Blockchain-An immutable distributed database
 emoji: "  "
 tags:
   - blockchain
-
+link:
 created: 2020-07-14T00:34:09.000Z
 modified: 2021-05-05T22:03:31.000Z
 ---

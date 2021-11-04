@@ -93,7 +93,8 @@ modified: 2021-09-27T20:13:50.000Z
 - The experience you have `built up` means that you may have a `hard-won lesson` that you want to share to stop someone going down a similar `trecherous`(difficult) path.
 - Adopt `bigger-picture` thinking.
 - `Crunch`(important) often affects a leader’s `availability`.
-- I think we entrepreneurs are `vulnerable` to admiring the results `rather than `the process.
+- I think we entrepreneurs are `vulnerable` to admiring the results `rather than` the process.
+- Leadership isn’t `confined`(limit) to managers; it’s also crucial on the technical track.
 
 ## Planning
 
@@ -110,6 +111,8 @@ modified: 2021-09-27T20:13:50.000Z
 - Please send me this report `on a daily basis`(daily).
 - It's just a `spur-of-the-moment`(last minute) idea. I haven't yet got chance to run by the team.
 - We’re living with `unprecedented`(new) levels of uncertainty.
+- Answer a question to quickly is like prescribing a treatment without being sure what the `ailment` is.
+- It can only `serve to` increase the risk that you waste your time, `make things worse by` trying to solve the wrong problem, or both.
 
 ## Questions
 

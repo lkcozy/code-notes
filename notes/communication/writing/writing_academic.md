@@ -7,8 +7,14 @@ tags:
   - research
 link: https://mp.weixin.qq.com/s/RjmFeLIGjvVABzAuLP2EzQ
 created: 2021-03-22T20:40:15.000Z
-modified: 2021-08-04T06:26:41.000Z
+modified: 2021-10-29T06:26:41.000Z
 ---
+
+Whether it's a novel, a thesis, or a legal brief,
+the only way to make progress is to:
+
+- Break your work into small chunks.
+- Focus on one at a time.
 
 ## Introduction
 
@@ -43,6 +49,8 @@ modified: 2021-08-04T06:26:41.000Z
 
 - We have analyzed a collection of documents and generated a survey regarding the use of blockchain within information systems.
 - The survey contains a brief reporting on several different study.
+- `Characterizing` the state of development of sth
+- `Informing` IT architectural practices and standards `to enable` analytics specifically of residential energy use and efficiency.
 
 ## Objectives
 
@@ -60,6 +68,16 @@ modified: 2021-08-04T06:26:41.000Z
 - The architecture is backed by a proof of concept implementation and evaluated in realistic IoT scenarios
 - The following discourse(serious discussion) contains out analysis and understanding of blockchain and its `implications` as well as impacts on information system altogether.
 - The below graph `illustrates` the efficiency improvement we'll make to the sample batch processing task.
+
+## Architectures
+
+- At the module level, Qlib is a platform that consists of the above components.
+- The components are designed as loose-coupled modules, and each component could be used stand-alone.
+- Infrastructure layer provides underlying support for Quant research.
+- Workflow layer covers the whole workflow of quantitative investment.
+- Interface layer tries to present a user-friendly interface for the underlying system.
+- The modules with hand-drawn style are under development and will be released in the future.
+  The modules with dashed borders are highly user-customizable and extendible.
 
 ## Related Work
 

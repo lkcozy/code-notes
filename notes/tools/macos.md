@@ -8,6 +8,22 @@ created: 2020-06-29T05:54:14.000Z
 modified: 2021-06-06T16:55:25.000Z
 ---
 
+## Shortcuts
+
+- Cmd + Shift + N – create a new folder
+
+### Finder shortcuts
+
+- Cmd + Shift + A – go to the Applications folder
+- Cmd + Shift + U – go to the Utilities folder
+- Cmd + Shift + D – go to the Desktop folder
+
+### Mac screenshot shortcut
+
+- Cmd + Shift + 3 – get an image of the full screen
+- Cmd + Shift + 4 – get just a portion of the screen
+- Cmd + Shift + 4 and then tap Space – get an image of the window
+
 ## Tutorial
 
 ### [MacOS file management scheme](https://eurychen.me/post/solutions-of-macos-file-management/)

@@ -8,6 +8,10 @@ created: 2020-06-24T07:06:39.000Z
 modified: 2021-06-06T20:08:26.000Z
 ---
 
+## [Flight rules for Git](https://github.com/k88hudson/git-flight-rules)
+
+Flight rules for git that list, step-by-step, what to do if X occurs, and why. Essentially, they are extremely detailed, scenario-specific standard operating procedures.
+
 ## Tips
 
 - `.gitkeep`: a dummy file to enable git to track a completely empty directory
