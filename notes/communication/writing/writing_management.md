@@ -95,6 +95,7 @@ modified: 2021-09-27T20:13:50.000Z
 - `Crunch`(important) often affects a leader’s `availability`.
 - I think we entrepreneurs are `vulnerable` to admiring the results `rather than` the process.
 - Leadership isn’t `confined`(limit) to managers; it’s also crucial on the technical track.
+- I'm trying to be objective here, pointing out real issues, not personal biases/preferences.
 
 ## Planning
 

@@ -56,6 +56,9 @@ modified: 2021-09-09T20:13:50.000Z
 - The agents minimized and `disregarded`(ignore) his experiences as he described his ordeal.
 - A in `concert with` B and C are working together to do sth.
 - The Fed `sat idly by` while the economy crashed and burned
+- What sculpture is to a block of marble, education is to the soul.
+- Books are the ever-burning lamps of accumulated wisdom.
+- leave virtual and kindness to your children instead of property. Only this can bring happiness to them.
 
 ## Negotiation
 

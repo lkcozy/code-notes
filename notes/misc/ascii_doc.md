@@ -26,6 +26,12 @@ brew install asciidoctor
 asciidoctor --backend docbook --out-file - $INPUT_ADOC| \
 pandoc --from docbook --to docx --output $INPUT_ADOC.docx \
        --highlight-style espresso
+
+# Command for PDF output
+asciidoctor-pdf -a data-uri -r asciidoctor-diagram -r asciidoctor-bibtex er.adoc
+
+# Command for HTML output
+asciidoctor -a data-uri -a -r asciidoctor-diagram -r asciidoctor-bibtex er.adoc
 ```
 
 ## Troubleshooting

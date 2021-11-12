@@ -57,6 +57,7 @@ the only way to make progress is to:
 - prove the architecture's `feasibility rather than security.`
 - The presented work aims to provide a `guideline` for future research on the privacy protection of UAV data
 - The proposed solution can `give insights into` providing a good practical idea for the research of blockchain technology in UAV data protection.
+- By providing a gateway to the Ethereum network, we hope to `facilitate`(push/contribute) the growth of a decentralized future.
 
 ## Methods
 
