@@ -28,8 +28,7 @@ module.exports = {
         openSearch: {
           siteUrl: "http://lkcozy.github.io/code-notes",
         },
-        logo:
-          "https://raw.githubusercontent.com/lkcozy/code-notes/master/assets/logo.png",
+        logo: "https://raw.githubusercontent.com/lkcozy/code-notes/master/assets/logo.png",
         showDate: true,
       },
     },
