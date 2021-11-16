@@ -28,6 +28,7 @@ Blockchain is an immutable, distributed public ledger and peer-to-peer (P2P netw
 - `Peer to Peer Network`: one in which two or more PCs shares files and access to devices such as printers without require a separate server computer.
 - `Consensus Algorithm`: a process in computer science used to achieve agreement on a single data value among distributed systems. `Proof-of-Work is the original consensus algorithm in a Blockchain network.`
 - `Incentives for Validation`: giving a reward for validating the transactions and maintaining the Blockchain
+- `Smart Contract`: Immutable programs stored on a blockchain. They automate the execution of transactions based on predetermined conditions being met.
 
 ## [Blockchain Type](#Using Blockchain for Trustworthy Mobile Contact Tracing)
 
@@ -44,3 +45,11 @@ The two common types are the Public Blockchain and the Private Blockchain.
 - Block reward halvings cut miners’ earnings in half
 - Block reward halvings also decrease supply, which as discussed above may cause Bitcoin’s price to increase.
 - A Bitcoin price increase can help offset the block reward halving.
+
+## Related Technologies
+
+- InterPlanetary File System (IPFS): a protocol and peer-to-peer network sharing data in a distributed file system.
+- [Ganache](https://github.com/trufflesuite/ganache): A tool for creating a local blockchain for fast Ethereum development.
+- [Truffle](https://github.com/trufflesuite/truffle): A development environment, testing framework and asset pipeline for Ethereum.
+- [Drizzle](https://github.com/trufflesuite/drizzle): a collection of front-end libraries that make writing dapp front-ends easier and more predictable.
+- Solidity: smart contract development language, which is similar to the javascript.

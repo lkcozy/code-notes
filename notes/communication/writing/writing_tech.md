@@ -92,6 +92,7 @@ modified: 2021-08-04T13:12:54.000Z
 - Due to the high `upfront cost`, lack of `general availability`, and power requirements,a lot of hobbyists miners mine other cryptocurrencies, also called Altcoins.
 - Encourage them to develop more `empathy`(another's feeling) and consider their colleagues’ `perspectives` and `viewpoints`
 - Don’t expect your efforts to `yield`(bring) immediate results
+- These instructions are `collectively referred` to as the “consensus protocol”
 
 ## AI/ML
 

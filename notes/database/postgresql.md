@@ -7,8 +7,16 @@ tags:
   - database
 link: null
 created: 2020-07-01T16:33:32.000Z
-modified: 2021-03-04T20:22:23.000Z
+modified: 2021-11-15T20:22:23.000Z
 ---
+
+## Geometry vs. Geography
+
+Use geography when dealing with regional/global scale data and geometry when dealing with local scale data.
+
+- Geometry, where it assumes all of your data lives on a Cartesian plane (like a map projection); More functions,High performance, recommended for compact spatial use cases with in country, province etc, not spanning across continent calculations
+
+- Geography, where it assumes that your data is made up of points on the earth’s surface, as specified by latitudes and longitudes. More precision, Les number of functions, less performing than geometry ,recommended for calculation spanning multiple geographies. We should also specify spatial reference id like 4326.
 
 ## Reinstall PostgreSQL
 

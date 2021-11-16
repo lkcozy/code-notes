@@ -33,6 +33,15 @@ gum set user1 --name 'user 1' --email user1@email.com
 gum use user1
 ```
 
+## Misc
+
+```sh
+# Discards all unstaged changes
+git reset --hard HEAD
+# Throw away local modifications
+git checkout -f
+```
+
 ## Check Git config
 
 ```sh
@@ -255,6 +264,7 @@ cm = commit --all -m
 cma = commit -a
 co = checkout
 cob = checkout -b
+discard = reset --hard HEAD
 del= branch -D
 st = stash -u
 pop = stash pop
