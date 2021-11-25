@@ -50,6 +50,9 @@ The two common types are the Public Blockchain and the Private Blockchain.
 
 - InterPlanetary File System (IPFS): a protocol and peer-to-peer network sharing data in a distributed file system.
 - [Ganache](https://github.com/trufflesuite/ganache): A tool for creating a local blockchain for fast Ethereum development.
+  - [How to develop, test, and deploy smart contracts using Ganache](https://blog.logrocket.com/develop-test-deploy-smart-contracts-ganache/)
 - [Truffle](https://github.com/trufflesuite/truffle): A development environment, testing framework and asset pipeline for Ethereum.
+- [Hardhat](https://github.com/nomiclabs/hardhat):
+  Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. Get Solidity stack traces & console.log.
 - [Drizzle](https://github.com/trufflesuite/drizzle): a collection of front-end libraries that make writing dapp front-ends easier and more predictable.
-- Solidity: smart contract development language, which is similar to the javascript.
+- [Solidity](https://soliditylang.org/): smart contract development language, which is similar to the javascript. [Writing smart contracts with Solidity](https://blog.logrocket.com/writing-smart-contracts-solidity/)

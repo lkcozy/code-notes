@@ -12,6 +12,13 @@ modified: 2021-06-06T16:55:25.000Z
 
 - Cmd + Shift + N – create a new folder
 
+### Log CPU and memory Usage
+
+```
+pip install psrecord, matplotlib
+psrecord PID --plot plot.png
+```
+
 ### Finder shortcuts
 
 - Cmd + Shift + A – go to the Applications folder
