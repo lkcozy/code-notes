@@ -82,6 +82,8 @@ modified: 2021-08-04T13:12:54.000Z
 - Some tools are good for high performance and scaling, but hard to work with, `whereas` others are easy to work with but are not as fast as other tools.
 - It `won't be worth` worrying about the cost `at the scale` of a few messages.
 - At the highest level, cross-platform UI technologies `prioritize` coordinated featurefulness over polished UX.
+- GraphQL is all about having a single endpoint to query the data, but `there are situations where` it `makes sense to instead` have multiple endpoints.
+- This allows us to provide `a distinct behavior for` different users or applications by simply `swapping` the accessed endpoint.
 
 ## Blockchain
 

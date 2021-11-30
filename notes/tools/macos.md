@@ -8,6 +8,7 @@ created: 2020-06-29T05:54:14.000Z
 modified: 2021-06-06T16:55:25.000Z
 ---
 
+
 ## Shortcuts
 
 - Cmd + Shift + N – create a new folder
@@ -91,7 +92,7 @@ Falcon is a free, open-source SQL editor with inline data visualization. It curr
 
 macOS system monitor in your menu bar
 
-### [AltTab](https://github.com/lwouis/alt-tab-macos)
+### [AltTab](https://github.com/lwouis/`alt`-tab-macos)
 
 ![](https://github.com/lwouis/alt-tab-macos/raw/master/docs/public/demo/frontpage.jpg)
 
@@ -116,8 +117,6 @@ Easily add more gestures to macOS
 ### [Pock-display macOS Dock in Touch Bar](https://pock.dev/)
 
 ![](https://pock.dev/assets/img/preview/pock_widgets.png)
-
-.
 
 ### [Turbo Boost Switcher for Mac OS X](http://tbswitcher.rugarciap.com/)
 

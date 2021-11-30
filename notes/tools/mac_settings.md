@@ -17,6 +17,7 @@ I set up a new Mac for work today. Here's what I did immediately:
 - [Big cursor](https://www.lifewire.com/make-mac-mouse-pointer-bigger-2260808)
 - Disable Ask Siri
 - Turn on Airdrop
+- Disable Spotlight Suggestions
 
 ## Finder
 
@@ -29,6 +30,10 @@ I set up a new Mac for work today. Here's what I did immediately:
 ## Dock
 
 ## Terminal environments
+
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh): [More information](https://lkcozy.github.io/code-notes/tools/zsh)
+- `brew install git`
+  - copy `.gitconfig`
 
 ## [VSCode](https://code.visualstudio.com/): Code editor
 
@@ -52,6 +57,20 @@ A monospaced fonts with cool coding ligatures.
 - rainbow-brackets
 
 [More information](https://lkcozy.github.io/code-notes/tools/vscode)
+
+## [GitHub Desktop](https://desktop.github.com/)
+
+## [Docker](https://docs.docker.com/desktop/mac/install/)
+
+## [Chrome](https://www.google.com/chrome/index.html)
+
+## [Slack](https://slack.com/downloads/mac)
+
+## [Postman](https://app.getpostman.com/app/download/osx64)
+
+## [Zoom](https://zoom.us/support/download?os=mac)
+
+## [Adobe Creative Cloud](https://www.adobe.com/ca/creativecloud.html)
 
 ## Docker
 
