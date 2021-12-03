@@ -59,6 +59,7 @@ modified: 2021-09-09T20:13:50.000Z
 - What sculpture is to a block of marble, education is to the soul.
 - Books are the ever-burning lamps of accumulated wisdom.
 - leave virtual and kindness to your children instead of property. Only this can bring happiness to them.
+- More people determine the fates of others `without having to pay the consequences`. 
 
 ## Negotiation
 
