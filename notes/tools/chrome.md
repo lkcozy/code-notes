@@ -23,6 +23,12 @@ modified: 2021-05-03T20:08:26.000Z
 
 ## Extensions
 
+- [GitHub Web IDE](https://github.com/zvizvi/GitHub-Web-IDE)
+
+![](https://cdn.beekka.com/blogimg/asset/202111/bg2021111504.jpg)
+
+This extension adds to any GitHub repository a new drop down menu which offers links to a number of online services that allow viewing the source code of the repository in an IDE like interface.
+
 - [geojson.io](https://chrome.google.com/webstore/detail/geojsonio/oibjgofbhldcajfamjganpeacipebckp/related)
 
 Edit files on GitHub and elsewhere in geojson.io

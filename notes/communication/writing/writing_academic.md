@@ -7,7 +7,7 @@ tags:
   - research
 link: https://mp.weixin.qq.com/s/RjmFeLIGjvVABzAuLP2EzQ
 created: 2021-03-22T20:40:15.000Z
-modified: 2021-10-29T06:26:41.000Z
+modified: 2022-01-03T06:26:41.000Z
 ---
 
 Whether it's a novel, a thesis, or a legal brief,
@@ -58,6 +58,7 @@ the only way to make progress is to:
 - The presented work aims to provide a `guideline` for future research on the privacy protection of UAV data
 - The proposed solution can `give insights into` providing a good practical idea for the research of blockchain technology in UAV data protection.
 - By providing a gateway to the Ethereum network, we hope to `facilitate`(push/contribute) the growth of a decentralized future.
+- The objective of this report is `twofold`.
 
 ## Methods
 
