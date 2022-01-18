@@ -7,7 +7,7 @@ tags:
   - research
 link: https://mp.weixin.qq.com/s/RjmFeLIGjvVABzAuLP2EzQ
 created: 2021-03-22T20:40:15.000Z
-modified: 2022-01-03T06:26:41.000Z
+modified: 2022-01-17T06:26:41.000Z
 ---
 
 Whether it's a novel, a thesis, or a legal brief,
@@ -103,3 +103,4 @@ the only way to make progress is to:
 - At a time of rising climate change impacts, there is a vital and growing need to prepare for, respond to, and recover from natural disasters.
 - But there is a critical communication gap between authorities and citizens.
 - He'd rather read ten papers `superficially`(not deeply/surface) than one paper in-depth to get as much inspiration as possible.
+- The differences of it from the first two can be `perceived`(understand) in three basic aspects

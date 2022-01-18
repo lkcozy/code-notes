@@ -13,10 +13,10 @@ modified: 2021-12-14T23:04:48.000Z
 
 We all hit those points in our career where we feel like it’s time for a raise. How can you go about asking for one — without alienating your manager?
 
-- The last thing you want to do is surprise your boss with an unexpected request so bring up the topic gradually during one-on-one meetings. For example, you might say, “At some point, I’d love for us to talk about my contributions and what I can do to get to the next level,” and then gauge their reaction.
-- Also, see the situation from your manager’s perspective. What are their priorities beyond your career development? They might be thinking about balancing budgets, meeting business targets, managing your peers, and progressing their own career. Before you start the conversation, consider how your work specifically supports those priorities so you can bring those up. Then, prepare a specific ask.
-- Do you want a higher salary? A new title? A change in reporting line? A bigger budget or team? Write down these items in order of importance to you, keeping in mind that your manager may have more leeway in certain areas than others. For instance, salary may be more difficult to secure than promotions (or vice versa).
-- Finally, managers want to invest in people who are loyal, enthusiastic, and dedicated so think through how you’ll demonstrate your commitment to the team and the company.
+- The last thing you want to do is surprise your boss with an unexpected request so `bring up the topic gradually during one-on-one meetings`. For example, you might say, “At some point, I’d love for us to talk about my contributions and what I can do to get to the next level,” and then gauge their reaction.
+- Also, `see the situation from your manager’s perspective`. What are their priorities beyond your career development? They might be thinking about balancing budgets, meeting business targets, managing your peers, and progressing their own career. Before you start the conversation, consider how your work specifically supports those priorities so you can bring those up. Then, prepare a specific ask.
+- Do you want a higher salary? A new title? A change in reporting line? A bigger budget or team? `Write down these items in order of importance to you`, keeping in mind that your manager may have more leeway in certain areas than others. For instance, salary may be more difficult to secure than promotions (or vice versa).
+- Finally, managers want to invest in people who are loyal, enthusiastic, and dedicated so think through `how you’ll demonstrate your commitment to the team and the company.`
 
 ## Translations
 
