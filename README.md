@@ -21,6 +21,32 @@ L&W code-related notes and snippets
 
 This application was built with [gatsby-theme-code-notes](https://github.com/mrmartineau/gatsby-theme-code-notes)
 
+## To Be Better
+
+- Person
+  - [Noam Chomsky - On Being Truly Educated](https://www.youtube.com/watch?v=eYHQcXVp4F4)
+- GISer
+- Developer
+  - [What I've Learned in 45 Years in the Software Industry](https://www.bti360.com/what-ive-learned-in-45-years-in-the-software-industry/): Solutions should be as simple as possible. Assume the next person to maintain your code won't be as smart as you. When you can use fewer technologies, do so.
+  - [How to Make Good Code Reviews Better](https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/)
+  - [How to write an effective developer resume: Advice from a hiring manager](https://stackoverflow.blog/2020/11/25/how-to-write-an-effective-developer-resume-advice-from-a-hiring-manager/)
+  - [Software Architecture Patterns](https://orkhanscience.medium.com/software-architecture-patterns-5-mins-read-e9e3c8eb47d2)
+  - [The 2 greatest clarifying questions in product development](https://twitter.com/joulee/status/1457755662922829829): On what time frame? Under what circumstance?
+- Leader
+
+  - [5 Questions Every Manager Needs to Ask Their Direct Reports](https://hbr.org/2022/01/5-questions-every-manager-needs-to-ask-their-direct-reports?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs)
+  - [The care and feeding of software engineers](https://humanwhocodes.com/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/)
+  - [How Engineering Driven Leads To Engineering Supremacy](https://charity.wtf/2022/01/20/how-engineering-driven-leads-to-engineering-supremacy/)
+  - [​​Scaling the Practice of Architecture, Conversationally](https://feeder.co/api/post/a866f3cc-805f-11ec-8639-1a21cf3a468a)
+
+- Colleague
+
+  - [Is a team member under performing?](https://twitter.com/joulee/status/1426254058805858309)
+
+- Entrepreneurs
+  - [How to Start a Startup](https://startupclass.samaltman.com/)
+  - [The Biggest Mistake I See Engineers Make](https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
+
 ## Local Test Github Actions
 
 Install [act](https://github.com/nektos/act)
