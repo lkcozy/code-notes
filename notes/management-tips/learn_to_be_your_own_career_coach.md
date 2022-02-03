@@ -16,7 +16,7 @@ They should start with who, what, why, where, when, or how, and shouldn’t have
 
 Also, focus on ownership and always include “I.” Instead of, “How has that person progressed more quickly than me?” the question becomes, “How could I accelerate my progression?” If you find yourself blaming other people or external factors when coaching yourself, it’s a signal that you need to refocus on what you can control.
 
-And avoid question “stacking,” where you ask multiple questions at the same time. So instead of, “Why am I missing deadlines and feeling so out of control of my time?” ask and answer each question in turn. One-at-a-time questioning will generate more options and actions you can take to positively shape your career.
+And avoid question “stacking”, where you ask multiple questions at the same time. So instead of, “Why am I missing deadlines and feeling so out of control of my time?” ask and answer each question in turn. One-at-a-time questioning will generate more options and actions you can take to positively shape your career.
 
 ## Translations
 

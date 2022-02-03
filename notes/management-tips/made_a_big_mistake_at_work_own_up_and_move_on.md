@@ -14,7 +14,9 @@ Here’s the thing about mistakes: Everyone makes them. But making a big mistake
 
 It’s important to be proactive. As soon as you become aware of the gaffe, try to get in front of the situation before it spirals. Address whatever took place so people know you’re aware of the problem, and they don’t feel the pressure to bring it to your attention. Reach out to anyone impacted by your actions, hear them out (or ask for their feedback), and share a plan for improvement moving forward. Offer an apology, if warranted.
 
-Make it genuine. Don’t be defensive or make it about you. Instead, acknowledge your error and the harm you caused to the other person, team, or the business. And don’t forget to show yourself compassion. Setbacks at work can be embarrassing, but being excessively self-critical isn’t helpful. Berating yourself for something in the past won’t make the mistake go away. So own up, and move on.
+Make it genuine. Don’t be defensive or make it about you. Instead, acknowledge your error and the harm you caused to the other person, team, or the business. And don’t forget to show yourself compassion. 
+
+Setbacks at work can be embarrassing, but being excessively self-critical isn’t helpful. Berating yourself for something in the past won’t make the mistake go away. So own up, and move on.
 
 ## Translations
 
@@ -25,7 +27,9 @@ Make it genuine. Don’t be defensive or make it about you. Instead, acknowledge
 
 积极主动是很重要的。 一旦你意识到自己的失态，尽量在事态恶化之前采取行动。不管发生了什么，都要坦率地说出来，这样人们就会知道你已经意识到了这个问题，而不会感到有压力而要引起你的注意。联系那些因你的行动而受到影响的人，听取他们的意见(或征求他们的反馈)，并分享一个向前推进的改进计划。如果有必要的话，道歉。
 
-让它真实。不要自我防卫，也不要以自己为中心。相反，你应该承认自己的错误，承认自己对他人、团队或业务造成的伤害。不要忘记对自己表示同情。工作上的挫折可能会令人尴尬，但过度的自我批评并没有什么帮助。为过去的事情责备自己并不能让错误消失。所以坦白吧，继续生活。
+让它真实。不要自我防卫，也不要以自己为中心。相反，你应该承认自己的错误，承认自己对他人、团队或业务造成的伤害。不要忘记对自己表示同情。
+
+工作上的挫折可能会令人尴尬，但过度的自我批评并没有什么帮助。为过去的事情责备自己并不能让错误消失。所以坦白吧，继续生活。
 
 </details>
 
