@@ -7,7 +7,7 @@ tags:
   - resources
 link:
 created: 2020-07-26T23:48:33.000Z
-modified: 2021-05-31T20:08:26.000Z
+modified: 2022-02-04T20:08:26.000Z
 ---
 
 ## [QuillBot](https://quillbot.com/)
@@ -15,6 +15,10 @@ modified: 2021-05-31T20:08:26.000Z
 QuillBot's paraphraser will re-write your text but keep the meaning.
 
 QuillBot's summarizer can quickly condense articles, papers, or documents to the key points.
+
+## [Mockaroo](https://www.mockaroo.com/): Random Data Generator and API Mocking Tool
+
+![](https://qxf2.com/blog/wp-content/uploads/2017/07/if_conditional_statement.png)
 
 ## [Fronted Toolkit](https://www.fetoolkit.io/): Utilities for your recurring Frontend tasks
 

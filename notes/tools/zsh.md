@@ -6,7 +6,7 @@ tags:
   - zsh
 link:
 created: 2021-01-27T22:11:10.000Z
-modified: 2021-04-20T16:05:46.000Z
+modified: 2022-02-14T16:05:46.000Z
 ---
 
 ## [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
@@ -39,4 +39,27 @@ Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
 
 ```sh
 plugins=(zsh-autosuggestions)
+```
+
+## [Change node version automatically with nvm](https://mrgregory.dev/posts/change-node-version-automatically-zsh)
+
+```sh
+function change_node_version {
+	nvmrc="./.nvmrc"
+	if [ -f "$nvmrc" ]; then
+		version="$(cat "$nvmrc")"
+		nvm use $version
+	fi
+}
+
+chpwd_functions=(change_node_version)
+```
+
+```sh
+# Use specific node version, like: 12.10
+echo "12.10" > .nvmrc
+# Set latest LTS node version as default
+echo "lts/*" > .nvmrc
+# Set latest node version as default
+echo "node" > .nvmrc
 ```

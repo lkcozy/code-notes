@@ -24,11 +24,21 @@ Use geography when dealing with regional/global scale data and geometry when dea
 brew reinstall postgresql
 ```
 
-createuser sta with encrypted password '12345678';
+```sh
+psql create extension postgis
 
-alter user sta with encrypted password '12345678';
+psql create database sensorthings
 
-grant all privileges on database sensorthingsexample to sta
+psql -d sensorthings
+
+# psql -c 'drop database sensorthings'
+
+createuser sta with encrypted password '12345678'
+
+# alter user sta with encrypted password '12345678'
+
+grant all privileges on database sensorthings to sta
+```
 
 ## Resources
 

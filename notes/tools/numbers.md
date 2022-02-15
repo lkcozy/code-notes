@@ -12,3 +12,9 @@ modified: 2021-05-18T12:43:15.000Z
 ## [Highlighting max value](https://discussions.apple.com/thread/7201137)
 
 ![](https://discussions.apple.com/content/attachment/611914040)
+
+## [COUNT values between two dates](https://www.spreadsheetweb.com/how-to-count-values-between-two-dates/)
+
+```
+=COUNTIFS($C$3:$C$10,">="&DATE($K$9,1,1),$C$3:$C$10,"<="&DATE($K$9,12,31))
+```
