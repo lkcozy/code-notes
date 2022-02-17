@@ -11,7 +11,10 @@ modified: 2021-04-20T16:05:46.000Z
 
 ## Shortcut
 
+- ^ : control
 - Duplicate line: Alt + Shift + Down Arrow
+- Select columns (vertical select): Shift + Option
+- Go To Line: ^ + G
 
 ## Font: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 

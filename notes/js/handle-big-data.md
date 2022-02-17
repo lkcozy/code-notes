@@ -13,6 +13,12 @@ modified: 2021-05-03T20:08:26.000Z
 
 ## Geospatial
 
+## [Apache Superset](https://github.com/apache/superset)
+
+![](https://github.com/apache/superset/raw/master/superset-frontend/src/assets/images/screenshots/gallery.jpg)
+
+Apache Superset is a Data Visualization and Data Exploration Platform.
+
 ### [OmniSciDB](https://github.com/omnisci/omniscidb)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M6kHkWH17KJKscL0Cc4%2F-M7wjUQ_xO3yDFMQMfoa%2F-M7wk9wbyiRfPY0CX_SP%2FCapture%20d%E2%80%99e%CC%81cran%2C%20le%202020-05-22%20a%CC%80%2010.15.34.jpg?alt=media&token=60046196-a687-4b9a-87f5-4a2638549f27)
@@ -195,6 +201,10 @@ dc.js is a javascript charting library with native crossfilter support, allowing
 dc.js is an easy yet powerful javascript library for data visualization and analysis in the browser and on mobile devices.
 
 - [react-dc-js](https://github.com/dc-js/react-dc-js)
+
+## [Arquero](https://github.com/uwdata/arquero)
+
+Arquero is a JavaScript library for query processing and transformation of array-backed data tables.
 
 ### [Perspective](https://github.com/finos/perspective)
 
