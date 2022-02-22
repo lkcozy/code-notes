@@ -49,6 +49,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [How Engineering Driven Leads To Engineering Supremacy](https://charity.wtf/2022/01/20/how-engineering-driven-leads-to-engineering-supremacy/)
   - [​​Scaling the Practice of Architecture, Conversationally](https://feeder.co/api/post/a866f3cc-805f-11ec-8639-1a21cf3a468a)
   - [Managers should ask for feedback](https://www.cenizal.com/getting-feedback-from-direct-reports/)
+  - [Engineering Org Structures— The QRF Team Model](https://betterprogramming.pub/engineering-org-structures-the-qrf-team-model-7b92031db33c): Take control of engineering team interruptions and prevent them from happening ever again
 
 - Colleague
 

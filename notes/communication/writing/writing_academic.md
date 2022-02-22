@@ -62,6 +62,8 @@ the only way to make progress is to:
 
 ## Methods
 
+- Top-down techniques are used to establish the structures and to define the core concepts.
+- Bottom-up techniques fill in the details using different data models, based on standards and specifications for existing deployed sensor systems.
 - Based on the stated research objectives, we designed a blockchain-driven architecture that `comprises` the following major segments.
 - The generic outlook of the conceptualize architecture is presented in Figure.
 - It is expected that this architecture will facilitate transparency of the data while protecting users' privacy.
