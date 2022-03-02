@@ -12,6 +12,8 @@ modified: 2021-04-20T16:05:46.000Z
 
 jq is a lightweight and flexible command-line JSON processor. jq is like `sed` for JSON data. You can use it to slice and filter and map and transform structured data with the same ease that `sed` and `grep` let you play with text.
 
+[jq Cheat Sheet](https://lzone.de/cheat-sheet/jq)
+
 ## Remove unused dependencies from package.json
 
 ```sh
@@ -68,7 +70,3 @@ jq -r '[(.dependencies, .devDependencies) | keys] | flatten | length' package.js
 ```sh
 curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]'
 ```
-
-## References
-
-- [jq Cheat Sheet](https://lzone.de/cheat-sheet/jq)

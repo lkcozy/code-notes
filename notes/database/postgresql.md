@@ -29,16 +29,26 @@ psql create extension postgis
 
 psql create database sensorthings
 
+psql -c 'create database sensorthings;' -U postgres 
+psql -c 'create extension postgis;' -U postgres sensorthings
+
+psql -c "ALTER USER postgres PASSWORD '12345678'"
+
 psql -d sensorthings
 
 # psql -c 'drop database sensorthings'
 
-createuser sta with encrypted password '12345678'
+create user sta with encrypted password '12345678'
+
+# list all users
+\du
 
 # alter user sta with encrypted password '12345678'
 
 grant all privileges on database sensorthings to sta
 ```
+
+
 
 ## Resources
 

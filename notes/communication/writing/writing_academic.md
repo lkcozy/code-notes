@@ -51,6 +51,7 @@ the only way to make progress is to:
 - The survey contains a brief reporting on several different study.
 - `Characterizing` the state of development of sth
 - `Informing` IT architectural practices and standards `to enable` analytics specifically of residential energy use and efficiency.
+- The development of the application was able to `incorporate`(include/combine) Web 3.0 technologies.
 
 ## Objectives
 
@@ -59,6 +60,7 @@ the only way to make progress is to:
 - The proposed solution can `give insights into` providing a good practical idea for the research of blockchain technology in UAV data protection.
 - By providing a gateway to the Ethereum network, we hope to `facilitate`(push/contribute) the growth of a decentralized future.
 - The objective of this report is `twofold`.
+- The results of the implementation will be analyzed through the `lens`(perspective) of security and practicality.
 
 ## Methods
 

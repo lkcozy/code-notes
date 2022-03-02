@@ -27,6 +27,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [Noam Chomsky - On Being Truly Educated](https://www.youtube.com/watch?v=eYHQcXVp4F4)
   - [Kevin Kelly 68 Bits of Unsolicited Advice](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/)
   - [Kevin Kelly 99 Additional Bits of Unsolicited Advice](https://kk.org/thetechnium/99-additional-bits-of-unsolicited-advice/)
+  - [30 rules for a life well lived](https://twitter.com/Nicolascole77/status/1489275823999762432): Play the long game. Slow and steady consistency is the most powerful driver of growth.
 - GISer
 - Developer
 
@@ -58,6 +59,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - Entrepreneurs
   - [How to Start a Startup](https://startupclass.samaltman.com/)
   - [The Biggest Mistake I See Engineers Make](https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
+  - [Hiring Developers: How to avoid the best](https://www.getparthenon.com/blog/how-to-avoid-hiring-the-best-developers/)
 
 ## Local Test Github Actions
 
