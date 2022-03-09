@@ -60,6 +60,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [How to Start a Startup](https://startupclass.samaltman.com/)
   - [The Biggest Mistake I See Engineers Make](https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
   - [Hiring Developers: How to avoid the best](https://www.getparthenon.com/blog/how-to-avoid-hiring-the-best-developers/)
+  - [Almanac CEO Readme](https://almanac.io/docs/ceo-user-guide-qgrX6JybtClEKUEGt96x5sMlzQLmRwPL)
 
 ## Local Test Github Actions
 
