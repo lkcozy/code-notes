@@ -6,7 +6,7 @@ tags:
   - communication
 link:
 created: 2021-03-15T16:13:36.000Z
-modified: 2021-09-09T20:13:50.000Z
+modified: 2022-03-11T20:13:50.000Z
 ---
 
 - An average year would `feature`(have) 14 named storms and seven hurricanes.
@@ -59,7 +59,8 @@ modified: 2021-09-09T20:13:50.000Z
 - What sculpture is to a block of marble, education is to the soul.
 - Books are the ever-burning lamps of accumulated wisdom.
 - leave virtual and kindness to your children instead of property. Only this can bring happiness to them.
-- More people determine the fates of others `without having to pay the consequences`. 
+- More people determine the fates of others `without having to pay the consequences`.
+- This `epitomizes`(fully illustrate) the lesson that a product is only as strong as the team that has created it.
 
 ## Negotiation
 
