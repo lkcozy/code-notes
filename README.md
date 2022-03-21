@@ -28,6 +28,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [Kevin Kelly 68 Bits of Unsolicited Advice](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/)
   - [Kevin Kelly 99 Additional Bits of Unsolicited Advice](https://kk.org/thetechnium/99-additional-bits-of-unsolicited-advice/)
   - [30 rules for a life well lived](https://twitter.com/Nicolascole77/status/1489275823999762432): Play the long game. Slow and steady consistency is the most powerful driver of growth.
+  - [10 Visuals That Will Change How You See Success & Productivity (Thread)](https://twitter.com/elliottaleksndr/status/1503657270147616768)
 - GISer
 - Developer
 
@@ -43,6 +44,8 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript): Clean Code concepts adapted for JavaScript
   - [3 Life-Changing Pieces of Advice](https://javascript.plainenglish.io/i-met-a-rich-programmer-he-gave-me-3-life-changing-pieces-of-advice-a3754d73a50c): Stay Consistent, Never Quit Your Job, Stay Friendly, Stay Humble
 
+- Data Engineering
+  - [6 data integration principles for data engineers to live by](https://medium.com/databand-ai/6-data-integration-principles-for-data-engineers-to-live-by-915749d9ada8)
 - Leader
 
   - [5 Questions Every Manager Needs to Ask Their Direct Reports](https://hbr.org/2022/01/5-questions-every-manager-needs-to-ask-their-direct-reports?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs)
@@ -51,6 +54,8 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [​​Scaling the Practice of Architecture, Conversationally](https://feeder.co/api/post/a866f3cc-805f-11ec-8639-1a21cf3a468a)
   - [Managers should ask for feedback](https://www.cenizal.com/getting-feedback-from-direct-reports/)
   - [Engineering Org Structures— The QRF Team Model](https://betterprogramming.pub/engineering-org-structures-the-qrf-team-model-7b92031db33c): Take control of engineering team interruptions and prevent them from happening ever again
+  - [Argument Cultures and Unregulated Aggression](https://www.kateheddleston.com/blog/argument-cultures-and-unregulated-aggression): Unregulated arguments are one of the most caustic environmental factors on engineering teams.
+  - [7 Mental Models For Great Engineering Leadership](https://feeder.co/api/post/777930a1-a6c5-11ec-b3b4-1a21cf3a468a)
 
 - Colleague
 

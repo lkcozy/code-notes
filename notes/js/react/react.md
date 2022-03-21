@@ -26,6 +26,7 @@ modified: 2021-04-20T16:05:46.000Z
   - Overoptimizing performance
   - Huge component trees
 - [react-philosophies](https://github.com/mithi/react-philosophies): a guidelines for writing react code
+- [Good advice on JSX conditionals](https://thoughtspile.github.io/2022/01/17/jsx-conditionals/?ck_subscriber_id=1238258824)
 - [Options for optimizing caching in React](https://blog.logrocket.com/options-caching-react/)
 
 ### Cheat Sheet

@@ -11,6 +11,16 @@ created: 2020-07-18T05:59:45.000Z
 modified: 2021-06-04T16:05:46.000Z
 ---
 
+## Connect local npm to the GitHub Package Registry
+
+```sh
+npm login --registry=https://npm.pkg.github.com
+```
+
+> 💡 Enter your GitHub user info. Username is your GitHub user name. When using 2FA, password is your applicable personal access token.
+
+> 💡 Make sure your personal access token has the ability to read from GitHub Package Registry.
+
 ## [GitHub Web Editor](https://docs.github.com/en/codespaces/developing-in-codespaces/web-based-editor)
 
 Open in github.dev editor by pressing the . (period).
@@ -18,6 +28,7 @@ Open in github.dev editor by pressing the . (period).
 ## Keyboard Shortcut
 
 ![](https://user-images.githubusercontent.com/11204251/129115211-749e5ef4-f287-408d-bb0e-62cc057b5bc4.png)
+
 ## [octokit.js](https://github.com/octokit/octokit.js)
 
 The all-batteries included GitHub SDK for Browsers, Node.js, and Deno.
