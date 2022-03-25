@@ -5,7 +5,7 @@ tags:
   - blockchain
 link:
 created: 2021-05-26T18:09:18.000Z
-modified: 2021-05-26T18:09:18.000Z
+modified: 2022-03-21T18:09:18.000Z
 ---
 
 Blockchain is an immutable, distributed public ledger and peer-to-peer (P2P network).
@@ -56,3 +56,7 @@ The two common types are the Public Blockchain and the Private Blockchain.
   Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. Get Solidity stack traces & console.log.
 - [Drizzle](https://github.com/trufflesuite/drizzle): a collection of front-end libraries that make writing dapp front-ends easier and more predictable.
 - [Solidity](https://soliditylang.org/): smart contract development language, which is similar to the javascript. [Writing smart contracts with Solidity](https://blog.logrocket.com/writing-smart-contracts-solidity/)
+
+## Resources
+
+- [Cryptopedia](https://www.gemini.com/cryptopedia): Your trusted source for all things crypto.

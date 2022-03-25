@@ -18,7 +18,7 @@ A valid regex consists of `alphanumeric characters` representing the set of inpu
 
 - `*` Quantifier — Matches between zero and unlimited times, as many times as possible, giving back as needed (greedy)
 - `.*` matches any character (except for line terminators)
-- `\dt` means one or more numbers
+- `\d+` means one or more numbers
   ![](https://cdn.sspai.com/editor/u_sanko/15903151097080.gif)
 
 - `(\d{3})(\d{4})(\d{4})`
@@ -36,14 +36,14 @@ A valid regex consists of `alphanumeric characters` representing the set of inpu
   - `gi`: means global, case-insensitive,
 - Multipliers
 
-  - `* -` item occurs zero or more times.
-  - `+ -` item occurs one or more times.
-  - `? -` item occurs zero or one times.
+  - `* -` item occurs zero or more times(greedy, as many times as possible)..
+  - `+ -` item occurs one or more times(greedy).
+  - `? -` item occurs zero or one times(lazy, as few times as possible).
   - {5} - item occurs five times.
   - {3,7} - item occurs between 3 and 7 times.
-  - {2,} - item occurs at least 2 times.
 
-- `l.*?k`: Are you looking at the lock or the silk?
+- `l.*k`: Are you `looking at the lock or the silk`? (greedy)
+- `l.*?k`: Are you `look`ing at the `lock` or the si`lk`? (lazy)
 
 - Add `''` to all links, replace `link: (.*)` with `link: $1`
 

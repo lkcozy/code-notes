@@ -25,6 +25,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 - Person
   - [Noam Chomsky - On Being Truly Educated](https://www.youtube.com/watch?v=eYHQcXVp4F4)
+  - [Don’t Underestimate the Power of Self-Reflection](https://hbr.org/2022/03/dont-underestimate-the-power-of-self-reflection)
   - [Kevin Kelly 68 Bits of Unsolicited Advice](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/)
   - [Kevin Kelly 99 Additional Bits of Unsolicited Advice](https://kk.org/thetechnium/99-additional-bits-of-unsolicited-advice/)
   - [30 rules for a life well lived](https://twitter.com/Nicolascole77/status/1489275823999762432): Play the long game. Slow and steady consistency is the most powerful driver of growth.
