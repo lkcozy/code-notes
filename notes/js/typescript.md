@@ -6,8 +6,45 @@ tags:
   - typescript
 link:
 created: 2021-07-08T15:49:56.000Z
-modified: 2021-07-08T15:49:56.000Z
+modified: 2022-03-25T15:49:56.000Z
 ---
+
+## [An Introduction To Type Programming In TypeScript](https://www.zhenghao.io/posts/type-programming#equality-comparisons-and-conditional-branching)
+
+## [Equality comparisons and conditional branching](https://www.zhenghao.io/posts/type-programming#equality-comparisons-and-conditional-branching)
+
+In the type language, on the other hand, we use the extends keyword for "equality check", and the conditional (ternary) operator ? for conditional branching too as in:
+
+```ts
+TypeC = TypeA extends TypeB ? TrueExpression : FalseExpression
+```
+
+The `extends` keyword is versatile. It can also apply constraints to generic type parameters. For example:
+
+```ts
+function getUserName<T extends { name: string }>(user: T) {
+  return user.name;
+}
+```
+
+By adding the generic constraints, `<T extends {name: string}>` we ensure the argument our function takes always consist of a `name` property of the type `string`.
+
+## Functions
+
+```ts
+function fn(a, b = "world") {
+  return [a, b];
+}
+const result = fn("hello"); // ["hello", "world"]
+```
+
+```ts
+type Fn<A extends string, B extends string = "world"> = [A, B];
+//   ↑    ↑           ↑                          ↑              ↑
+// name parameter parameter type          default value   function body/return statement
+
+type Result = Fn<"hello">; // ["hello", "world"]
+```
 
 ## [Typescript utility types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
 

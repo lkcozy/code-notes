@@ -118,6 +118,10 @@ Learn to build and deploy your distributed applications easily to the cloud with
 
 This blog series will cover five areas for Dockerfile best practices to help you write better Dockerfiles: incremental build time, image size, maintainability, security and repeatability.
 
+- [10 best practices to containerize Node.js web applications with Docker](https://snyk.io/blog/10-best-practices-to-containerize-nodejs-web-applications-with-docker/)
+
+This article provides production-grade guidelines for building optimized and secure Node.js Docker images.
+
 - [The Docker handbook](https://www.freecodecamp.org/news/the-docker-handbook/)
 
 This full-length Docker book is rich with code examples. It will teach you all about containerization, custom Docker images and online registries, and how to work with multiple containers using Docker Compose.

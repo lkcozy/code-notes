@@ -8,7 +8,6 @@ created: 2020-06-29T05:54:14.000Z
 modified: 2021-06-06T16:55:25.000Z
 ---
 
-
 ## Shortcuts
 
 - Cmd + Shift + N – create a new folder
@@ -61,6 +60,12 @@ Reduce File Size (150 dpi, high quality)
 ![](https://blog.macsales.com/wp-content/uploads/2020/07/Preview_updatedFiltersList.jpg)
 
 ## Tools
+
+### [OnlySwitch](https://github.com/jacklandrin/OnlySwitch)
+
+![](https://camo.githubusercontent.com/238b2e6add4282c57469b9f2a2112faf955e85c7128e8f91ee18c01975c9e3c4/68747470733a2f2f7777772e6a61636b6c616e6472696e2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032322f30312f6f6e6c795377697463685f31392e706e67)
+
+OnlySwitch is an all-in-One menu bar app, hide MacBook Pro's notch, dark mode, AirPods, Shortcuts.
 
 ### [Touch Bar System Monitor](https://github.com/spagnuolocarmine/touchbar-systemmonitor/blob/master/README.md)
 
