@@ -29,6 +29,17 @@ function getUserName<T extends { name: string }>(user: T) {
 
 By adding the generic constraints, `<T extends {name: string}>` we ensure the argument our function takes always consist of a `name` property of the type `string`.
 
+## [How to use type guards in TypeScript](https://blog.logrocket.com/how-to-use-type-guards-typescript/)
+
+- The `in` type guard checks if an object has a particular property,
+- [Custom type guard with predicate](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates)
+
+```ts
+function isFish(pet: Fish | Bird): pet is Fish {
+  return (pet as Fish).swim !== undefined;
+}
+```
+
 ## Functions
 
 ```ts

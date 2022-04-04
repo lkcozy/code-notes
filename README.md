@@ -52,6 +52,8 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [Tao of Node - Design, Architecture & Best Practices](https://alexkondov.com/tao-of-node/)
 - Data Engineering
   - [6 data integration principles for data engineers to live by](https://medium.com/databand-ai/6-data-integration-principles-for-data-engineers-to-live-by-915749d9ada8)
+- Product Manager
+  - [How to Be a More Effective Internal Product Manager](https://medium.com/swlh/how-to-be-a-more-effective-internal-product-manager-e14143e3343)
 - Leader
   - [What You Give Up When Moving Into Engineering Management](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)
   - [5 Questions Every Manager Needs to Ask Their Direct Reports](https://hbr.org/2022/01/5-questions-every-manager-needs-to-ask-their-direct-reports?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs)

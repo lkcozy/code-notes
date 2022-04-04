@@ -9,7 +9,7 @@ tags:
   - nodejs
 link: https://reactjs.org/
 created: 2020-07-20T16:49:36.000Z
-modified: 2021-04-20T16:05:46.000Z
+modified: 2022-03-29T16:05:46.000Z
 ---
 
 [![Latest Version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
@@ -95,6 +95,7 @@ const Home = React.lazy(() => import("../component/Home"));
 
 - [Ink](https://github.com/vadimdemedes/ink): React for CLIs. Build and test your CLI output using components.
 - [Docz](https://github.com/doczjs/docz/): easily write and publish beautiful interactive documentation for your code.
+- [Gitlanding](https://github.com/thieryw/gitlanding): Gitlanding helps you create a beautiful landing page for your GitHub projects.
 
 ### Database
 
