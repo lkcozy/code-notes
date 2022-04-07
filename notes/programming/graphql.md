@@ -13,6 +13,26 @@ modified: 2021-08-23T20:08:26.000Z
 
 GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.
 
+> 💡 GraphQL is an alternative to REST for developing APIs, not a replacement.
+
+## Pros
+
+- Define the exact scope of data required in every instance
+- Select multiple fields from different resources in a single query
+
+## [Cons](https://blog.logrocket.com/why-you-shouldnt-use-graphql/)
+
+- REST can do much of what GraphQL does
+- GraphQL makes some tasks more complex (overkill)
+- GraphQL queries could cause performance issues
+  - Nested fields lead to circular queries
+- It’s easier to use a web cache with REST than with GraphQL
+- The way GraphQL schemas work could be a problem
+- REST is better for error handling and tooling
+
+
+## Tips
+
 - When adopting GraphQL, it’s best to use a client-driven approach to designing your API
   - remember that a schema is a contract between the client and server.
   - The schema defines what data the clients can request or change, and the server returns that data to the client.
