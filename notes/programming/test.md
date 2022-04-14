@@ -5,7 +5,7 @@ tags:
   - test
 link: https://itnext.io/its-a-trap-avoid-focusing-on-vanity-metrics-in-software-testing-7a627c7848
 created: 2021-05-07T14:34:06.000Z
-modified: 2021-05-07T14:34:06.000Z
+modified: 2022-04-10T14:34:06.000Z
 ---
 
 - Don't focus on test's vanity metrics.
@@ -16,6 +16,10 @@ modified: 2021-05-07T14:34:06.000Z
 - `If you can measure it, you can manage/improve it`.
 
 ## [Best Practices](https://blog.logrocket.com/javascript-testing-best-practices/)
+
+## [javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
+
+This is a guide for JavaScript & Node.js reliability from A-Z. It summarizes and curates for you dozens of the best blog posts, books and tools the market has to offer.
 
 ### Test anatomy and test descriptions
 

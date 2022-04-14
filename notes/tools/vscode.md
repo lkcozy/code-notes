@@ -6,7 +6,7 @@ tags:
   - vscode
 link:
 created: 2020-07-02T20:13:36.000Z
-modified: 2021-04-20T16:05:46.000Z
+modified: 2022-04-10T16:05:46.000Z
 ---
 
 ## Shortcut
@@ -144,3 +144,4 @@ This extension make debugging much easier by automating the operation of writing
 
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode)
 - [Top 10 VSCode Extensions](https://codebond.co/@codebond.cb/top-10-vscode-extensions)
+- [VS Code for data science](https://towardsdatascience.com/vs-code-for-data-science-aee82fe08bac)

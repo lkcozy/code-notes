@@ -25,6 +25,9 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 - Person
   - [Noam Chomsky - On Being Truly Educated](https://www.youtube.com/watch?v=eYHQcXVp4F4)
+  - [The Ability to Focus is a Highly Valuable Skill to Master In Today’s Fast Moving Economy](https://medium.com/swlh/the-ability-to-focus-is-a-highly-valuable-skill-to-master-in-todays-fast-moving-economy-8aaba37bfa61): Learn to work deeper
+  - [Master your questioning skills](https://muratbuffalo.blogspot.com/2018/12/master-your-questioning-skills.html)
+  - [How To Criticize Coworkers](https://alexturek.com/2022-03-18-How-to-criticize-coworkers/): An excellent piece on how to give (and receive) feedback.
   - [Don’t Underestimate the Power of Self-Reflection](https://hbr.org/2022/03/dont-underestimate-the-power-of-self-reflection)
   - [Kevin Kelly 68 Bits of Unsolicited Advice](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/)
   - [Kevin Kelly 99 Additional Bits of Unsolicited Advice](https://kk.org/thetechnium/99-additional-bits-of-unsolicited-advice/)
@@ -35,6 +38,8 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [10 Step Guide to Clearer Thinking Through Essay Writing](https://medium.com/practicecomesfirst/dr-jordan-b-petersons-10-step-guide-to-clearer-thinking-through-essay-writing-1ab79a94937)
 - GISer
 - Developer
+  - [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/): Focus your efforts on API semantics, implementation semantics, and documentation, not the code style and tests.
+  - [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
   - [Drunk Post: Things I've learned as a Sr Engineer](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
   - [What I've Learned in 45 Years in the Software Industry](https://www.bti360.com/what-ive-learned-in-45-years-in-the-software-industry/): Solutions should be as simple as possible. Assume the next person to maintain your code won't be as smart as you. When you can use fewer technologies, do so.
   - [Working with Product Managers: Advice from PMs](https://newsletter.pragmaticengineer.com/p/working-with-product-managers-advice-from-pms#/)
