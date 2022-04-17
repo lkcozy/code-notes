@@ -19,6 +19,7 @@ modified: 2022-04-01T14:52:29.000Z
 - [Tailwind NextJS Starter Blog](https://github.com/timlrx/tailwind-nextjs-starter-blog): A blogging starter template powered by the Next.js, Tailwind CSS.
 - [typescript-package-starter](https://github.com/gaoxiaoliangz/typescript-package-starter): A simple starter for TypeScript packages, easy to be published via npm.
 - [Hackathon Starter](https://github.com/sahat/hackathon-starter): A boilerplate for Node.js web applications
+- [react-admin](https://github.com/marmelab/react-admin): A frontend Framework for building B2B applications.
 
 ## Management
 

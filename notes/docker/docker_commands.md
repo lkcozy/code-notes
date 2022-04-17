@@ -55,7 +55,9 @@ docker exec -it dreamy_nash /bin/bash
 docker exec -it 1d3912322644 /bin/bash
 ```
 
-## [Cleaning Up Your Docker Environment](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes#removing-containers):
+## [How to clean your Docker data](https://dockerwebdev.com/tutorials/clean-up-docker/)
+
+## [Cleaning Up Your Docker Environment](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes#removing-containers)
 
 ```sh
 #!/bin/bash

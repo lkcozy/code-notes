@@ -37,6 +37,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - Writer
   - [10 Step Guide to Clearer Thinking Through Essay Writing](https://medium.com/practicecomesfirst/dr-jordan-b-petersons-10-step-guide-to-clearer-thinking-through-essay-writing-1ab79a94937)
 - GISer
+  - [Bibliometric Analysis of OGC Specifications between 1994 and 2020 Based on Web of Science (WoS)](https://www.mdpi.com/2220-9964/11/4/251)
 - Developer
   - [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/): Focus your efforts on API semantics, implementation semantics, and documentation, not the code style and tests.
   - [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
