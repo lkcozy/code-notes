@@ -9,6 +9,33 @@ created: 2021-07-08T15:49:56.000Z
 modified: 2022-03-25T15:49:56.000Z
 ---
 
+## [Create a condition-based subset types](https://www.piotrl.net/typescript-condition-subset-types/)
+
+```ts
+type SubType<Base, Condition> = Pick<
+  Base,
+  {
+    [Key in keyof Base]: Base[Key] extends Condition ? Key : never;
+  }[keyof Base]
+>;
+// or
+type FilterFlags<Base, Condition> = {
+  [Key in keyof Base]: Base[Key] extends Condition ? Key : never;
+};
+
+type AllowedNames<Base, Condition> = FilterFlags<Base, Condition>[keyof Base];
+
+type SubType<Base, Condition> = Pick<Base, AllowedNames<Base, Condition>>;
+
+// usage
+type JsonPrimitive = SubType<Person, number | string>;
+type JsonPrimitive = {
+  id: number;
+  name: string;
+  lastName: string;
+};
+```
+
 ## [An Introduction To Type Programming In TypeScript](https://www.zhenghao.io/posts/type-programming#equality-comparisons-and-conditional-branching)
 
 ## [Equality comparisons and conditional branching](https://www.zhenghao.io/posts/type-programming#equality-comparisons-and-conditional-branching)

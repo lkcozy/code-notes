@@ -39,7 +39,9 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - GISer
   - [Bibliometric Analysis of OGC Specifications between 1994 and 2020 Based on Web of Science (WoS)](https://www.mdpi.com/2220-9964/11/4/251)
 - Developer
+  - [The Coding Career Handbook](https://learninpublic.org/)
   - [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/): Focus your efforts on API semantics, implementation semantics, and documentation, not the code style and tests.
+  - [Code Reviews 101 - The Basics](https://www.semasoftware.com/blog/code-reviews-101-the-basics)
   - [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
   - [Drunk Post: Things I've learned as a Sr Engineer](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
   - [What I've Learned in 45 Years in the Software Industry](https://www.bti360.com/what-ive-learned-in-45-years-in-the-software-industry/): Solutions should be as simple as possible. Assume the next person to maintain your code won't be as smart as you. When you can use fewer technologies, do so.
@@ -52,15 +54,20 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript): Clean Code concepts adapted for JavaScript
   - [3 Life-Changing Pieces of Advice](https://javascript.plainenglish.io/i-met-a-rich-programmer-he-gave-me-3-life-changing-pieces-of-advice-a3754d73a50c): Stay Consistent, Never Quit Your Job, Stay Friendly, Stay Humble
   - [Tips On Prioritizing Tech Debt In A Healthy Way](https://leadership.garden/tips-on-prioritizing-tech-debt/)
+  - [Coding questions - FAANG prep](https://hollow-wood-560.notion.site/Coding-questions-FAANG-prep-9cdf280e5f30425fa188cbbaa6d1998c)
+  - [JavaScript testing tutorial](https://wanago.io/courses/javascript-testing-tutorial/): A detailed description of various JavaScript tests.
 - Architecture
   - [Architecture Without Architects (Video)](https://softwareleadweekly.us6.list-manage.com/track/click?u=1a258e0fefbb23214c59c5a8d&id=6beddbf093&e=b1367de9f9): Software Architect is a role, not a title. It's a skill, a mindset, and expertise to acquire. It has to be part of the team and not forced upon one.
   - [How to managing up(report)](https://alexkondov.com/tao-of-node/)
   - [Tao of Node - Design, Architecture & Best Practices](https://alexkondov.com/tao-of-node/)
-- Data Engineering
+- Data Engineer
   - [6 data integration principles for data engineers to live by](https://medium.com/databand-ai/6-data-integration-principles-for-data-engineers-to-live-by-915749d9ada8)
 - Product Manager
   - [How to Be a More Effective Internal Product Manager](https://medium.com/swlh/how-to-be-a-more-effective-internal-product-manager-e14143e3343)
 - Leader
+  - [Software Leader Weekly](https://softwareleadweekly.com/)
+  - [The Weekly Hagakure](https://hagakure.substack.com/): A weekly dose of curated practical wisdom for technical leaders
+  - [Motivating Developers to Care About Documentation](https://getdx.com/best-practices/documentation-culture-engineering)
   - [What You Give Up When Moving Into Engineering Management](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)
   - [5 Questions Every Manager Needs to Ask Their Direct Reports](https://hbr.org/2022/01/5-questions-every-manager-needs-to-ask-their-direct-reports?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs)
   - [The care and feeding of software engineers](https://humanwhocodes.com/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/)
@@ -78,6 +85,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [The Biggest Mistake I See Engineers Make](https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
   - [Hiring Developers: How to avoid the best](https://www.getparthenon.com/blog/how-to-avoid-hiring-the-best-developers/)
   - [Almanac CEO Readme](https://almanac.io/docs/ceo-user-guide-qgrX6JybtClEKUEGt96x5sMlzQLmRwPL): A guide to how an CEO operate.
+  - [The 40% Rule for SAAS companies](https://avc.com/2015/02/the-40-rule/): Your annual revenue growth rate + your operating margin should equal 40%
 
 ## Local Test Github Actions
 
