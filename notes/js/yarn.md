@@ -8,6 +8,10 @@ created: 2021-09-14T11:01:38.000Z
 modified: 2021-09-14T11:01:38.000Z
 ---
 
+## Using `&` to run scripts in parallel
+
+## Using `&&` to run scripts in serial
+
 ## For Performance
 
 ```yml

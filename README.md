@@ -51,6 +51,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [How to write an effective developer resume: Advice from a hiring manager](https://stackoverflow.blog/2020/11/25/how-to-write-an-effective-developer-resume-advice-from-a-hiring-manager/)
   - [Software Architecture Patterns](https://orkhanscience.medium.com/software-architecture-patterns-5-mins-read-e9e3c8eb47d2)
   - [The 2 greatest clarifying questions in product development](https://twitter.com/joulee/status/1457755662922829829): On what time frame? Under what circumstance?
+  - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices#1-project-structure-practices)
   - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript): Clean Code concepts adapted for JavaScript
   - [3 Life-Changing Pieces of Advice](https://javascript.plainenglish.io/i-met-a-rich-programmer-he-gave-me-3-life-changing-pieces-of-advice-a3754d73a50c): Stay Consistent, Never Quit Your Job, Stay Friendly, Stay Humble
   - [Tips On Prioritizing Tech Debt In A Healthy Way](https://leadership.garden/tips-on-prioritizing-tech-debt/)
