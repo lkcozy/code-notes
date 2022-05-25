@@ -36,6 +36,9 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [The Psychology of Money by Morgan Housel: Summary & Notes](https://www.grahammann.net/book-notes/the-psychology-of-money-morgan-housel)
 - Writer
   - [10 Step Guide to Clearer Thinking Through Essay Writing](https://medium.com/practicecomesfirst/dr-jordan-b-petersons-10-step-guide-to-clearer-thinking-through-essay-writing-1ab79a94937)
+- Researcher
+  - [Writing a Scientific Manuscript](https://butlerscicomm.com/writing-your-scientific-manuscript/#introduction): introduce the important basics that will help you structure and start writing your scientific paper.
+  - [The Most Common Habits from more than 200 English Papers written by Graduate Chinese Engineering Students](https://papertalks.org/p/resources/Academic/EnglishWritingSkills/MostCommonEnglishWritingHabitsOfChinese.pdf): an individual guide to editing technical papers.
 - GISer
   - [Bibliometric Analysis of OGC Specifications between 1994 and 2020 Based on Web of Science (WoS)](https://www.mdpi.com/2220-9964/11/4/251)
 - Developer
@@ -62,6 +65,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [How to managing up(report)](https://alexkondov.com/tao-of-node/)
   - [Tao of Node - Design, Architecture & Best Practices](https://alexkondov.com/tao-of-node/)
 - Data Engineer
+  - [An Agile Framework for AI Projects — Development, QA, Deployment and Maintenance](https://towardsdatascience.com/an-agile-framework-for-ai-projects-development-cbe115ba86a2)
   - [6 data integration principles for data engineers to live by](https://medium.com/databand-ai/6-data-integration-principles-for-data-engineers-to-live-by-915749d9ada8)
 - Product Manager
   - [How to Be a More Effective Internal Product Manager](https://medium.com/swlh/how-to-be-a-more-effective-internal-product-manager-e14143e3343)

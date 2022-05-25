@@ -132,6 +132,7 @@ The author shares several react performance optimization tips from three directi
 
 [Original](https://zhuanlan.zhihu.com/p/74229420)
 
+- [Typesafe useReducer with React Context](https://dev.to/kardell/typesafe-usereducer-with-react-context-53c3?ck_subscriber_id=1238258824)
 ## ESLint Configuration
 
 ESLint is a static code analysis tool for identifying problematic patterns found in JavaScript code

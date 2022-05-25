@@ -152,3 +152,7 @@ This article will cover the following options:
 
 - [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode): a developer productivity tool for rapid JavaScript / TypeScript prototyping.
 - [ts-migrate](https://github.com/airbnb/ts-migrate): A tool to help migrate JavaScript code quickly and conveniently to TypeScript
+
+## tutorials
+
+- [Typesafe useReducer with React Context](https://dev.to/kardell/typesafe-usereducer-with-react-context-53c3?ck_subscriber_id=1238258824)

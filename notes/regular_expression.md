@@ -47,6 +47,10 @@ A valid regex consists of `alphanumeric characters` representing the set of inpu
 
 - Add `''` to all links, replace `link: (.*)` with `link: $1`
 
+## [Check for prime numbers](https://www.noulakaz.net/2007/03/18/a-regular-expression-to-check-for-prime-numbers/)
+
+`/^1?$|^(11+?)\1+$/`
+
 ## Basic
 
 ### [Literal Characters](https://www.regular-expressions.info/characters.html)

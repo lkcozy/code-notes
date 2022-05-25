@@ -140,6 +140,23 @@ Data Preview 🈸 extension for importing 📤 viewing 🔎 slicing 🔪 dicing 
 
 This extension make debugging much easier by automating the operation of writing meaningful log message.
 
+- [TypeScript Error Translator](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator#tserror)
+
+![](https://raw.githubusercontent.com/mattpocock/ts-error-translator/main/assets/screenshot.png)
+
+A VSCode extension to turn TypeScript errors into plain English.
+
+- [Denigma](https://denigma.app/)
+
+![](https://cdn.beekka.com/blogimg/asset/202112/bg2021121617.webp)
+
+Denigma explains code in understandable english, which helps developers break through the enigma of code.
+
+- [Ponicode](https://marketplace.visualstudio.com/items?itemName=Ponicode.ponicode)
+
+![](https://files.ponicode.com/extension/ponicode-extension-readme-gif-2.gif)
+Ponicode is a quick and easy AI-powered solution for Javascript unit testing.
+
 ## References
 
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode)

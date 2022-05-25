@@ -10,3 +10,11 @@ modified: 2021-05-05T22:03:31.000Z
 ---
 
 ## Title
+
+## Tools
+
+- [Table](https://github.com/gajus/table)
+
+![](https://github.com/gajus/table/raw/master/.README/demo.png)
+
+A neat effect and perhaps a useful way to show info from CLI tools you might be building. You can configure how the table is rendered, padded, and aligned.

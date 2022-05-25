@@ -89,3 +89,4 @@ result:
 
 - [Online SQL Teaching](https://www.sqlteaching.com/)
 - [SQL Join Types Explained Visually](https://dataschool.com/how-to-teach-people-sql/sql-join-types-explained-visually/)
+- [knex.js](https://github.com/knex/knex): A batteries-included, multi-dialect (PostgreSQL, MySQL, CockroachDB, MSSQL, SQLite3, Oracle (including Oracle Wallet Authentication)) query builder for Node.js

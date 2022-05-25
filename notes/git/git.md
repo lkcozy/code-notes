@@ -294,9 +294,7 @@ sm=!git st && git co master && git prb
 ## Sources
 
 - [git-tips](https://github.com/git-tips/tips)
-
 - [gitsheet.wtf](https://gitsheet.wtf/)
-
 - [gitexplorer.com](https://gitexplorer.com/)
-
 - [Setting Up Git Identities](https://www.micah.soy/posts/setting-up-git-identities/)
+- [A Guide To Undoing Mistakes With Git](https://www.smashingmagazine.com/2021/05/undoing-mistakes-git-part1/)
