@@ -34,7 +34,15 @@ modified: 2022-03-29T16:05:46.000Z
 
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react): Cheatsheets for experienced React developers getting started with TypeScript
 
-### Performance
+## Resources
+
+## Performance
+
+- [react-lazyload](https://github.com/twobin/react-lazyload): Lazy load your component, image or anything matters the performance.
+- [why-did-you-render](https://github.com/welldone-software/why-did-you-render#readme): notify you about potentially avoidable re-renders.
+- [Optimizing Performance in React Apps ](https://piyushsinha.tech/series/optimizing-react)
+
+### General
 
 - Lazy load images
 
@@ -47,15 +55,6 @@ modified: 2022-03-29T16:05:46.000Z
 ```jsx
 const Home = React.lazy(() => import("../component/Home"));
 ```
-
-## Resources
-
-## Performance
-
-- [react-lazyload](https://github.com/twobin/react-lazyload): Lazy load your component, image or anything matters the performance.
-- [why-did-you-render](https://github.com/welldone-software/why-did-you-render#readme): notify you about potentially avoidable re-renders.
-
-### General
 
 - [React Bits](https://github.com/vasanthk/react-bits): A compilation of React Patterns, techniques, tips and tricks.
 - [Classnames](https://github.com/JedWatson/classnames): a simple JavaScript utility for conditionally joining classNames together.
@@ -133,6 +132,7 @@ The author shares several react performance optimization tips from three directi
 [Original](https://zhuanlan.zhihu.com/p/74229420)
 
 - [Typesafe useReducer with React Context](https://dev.to/kardell/typesafe-usereducer-with-react-context-53c3?ck_subscriber_id=1238258824)
+
 ## ESLint Configuration
 
 ESLint is a static code analysis tool for identifying problematic patterns found in JavaScript code
