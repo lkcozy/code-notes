@@ -16,6 +16,9 @@ the only way to make progress is to:
 - Break your work into small chunks.
 - Focus on one at a time.
 
+## Abstract
+- 
+- The `feasibility` of XXX has been successfully `evaluated` in the scope of XXX project, which aims at XXX.
 ## Introduction
 
 - Our goal is to explore the option of developing a system that facilitates anonymity and trustworthiness. To achieve this, the following objectives are outlined

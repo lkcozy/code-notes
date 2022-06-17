@@ -26,6 +26,8 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - Person
   - [Noam Chomsky - On Being Truly Educated](https://www.youtube.com/watch?v=eYHQcXVp4F4)
   - [The Ability to Focus is a Highly Valuable Skill to Master In Today’s Fast Moving Economy](https://medium.com/swlh/the-ability-to-focus-is-a-highly-valuable-skill-to-master-in-todays-fast-moving-economy-8aaba37bfa61): Learn to work deeper
+  - [Antifragile Planning: Optimizing for Optionality (Without Chasing Shiny Objects)](https://taylorpearson.me/planning/): Learn to set long-term goals for yourself.
+  - [Taming the Mammoth: Why You Should Stop Caring What Other People Think](https://waitbutwhy.com/2014/06/taming-mammoth-let-peoples-opinions-run-life.html): No one really cares that much about what you’re doing. People are highly self-absorbed.
   - [Master your questioning skills](https://muratbuffalo.blogspot.com/2018/12/master-your-questioning-skills.html)
   - [How To Criticize Coworkers](https://alexturek.com/2022-03-18-How-to-criticize-coworkers/): An excellent piece on how to give (and receive) feedback.
   - [Don’t Underestimate the Power of Self-Reflection](https://hbr.org/2022/03/dont-underestimate-the-power-of-self-reflection)
