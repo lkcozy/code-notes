@@ -5,13 +5,36 @@ tags:
   - js
   - blockchain
   - Ethereum
-link: null
+link: https://www.landscape.dappcamp.xyz/
 created: 2021-05-05T22:03:31.000Z
 modified: 2021-05-05T22:03:31.000Z
 ---
 
 A comprehensive survey on blockchain working security
 Analysis privacy threats and potential applications
+
+## [Ethereum Developer Tooling Landscape](https://www.landscape.dappcamp.xyz/)
+
+![](https://user-images.githubusercontent.com/78253155/172342647-04fe429e-022f-4b95-a049-ac0299a55da7.gif)
+
+This landscape represents a comprehensive list of tools that developers use when developing smart contracts on Ethereum and EVM-compatible chains.
+
+The tools within each category are sorted according to their popularity/usage.
+
+- IDE: VSCode
+- Development Frameworks: Hardhat,Truffle
+- Front-end: Moralis, Scaffold-Eth, Drizzie
+  - Block Explorers: Etherscan
+- Client libraries: Ethers.js,Web3.js
+- Infrastructure: Alchemy
+- Identify: Metamask
+- Storage: IPFS
+- Security Analysis: MythX
+- Monitoring: Tenderly
+- Oracles:Chainlink
+- Layer2: Polygon
+- Bridge: Polygon Bridge
+- Protocols: Ox
 
 ## [Transactions](https://ethereum.org/en/developers/docs/transactions/)
 

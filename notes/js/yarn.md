@@ -19,6 +19,7 @@ modified: 2021-09-14T11:01:38.000Z
 compressionLevel: 0
 nmMode: hardlinks-local
 enableGlobalCache: true
+save-prefix: "" # "~" or "^"
 ```
 
 ![](https://www.dolthub.com/blog/static/8d0730e8c65a9b5f059576d21a7d467e/ad12c/yarn-2-discord-larixer.png)
