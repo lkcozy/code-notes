@@ -43,8 +43,12 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [The Most Common Habits from more than 200 English Papers written by Graduate Chinese Engineering Students](https://papertalks.org/p/resources/Academic/EnglishWritingSkills/MostCommonEnglishWritingHabitsOfChinese.pdf): an individual guide to editing technical papers.
 - GISer
   - [Bibliometric Analysis of OGC Specifications between 1994 and 2020 Based on Web of Science (WoS)](https://www.mdpi.com/2220-9964/11/4/251)
-- Developer
+- Software Engineer
+  - [An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f):For varying levels of seniority, from senior, to staff, and beyond.
+  - [Patterns.dev](https://www.patterns.dev/): a free book on design patterns and component patterns
   - [The Coding Career Handbook](https://learninpublic.org/)
+  - [Staff Engineer](https://staffeng.com/book):The guide to become a Staff Engineer
+  - [Responsibilities of a Senior Software Engineer](https://towardsdatascience.com/responsibilities-of-a-senior-software-engineer-e30d3989610): A Story About Responsibilities and the Engineer’s Role In It
   - [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/): Focus your efforts on API semantics, implementation semantics, and documentation, not the code style and tests.
   - [Code Reviews 101 - The Basics](https://www.semasoftware.com/blog/code-reviews-101-the-basics)
   - [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
@@ -93,6 +97,8 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [Hiring Developers: How to avoid the best](https://www.getparthenon.com/blog/how-to-avoid-hiring-the-best-developers/)
   - [Almanac CEO Readme](https://almanac.io/docs/ceo-user-guide-qgrX6JybtClEKUEGt96x5sMlzQLmRwPL): A guide to how an CEO operate.
   - [The 40% Rule for SAAS companies](https://avc.com/2015/02/the-40-rule/): Your annual revenue growth rate + your operating margin should equal 40%
+- Talker
+  - [Ten Tips to Make Conference Talks Suck Less](https://www.morling.dev/blog/ten-tips-make-conference-talks-suck-less/)
 
 ## Local Test Github Actions
 

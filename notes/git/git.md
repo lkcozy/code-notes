@@ -31,6 +31,8 @@ yarn global add @gauseen/gum
 gum list
 gum set user1 --name 'user 1' --email user1@email.com
 gum use user1
+#or
+gum use user1 --global
 ```
 
 ## Misc
