@@ -47,6 +47,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f):For varying levels of seniority, from senior, to staff, and beyond.
   - [Patterns.dev](https://www.patterns.dev/): a free book on design patterns and component patterns
   - [The Coding Career Handbook](https://learninpublic.org/)
+  - [Software Engineering at Google](https://qiangmzsx.github.io/Software-Engineering-at-Google): Lessons learned from programming over time
   - [Staff Engineer](https://staffeng.com/book):The guide to become a Staff Engineer
   - [Responsibilities of a Senior Software Engineer](https://towardsdatascience.com/responsibilities-of-a-senior-software-engineer-e30d3989610): A Story About Responsibilities and the Engineer’s Role In It
   - [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/): Focus your efforts on API semantics, implementation semantics, and documentation, not the code style and tests.

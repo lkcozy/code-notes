@@ -10,11 +10,12 @@ modified: 2021-06-06T16:55:25.000Z
 
 ## Shortcuts
 
-- Cmd + Shift + N – create a new folder
+- Lock: Control + Shift + Eject/Power
+- Create a new folder: Cmd + Shift + N
 
 ### Log CPU and memory Usage
 
-```
+```zsh
 pip install psrecord, matplotlib
 psrecord PID --plot plot.png
 ```
