@@ -25,6 +25,16 @@ DynamoDB is designed to `hold a large amount of data`. That is why data is parti
 
 - The most simple denormalization is to `contain all the data in one item`.
 
+## References
+
+- [What I’ve Learned From Using AWS DynamoDB in Production for More Than 3 Years](https://medium.com/@b.stoilov/what-ive-learned-from-using-aws-dynamodb-in-production-for-more-than-3-years-49a077886b5c)
+- [How to Make a Serverless GraphQL API using Lambda and DynamoDB](https://www.serverless.com/blog/make-serverless-graphql-api-using-lambda-dynamodb)
+- [How to use DynamoDB global secondary indexes to improve query performance and reduce costs](https://aws.amazon.com/blogs/database/how-to-use-dynamodb-global-secondary-indexes-to-improve-query-performance-and-reduce-costs/)
+
+![](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2018/12/19/DynamoDBSecondaryIndexes1.png)
+
+Global secondary indexes enhance the querying capability of DynamoDB. This post shows how you can use global secondary indexes and patterns such as data filtering and data ordering to achieve read isolation and reduce query costs. The recent limit increase of the maximum number of global secondary indexes per DynamoDB table from 5 to 20 can help you apply these usage patterns without worrying about hitting limits.
+
 ## Suitable Use Cases
 
 DynamoDB is a particularly good fit for the following use cases:
@@ -272,13 +282,3 @@ Plug-and-play implementation of an Apache Spark custom data source for AWS Dynam
 ![](https://github.com/domagojk/serverless-console/raw/master/gifs/dynamodb.gif)
 
 Serverless Console is an alternative UI for AWS Cloudwatch. Its focus is on "serverless functions" but it can also be used for any kind of log group.
-
-## References
-
-- [How to use DynamoDB global secondary indexes to improve query performance and reduce costs](https://aws.amazon.com/blogs/database/how-to-use-dynamodb-global-secondary-indexes-to-improve-query-performance-and-reduce-costs/)
-
-![](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2018/12/19/DynamoDBSecondaryIndexes1.png)
-
-Global secondary indexes enhance the querying capability of DynamoDB. This post shows how you can use global secondary indexes and patterns such as data filtering and data ordering to achieve read isolation and reduce query costs. The recent limit increase of the maximum number of global secondary indexes per DynamoDB table from 5 to 20 can help you apply these usage patterns without worrying about hitting limits.
-
-- [How to Make a Serverless GraphQL API using Lambda and DynamoDB](https://www.serverless.com/blog/make-serverless-graphql-api-using-lambda-dynamodb)

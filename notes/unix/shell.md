@@ -9,6 +9,10 @@ created: 2020-07-20T16:49:36.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
 
+## [Bash-Oneliner](https://github.com/onceupon/Bash-Oneliner)
+
+A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.
+
 ## [You Don't Need GUI](https://github.com/you-dont-need/You-Dont-Need-GUI)
 
 A curated list of commands to execute everyday tasks which might be tempted to do in GUI.

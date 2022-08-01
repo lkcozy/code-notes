@@ -23,7 +23,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 ## To Be Better
 
-- Person
+- 👥Person
   - [Noam Chomsky - On Being Truly Educated](https://www.youtube.com/watch?v=eYHQcXVp4F4)
   - [The Ability to Focus is a Highly Valuable Skill to Master In Today’s Fast Moving Economy](https://medium.com/swlh/the-ability-to-focus-is-a-highly-valuable-skill-to-master-in-todays-fast-moving-economy-8aaba37bfa61): Learn to work deeper
   - [Antifragile Planning: Optimizing for Optionality (Without Chasing Shiny Objects)](https://taylorpearson.me/planning/): Learn to set long-term goals for yourself.
@@ -36,14 +36,16 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [30 rules for a life well lived](https://twitter.com/Nicolascole77/status/1489275823999762432): Play the long game. Slow and steady consistency is the most powerful driver of growth.
   - [10 Visuals That Will Change How You See Success & Productivity (Thread)](https://twitter.com/elliottaleksndr/status/1503657270147616768)
   - [The Psychology of Money by Morgan Housel: Summary & Notes](https://www.grahammann.net/book-notes/the-psychology-of-money-morgan-housel)
-- Writer
+- 📝 Writer
+  - [The Day You Became A Better Writer](https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html): Keep things simple.
   - [10 Step Guide to Clearer Thinking Through Essay Writing](https://medium.com/practicecomesfirst/dr-jordan-b-petersons-10-step-guide-to-clearer-thinking-through-essay-writing-1ab79a94937)
-- Researcher
+- 🔬 Researcher
   - [Writing a Scientific Manuscript](https://butlerscicomm.com/writing-your-scientific-manuscript/#introduction): introduce the important basics that will help you structure and start writing your scientific paper.
   - [The Most Common Habits from more than 200 English Papers written by Graduate Chinese Engineering Students](https://papertalks.org/p/resources/Academic/EnglishWritingSkills/MostCommonEnglishWritingHabitsOfChinese.pdf): an individual guide to editing technical papers.
-- GISer
+  - [Why was my scientific paper/grant rejected?](https://butlerscicomm.com/what-to-do-when-the-importance-isnt-clear/): #1 reason: Unclear importance
+- 🌏 GISer
   - [Bibliometric Analysis of OGC Specifications between 1994 and 2020 Based on Web of Science (WoS)](https://www.mdpi.com/2220-9964/11/4/251)
-- Software Engineer
+- 💻 Software Engineer
   - [An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f):For varying levels of seniority, from senior, to staff, and beyond.
   - [Patterns.dev](https://www.patterns.dev/): a free book on design patterns and component patterns
   - [The Coding Career Handbook](https://learninpublic.org/)
@@ -67,11 +69,13 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [Tips On Prioritizing Tech Debt In A Healthy Way](https://leadership.garden/tips-on-prioritizing-tech-debt/)
   - [Coding questions - FAANG prep](https://hollow-wood-560.notion.site/Coding-questions-FAANG-prep-9cdf280e5f30425fa188cbbaa6d1998c)
   - [JavaScript testing tutorial](https://wanago.io/courses/javascript-testing-tutorial/): A detailed description of various JavaScript tests.
-- Architecture
+- 🏗 Architecture
   - [Architecture Without Architects (Video)](https://softwareleadweekly.us6.list-manage.com/track/click?u=1a258e0fefbb23214c59c5a8d&id=6beddbf093&e=b1367de9f9): Software Architect is a role, not a title. It's a skill, a mindset, and expertise to acquire. It has to be part of the team and not forced upon one.
+  - [Algorithms you should know for System Design](https://blog.bytebytego.com/p/ep14-algorithms-you-should-known)
+  - [Free System Design PDF](https://blog.bytebytego.com/p/free-system-design-pdf-158-pages)
   - [How to managing up(report)](https://alexkondov.com/tao-of-node/)
   - [Tao of Node - Design, Architecture & Best Practices](https://alexkondov.com/tao-of-node/)
-- Data Engineer
+- 📈 Data Engineer
   - [An Agile Framework for AI Projects — Development, QA, Deployment and Maintenance](https://towardsdatascience.com/an-agile-framework-for-ai-projects-development-cbe115ba86a2)
   - [6 data integration principles for data engineers to live by](https://medium.com/databand-ai/6-data-integration-principles-for-data-engineers-to-live-by-915749d9ada8)
 - Product Manager
