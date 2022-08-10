@@ -23,14 +23,29 @@ brew install pipenv
 
 ## Getting Started
 
-- Install dependencies and virtualenv
+- Install/uninstall dependencies and virtualenv
 
-```sh
-pipenv install
+```zsh
+pipenv install/uninstall
 ```
 
-- Use the virtualenv
+- `shell` will spawn a shell with the virtualenv activated.
+- `run` will run a given command from the virtualenv, with any
+  arguments forwarded (e.g. `$ pipenv run python`).
+- `check` asserts that PEP 508 requirements are being met by the
+  current environment.
+- `graph` will print a pretty graph of all your installed
+  dependencies.
 
-```sh
-pipenv shell
+## Usage Examples
+
+```zsh
+Create a new project using Python 3.7, specifically:
+pipenv --python 3.7
+
+Remove project virtualenv (inferred from current directory):
+pipenv --rm
+
+Locate the project:
+pipenv --where
 ```
