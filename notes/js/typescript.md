@@ -6,8 +6,14 @@ tags:
   - typescript
 link:
 created: 2021-07-08T15:49:56.000Z
-modified: 2022-03-25T15:49:56.000Z
+modified: 2022-08-12T15:49:56.000Z
 ---
+
+## [Migrate an entire project to TypeScript](https://github.com/airbnb/ts-migrate/tree/master/packages/ts-migrate#usage)
+
+```zsh
+npx -p ts-migrate -c "ts-migrate-full ."
+```
 
 ## [Create a condition-based subset types](https://www.piotrl.net/typescript-condition-subset-types/)
 

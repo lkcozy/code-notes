@@ -9,7 +9,7 @@ tags:
   - nodejs
 link: https://reactjs.org/
 created: 2020-07-20T16:49:36.000Z
-modified: 2022-03-29T16:05:46.000Z
+modified: 2022-08-12T16:05:46.000Z
 ---
 
 [![Latest Version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
@@ -34,6 +34,11 @@ modified: 2022-03-29T16:05:46.000Z
 
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react): Cheatsheets for experienced React developers getting started with TypeScript
 
+## [Migrate an entire project to TypeScript](https://github.com/airbnb/ts-migrate/tree/master/packages/ts-migrate#usage)
+
+```zsh
+npx -p ts-migrate -c "ts-migrate-full ."
+```
 ## Resources
 
 ## Performance
