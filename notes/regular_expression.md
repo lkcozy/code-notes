@@ -25,6 +25,11 @@ A valid regex consists of `alphanumeric characters` representing the set of inpu
   - 1st Capturing Group (`\d{3}`)
     - `\d{3}` matches a digit (equal to [0-9])
     - `{3}` Quantifier — Matches exactly 3 times
+- Dates: `(\d{2})-(\d{2})-(\d{4})`
+  - Change order: `$3-$2-$1`
+  - [named capture groups](https://www.zhenghao.io/posts/dates-regex)
+    - `/(?<month>\d{2})-(?<day>\d{2})-(?<year>\d{4})/`
+    - `$<day>-$<month>-$<year>`
 
 ![](https://cdn.sspai.com/editor/u_sanko/15903151099127.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
 ![](https://cdn.sspai.com/editor/u_sanko/15903151099105.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
