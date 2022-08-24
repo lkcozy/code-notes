@@ -27,8 +27,11 @@ modified: 2022-08-12T16:05:46.000Z
   - Overoptimizing performance
   - Huge component trees
 - [react-philosophies](https://github.com/mithi/react-philosophies): a guidelines for writing react code
+- [Opinionated React project structure](https://twitter.com/_georgemoller/status/1550139268181491713?ck_subscriber_id=1664454795)
 - [Good advice on JSX conditionals](https://thoughtspile.github.io/2022/01/17/jsx-conditionals/?ck_subscriber_id=1238258824)
 - [Options for optimizing caching in React](https://blog.logrocket.com/options-caching-react/)
+- [Advanced React component composition](https://frontendmastery.com/posts/advanced-react-component-composition-guide/?ck_subscriber_id=1664454795): A deep dive on composition in React. Learn the key principles for designing and building reusable components that scale.
+- [Building future facing frontend architectures](https://frontendmastery.com/posts/building-future-facing-frontend-architectures/): A deep dive on how component based frontend architectures implode at scale with complexity, and how to avoid it.
 
 ### Cheat Sheet
 
@@ -39,13 +42,14 @@ modified: 2022-08-12T16:05:46.000Z
 ```zsh
 npx -p ts-migrate -c "ts-migrate-full ."
 ```
+
 ## Resources
 
-## Performance
+### Performance
 
 - [react-lazyload](https://github.com/twobin/react-lazyload): Lazy load your component, image or anything matters the performance.
 - [why-did-you-render](https://github.com/welldone-software/why-did-you-render#readme): notify you about potentially avoidable re-renders.
-- [Optimizing Performance in React Apps ](https://piyushsinha.tech/series/optimizing-react)
+- [Optimizing Performance in React Apps](https://piyushsinha.tech/series/optimizing-react)
 
 ### General
 
@@ -90,6 +94,9 @@ const Home = React.lazy(() => import("../component/Home"));
   ![](https://user-images.githubusercontent.com/15995127/85188005-7e4de100-b2d6-11ea-9441-2bd5570b14a9.gif)
 - [react-spring](https://github.com/pmndrs/react-spring): a spring-physics based animation library that should cover most of your UI related animation needs.
 - [React Styleguidist](https://github.com/styleguidist/react-styleguidist): a isolated React component development environment with a living style guide.
+- [React PDF viewer](https://github.com/react-pdf-viewer/react-pdf-viewer): A React component to view a PDF document. It's written in TypeScript, and powered by React hooks completely.
+- [React Arborist](https://github.com/brimdata/react-arborist):A sortable, virtual, customizable tree component for React.
+- [TanStack Table](https://github.com/tanstack/table)
 
 ### Hook
 
@@ -110,6 +117,7 @@ const Home = React.lazy(() => import("../component/Home"));
 ### State Management
 
 - [Recoil](https://github.com/facebookexperimental/Recoil): A new State Management Library for React
+- [zustand](https://github.com/pmndrs/zustand): A small, fast and scalable bearbones state-management solution using simplified flux principles.
 - [Constate](https://github.com/diegohaz/constate): write local state using React Hooks and lift it up to React Context only when needed with minimum effort.
 - [Redux](https://github.com/reduxjs/redux): a predictable state container for JavaScript apps; `single store with objects`
 - [MobX](https://github.com/mobxjs/mobx): a simple scalable state management. `multiple stores` (one for the UI state and one or more for the domain state ) `with observable/noticeable data` to automatically track changes through subscriptions
@@ -137,6 +145,14 @@ The author shares several react performance optimization tips from three directi
 [Original](https://zhuanlan.zhihu.com/p/74229420)
 
 - [Typesafe useReducer with React Context](https://dev.to/kardell/typesafe-usereducer-with-react-context-53c3?ck_subscriber_id=1238258824)
+
+- [Understanding micro frontends](https://frontendmastery.com/posts/understanding-micro-frontends/)
+
+A look at the micro frontend architecture trend. Understand the core problems they aim to solve.
+
+- [Recommended React + TypeScript codebases to learn from](https://react-typescript-cheatsheet.netlify.app/docs/basic/recommended/codebases/?ck_subscriber_id=1664454795)
+
+A collection of 30+ React and TypeScript codebases that are organized into different categories.
 
 ## ESLint Configuration
 
