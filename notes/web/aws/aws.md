@@ -63,3 +63,7 @@ modified: 2021-04-20T16:05:46.000Z
   - `Elastic Container Registry`: Store docker images like on DockerHub
   - `Elastic Container Service`: Run containers, either on your own EC2 machines, or on managed machines called Fargate.
   - `Elastic Kubernetes Service`: Kubernetes as a service
+
+## Resources
+
+- [How to Build AWS Lambdas with TypeScript](https://blog.appsignal.com/2022/09/21/how-to-build-aws-lambdas-with-typescript)

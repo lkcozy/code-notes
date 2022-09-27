@@ -1,12 +1,14 @@
----
+'---
 title: Visual Studio Code
 emoji: "\U0001F4DD"
 tags:
-  - tools
-  - vscode
-link:
-created: 2020-07-02T20:13:36.000Z
-modified: 2022-04-10T16:05:46.000Z
+
+- tools
+- vscode
+  link:
+  created: 2020-07-02T20:13:36.000Z
+  modified: 2022-04-10T16:05:46.000Z
+
 ---
 
 ## Shortcut
@@ -41,6 +43,12 @@ or
 - This command will open a `argv.json` file to configure runtime arguments. You might see some default arguments there already.
 - Add `"disable-hardware-acceleration": true`.
 - Restart VS Code.
+
+## [Containerize your Development with VS Code Dev Containers](https://www.youtube.com/watch?v=cB86HE_HIDc)
+
+![](https://code.visualstudio.com/assets/docs/remote/containers/architecture-containers.png)
+
+The Visual Studio Code Remote - Containers extension lets you use a Docker container as a full-featured development environment. It allows you to open any folder inside (or mounted into) a container and take advantage of Visual Studio Code's full feature set.
 
 ## Extensions
 
@@ -79,6 +87,10 @@ Serverless Console is an alternative UI for AWS Cloudwatch. Its focus is on "ser
 Debug the AWS Lambda functions locally
 
 ### Misc
+
+- [JSON Hero](https://marketplace.visualstudio.com/items?itemName=JSONHero.jsonhero-vscode): Quickly view JSON in jsonhero.io - a beautiful JSON viewer for the web.
+
+![](https://github.com/jsonhero-io/vscode-extension/raw/main/assets/jsonhero-viewinjsonhero.gif)
 
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 

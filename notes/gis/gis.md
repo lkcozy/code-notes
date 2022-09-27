@@ -54,6 +54,8 @@ A hands-on guide for implementing some of the most beloved tools in the spatial 
 
 ## Resources
 
+- [A Complete Guide to Free and Offline Mapping Software](https://mapscaping.com/free-and-offline-mapping-software/): a collection of the most commonly known free mapping software, and some of the lesser-known options.
+
 ### Trends
 
 - [GIS Lounge](https://www.gislounge.com/)
