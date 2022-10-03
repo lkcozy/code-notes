@@ -34,6 +34,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [🏗 Architecture](#-architecture)
   - [📈 Data Engineer](#-data-engineer)
   - [Colleague](#colleague)
+- [Manager](#manager)
   - [Entrepreneurs](#entrepreneurs)
   - [Presenter](#presenter)
 - [Local Test Github Actions](#local-test-github-actions)
@@ -45,6 +46,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 ### 👥 Person
 
+- 👍[Awesome Leadership and Management](https://github.com/LappleApple/awesome-leading-and-managing/): Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone.
 - [Noam Chomsky - On Being Truly Educated](https://www.youtube.com/watch?v=eYHQcXVp4F4)
 - [The Ability to Focus is a Highly Valuable Skill to Master In Today’s Fast Moving Economy](https://medium.com/swlh/the-ability-to-focus-is-a-highly-valuable-skill-to-master-in-todays-fast-moving-economy-8aaba37bfa61): Learn to work deeper
 - [Antifragile Planning: Optimizing for Optionality (Without Chasing Shiny Objects)](https://taylorpearson.me/planning/): Learn to set long-term goals for yourself.
@@ -77,6 +79,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 ### 💻 Software Engineer
 
+- [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook): Curated coding interview preparation materials for busy software engineers
 - [An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f):For varying levels of seniority, from senior, to staff, and beyond.
 - [Professional Programming: The First 10 Years](https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/)
 - [Patterns.dev](https://www.patterns.dev/): a free book on design patterns and component patterns
@@ -135,6 +138,10 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 - [Is a team member under performing?](https://twitter.com/joulee/status/1426254058805858309)
 - [How to manage up](https://twitter.com/wes_kao/status/1505559811785646086)
+
+## Manager
+
+- [Setting the Table: The Transforming Power of Hospitality in Business](https://medium.com/mbreads/book-summary-setting-the-table-8769bbec9d6e): Enlightened hospitality — put hospitality to work for first for the people who work for you, guests, community, suppliers, and investors — in that order.
 
 ### Entrepreneurs
 

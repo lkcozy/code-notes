@@ -88,6 +88,14 @@ Debug the AWS Lambda functions locally
 
 ### Misc
 
+- [Preview.js](https://marketplace.visualstudio.com/items?itemName=zenclabs.previewjs):It lets you preview React, Solid and Vue components instantly in your IDE.
+
+![](https://s3.previewjs.com/previewjs-overview.gif)
+
+- [VS Code Timeline Restores Lost Work That Git Can’t](https://austingil.com/vs-code-timeline-restores-work-git-cant/): VS Code Timeline can take snapshots of different save points of a file. This can help you save lost work that Git may not be able to.
+
+![](https://cdn.statically.io/img/austingil.com/f=auto%2Cq=70/wp-content/uploads/vscode-timeline-1080x608.png)
+
 - [JSON Hero](https://marketplace.visualstudio.com/items?itemName=JSONHero.jsonhero-vscode): Quickly view JSON in jsonhero.io - a beautiful JSON viewer for the web.
 
 ![](https://github.com/jsonhero-io/vscode-extension/raw/main/assets/jsonhero-viewinjsonhero.gif)
