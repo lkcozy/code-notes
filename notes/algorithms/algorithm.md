@@ -16,3 +16,7 @@ Xiaohao algorithm is a graphic algorithm problem dictionary completed by me duri
 
 ![](https://github.com/trekhleb/javascript-algorithms/raw/master/assets/big-o-graph.png)
 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+
+## [Algorithms for Competitive Programming](https://cp-algorithms.com/)
+
+The goal of this project is to translate the wonderful resource http://e-maxx.ru/algo which provides descriptions of many algorithms and data structures especially popular in field of competitive programming. Moreover we want to improve the collected knowledge by extending the articles and adding new articles to the collection.

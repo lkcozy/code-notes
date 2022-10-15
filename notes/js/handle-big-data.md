@@ -19,7 +19,7 @@ modified: 2021-05-03T20:08:26.000Z
 
 Apache Superset is a Data Visualization and Data Exploration Platform.
 
-### [OmniSciDB](https://github.com/omnisci/omniscidb)
+### [OmniSciDB](https://github.com/omnisci/omniscidb): an open source SQL-based, relational, columnar database engine
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M6kHkWH17KJKscL0Cc4%2F-M7wjUQ_xO3yDFMQMfoa%2F-M7wk9wbyiRfPY0CX_SP%2FCapture%20d%E2%80%99e%CC%81cran%2C%20le%202020-05-22%20a%CC%80%2010.15.34.jpg?alt=media&token=60046196-a687-4b9a-87f5-4a2638549f27)
 
@@ -27,7 +27,7 @@ OmniSciDB is an open source SQL-based, relational, columnar database engine that
 
 OmniSciDB can store and query data using native Open Geospatial Consortium (OGC) types, including POINT, LINESTRING, POLYGON, and MULTIPOLYGON. With geo type support, you can query geo data at scale using special geospatial functions. Using the power of GPU processing, you can quickly and interactively calculate distances between two points and intersections between objects.
 
-### [supercluster](https://github.com/mapbox/supercluster)
+### [supercluster](https://github.com/mapbox/supercluster): A very fast geospatial point clustering library
 
 ![](https://cloud.githubusercontent.com/assets/25395/11857351/43407b46-a40c-11e5-8662-e99ab1cd2cb7.gif)
 
@@ -246,7 +246,7 @@ Network is a visualization to display networks and networks consisting of nodes 
 
 - [Awesome vis.js](https://github.com/visjs/awesome-visjs): A curated list around vis.js
 
-### [LokiJS](https://github.com/techfort/LokiJS)
+### [LokiJS](https://github.com/techfort/LokiJS): a document oriented database
 
 LokiJS is a document oriented database written in javascript. It supports indexing, querying and filtering of data collections. LokiJS also supports more advanced features such as mapReduce, transactions and lets you implement custom remote synchronization to save data to a server (or a local file on mobile). Persistence to disk is already implemented for CommonJS environment such as nodejs, on a mobile you just have to request the filesystem and pass lokijs's serialize() as content.
 
@@ -256,3 +256,9 @@ React window works by only rendering part of a large data set (just enough to fi
 
 - It reduces the amount of work (and time) required to render the initial view and to process updates.
 - It reduces the memory footprint by avoiding over-allocation of DOM nodes.
+
+### [Lyra](https://lyrasearch.io/): a fully-featured full-text search engine
+
+![](https://lyrasearch.io/images/code-example.png)
+
+Lyra is a fully-featured full-text search engine that runs wherever JavaScript runs, including browsers, servers, React Native, edge networks, and more.

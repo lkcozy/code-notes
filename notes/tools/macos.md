@@ -5,8 +5,45 @@ tags:
   - macos
   - tools
 created: 2020-06-29T05:54:14.000Z
-modified: 2021-06-06T16:55:25.000Z
+modified: 2022-10-14T16:55:25.000Z
 ---
+
+## [Setup New Mac](https://www.robinwieruch.de/mac-setup-web-development/)
+
+- restore settings by [mackup](https://github.com/lra/mackup): mackup restore
+- Sharing
+  - Change computer name
+    - sudo scutil --set ComputerName "newname"
+    - sudo scutil --set LocalHostName "newname"
+    - sudo scutil --set HostName "newname"
+
+### Install GUI applications (read more about these in GUI Applications)
+
+```zsh
+# Install Homebrew as package manager for macOS
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+```zsh
+brew install --cask \
+  google-chrome  \
+  firefox \
+  visual-studio-code \
+  docker \
+  slack \
+  zoom
+```
+
+### Install terminal applications (read more about these in Terminal Applications):
+
+```zsh
+brew install \
+  wget \
+  mackup \
+  git \
+  nvm \
+  pnpm \
+```
 
 ## Shortcuts
 
@@ -61,6 +98,10 @@ Reduce File Size (150 dpi, high quality)
 ![](https://blog.macsales.com/wp-content/uploads/2020/07/Preview_updatedFiltersList.jpg)
 
 ## Tools
+
+### [MonitorControl](https://github.com/MonitorControl/MonitorControl)
+
+![](https://github.com/MonitorControl/MonitorControl/raw/main/.github/screenshot.png)
 
 ### [OnlySwitch](https://github.com/jacklandrin/OnlySwitch)
 
