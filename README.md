@@ -82,6 +82,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [How to Be a 10x Software Engineer](https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5): what separates the best engineers from the average ones are (surprisingly) the non-technical skills.
 - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook): Curated coding interview preparation materials for busy software engineers
 - [An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f):For varying levels of seniority, from senior, to staff, and beyond.
+- [The Art of Humanizing Pull Requests (PR’s)](https://dev.to/kulkarniankita9/the-art-of-humanizing-pull-requests-prs-2238): a comprehensive guide to Pull Requests, how to effectively create a PR, how to give feedback on PR’s and how to respond to feedback
 - [Professional Programming: The First 10 Years](https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/)
 - [Patterns.dev](https://www.patterns.dev/): a free book on design patterns and component patterns
 - [The Coding Career Handbook](https://learninpublic.org/)

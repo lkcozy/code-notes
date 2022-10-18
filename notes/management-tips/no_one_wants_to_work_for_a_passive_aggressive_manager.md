@@ -3,7 +3,8 @@ title: No One Wants to Work for a Passive-Aggressive Manager
 emoji: 💡
 tags:
   - management
-link: https://hbr.org/2022/03/what-to-do-if-your-boss-is-super-passive-aggressive?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs
+  - personal-growth
+link: https://hbr.org/2022/03/what-to-do-if-your-boss-is-super-passive-aggressive
 created: 2022-04-07T16:55:47.000Z
 modified: 2022-04-07T16:55:47.000Z
 ---
@@ -24,8 +25,8 @@ Working for a passive-aggressive manager can be extremely frustrating and demora
 
 为一个消极好斗的经理工作是非常令人沮丧和泄气的。也许当你向老板提出问题时，他会把你交给其他人处理。不断地用温和的方式拒绝你的想法，而没有给出经过深思熟虑的解释。甚至在你说话时忽略你。你该如何处理这种棘手的关系？
 
-- 建立一个支持性的网络。因为一个消极好斗的经理不会直接面对你，所以你很容易怀疑自己，并认为你是在制造怠慢。公司之外的人会给你提供新颖、公正的观点、情感支持，以及如何与老板相处的明智建议。
-- 不要同流合污。你不想在其他同事中留下不好的名声，所以要避免说闲话。但是，如果你积极地、有建设性地寻找解决方案，那么与他人接触是可以的。
+- 建立一个支持网络。因为一个消极好斗的经理不会直接面对你，所以你很容易怀疑自己，并认为你是在制造怠慢。公司之外的人会给你提供新颖、公正的观点、情感支持，以及如何与老板相处的明智建议。
+- 不要同流合污。你不想在其他同事中留下不好的名声，所以要避免说闲话。但是，如果你积极、有建设性地寻找解决方案，那么与他人接触是可以的。
 - 在公司内部建立人脉。如果你想在某个时候更换团队或部门，与公司的其他部门建立联系是一个好主意。
 - 知道什么时候该离开。一旦你用尽了所有的选择，也许是时候去寻找更好的机会了。将你的幸福和事业置于其他一切之上。
 
