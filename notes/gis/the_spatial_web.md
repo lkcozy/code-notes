@@ -19,6 +19,7 @@ modified: 2022-06-17T12:20:55.000Z
 - [Risks & Threats](#risks--threats)
 - [Implications](#implications)
 - [Epilogue](#epilogue)
+- [Related](#related)
 
 ## Abstract
 
@@ -43,6 +44,22 @@ modified: 2022-06-17T12:20:55.000Z
   - distributed (blockchain, edge computing)
   -
 
+What's the spatial web?
+We call "spatial" because digital information will exist in space, integrated and inseparable from the physical world. It allows you interact with the rich, fun, meaningful, engaging and dynamic data directly
+
+- physical layer
+- digital information layer
+- spatial interaction layer
+
+Why we need the spatial web?
+
+- Eliminate the boundary between digital content and physical objects, which vastly improve intuitive interactions and increase our ability to deliver highly contextualized experiences.
+
+How it works?
+
+How to realize this technology/vision?
+Through AR/VR+5G+IoT+Blockchain+AI/ML
+
 ## Problems
 
 ## Solutions
@@ -58,3 +75,8 @@ modified: 2022-06-17T12:20:55.000Z
 ## Implications
 
 ## Epilogue
+
+## Related
+
+- [The Spatial Web and Web 3.0](https://www.immersivelearning.news/2020/08/14/the-spatial-web-and-web-3-0/)
+- [什么是 Spatial Web？~](https://mp.weixin.qq.com/s/JcWXqR9qyTxAhs3J40Nnwg)
