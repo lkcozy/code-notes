@@ -30,7 +30,6 @@ GraphQL is an open-source data query and manipulation language for APIs, and a r
 - The way GraphQL schemas work could be a problem
 - REST is better for error handling and tooling
 
-
 ## Tips
 
 - When adopting GraphQL, it’s best to use a client-driven approach to designing your API

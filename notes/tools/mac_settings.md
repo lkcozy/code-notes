@@ -2,7 +2,7 @@
 title: New Mac Setup - A quick checklist for setting up a new MacBook
 emoji: 📝
 tags:
-  - mac
+  - macos
 link: https://www.swyx.io/my-new-mac-setup-4ibi/
 created: 2021-06-11T15:00:02.000Z
 modified: 2021-06-11T15:00:02.000Z

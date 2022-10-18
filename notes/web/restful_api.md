@@ -4,7 +4,7 @@ emoji: 📝
 tags:
   - note
   - web
-  - API
+  - api
 link: https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
 created: 2022-02-16T14:37:13.000Z
 modified: 2022-02-16T14:37:13.000Z

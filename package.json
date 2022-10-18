@@ -8,20 +8,20 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "gatsby": "^3.14.0",
-    "gatsby-plugin-manifest": "^3.14.0",
-    "gatsby-plugin-offline": "^5.9.0",
+    "gatsby": "3.14.0",
+    "gatsby-plugin-manifest": "3.14.0",
+    "gatsby-plugin-offline": "^5.24.0",
     "gatsby-theme-code-notes": "^2.3.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "cspell": "^5.18.0",
+    "cspell": "^6.12.0",
     "frontmatter-date-setter": "^0.1.0",
-    "gh-pages": "^3.2.0",
-    "husky": "^7.0.0",
-    "lint-staged": "^12.3.0",
-    "markdown-link-check": "^3.9.0"
+    "gh-pages": "^4.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.0",
+    "markdown-link-check": "^3.10.0"
   },
   "lint-staged": {
     "{*.md,*.mdx}": [
