@@ -33,10 +33,11 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [💻 Software Engineer](#-software-engineer)
   - [🏗 Architecture](#-architecture)
   - [📈 Data Engineer](#-data-engineer)
-  - [Colleague](#colleague)
-- [Manager](#manager)
-  - [Entrepreneurs](#entrepreneurs)
-  - [Presenter](#presenter)
+  - [Product Manager](#product-manager)
+  - [Leader](#leader)
+  - [👥 Colleague](#-colleague)
+  - [🏦 Entrepreneurs](#-entrepreneurs)
+  - [🎙 Presenter](#-presenter)
 - [Local Test Github Actions](#local-test-github-actions)
 - [Todo](#todo)
 
@@ -120,32 +121,33 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 - [An Agile Framework for AI Projects — Development, QA, Deployment and Maintenance](https://towardsdatascience.com/an-agile-framework-for-ai-projects-development-cbe115ba86a2)
 - [6 data integration principles for data engineers to live by](https://medium.com/databand-ai/6-data-integration-principles-for-data-engineers-to-live-by-915749d9ada8)
-- Product Manager
-  - [How to Be a More Effective Internal Product Manager](https://medium.com/swlh/how-to-be-a-more-effective-internal-product-manager-e14143e3343)
-- Leader
-  - [Software Leader Weekly](https://softwareleadweekly.com/)
-  - [The Weekly Hagakure](https://hagakure.substack.com/): A weekly dose of curated practical wisdom for technical leaders
-  - [Motivating Developers to Care About Documentation](https://getdx.com/best-practices/documentation-culture-engineering)
-  - [What You Give Up When Moving Into Engineering Management](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)
-  - [5 Questions Every Manager Needs to Ask Their Direct Reports](https://hbr.org/2022/01/5-questions-every-manager-needs-to-ask-their-direct-reports?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs)
-  - [The care and feeding of software engineers](https://humanwhocodes.com/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/)
-  - [How Engineering Driven Leads To Engineering Supremacy](https://charity.wtf/2022/01/20/how-engineering-driven-leads-to-engineering-supremacy/)
-  - [​​Scaling the Practice of Architecture, Conversationally](https://feeder.co/api/post/a866f3cc-805f-11ec-8639-1a21cf3a468a)
-  - [Managers should ask for feedback](https://www.cenizal.com/getting-feedback-from-direct-reports/)
-  - [Engineering Org Structures— The QRF Team Model](https://betterprogramming.pub/engineering-org-structures-the-qrf-team-model-7b92031db33c): Take control of engineering team interruptions and prevent them from happening ever again
-  - [Argument Cultures and Unregulated Aggression](https://www.kateheddleston.com/blog/argument-cultures-and-unregulated-aggression): Unregulated arguments are one of the most caustic environmental factors on engineering teams.
-  - [7 Mental Models For Great Engineering Leadership](https://feeder.co/api/post/777930a1-a6c5-11ec-b3b4-1a21cf3a468a)
 
-### Colleague
+### Product Manager
+
+- [How to Be a More Effective Internal Product Manager](https://medium.com/swlh/how-to-be-a-more-effective-internal-product-manager-e14143e3343)
+
+### Leader
+
+- [Software Leader Weekly](https://softwareleadweekly.com/)
+- [The Weekly Hagakure](https://hagakure.substack.com/): A weekly dose of curated practical wisdom for technical leaders
+- [Motivating Developers to Care About Documentation](https://getdx.com/best-practices/documentation-culture-engineering)
+- [What You Give Up When Moving Into Engineering Management](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)
+- [5 Questions Every Manager Needs to Ask Their Direct Reports](https://hbr.org/2022/01/5-questions-every-manager-needs-to-ask-their-direct-reports?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs)
+- [The care and feeding of software engineers](https://humanwhocodes.com/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/)
+- [How Engineering Driven Leads To Engineering Supremacy](https://charity.wtf/2022/01/20/how-engineering-driven-leads-to-engineering-supremacy/)
+- [​​Scaling the Practice of Architecture, Conversationally](https://feeder.co/api/post/a866f3cc-805f-11ec-8639-1a21cf3a468a)
+- [Managers should ask for feedback](https://www.cenizal.com/getting-feedback-from-direct-reports/)
+- [Engineering Org Structures— The QRF Team Model](https://betterprogramming.pub/engineering-org-structures-the-qrf-team-model-7b92031db33c): Take control of engineering team interruptions and prevent them from happening ever again
+- [Argument Cultures and Unregulated Aggression](https://www.kateheddleston.com/blog/argument-cultures-and-unregulated-aggression): Unregulated arguments are one of the most caustic environmental factors on engineering teams.
+- [7 Mental Models For Great Engineering Leadership](https://feeder.co/api/post/777930a1-a6c5-11ec-b3b4-1a21cf3a468a)
+- [Setting the Table: The Transforming Power of Hospitality in Business](https://medium.com/mbreads/book-summary-setting-the-table-8769bbec9d6e): Enlightened hospitality — put hospitality to work for first for the people who work for you, guests, community, suppliers, and investors — in that order.
+
+### 👥 Colleague
 
 - [Is a team member under performing?](https://twitter.com/joulee/status/1426254058805858309)
 - [How to manage up](https://twitter.com/wes_kao/status/1505559811785646086)
 
-## Manager
-
-- [Setting the Table: The Transforming Power of Hospitality in Business](https://medium.com/mbreads/book-summary-setting-the-table-8769bbec9d6e): Enlightened hospitality — put hospitality to work for first for the people who work for you, guests, community, suppliers, and investors — in that order.
-
-### Entrepreneurs
+### 🏦 Entrepreneurs
 
 - [How to Start a Startup](https://startupclass.samaltman.com/)
 - [The Biggest Mistake I See Engineers Make](https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
@@ -153,7 +155,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [Almanac CEO Readme](https://almanac.io/docs/ceo-user-guide-qgrX6JybtClEKUEGt96x5sMlzQLmRwPL): A guide to how an CEO operate.
 - [The 40% Rule for SAAS companies](https://avc.com/2015/02/the-40-rule/): Your annual revenue growth rate + your operating margin should equal 40%
 
-### Presenter
+### 🎙 Presenter
 
 - [Ten Tips to Make Conference Talks Suck Less](https://www.morling.dev/blog/ten-tips-make-conference-talks-suck-less/)
 - [How to Present to Executives](https://lethain.com/present-to-executives/)
