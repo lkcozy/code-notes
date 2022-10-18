@@ -1,5 +1,5 @@
 ---
-title: Financial Metrics every business owner should know:
+title: Financial Metrics every business owner should know
 emoji: 📝
 tags:
    - investment
