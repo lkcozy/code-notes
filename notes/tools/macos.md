@@ -17,6 +17,12 @@ modified: 2022-10-14T16:55:25.000Z
     - sudo scutil --set LocalHostName "newname"
     - sudo scutil --set HostName "newname"
 
+### Fix not found git error
+
+```zsh
+xcode-select --install
+```
+
 ### Install GUI applications (read more about these in GUI Applications)
 
 ```zsh

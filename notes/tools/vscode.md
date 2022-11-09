@@ -1,14 +1,12 @@
-'---
+---
 title: Visual Studio Code
-emoji: "\U0001F4DD"
+emoji: 🛠️
 tags:
-
-- tools
-- vscode
-  link:
-  created: 2020-07-02T20:13:36.000Z
-  modified: 2022-04-10T16:05:46.000Z
-
+  - tools
+  - vscode
+link:
+created: 2020-07-02T20:13:36.000Z
+modified: 2022-04-10T16:05:46.000Z
 ---
 
 ## Shortcut
@@ -17,6 +15,13 @@ tags:
 - Duplicate line: Alt + Shift + Down Arrow
 - Select columns (vertical select): Shift + Option
 - Go To Line: ^ + G
+- Select current word: ⌘ + D
+
+## Fix not found git error
+
+```zsh
+xcode-select --install
+```
 
 ## Font: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 

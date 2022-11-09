@@ -8,6 +8,8 @@ created: 2021-03-05T07:28:49.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
 
+- 👍[The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
+
 ![aws](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3r76jz8za3nz.cloudfront.net%2Fwp-content%2Fuploads%2F2017%2F02%2FAWS-cloud-computing-IaaS.jpg&f=1&nofb=1)
 
 - Security, Identity, & Compliance
