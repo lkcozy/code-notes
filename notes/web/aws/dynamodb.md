@@ -11,6 +11,28 @@ created: 2021-03-05T07:28:49.000Z
 modified: 2021-03-30T16:55:25.000Z
 ---
 
+- [Highlights](#highlights)
+- [Suitable Use Cases](#suitable-use-cases)
+- [Basics](#basics)
+- [Official Guide:cheat sheet](#official-guidecheat-sheet)
+- [Handle time series Data](#handle-time-series-data)
+  - [Scenario #1](#scenario-1)
+- [The difference between scan and query in dynamodb? When use scan / query?](#the-difference-between-scan-and-query-in-dynamodb-when-use-scan--query)
+- [Scan vs Query](#scan-vs-query)
+- [Could I limit the return query/scan items size from dynamodb?](#could-i-limit-the-return-queryscan-items-size-from-dynamodb)
+- [Query with Sorting](#query-with-sorting)
+- [Query (and Scan) DynamoDB Pagination](#query-and-scan-dynamodb-pagination)
+- [Hierarchical Data](#hierarchical-data)
+- [Principals of Data Modeling](#principals-of-data-modeling)
+- [Tools](#tools)
+  - [DynamoDB Toolbox](#dynamodb-toolbox)
+  - [dynamodb-paginator](#dynamodb-paginator)
+  - [Sort-Key](#sort-key)
+  - [dynamodb-update-expression](#dynamodb-update-expression)
+  - [Spark+DynamoDB](#sparkdynamodb)
+  - [Serverless Console](#serverless-console)
+- [References](#references)
+
 DynamoDB is designed to `hold a large amount of data`. That is why data is partitioned. When you request the data, you `do not` want to spend time and compute power to `gather data from various tables`. That is why DynamoDB `does not have joins`. The solution is to `store data in a form that is already prepared for our access patterns.`
 
 ## Highlights
@@ -24,16 +46,6 @@ DynamoDB is designed to `hold a large amount of data`. That is why data is parti
 - Principals of #DynamoDB data modeling: `draw ER`, `GET ALL ACCESS PATTERNS`, `denormalize`, `avoid scans`, `filters`, `transactions`, `prefers eventually consistent reads`, learn #singletabledesign
 
 - The most simple denormalization is to `contain all the data in one item`.
-
-## References
-
-- [What I’ve Learned From Using AWS DynamoDB in Production for More Than 3 Years](https://medium.com/@b.stoilov/what-ive-learned-from-using-aws-dynamodb-in-production-for-more-than-3-years-49a077886b5c)
-- [How to Make a Serverless GraphQL API using Lambda and DynamoDB](https://www.serverless.com/blog/make-serverless-graphql-api-using-lambda-dynamodb)
-- [How to use DynamoDB global secondary indexes to improve query performance and reduce costs](https://aws.amazon.com/blogs/database/how-to-use-dynamodb-global-secondary-indexes-to-improve-query-performance-and-reduce-costs/)
-
-![](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2018/12/19/DynamoDBSecondaryIndexes1.png)
-
-Global secondary indexes enhance the querying capability of DynamoDB. This post shows how you can use global secondary indexes and patterns such as data filtering and data ordering to achieve read isolation and reduce query costs. The recent limit increase of the maximum number of global secondary indexes per DynamoDB table from 5 to 20 can help you apply these usage patterns without worrying about hitting limits.
 
 ## Suitable Use Cases
 
@@ -50,8 +62,12 @@ DynamoDB is a particularly good fit for the following use cases:
 - `Partition (hash) key (PK)`: Defines in which portion the data is stored. Use as a distinct value as possible. You can only query by the exact value. UUID is commonly used.
 - `Sort (range) key (SK)`: Defines the sorting of items in the partition. It is optional. Combined with the partition key, it defines the primary key of the item. You can query it by condition expression (=, >, <, between, begins_with, contains, in) combined with PK. You can never leave out PK when querying.
 - `Local secondary index`: Allows defining another sort key for the same partition key. It can only be created when you create the table. Compared to the global secondary index, it offers consistent reads. You can have up to five LSI on a table.
-- `Global secondary index (GSI)`: Allows defining a new partition and optional sort key. It should be preferred compared to the LSI, except when you need consistent reads. You can have up to 20 GSI on a table, so you would try to reuse them within the same table. GSI is the central part of most design patterns in a single table design. Both LSI and GSI are implemented as copying all the data to a new table-like structure. You have projections that enable you to copy only the data that you need.
+- `Global secondary index (GSI)`: Allows defining a new partition and optional sort key. It should be preferred compared to the LSI, except when you need consistent reads. You can have up to `20 GSI` on a table, so you would try to reuse them within the same table. GSI is the central part of most design patterns in a single table design. Both LSI and GSI are implemented as copying all the data to a new table-like structure. You have projections that enable you to copy only the data that you need.
 - `Attributes` can be `scalar (single value)` or `complex (list, maps, sets of unique values)`.
+- `Page size limit for query and scan`: There is a limit of `1 MB` per page, per query or scan.
+- `KeyType`: `HASH` for `Partition key` and `RANGE` for `Sort key`
+
+## [Official Guide:cheat sheet](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/CheatSheet.html)
 
 ## Handle time series Data
 
@@ -282,3 +298,13 @@ Plug-and-play implementation of an Apache Spark custom data source for AWS Dynam
 ![](https://github.com/domagojk/serverless-console/raw/master/gifs/dynamodb.gif)
 
 Serverless Console is an alternative UI for AWS Cloudwatch. Its focus is on "serverless functions" but it can also be used for any kind of log group.
+
+## References
+
+- [What I’ve Learned From Using AWS DynamoDB in Production for More Than 3 Years](https://medium.com/@b.stoilov/what-ive-learned-from-using-aws-dynamodb-in-production-for-more-than-3-years-49a077886b5c)
+- [How to Make a Serverless GraphQL API using Lambda and DynamoDB](https://www.serverless.com/blog/make-serverless-graphql-api-using-lambda-dynamodb)
+- [How to use DynamoDB global secondary indexes to improve query performance and reduce costs](https://aws.amazon.com/blogs/database/how-to-use-dynamodb-global-secondary-indexes-to-improve-query-performance-and-reduce-costs/)
+
+![](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2018/12/19/DynamoDBSecondaryIndexes1.png)
+
+Global secondary indexes enhance the querying capability of DynamoDB. This post shows how you can use global secondary indexes and patterns such as data filtering and data ordering to achieve read isolation and reduce query costs. The recent limit increase of the maximum number of global secondary indexes per DynamoDB table from 5 to 20 can help you apply these usage patterns without worrying about hitting limits.
