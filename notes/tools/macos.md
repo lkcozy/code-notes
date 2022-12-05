@@ -8,6 +8,24 @@ created: 2020-06-29T05:54:14.000Z
 modified: 2022-10-14T16:55:25.000Z
 ---
 
+## [macOS Tips & Tricks](https://saurabhs.org/macos-tips)
+
+### [Advanced macOS Command-Line Tools](https://saurabhs.org/advanced-macos-commands)
+
+There are also a good number of macOS-specific command-line utilities that provide unique macOS functionality.
+
+- `mdfind` - search with Spotlight
+- `say` - text-to-speech engine
+- `pbcopy`, `pbpaste` - interact with system clipboard
+- `screencapture` - take screenshots
+- `networkQuality` - measure Internet speed
+- `caffeinate` - set Mac sleep behavior
+- `open` - open files and applications
+- `pmset` - configure power management
+- `softwareupdate` - manage OS updates
+- `textutil` - document file converter
+- `caffeinate` - set Mac sleep behavior
+
 ## [Setup New Mac](https://www.robinwieruch.de/mac-setup-web-development/)
 
 - restore settings by [mackup](https://github.com/lra/mackup): mackup restore

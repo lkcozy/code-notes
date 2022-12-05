@@ -8,6 +8,12 @@ created: 2021-03-05T07:28:49.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
 
+## [AWS Lambda Powertools for TypeScript](https://github.com/awslabs/aws-lambda-powertools-typescript)
+
+A suite of utilities for AWS Lambda Functions that makes structured logging, creating custom metrics asynchronously and tracing with AWS X-Ray easier
+
+> Lambda Layer is a .zip file archive that can contain additional code, pre-packaged dependencies, data, or configuration files. Layers promote code sharing and separation of responsibilities so that you can iterate faster on writing business logic.
+
 - 👍[The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 
 ![aws](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3r76jz8za3nz.cloudfront.net%2Fwp-content%2Fuploads%2F2017%2F02%2FAWS-cloud-computing-IaaS.jpg&f=1&nofb=1)
