@@ -9,6 +9,17 @@ created: 2020-06-29T05:54:14.000Z
 modified: 2021-05-03T21:46:56.000Z
 ---
 
+- [What Are GitHub Actions?](#what-are-github-actions)
+- [Workflow syntax for GitHub Actions](#workflow-syntax-for-github-actions)
+- [Test GitHub Actions locally](#test-github-actions-locally)
+- [Debug a Github Actions' secrets](#debug-a-github-actions-secrets)
+- [Example](#example)
+  - [Deploy your projects to Github Pages](#deploy-your-projects-to-github-pages)
+  - [outputs](#outputs)
+- [Action composition](#action-composition)
+- [Useful Github Actions](#useful-github-actions)
+- [References](#references)
+
 ## What Are GitHub Actions?
 
 [GitHub Actions](https://github.com/features/actions) allow you to run arbitrary code in response to [events](https://help.github.com/en/actions/reference/events-that-trigger-workflows). Events are activities that happen on GitHub such as:
@@ -32,7 +43,7 @@ jobs:
     name: build and deploy lambda
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [18.x]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -301,105 +312,15 @@ Reference other actions to reduce duplication in your workflows.
 
 ## Useful Github Actions
 
-- [GitHub Pages Deploy Action](https://github.com/JamesIves/github-pages-deploy-action)
-
-This GitHub Action will automatically deploy your project to GitHub Pages. It can be configured to push your production-ready code into any branch you'd like, including gh-pages and docs.
-
-- [AWS cli install action](https://github.com/marketplace/actions/aws-cli-install-action)
-
-Action to install the most recent version of the AWS-CLI
-
-- [HashiCorp - Setup Terraform](https://github.com/marketplace/actions/hashicorp-setup-terraform)
-
-The hashicorp/setup-terraform action is a JavaScript action that sets up Terraform CLI in your GitHub Actions workflow.
-
-- [fastpages](https://github.com/fastai/fastpages)
-
-![](https://github.com/fastai/fastpages/raw/master/images/diagram.png)
-
-An easy to use blogging platform, with support for Jupyter notebooks, Word docs, and Markdown.
-
-- [Release Drafter](https://github.com/marketplace/actions/release-drafter)
-
-![](https://github.com/release-drafter/release-drafter/raw/master/design/screenshot.png)
-
-Drafts your next release notes as pull requests are merged into master.
-
-- [cache](https://github.com/actions/cache)
-
-Cache dependencies and build outputs in GitHub Actions
-
-```yaml
-name: Caching with npm
-
-on: push
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Cache node modules
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
-        with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Build
-        run: npm build
-
-      - name: Test
-        run: npm test
-```
-
-- [Auto Assign Reviewer By Issuer](https://github.com/shufo/auto-assign-reviewer-by-issuer)
-  A GitHub Action to automatically assigns reviewer by issuer
-
-- [Condition based Pull Request Labeler](https://github.com/srvaroa/labeler)
-  Implements a GitHub Action that labels Pull Requests based on configurable conditions.It is inspired by the example Pull Request Labeller, but intends to provide a richer set of options.
-
-```yml
-version: 1
-labels:
-  - label: "work in progress"
-    title: ".*(?i)wip.*"
-  - label: "feature"
-    title: ".*(?i)feat.*"
-  - label: "hot fix"
-    title: ".*(?i)hot fix.*"
-  - label: "fix"
-    title: ".*Fix.*"
-  - label: "enhancement"
-    title: ".*(?i)enhancement.*"
-  - label: "refactor"
-    title: ".*(?i)refactor.*"
-  - label: "PoC"
-    title: ".*(?i)poc.*"
-  - label: "map"
-    title: ".*(?i)map.*"
-  - label: "issue"
-    title: ".*(?i)issue.*"
-  - label: "user"
-    title: ".*(?i)user.*"
-  - label: "workflow"
-    title: ".*(?i)workflow.*"
-  - label: "asset"
-    title: ".*(?i)asset.*"
-  - label: "test"
-    title: ".*Test.*"
-```
+- [Keepalive Workflow](https://github.com/marketplace/actions/keepalive-workflow):GitHub action to prevent GitHub from suspending your cronjob based triggers due to repository inactivity
+- [GitHub Pages Deploy Action](https://github.com/JamesIves/github-pages-deploy-action):This GitHub Action will automatically deploy your project to GitHub Pages. It can be configured to push your production-ready code into any branch you'd like, including gh-pages and docs.
+- [AWS cli install action](https://github.com/marketplace/actions/aws-cli-install-action):Action to install the most recent version of the AWS-CLI
+- [HashiCorp - Setup Terraform](https://github.com/marketplace/actions/hashicorp-setup-terraform):The hashicorp/setup-terraform action is a JavaScript action that sets up Terraform CLI in your GitHub Actions workflow.
+- [fastpages](https://github.com/fastai/fastpages):An easy to use blogging platform, with support for Jupyter notebooks, Word docs, and Markdown.
+- [Release Drafter](https://github.com/marketplace/actions/release-drafter):Drafts your next release notes as pull requests are merged into master.
+- [cache](https://github.com/actions/cache):Cache dependencies and build outputs in GitHub Actions
+- [Auto Assign Reviewer By Issuer](https://github.com/shufo/auto-assign-reviewer-by-issuer):A GitHub Action to automatically assigns reviewer by issuer
+- [Condition based Pull Request Labeler](https://github.com/srvaroa/labeler):Implements a GitHub Action that labels Pull Requests based on configurable conditions.It is inspired by the example Pull Request Labeller, but intends to provide a richer set of options.
 
 ## References
 
