@@ -16,7 +16,7 @@ docker system df
 
 ## docker system prune -a --volumes
 
-WARNING! This will remove:
+‼️ WARNING! This will remove:
 
 - all stopped containers
 - all networks not used by at least one container

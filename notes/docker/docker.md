@@ -11,6 +11,15 @@ created: 2020-07-02T20:13:36.000Z
 modified: 2021-04-14T23:11:23.000Z
 ---
 
+- [Overview](#overview)
+- [Docker architecture](#docker-architecture)
+- [Docker Compose](#docker-compose)
+- [Generate a dockerfile by the jk](#generate-a-dockerfile-by-the-jk)
+- [Tools](#tools)
+- [References](#references)
+- [Examples](#examples)
+- [.dockerignore](#dockerignore)
+
 ## Overview
 
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
@@ -145,6 +154,8 @@ A step-by-step introduction to how the official Python Docker image is made, and
 - [Dockerfile Security Best Practices](https://cloudberry.engineering/article/dockerfile-security-best-practices/)
 
 Container security is a broad problem space and there are many low hanging fruits one can harvest to mitigate risks. A good starting point is to follow some rules when writing Dockerfiles.
+
+-[Dockerizing a React App](https://mherman.org/blog/dockerizing-a-react-app/)
 
 ## Examples
 
