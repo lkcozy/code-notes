@@ -11,6 +11,27 @@ created: 2020-08-10T22:40:43.000Z
 modified: 2021-08-23T20:08:26.000Z
 ---
 
+- [Pros](#pros)
+- [Cons](#cons)
+- [Tips](#tips)
+- [10 Best Practices for Schema Stewardship](#10-best-practices-for-schema-stewardship)
+- [Starter Kit](#starter-kit)
+- [GraphQL Best Practices Resources and Design Patterns](#graphql-best-practices-resources-and-design-patterns)
+- [Code-first vs. schema-first development in GraphQL](#code-first-vs-schema-first-development-in-graphql)
+- [Basics](#basics)
+  - [Fragments](#fragments)
+  - [Queries](#queries)
+  - [Mutations](#mutations)
+  - [The difference between `parseValue` and `parseLiteral`](#the-difference-between-parsevalue-and-parseliteral)
+- [Schema Design](#schema-design)
+  - [GraphQL schema design in Moon Modeler](#graphql-schema-design-in-moon-modeler)
+  - [Extending Types And Interfaces](#extending-types-and-interfaces)
+- [Subscription](#subscription)
+  - [When to use subscriptions](#when-to-use-subscriptions)
+- [Resources](#resources)
+  - [Tutorials](#tutorials)
+  - [Libraries](#libraries)
+
 GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.
 
 > 💡 GraphQL is an alternative to REST for developing APIs, not a replacement.
@@ -250,12 +271,9 @@ Low-latency, real-time updates. For example, a chat application's client wants t
 
 ### Tutorials
 
-- [9 Ways To Secure your GraphQL API — GraphQL Security Checklist](https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/)
-
--[Performance Monitoring in GraphQL](https://blog.sentry.io/2021/08/31/guest-post-performance-monitoring-in-graphql): use the Sentry transaction for each graphql request.
-
+- [Understanding the GraphQL Type System](https://www.taniarascia.com/graphql-type-system/): In this article, you will learn about GraphQL types: the five built-in scalar types, Enums, the List and Non-Null wrapping types, Object types, and the abstract Interface and Union types that work alongside them.
+- [9 Ways To Secure your GraphQL API — GraphQL Security Checklist](https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/) -[Performance Monitoring in GraphQL](https://blog.sentry.io/2021/08/31/guest-post-performance-monitoring-in-graphql): use the Sentry transaction for each graphql request.
 - [Using Subscriptions with Your Federated Data Graph](https://www.apollographql.com/blog/backend/federation/using-subscriptions-with-your-federated-data-graph/)
-
 - [Migrating Existing REST APIs to GraphQL](https://blog.bitsrc.io/migrating-existing-rest-apis-to-graphql-2c5de3db647d)
 
 ![](https://miro.medium.com/max/641/1*5SAc8xEDZJoCLspC4A4k8A.jpeg)
