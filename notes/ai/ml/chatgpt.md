@@ -36,6 +36,7 @@ The dialogue format allows ChatGPT to “answer follow-up questions, admit its m
 ### Ideas
 
 - Give me 10 blog ideas for XXX?
+- Give me a 2 day itinerary for traveling to XXX?
 
 ### How
 

@@ -23,6 +23,12 @@ modified: 2021-05-03T20:08:26.000Z
 
 ## Extensions
 
+- [AIPRM for ChatGPT](https://chrome.google.com/webstore/detail/aiprm-for-chatgpt/ojnbohmppadfgpejeebfnmnknjdlckgj)
+
+![](https://lh3.googleusercontent.com/v6niIA5HQDeU_e1Qlnsf4BXoCTovtp3hQYgwMTRxHyrFZLAtqdI4oW_4Y6wKKdH085V5RMv12tD3Sk_azxdsTRv_BwQ=w640-h400-e365-rj-sc0x00ffffff)
+
+AIPRM for ChatGPT adds a list of curated prompt templates for SEO, SaaS and more to ChatGPT.
+
 - [GitHub Web IDE](https://github.com/zvizvi/GitHub-Web-IDE)
 
 ![](https://cdn.beekka.com/blogimg/asset/202111/bg2021111504.jpg)
