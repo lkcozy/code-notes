@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "cspell": "^6.31.0",
+    "fkill-cli": "^7.1.0",
     "frontmatter-date-setter": "^0.1.0",
     "gh-pages": "^5.0.0",
     "husky": "^8.0.0",
@@ -30,7 +31,8 @@
     ]
   },
   "scripts": {
-    "start": "lsof -t -i:8000 | xargs kill -9 && gatsby develop",
+    "kill": "fkill -f -s :8000",
+    "start": "yarn kill && gatsby develop",
     "test": "./test.mjs",
     "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean",

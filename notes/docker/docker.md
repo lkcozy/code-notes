@@ -125,6 +125,22 @@ Learn to build and deploy your distributed applications easily to the cloud with
 
 - [Dock Life: Using Docker for All The Things!](https://nystudio107.com/blog/dock-life-using-docker-for-all-the-things): Embrac­ing Dock­er for All The Things gives you a more flex­i­ble, robust, and trans­portable way to use tools on your com­put­er with­out messy setup
 
+```zsh
+# Docker aliases
+alias composer='docker run --rm -it -v "$PWD":/app -v ${COMPOSER_HOME:-$HOME/.composer}:/tmp composer '
+alias composer1='docker run --rm -it -v "$PWD":/app -v ${COMPOSER_HOME:-$HOME/.composer}:/tmp composer:1 '
+alias node='docker run --rm -it -v "$PWD":/app -w /app node:16-alpine '
+alias node14='docker run --rm -it -v "$PWD":/app -w /app node:14-alpine '
+alias node12='docker run --rm -it -v "$PWD":/app -w /app node:12-alpine '
+alias node10='docker run --rm -it -v "$PWD":/app -w /app node:10-alpine '
+alias npm='docker run --rm -it -v "$PWD":/app -w /app node:16-alpine npm '
+alias deno='docker run --rm -it -v "$PWD":/app -w /app denoland/deno '
+alias aws='docker run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli '
+alias ffmpeg='docker run --rm -it -v "$PWD":/app -w /app jrottenberg/ffmpeg '
+alias yo='docker run --rm -it -v "$PWD":/app nystudio107/node-yeoman:16-alpine '
+alias tree='f(){ docker run --rm -it -v "$PWD":/app johnfmorton/tree-cli tree "$@";  unset -f f; }; f'
+```
+
 - [Intro Guide to Dockerfile Best Practices](https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/)
 
 This blog series will cover five areas for Dockerfile best practices to help you write better Dockerfiles: incremental build time, image size, maintainability, security and repeatability.
