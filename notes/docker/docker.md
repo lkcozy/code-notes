@@ -8,10 +8,11 @@ tags:
   - database
 link: https://docs.docker.com/get-started/overview/
 created: 2020-07-02T20:13:36.000Z
-modified: 2021-04-14T23:11:23.000Z
+modified: 2023-05-02T23:11:23.000Z
 ---
 
 - [Overview](#overview)
+- [How does Docker work?](#how-does-docker-work)
 - [Docker architecture](#docker-architecture)
 - [Docker Compose](#docker-compose)
 - [Generate a dockerfile by the jk](#generate-a-dockerfile-by-the-jk)
@@ -25,6 +26,18 @@ modified: 2021-04-14T23:11:23.000Z
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
 Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security allow you to run many containers simultaneously on a given host.
+
+## [How does Docker work?](https://blog.bytebytego.com/p/ep57-how-chatgpt-works-technically)
+
+![](https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe6d6cfde-1ff5-4f51-ae35-a56040befa57_1280x1617.jpeg)
+
+A comparison of Docker-based and non-Docker-based development is shown above. With Docker, we can develop, package, and run applications quickly.
+
+- The developers can write code locally and then build a Docker image and push it to a dev environment.
+- The above process can run incrementally when bugs are found or improvements are needed.
+- When dev testing is complete, the Docker image is pushed to the production environment (often on the cloud).
+
+Compared with traditional development without Docker, Docker is quite lightweight and fast, because only the changed part of Dockerfile is rebuilt every time we make a change.
 
 ## Docker architecture
 
@@ -117,12 +130,9 @@ docker-slim will optimize and secure your containers by understanding your appli
 
 ## References
 
-- [Docker for beginners](https://docker-curriculum.com/#introduction)
-
-Learn to build and deploy your distributed applications easily to the cloud with Docker
-
+- [Docker for beginners](https://docker-curriculum.com/#introduction): Learn to build and deploy your distributed applications easily to the cloud with Docker
+- [Getting Started with Docker](https://github.com/collabnix/dockerlabs): DockerLabs provides over 500 interactive tutorials and guides for developers of all levels, covering topics such as Docker security, networking, and AI/ML.
 - [How to clean your Docker data](https://dockerwebdev.com/tutorials/clean-up-docker/): Docker makes no configuration changes to your system … but it can use a significant volume of disk space. Fortunately, Docker allows you to reclaim disk space from unused images, containers, and volumes.
-
 - [Dock Life: Using Docker for All The Things!](https://nystudio107.com/blog/dock-life-using-docker-for-all-the-things): Embrac­ing Dock­er for All The Things gives you a more flex­i­ble, robust, and trans­portable way to use tools on your com­put­er with­out messy setup
 
 ```zsh

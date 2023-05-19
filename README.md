@@ -81,6 +81,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 ### 💻 Software Engineer
 
 - [How to Be a 10x Software Engineer](https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5): what separates the best engineers from the average ones are (surprisingly) the non-technical skills.
+- [Enabling Good Work Habits in Software Developers through Reflective Goal-Setting](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8823032)
 - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook): Curated coding interview preparation materials for busy software engineers
 - [An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f):For varying levels of seniority, from senior, to staff, and beyond.
 - [The Art of Humanizing Pull Requests (PR’s)](https://dev.to/kulkarniankita9/the-art-of-humanizing-pull-requests-prs-2238): a comprehensive guide to Pull Requests, how to effectively create a PR, how to give feedback on PR’s and how to respond to feedback
@@ -129,6 +130,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 ### Leader
 
 - [Software Leader Weekly](https://softwareleadweekly.com/)
+- [Cal.com Handbook](https://handbook.cal.com/)
 - [The Weekly Hagakure](https://hagakure.substack.com/): A weekly dose of curated practical wisdom for technical leaders
 - [Motivating Developers to Care About Documentation](https://getdx.com/best-practices/documentation-culture-engineering)
 - [What You Give Up When Moving Into Engineering Management](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)

@@ -5,7 +5,7 @@ tags:
   - git
   - cheatsheet
 created: 2020-06-24T07:06:39.000Z
-modified: 2021-06-06T20:08:26.000Z
+modified: 2023-05-19T20:08:26.000Z
 ---
 
 ## [Flight rules for Git](https://github.com/k88hudson/git-flight-rules)
@@ -26,7 +26,7 @@ GitHub style split diffs with syntax highlighting in your terminal.
 
 - [gum](https://github.com/gauseen/gum): manage multiple git user config
 
-```sh
+```zsh
 yarn global add @gauseen/gum
 gum list
 gum set user1 --name 'user 1' --email user1@email.com
@@ -37,7 +37,7 @@ gum use user1 --global
 
 ## Misc
 
-```sh
+```zsh
 # Discards all unstaged changes
 git reset --hard HEAD
 # Throw away local modifications
@@ -46,7 +46,7 @@ git checkout -f
 
 ## Check Git config
 
-```sh
+```zsh
 git config --list
 git config user.name
 git config user.email
@@ -54,13 +54,13 @@ git config user.email
 
 ## Change Git Remote URL
 
-```sh
+```zsh
 git remote set-url origin git@github.com-lkcozy:lkcozy/code-notes.git
 ```
 
 ## Undoing Mistakes
 
-```sh
+```zsh
 # Discard Uncommitted Changes In A File
 git restore index.html
 # Fix The Very Last Commit
@@ -78,12 +78,12 @@ git checkout <deletion commit hash>~1 -- <filename>
 
 ## [Rebase](https://git-rebase.io/)
 
-```sh
+```zsh
 # amending your last commit
 git commit -a --amend
 ```
 
-```sh
+```zsh
 # fixing up older commits, -i for interactive
 git rebase -i HEAD~3
 ```
@@ -102,7 +102,7 @@ I think you should use `git pull --rebase` when collaborating with others on the
 
 ![](https://blog.manos-liakos.dev/static/39833f875652a1793abffbbc15973e33/74200/git-rebase.webp)
 
-```sh
+```zsh
 git pull = git fetch + git merge FETCH_HEAD
 git pull --rebase =  git fetch + git rebase FETCH_HEAD
 ```
@@ -115,7 +115,7 @@ git pull --rebase =  git fetch + git rebase FETCH_HEAD
 
 ## Recover from git reset --hard
 
-```sh
+```zsh
 git reflog show
 
 4b6cf8e (HEAD -> master, origin/master, origin/HEAD) HEAD@{0}: reset: moving to origin/master
@@ -133,7 +133,7 @@ git reset HEAD@{2}
 
 ## Count all tracked files in a git respository
 
-```sh
+```zsh
 git ls-files notes| wc -l
 ```
 
@@ -143,39 +143,51 @@ git ls-files notes| wc -l
 
 ## Branches
 
+Discard user email "xxxx" related commits after the specific commit:
+
+Create a backup of the repository:
+
+```zsh
+git clone --mirror . <backup-folder>
+```
+
+```zsh
+git filter-branch --commit-filter 'if [ "$GIT_AUTHOR_EMAIL" = "REPLACE_EMAIL" ]; then skip_commit "$@"; else git commit-tree "$@"; fi' [REPLACE_COMMIT_ID]..HEAD
+```
+
 List all local branches
 
-```sh
+```zsh
 git branch
 ```
 
 List all merged branches
 
-```sh
+```zsh
 git branch --merged
 ```
 
 Same as above but exclude master and develop branches
 
-```sh
+```zsh
 git branch --merged | egrep -v "(^\*|master|develop)"
 ```
 
 ### Deleting branches
 
-```sh
+```zsh
 git branch -d branch_name
 ```
 
 ### Deleting remote branches
 
-```sh
+```zsh
 git push <remote_name> -d branch_name
 ```
 
 ### Delete all branches but keeping others like “develop” and “master”
 
-```sh
+```zsh
 git branch | grep -v "develop" | grep -v "master" | xargs git branch -D
 ```
 
@@ -185,7 +197,7 @@ git branch | grep -v "develop" | grep -v "master" | xargs git branch -D
 
 ### Delete remote branches
 
-```sh
+```zsh
 git push origin --delete branch1 branch2
 ```
 
@@ -193,49 +205,49 @@ git push origin --delete branch1 branch2
 
 ### Save changes to a stash
 
-```sh
+```zsh
 git push origin --delete branch1 branch2
 ```
 
 ### List all stashes.
 
-```sh
+```zsh
 git stash list
 ```
 
 ### Annotate stashes with a description
 
-```sh
+```zsh
 git stash -u save 'message'
 ```
 
 ### Re-apply the most recently created stash and delete it from stash list
 
-```sh
+```zsh
 git stash pop
 ```
 
 ### Apply the specified stash by passing its identifier
 
-```sh
+```zsh
 git stash apply stash@{2}
 ```
 
 ### Partial stash
 
-```sh
+```zsh
 git stash -p
 ```
 
 ### Creating a branch from your stash
 
-```sh
+```zsh
 git stash branch add-stylesheet stash@{1}
 ```
 
 ## Tags
 
-```sh
+```zsh
 # list all git tags
 git tag -l
 git tag --list
@@ -256,7 +268,7 @@ git push --follow-tags origin master
 <details>
    <summary>A list of git aliases to include in your `~/.gitconfig` file:</summary>
 
-```sh
+```zsh
 
 [alias]
 s=status

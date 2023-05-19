@@ -16,6 +16,7 @@ modified: 2022-08-12T16:05:46.000Z
 
 ## Guidelines
 
+- [Bulletproof React](https://github.com/alan2207/bulletproof-react): A simple, scalable, and powerful architecture for building production ready React applications.
 - [Beginner to Intermediate React](https://www.reactguide.dev/?ck_subscriber_id=1238258824): Provide the reader with a set of tools and guidelines for creating better React components.
 - [Bad Habits of Mid-Level React Developers](https://dev.to/srmagura/bad-habits-of-mid-level-react-developers-b41?ck_subscriber_id=1664454795)
 - [React antipatterns to avoid](https://isamatov.com/react-antipatterns?ck_subscriber_id=1238258824)
