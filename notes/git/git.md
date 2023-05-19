@@ -141,9 +141,7 @@ git ls-files notes| wc -l
 - `|`: operator funnels the output from the preceding command into the command following the pipe.
 - `wc -l`: calls the [word count (wc)](http://en.wikipedia.org/wiki/Wc_%28Unix%29) program. Passing the `-l` flag asks it to return the total number of lines.
 
-## Branches
-
-Discard user email "xxxx" related commits after the specific commit:
+## Discard user email "xxxx" related commits after the specific commit
 
 Create a backup of the repository:
 
@@ -154,6 +152,15 @@ git clone --mirror . <backup-folder>
 ```zsh
 git filter-branch --commit-filter 'if [ "$GIT_AUTHOR_EMAIL" = "REPLACE_EMAIL" ]; then skip_commit "$@"; else git commit-tree "$@"; fi' [REPLACE_COMMIT_ID]..HEAD
 ```
+
+## Checkout files/folders from a specific branch
+
+```zsh
+rm -rf src .package.json
+git checkout main .src package.json
+```
+
+## Branches
 
 List all local branches
 
