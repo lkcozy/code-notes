@@ -14,6 +14,14 @@ A suite of utilities for AWS Lambda Functions that makes structured logging, cre
 
 > Lambda Layer is a .zip file archive that can contain additional code, pre-packaged dependencies, data, or configuration files. Layers promote code sharing and separation of responsibilities so that you can iterate faster on writing business logic.
 
+### Commands
+
+Get associated aws account id
+
+```zsh
+aws sts get-caller-identity --profile legacy --output json | jq ".Account" | sed 's/\"//g'
+```
+
 - 👍[The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 
 ![aws](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3r76jz8za3nz.cloudfront.net%2Fwp-content%2Fuploads%2F2017%2F02%2FAWS-cloud-computing-IaaS.jpg&f=1&nofb=1)
