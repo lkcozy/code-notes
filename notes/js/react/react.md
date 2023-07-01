@@ -83,6 +83,7 @@ const Home = React.lazy(() => import("../component/Home"));
 
 ### UI
 
+- [LIGHT CHASER](https://github.com/xiaopujun/light-chaser): a data visualization designer for large screens
 - [Bit](https://github.com/teambit/bit): A tool for component-driven application development.
 - [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd): a beautiful and accessible drag and drop for lists with React.
 - [React-Grid-Layout](https://github.com/react-grid-layout/react-grid-layout): a draggable and resizable grid layout with responsive breakpoints, for React.

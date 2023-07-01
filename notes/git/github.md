@@ -11,6 +11,10 @@ created: 2020-07-18T05:59:45.000Z
 modified: 2021-06-04T16:05:46.000Z
 ---
 
+## [Defaults for Github repositories](https://wiringbits.net/blog/github-repository-setup)
+
+![](https://wiringbits.net/assets/posts/github-repository-setup/branch-list.png)
+
 ## Connect local npm to the GitHub Package Registry
 
 ```sh
