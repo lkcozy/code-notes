@@ -91,7 +91,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [Software Engineering at Google](https://qiangmzsx.github.io/Software-Engineering-at-Google): Lessons learned from programming over time
 - [Staff Engineer](https://staffeng.com/book):The guide to become a Staff Engineer
 - [Responsibilities of a Senior Software Engineer](https://towardsdatascience.com/responsibilities-of-a-senior-software-engineer-e30d3989610): A Story About Responsibilities and the Engineer’s Role In It
-- [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/): Focus your efforts on API semantics, implementation semantics, and documentation, not the code style and tests.
+- [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/): Focus your efforts on API semantics, implementation semantics, and documentation. Try to automate any code style and tests related.
 - [Code Reviews 101 - The Basics](https://www.semasoftware.com/blog/code-reviews-101-the-basics)
 - [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
 - [Drunk Post: Things I've learned as a Sr Engineer](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)

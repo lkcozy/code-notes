@@ -5,7 +5,7 @@ tags:
   - ai
 link:
 created: 2022-12-20T16:54:52.000Z
-modified: 2022-12-20T16:54:52.000Z
+modified: 2023-08-09T16:54:52.000Z
 ---
 
 ChatGPT (generative pre-trained transformer) is essentially an online bot which “interacts in a conversational way,” its creator OpenAI reveals.
@@ -48,3 +48,16 @@ The dialogue format allows ChatGPT to “answer follow-up questions, admit its m
 - explain this code
 - plot a linear regression with Python using matplotlib
 - web scrape https://books.toscrape.com/ using Python and beautiful soup
+
+## [Custom Instructions](https://openai.com/blog/custom-instructions-for-chatgpt)
+
+![](https://pic1.zhimg.com/80/v2-2609580e04053162c098e7c2d0f85328_720w.webp)
+
+- What would you like ChatGPT to know about you to provide better responses?）
+  - I work on science education programs for third-grade students. 我致力于三年级学生的科学教育项目。
+  - I'm a research and data analyst
+  - I'm a serious college student majoring in Computer Science.
+- How would you like ChatGPT to response?
+  - When discussing potential solutions for work-related items, present the information in a table format, outlining the pros and cons of each option-allowing for easier comparison and decision-making. 在讨论与工作相关的项目的潜在解决方案时，以表格形式呈现信息，概述每个选项的优缺点，以便更轻松地进行比较和决策。
+  - Format responses into tables, outlining pros and cons for each option, or breaking things down into bullet points within the table.
+  - Always respond in a formal, academic writing style with thorough explanations and excluding unnecessary wording

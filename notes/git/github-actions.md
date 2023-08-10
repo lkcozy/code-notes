@@ -207,7 +207,15 @@ When you run act it reads in your GitHub Actions from .github/workflows/ and det
 ```sh
 brew install act
 
+# list all workflows
+act -l
+
+# dry run the specific workflow, check syntax errors
+act -j build -n
+
 act --secret-file act.secrets
+
+act -r -j pr_log -P ubuntu-latest=catthehacker/ubuntu:act-latest
 ```
 
 ## Debug a Github Actions' secrets

@@ -7,12 +7,12 @@ getCount() {
     name=$1
     time=$2
     count=$(git diff --name-only "@{$time ago}" $folder | $count_length)
-    echo "::set-output name=${name}::$count"
-    return $count
+    echo "$name=$TOTODAYTAL" >>"$GITHUB_OUTPUT"
+    return "$count"
 }
 
 TODAY=$(git diff --name-only $folder | $count_length)
-echo "::set-output name=today::$TODAY"
+echo "today=$TOTODAYTAL" >>"$GITHUB_OUTPUT"
 
 getCount week '1 week'
 WEEK=$?
@@ -24,8 +24,8 @@ getCount year '1 year'
 YEAR=$?
 
 TOTAL=$(git ls-files $folder | $count_length)
-echo "::set-output name=total::$TOTAL"
+echo "total=$TOTAL" >>"$GITHUB_OUTPUT"
 
 NOW=$(date +"%Y-%m-%d")
 SUMMARY="Summary($NOW);Today: $TODAY;LAST 7d: $WEEK;Last Month: $MONTH;Last Year: $YEAR;Total: ${TOTAL}"
-echo "::set-output name=summary::$SUMMARY"
+echo "summary=$SUMMARY" >>"$GITHUB_OUTPUT"

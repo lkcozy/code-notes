@@ -1,4 +1,4 @@
-name:  📝 Code Notes Deployment 🚀
+name: 📝 Code Notes Deployment 🚀
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: git pull origin main
+      - run: git fetch origin main
 
       - name: 🧮  Get Notes Statistics
         id: get_notes_stats
@@ -33,7 +33,7 @@ jobs:
         env:
           SLACK_COLOR: ${{ job.status }}
           SLACK_ICON: https://raw.githubusercontent.com/lkcozy/code-notes/master/assets/logo.png
-          SLACK_MESSAGE:  ${{job.status}} - ${{steps.get_notes_stats.outputs.summary}}.
+          SLACK_MESSAGE: ${{job.status}} - ${{steps.get_notes_stats.outputs.summary}}.
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
 
       - name: ✉️ Send mail
