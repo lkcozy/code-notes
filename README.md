@@ -131,6 +131,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 - [CEO's Concern](https://www.linkedin.com/posts/miri-curiel_startupstruggles-engineeringleadership-engineeringmetrics-activity-7054466615173611520-w8YN)
 - [From good to great: A capability framework for building exceptional product engineering teams](https://buriti.ca/from-good-to-great-a-capability-framework-for-building-exceptional-product-engineering-teams-a8ca4e9e8f47): A framework for team members to work together and collaborate effectively
+- [Building an onboarding plan for engineering managers Process](https://leaddev.com/process/building-onboarding-plan-engineering-managers): An effective onboarding plan for engineering managers should focus on providing a sense of belonging and a sense of accomplishment.
 - [Software Leader Weekly](https://softwareleadweekly.com/)
 - [Cal.com Handbook](https://handbook.cal.com/)
 - [The Weekly Hagakure](https://hagakure.substack.com/): A weekly dose of curated practical wisdom for technical leaders

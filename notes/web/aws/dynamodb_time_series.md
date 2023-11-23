@@ -24,7 +24,7 @@ In other use cases, I might want to analyze only `last quarter’s` data and I c
 
 ## Scenario #1
 
-`Read today's events most frequently, yesterday's events much less frequently, and then older events very little at all `
+`Read today's events most frequently, yesterday's events much less frequently, and then older events very little at all`
 
 The idea is to `allocate the required resources for the current period that will experience the highest volume of traffic` and scale down provisioning for older tables that are not used actively, therefore saving costs.
 

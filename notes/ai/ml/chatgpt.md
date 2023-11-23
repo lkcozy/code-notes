@@ -23,6 +23,7 @@ The dialogue format allows ChatGPT to “answer follow-up questions, admit its m
 
 ### Writing
 
+- give me three positives and three negatives and tell me how to make it more persuasive using classic rhetoric techniques.
 - Write the complete script of a Seinfeld scene in which Jerry needs to learn the bubble sort algorithm. Include frequent jokes and note audience laughter in the script.
 - Rewrite the above lyrics to be about the life of a postdoc
 
@@ -48,6 +49,10 @@ The dialogue format allows ChatGPT to “answer follow-up questions, admit its m
 - explain this code
 - plot a linear regression with Python using matplotlib
 - web scrape https://books.toscrape.com/ using Python and beautiful soup
+
+### Photography
+
+- help me make this picture better. give me very specific narrow advice and I will give you a better version.
 
 ## [Custom Instructions](https://openai.com/blog/custom-instructions-for-chatgpt)
 
