@@ -25,7 +25,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 <!-- code_chunk_output -->
 
-- [To Be Better](#to-be-better)
+- [To Be A Better](#to-be-a-better)
   - [👥 Person](#-person)
   - [📝 Writer](#-writer)
   - [🔬 Researcher](#-researcher)
@@ -43,7 +43,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 <!-- /code_chunk_output -->
 
-## To Be Better
+## To Be A Better
 
 ### 👥 Person
 
@@ -129,6 +129,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 ### Leader
 
+- [The Surprising Power of Documentation](https://vadimkravcenko.com/shorts/proper-documentation/): If you’re a technical co-founder - extract every bit of knowledge that you can and put it into writing.
 - [CEO's Concern](https://www.linkedin.com/posts/miri-curiel_startupstruggles-engineeringleadership-engineeringmetrics-activity-7054466615173611520-w8YN)
 - [From good to great: A capability framework for building exceptional product engineering teams](https://buriti.ca/from-good-to-great-a-capability-framework-for-building-exceptional-product-engineering-teams-a8ca4e9e8f47): A framework for team members to work together and collaborate effectively
 - [Building an onboarding plan for engineering managers Process](https://leaddev.com/process/building-onboarding-plan-engineering-managers): An effective onboarding plan for engineering managers should focus on providing a sense of belonging and a sense of accomplishment.

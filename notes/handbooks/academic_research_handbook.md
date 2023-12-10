@@ -33,6 +33,26 @@ modified: 2022-07-28T14:58:18.000Z
 
 ### [Introduction](https://www.scribbr.com/dissertation/introduction-structure/)
 
+[How to Write an Introduction for a Research Paper](https://typeset.io/resources/research-paper-introduction/)
+
+The introduction of your research paper acts as **a road map**, guiding the reader through the **main ideas and arguments**. The purpose of the introduction is to **present your research topic** to the readers and provide a rationale for **why your study is relevant**. It helps the reader **locate your research and its relevance in the broader field** of related scientific explorations.
+
+The introduction should inform the reader about the objectives and scope of your study, giving them an overview of what to expect in the paper.
+
+Key elements
+
+- A hook or **attention-grabbing statement** to capture the reader's interest.
+  - a thought-provoking question
+  - a surprising statistic
+  - a compelling anecdote that relates to your research topic.
+- A brief overview of the research topic and its **significance**.
+  - highlighting the **gap** in existing knowledge or the problem your research aims to address
+- A clear **research question** or **problem statement**.
+  - the foundation of your research
+  - guides the reader in understanding the unique focus
+  - it should be concise, specific, and clearly articulated
+- An outline of the paper's structure and main arguments, to help the reader navigate through the paper with ease.
+
 ### [Literature Review](https://www.scribbr.com/dissertation/literature-review/)
 
 ### [Methodology](https://www.scribbr.com/dissertation/methodology/)
