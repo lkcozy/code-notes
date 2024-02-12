@@ -4,7 +4,7 @@ emoji: 💡
 tags:
   - management
   - personal-growth
-link: https://hbr.org/2022/03/dont-underestimate-the-power-of-self-reflection?utm_medium=email&utm_source=newsletter_daily&utm_campaign=mtod_notactsubs
+link: https://hbr.org/2022/03/dont-underestimate-the-power-of-self-reflection
 created: 2022-03-21T14:37:56.000Z
 modified: 2022-03-21T14:37:56.000Z
 ---

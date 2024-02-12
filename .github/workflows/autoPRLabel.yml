@@ -1,0 +1,12 @@
+name: PR Label
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+# gh label create "size/XS" --description "Denotes a PR that changes 0-9 lines, ignoring generated files." --color "#009900"
+# gh label create "size/M" --description "Denotes a PR that changes 50-200 lines, ignoring generated files." --color "#eebb00" --force
+
+jobs:
+  autoPrLabel:
+    uses: lkcozy/web-scraper/.github/workflows/prLabel.yml@main

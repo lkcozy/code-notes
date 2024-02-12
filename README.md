@@ -80,6 +80,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 ### 💻 Software Engineer
 
+- [The gentle art of code review](https://bitfieldconsulting.com/golang/code-review)
 - [How to Be a 10x Software Engineer](https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5): what separates the best engineers from the average ones are (surprisingly) the non-technical skills.
 - [Enabling Good Work Habits in Software Developers through Reflective Goal-Setting](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8823032)
 - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook): Curated coding interview preparation materials for busy software engineers
