@@ -27,6 +27,7 @@ brew install pipenv
 
 ```zsh
 pipenv install/uninstall
+pipenv shell
 ```
 
 - `shell` will spawn a shell with the virtualenv activated.

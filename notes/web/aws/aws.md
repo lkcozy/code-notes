@@ -8,6 +8,11 @@ created: 2021-03-05T07:28:49.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
 
+- [AWS Lambda Powertools for TypeScript](#aws-lambda-powertools-for-typescript)
+  - [Commands](#commands)
+- [Elastic Container](#elastic-container)
+- [Resources](#resources)
+
 ## [AWS Lambda Powertools for TypeScript](https://github.com/awslabs/aws-lambda-powertools-typescript)
 
 A suite of utilities for AWS Lambda Functions that makes structured logging, creating custom metrics asynchronously and tracing with AWS X-Ray easier
@@ -79,6 +84,14 @@ aws sts get-caller-identity --profile legacy --output json | jq ".Account" | sed
   - `Elastic Container Registry`: Store docker images like on DockerHub
   - `Elastic Container Service`: Run containers, either on your own EC2 machines, or on managed machines called Fargate.
   - `Elastic Kubernetes Service`: Kubernetes as a service
+
+## Elastic Container
+
+```zsh
+aws ecr describe-repositories
+
+aws ecr list-images --repository-name your-repository-name
+```
 
 ## Resources
 

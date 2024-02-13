@@ -318,6 +318,8 @@ jobs:
 
 Reference other actions to reduce duplication in your workflows.
 
+[Using Composite GitHub Actions to make your Workflows smaller and more reusable](https://wallis.dev/blog/composite-github-actions)
+
 ## Useful Github Actions
 
 - [Keepalive Workflow](https://github.com/marketplace/actions/keepalive-workflow):GitHub action to prevent GitHub from suspending your cronjob based triggers due to repository inactivity
