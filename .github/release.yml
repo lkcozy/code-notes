@@ -1,0 +1,16 @@
+changelog:
+  exclude:
+    labels:
+      - dependencies
+    authors:
+      - dependabot
+  categories:
+    - title: Breaking Changes 🛠
+      labels:
+        - size/M
+    - title: Exciting New Features 🎉
+      labels:
+        - gis
+    - title: Other Changes
+      labels:
+        - "*"
