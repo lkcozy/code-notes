@@ -12,6 +12,7 @@ modified: 2022-07-28T14:58:18.000Z
 - [Highlights](#highlights)
 - [Reading](#reading)
   - [How to Read a Paper](#how-to-read-a-paper)
+  - [三步提问法呢？](#三步提问法呢)
   - [How You Should Read Research Papers According To Andrew Ng (Stanford Deep Learning Lectures)](#how-you-should-read-research-papers-according-to-andrew-ng-stanford-deep-learning-lectures)
 - [Writing](#writing)
   - [Abstract](#abstract)
@@ -48,6 +49,18 @@ Researchers must-read papers for several reasons: to review them for a conferenc
 
 You can choose to (a) set the paper aside, hoping you don't need to understand the material to be successful in your career, (b) return to the paper later, perhaps after reading background material or (c) persevere and go on to the third pass
 Paper reading skills are put to the test in doing a literature survey
+
+### 三步提问法呢？
+
+- 为什么要做这个研究？要明确作者研究这个问题的目的。目前这个领域的理论发展脉络是什么？存在哪些缺陷？这些缺陷是需要我们重点关注的，也通常是作者研究这个问题的原因。
+  - 这篇论文的研究背景是什么，问题从何而来？回答不少于 xx 字
+- 怎么做这个研究？作者为了论证这个问题，做出了哪些理论假设？为了验证这些假设，设计了哪些实验？实验方法是怎样的？又是如何确保实验的严谨性呢？变量是否控制到位？或者创新点有没有体现在实验过程当中？等等，凡是任何一个可以批判性思考的点，都是我们需要去深入挖掘的信息。
+  - 在本文中作者使用了哪些研究方法？回答不少于 xx 字。
+  - 在本文中作者使用了哪些研究方法？从理论假设、实验、实验方法、数据分析方法、如何确保实验严谨等角度进行回答，回答不少于 200 字。
+- 发现了什么？实验得到了哪些数据？根据这些数据能得到哪些结论？假设是否得到了认证？这些结论有没有实际的作用，可以创造哪些价值？
+  - 这篇论文的结论是什么，请从数据分析、假设验证结果、结论的价值等角度进行分析，如涉及实验数据请一并列出，不少于 200 字。
+- 文章的局限性体现在哪里？哪里还有改进的措施呢？
+  - 这篇论文的局限性有哪些？请从数据、实验、理论等方面进行分析，不少于 200 字。
 
 ### [How You Should Read Research Papers According To Andrew Ng (Stanford Deep Learning Lectures)](https://towardsdatascience.com/how-you-should-read-research-papers-according-to-andrew-ng-stanford-deep-learning-lectures-98ecbd3ccfb3)
 

@@ -12,10 +12,16 @@ modified: 2022-04-10T16:05:46.000Z
 ## Shortcut
 
 - ^ : control
+- Run commands in Command Palette with Ctrl + Shift + P or Shift + Command + P.
 - Duplicate line: Alt + Shift + Down Arrow
+- Move a line up or down with Alt/Option + Up/Down in Windows/Mac
 - Select columns (vertical select): Shift + Option
 - Go To Line: ^ + G
 - Select current word: ⌘ + D
+- Go to a file with Ctrl + P, navigate between open files with Alt + Left/Right or Ctrl + Tab.
+- Delete a line with Ctrl + Shift + K .
+- Format code with Format Document command, use Prettier, change shortcut to Ctrl + D, Ctrl + D .
+- Use multiple cursors at once with Alt + Click. Ctrl + Alt + Up/Down adds a cursor above/below.
 
 ## Fix not found git error
 
