@@ -4,7 +4,7 @@ emoji: 💡
 tags:
   - management
   - personal-growth
-link: https://nitter.net/wes_kao/status/1505559838499254282#m
+link: https://twitter.com/wes_kao/status/1505559838499254282#m
 created: 2022-03-26T22:52:48.000Z
 modified: 2022-03-26T22:52:48.000Z
 ---

@@ -23,9 +23,17 @@ DuckDB is a high-performance analytical database system. It is designed to be fa
 
 ## Usages
 
+```sql
+duckdb /path/to/your/database.duckdb
+```
+
 ### [Parquet - A Column-Oriented Data File Format](https://parquet.apache.org/)
 
 Apache Parquet is an open-source data file format specifically designed for efficient data storage and retrieval, particularly optimized for handling complex data in bulk.
+
+```sql
+CREATE TABLE test AS SELECT * FROM read_parquet('test.parquet');
+```
 
 ```ts
 // load local parquet files into memory
@@ -39,7 +47,7 @@ const loadData = async (name: string | number) => {
 };
 
 console.time("load data");
-// https://github.com/duckdb/duckdb-data/releases/tag/v1.0
+// Parquet demo data listhttps://github.com/duckdb/duckdb-data/releases/tag/v1.0
 await Promise.all([4, 5, 6].map(loadData));
 console.timeEnd("load data");
 
@@ -72,6 +80,7 @@ INSERT INTO locations (id, name, longitude, latitude) VALUES
     (2, 'Location B', 34.0522, -118.2437),
     (3, 'Location C', 51.5074, -0.1278);
 
+# spatial extension way
 SELECT
   json_object(
     'type', 'Feature',
@@ -79,9 +88,28 @@ SELECT
     'geometry', ST_AsGeoJSON(ST_Point(longitude, latitude))::JSON
     ) AS geojson
 FROM locations
+
+# non spatial extension way
+SELECT
+  json_object(
+      'type', 'Feature',
+      'geometry', json_object(
+          'type', 'Point',
+          'coordinates', [longitude, latitude]
+      ),
+      'properties', json_object('name', name)
+  ) AS geojson
+FROM locations
 ```
+
+## [serverless-duckdb](https://github.com/tobilg/serverless-duckdb)
+
+An example of how to run DuckDB on AWS Lambda & API Gateway.
 
 ## Tools
 
 - [VS Code Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer)
+- [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
+- [DuckDB Driver for SQLTools](https://marketplace.visualstudio.com/items?itemName=Evidence.sqltools-duckdb-driver)
+- [duckdb-nodejs-layer](https://github.com/tobilg/duckdb-nodejs-layer):Packaging DuckDB for usage in AWS Lambda functions with Node.js, and publishing as public Lambda layers.
 - [DB Pilot](https://www.dbpilot.io/)

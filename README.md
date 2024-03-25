@@ -33,7 +33,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [💻 Software Engineer](#-software-engineer)
   - [🏗 Architecture](#-architecture)
   - [📈 Data Engineer](#-data-engineer)
-  - [Product Manager](#product-manager)
+  - [Product/Project Manager](#productproject-manager)
   - [Leader](#leader)
   - [👥 Colleague](#-colleague)
   - [🏦 Entrepreneurs](#-entrepreneurs)
@@ -124,9 +124,10 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [An Agile Framework for AI Projects — Development, QA, Deployment and Maintenance](https://towardsdatascience.com/an-agile-framework-for-ai-projects-development-cbe115ba86a2)
 - [6 data integration principles for data engineers to live by](https://medium.com/databand-ai/6-data-integration-principles-for-data-engineers-to-live-by-915749d9ada8)
 
-### Product Manager
+### Product/Project Manager
 
 - [How to Be a More Effective Internal Product Manager](https://medium.com/swlh/how-to-be-a-more-effective-internal-product-manager-e14143e3343)
+- [Why software projects fail](https://vadimkravcenko.com/shorts/why-software-projects-fail/)
 
 ### Leader
 

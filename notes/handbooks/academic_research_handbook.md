@@ -15,6 +15,7 @@ modified: 2022-07-28T14:58:18.000Z
   - [三步提问法呢？](#三步提问法呢)
   - [How You Should Read Research Papers According To Andrew Ng (Stanford Deep Learning Lectures)](#how-you-should-read-research-papers-according-to-andrew-ng-stanford-deep-learning-lectures)
 - [Writing](#writing)
+  - [Thesis Statement](#thesis-statement)
   - [Abstract](#abstract)
   - [Introduction](#introduction)
   - [Literature Review](#literature-review)
@@ -114,6 +115,16 @@ A guide will provide you within instructions on how to go through a research pap
 | Resources 2 | [x]     | [x]     | []      | []      | []       |
 
 ## Writing
+
+[What is a thesis | A Complete Guide with Examples](https://typeset.io/resources/what-is-a-thesis-a-complete-guide/)
+
+### Thesis Statement
+
+- a concise summary of the main argument or claim of the paper.
+- 💡clear, concise, and debatable
+- a roadmap of your thesis, directing readers through your arguments and findings.
+- offers readers an immediate understanding of the context and the gravity of your study.
+- ensure clarity and precision
 
 ### [Abstract](https://www.scribbr.com/dissertation/abstract/)
 

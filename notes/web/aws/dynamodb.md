@@ -35,16 +35,18 @@ modified: 2021-03-30T16:55:25.000Z
 
 DynamoDB is designed to `hold a large amount of data`. That is why data is partitioned. When you request the data, you `do not` want to spend time and compute power to `gather data from various tables`. That is why DynamoDB `does not have joins`. The solution is to `store data in a form that is already prepared for our access patterns.`
 
+🚀[A Deep Dive into Amazon DynamoDB Architecture](https://blog.bytebytego.com/p/a-deep-dive-into-amazon-dynamodb)
+
 ## Highlights
 
+- Adapting to the traffic patterns of user applications improves the overall customer experience
+- To improve stability, it’s better to design systems for predictability over absolute efficiency
+- For high durability, perform continuous verification of the data-at-rest
+- Maintaining high availability is a careful balance between operational discipline and new features
 - Keep the number of tables you use to a minimum. For most applications, `a single table` is all you need
-
 - However, for `time series data`, you can often best handle it by using `one table per application per period`.
-
 - `Global secondary index (GSI)` is the central part of most design patterns in a #DynamoDB single table design.
-
 - Principals of #DynamoDB data modeling: `draw ER`, `GET ALL ACCESS PATTERNS`, `denormalize`, `avoid scans`, `filters`, `transactions`, `prefers eventually consistent reads`, learn #singletabledesign
-
 - The most simple denormalization is to `contain all the data in one item`.
 
 ## Suitable Use Cases

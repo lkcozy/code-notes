@@ -8,10 +8,15 @@ created: 2021-03-05T07:28:49.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
 
+- [Typical AWS Network Architecture in one diagram](#typical-aws-network-architecture-in-one-diagram)
 - [AWS Lambda Powertools for TypeScript](#aws-lambda-powertools-for-typescript)
   - [Commands](#commands)
 - [Elastic Container](#elastic-container)
 - [Resources](#resources)
+
+## [Typical AWS Network Architecture in one diagram](https://blog.bytebytego.com/i/142629473/one-picture-is-worth-a-thousand-words-typical-aws-network-architecture-in-one-diagram)
+
+![](https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62210162-7691-40e5-b450-2da232890af9_1536x1536.gif)
 
 ## [AWS Lambda Powertools for TypeScript](https://github.com/awslabs/aws-lambda-powertools-typescript)
 
