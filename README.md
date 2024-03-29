@@ -60,6 +60,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [30 rules for a life well lived](https://twitter.com/Nicolascole77/status/1489275823999762432): Play the long game. Slow and steady consistency is the most powerful driver of growth.
 - [10 Visuals That Will Change How You See Success & Productivity (Thread)](https://twitter.com/elliottaleksndr/status/1503657270147616768)
 - [The Psychology of Money by Morgan Housel: Summary & Notes](https://www.grahammann.net/book-notes/the-psychology-of-money-morgan-housel)
+- [11 ways to get better feedback from your manager](https://newsletter.weskao.com/p/get-better-feedback)
 
 ### 📝 Writer
 
