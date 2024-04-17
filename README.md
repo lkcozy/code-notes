@@ -26,18 +26,18 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 <!-- code_chunk_output -->
 
 - [To Be A Better](#to-be-a-better)
-  - [👥 Person](#-person)
-  - [📝 Writer](#-writer)
-  - [🔬 Researcher](#-researcher)
-  - [🌏 GISer](#-giser)
-  - [💻 Software Engineer](#-software-engineer)
-  - [🏗 Architecture](#-architecture)
-  - [📈 Data Engineer](#-data-engineer)
+  - [👥Person](#person)
+  - [📝Writer](#writer)
+  - [🔬Researcher](#researcher)
+  - [🌏GISer](#giser)
+  - [💻Software Engineer](#software-engineer)
+  - [🏗Architecture](#architecture)
+  - [📈Data Engineer](#data-engineer)
   - [Product/Project Manager](#productproject-manager)
   - [Leader](#leader)
-  - [👥 Colleague](#-colleague)
-  - [🏦 Entrepreneurs](#-entrepreneurs)
-  - [🎙 Presenter](#-presenter)
+  - [👥Colleague](#colleague)
+  - [🏦Entrepreneurs](#entrepreneurs)
+  - [🎙Presenter](#presenter)
 - [Local Test Github Actions](#local-test-github-actions)
 - [Todo](#todo)
 
@@ -45,9 +45,10 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 ## To Be A Better
 
-### 👥 Person
+### 👥Person
 
 - 👍[Awesome Leadership and Management](https://github.com/LappleApple/awesome-leading-and-managing/): Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone.
+- [Career Advice from Sam Altman](https://lattice.com/library/sam-altman-career-advice): on how to build an impactful career
 - [Noam Chomsky - On Being Truly Educated](https://www.youtube.com/watch?v=eYHQcXVp4F4)
 - [The Ability to Focus is a Highly Valuable Skill to Master In Today’s Fast Moving Economy](https://medium.com/swlh/the-ability-to-focus-is-a-highly-valuable-skill-to-master-in-todays-fast-moving-economy-8aaba37bfa61): Learn to work deeper
 - [Antifragile Planning: Optimizing for Optionality (Without Chasing Shiny Objects)](https://taylorpearson.me/planning/): Learn to set long-term goals for yourself.
@@ -55,32 +56,35 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [Master your questioning skills](https://muratbuffalo.blogspot.com/2018/12/master-your-questioning-skills.html)
 - [How To Criticize Coworkers](https://alexturek.com/2022-03-18-How-to-criticize-coworkers/): An excellent piece on how to give (and receive) feedback.
 - [Don’t Underestimate the Power of Self-Reflection](https://hbr.org/2022/03/dont-underestimate-the-power-of-self-reflection)
+- [The Ultimate Deliberate Practice Guide: How to Be the Best](https://fs.blog/deliberate-practice-guide/):Deliberate practice is the key to achieving expert performance in any field, but it involves more than just repetitive practice; it requires a clear focus on specific components of a skill and a willingness to push beyond one's comfort zone.
 - [Kevin Kelly 68 Bits of Unsolicited Advice](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/)
 - [Kevin Kelly 99 Additional Bits of Unsolicited Advice](https://kk.org/thetechnium/99-additional-bits-of-unsolicited-advice/)
 - [30 rules for a life well lived](https://twitter.com/Nicolascole77/status/1489275823999762432): Play the long game. Slow and steady consistency is the most powerful driver of growth.
 - [10 Visuals That Will Change How You See Success & Productivity (Thread)](https://twitter.com/elliottaleksndr/status/1503657270147616768)
 - [The Psychology of Money by Morgan Housel: Summary & Notes](https://www.grahammann.net/book-notes/the-psychology-of-money-morgan-housel)
 - [11 ways to get better feedback from your manager](https://newsletter.weskao.com/p/get-better-feedback)
+- [Reversible and Irreversible Decisions](https://fs.blog/reversible-irreversible-decisions/): When decisions are reversible, make them fast. When decisions are irreversible, slow them down.
 
-### 📝 Writer
+### 📝Writer
 
 - [The Day You Became A Better Writer](https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html): Keep things simple.
 - [10 Step Guide to Clearer Thinking Through Essay Writing](https://medium.com/practicecomesfirst/dr-jordan-b-petersons-10-step-guide-to-clearer-thinking-through-essay-writing-1ab79a94937)
 - [SCQA(Situation, Complication, Question, and Answer) Method](https://corporatefinanceinstitute.com/resources/careers/how-to-job-guides/scqa/)
 
-### 🔬 Researcher
+### 🔬Researcher
 
 - [Writing a Scientific Manuscript](https://butlerscicomm.com/writing-your-scientific-manuscript/#introduction): introduce the important basics that will help you structure and start writing your scientific paper.
 - [The Most Common Habits from more than 200 English Papers written by Graduate Chinese Engineering Students](https://papertalks.org/p/resources/Academic/EnglishWritingSkills/MostCommonEnglishWritingHabitsOfChinese.pdf): an individual guide to editing technical papers.
 - [Why was my scientific paper/grant rejected?](https://butlerscicomm.com/what-to-do-when-the-importance-isnt-clear/): #1 reason: Unclear importance
 
-### 🌏 GISer
+### 🌏GISer
 
 - [Bibliometric Analysis of OGC Specifications between 1994 and 2020 Based on Web of Science (WoS)](https://www.mdpi.com/2220-9964/11/4/251)
 - [Types of GIS Data Explored: Vector and Raster](https://www.gislounge.com/geodatabases-explored-vector-and-raster-data/)
 
-### 💻 Software Engineer
+### 💻Software Engineer
 
+- [How can you tell if you’re a good developer?](https://vadimkravcenko.com/qa/how-can-you-tell-good-developer/): We developers, are measured by our ability to solve problems, not the amount of lines or the cleanliness of code
 - [The gentle art of code review](https://bitfieldconsulting.com/golang/code-review)
 - [How to Be a 10x Software Engineer](https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5): what separates the best engineers from the average ones are (surprisingly) the non-technical skills.
 - [Enabling Good Work Habits in Software Developers through Reflective Goal-Setting](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8823032)
@@ -110,7 +114,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [Coding questions - FAANG prep](https://hollow-wood-560.notion.site/Coding-questions-FAANG-prep-9cdf280e5f30425fa188cbbaa6d1998c)
 - [JavaScript testing tutorial](https://wanago.io/courses/javascript-testing-tutorial/): A detailed description of various JavaScript tests.
 
-### 🏗 Architecture
+### 🏗Architecture
 
 - [Architecture Without Architects (Video)](https://softwareleadweekly.us6.list-manage.com/track/click?u=1a258e0fefbb23214c59c5a8d&id=6beddbf093&e=b1367de9f9): Software Architect is a role, not a title. It's a skill, a mindset, and expertise to acquire. It has to be part of the team and not forced upon one.
 - [Software Architecture Patterns](https://orkhanscience.medium.com/software-architecture-patterns-5-mins-read-e9e3c8eb47d2)
@@ -120,7 +124,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [Tao of Node - Design, Architecture & Best Practices](https://alexkondov.com/tao-of-node/)
 - [The Practical Application of "Rocks, Pebbles, Sand"](https://longform.asmartbear.com/docs/rocks-pebbles-sand/): Think bigger and execute day by day
 
-### 📈 Data Engineer
+### 📈Data Engineer
 
 - [An Agile Framework for AI Projects — Development, QA, Deployment and Maintenance](https://towardsdatascience.com/an-agile-framework-for-ai-projects-development-cbe115ba86a2)
 - [6 data integration principles for data engineers to live by](https://medium.com/databand-ai/6-data-integration-principles-for-data-engineers-to-live-by-915749d9ada8)
@@ -129,14 +133,16 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 
 - [How to Be a More Effective Internal Product Manager](https://medium.com/swlh/how-to-be-a-more-effective-internal-product-manager-e14143e3343)
 - [Why software projects fail](https://vadimkravcenko.com/shorts/why-software-projects-fail/)
+- [From good to great: A capability framework for building exceptional product engineering teams](https://buriti.ca/from-good-to-great-a-capability-framework-for-building-exceptional-product-engineering-teams-a8ca4e9e8f47): A framework for team members to work together and collaborate effectively
+- [Building an onboarding plan for engineering managers Process](https://leaddev.com/process/building-onboarding-plan-engineering-managers): An effective onboarding plan for engineering managers should focus on providing a sense of belonging and a sense of accomplishment.
+- [Software Leader Weekly](https://softwareleadweekly.com/)
 
 ### Leader
 
 - [The Surprising Power of Documentation](https://vadimkravcenko.com/shorts/proper-documentation/): If you’re a technical co-founder - extract every bit of knowledge that you can and put it into writing.
 - [CEO's Concern](https://www.linkedin.com/posts/miri-curiel_startupstruggles-engineeringleadership-engineeringmetrics-activity-7054466615173611520-w8YN)
-- [From good to great: A capability framework for building exceptional product engineering teams](https://buriti.ca/from-good-to-great-a-capability-framework-for-building-exceptional-product-engineering-teams-a8ca4e9e8f47): A framework for team members to work together and collaborate effectively
-- [Building an onboarding plan for engineering managers Process](https://leaddev.com/process/building-onboarding-plan-engineering-managers): An effective onboarding plan for engineering managers should focus on providing a sense of belonging and a sense of accomplishment.
-- [Software Leader Weekly](https://softwareleadweekly.com/)
+- [Scaling an Engineering Org: A Journey Through Roles and Responsibilities](https://nothingventured.rocks/scaling-an-engineering-org-a-journey-through-roles-and-responsibilities-b979dabba106s): Defining tracks with consistent dimensions and expectations.Eliminating ambiguity.
+- [Startup CTO's Handbook](https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md): a book covering leadership, management and technical topics for leaders of software engineering teams.
 - [Cal.com Handbook](https://handbook.cal.com/)
 - [The Weekly Hagakure](https://hagakure.substack.com/): A weekly dose of curated practical wisdom for technical leaders
 - [Motivating Developers to Care About Documentation](https://getdx.com/best-practices/documentation-culture-engineering)
@@ -151,12 +157,12 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [7 Mental Models For Great Engineering Leadership](https://feeder.co/api/post/777930a1-a6c5-11ec-b3b4-1a21cf3a468a)
 - [Setting the Table: The Transforming Power of Hospitality in Business](https://medium.com/mbreads/book-summary-setting-the-table-8769bbec9d6e): Enlightened hospitality — put hospitality to work for first for the people who work for you, guests, community, suppliers, and investors — in that order.
 
-### 👥 Colleague
+### 👥Colleague
 
 - [Is a team member under performing?](https://twitter.com/joulee/status/1426254058805858309)
 - [How to manage up](https://twitter.com/wes_kao/status/1505559811785646086)
 
-### 🏦 Entrepreneurs
+### 🏦Entrepreneurs
 
 - [How to Start a Startup](https://startupclass.samaltman.com/)
 - [The Biggest Mistake I See Engineers Make](https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
@@ -164,7 +170,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [Almanac CEO Readme](https://almanac.io/docs/ceo-user-guide-qgrX6JybtClEKUEGt96x5sMlzQLmRwPL): A guide to how an CEO operate.
 - [The 40% Rule for SAAS companies](https://avc.com/2015/02/the-40-rule/): Your annual revenue growth rate + your operating margin should equal 40%
 
-### 🎙 Presenter
+### 🎙Presenter
 
 - [Ten Tips to Make Conference Talks Suck Less](https://www.morling.dev/blog/ten-tips-make-conference-talks-suck-less/)
 - [How to Present to Executives](https://lethain.com/present-to-executives/)

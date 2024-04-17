@@ -220,9 +220,11 @@ or
 - discussion of the **implications** of the research
 - **suggestions** for future research
 
-What not to include?
+Avoid the common mistakes
 
-- Not introduce any new data, interpretations, or arguments
+- Repeating the introduction.
+- Introduce any new data, interpretations, or arguments
+- Ending abruptly.
 
 ### [How To Write A Research Summary](https://typeset.io/resources/how-to-write-research-summary-everything-you-need-to-know/)
 

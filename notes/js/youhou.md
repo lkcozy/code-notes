@@ -23,11 +23,11 @@ modified: 2024-03-14T11:01:38.000Z
   }
 
   function clickAllShowAll() {
-    const elements = document.querySelectorAll(
-      'p.showAll:is(:contains("expand"))'
-    );
-    elements.forEach(function (el) {
-      simulateClick(el);
+    const elements = document.querySelectorAll("p.showAll");
+    elements.forEach((el) => {
+      if (el.innerText.trim() === "Expand") {
+        simulateClick(el);
+      }
     });
   }
 
