@@ -38,6 +38,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
   - [👥Colleague](#colleague)
   - [🏦Entrepreneurs](#entrepreneurs)
   - [🎙Presenter](#presenter)
+- [Update reporitory secrets](#update-reporitory-secrets)
 - [Local Test Github Actions](#local-test-github-actions)
 - [Todo](#todo)
 
@@ -175,6 +176,16 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [Ten Tips to Make Conference Talks Suck Less](https://www.morling.dev/blog/ten-tips-make-conference-talks-suck-less/)
 - [How to Present to Executives](https://lethain.com/present-to-executives/)
 - [Spell. It. Out. Don't Make Your Audience Guess What You're Trying to Say.](https://www.codingvc.com/p/spell-it-out?triedSigningIn=true): Simple tips for removing ambiguity
+
+## Update reporitory secrets
+
+```sh
+# https://github.com/settings/tokens?type=beta
+gh secret set ACCESS_TOKEN -b ''
+gh secret set EMAIL_PASSWORD -b ''
+gh secret set EMAIL_USERNAME -b ''
+gh secret set SLACK_WEBHOOK_URL -b ''
+```
 
 ## Local Test Github Actions
 
