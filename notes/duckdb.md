@@ -7,7 +7,7 @@ tags:
   - database
 link: https://duckdb.org/docs/
 created: 2024-03-13T16:33:32.000Z
-modified: 2024-04-13T16:33:32.000Z
+modified: 2024-04-17T16:33:32.000Z
 ---
 
 DuckDB is a high-performance analytical database system. It is designed to be fast, reliable, portable, and easy to use. DuckDB provides a rich SQL dialect, with support far beyond basic SQL. DuckDB supports arbitrary and nested correlated subqueries, window functions, collations, complex types (arrays, structs), and more.
