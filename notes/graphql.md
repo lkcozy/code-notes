@@ -272,7 +272,8 @@ Low-latency, real-time updates. For example, a chat application's client wants t
 ### Tutorials
 
 - [Understanding the GraphQL Type System](https://www.taniarascia.com/graphql-type-system/): In this article, you will learn about GraphQL types: the five built-in scalar types, Enums, the List and Non-Null wrapping types, Object types, and the abstract Interface and Union types that work alongside them.
-- [9 Ways To Secure your GraphQL API — GraphQL Security Checklist](https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/) -[Performance Monitoring in GraphQL](https://blog.sentry.io/2021/08/31/guest-post-performance-monitoring-in-graphql): use the Sentry transaction for each graphql request.
+- [9 Ways To Secure your GraphQL API — GraphQL Security Checklist](https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/)
+- [Performance Monitoring in GraphQL](https://blog.sentry.io/2021/08/31/guest-post-performance-monitoring-in-graphql): use the Sentry transaction for each graphql request.
 - [Using Subscriptions with Your Federated Data Graph](https://www.apollographql.com/blog/backend/federation/using-subscriptions-with-your-federated-data-graph/)
 - [Migrating Existing REST APIs to GraphQL](https://blog.bitsrc.io/migrating-existing-rest-apis-to-graphql-2c5de3db647d)
 

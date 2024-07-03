@@ -116,6 +116,21 @@ To add a code snippet: select the lines you want to reference, open the inline t
 
 ### [Markdown formatting tips](https://github.github.com/gfm/#task-list-items-extension-)
 
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
 #### Keyboard tags
 
 ```html
@@ -150,6 +165,24 @@ GitHub contribution graph colors: `#C6E48B` `#7AC96F` `#249A3C` `#196127`
   <img src="https://octodex.github.com/images/dunetocat.png" width="200" />
   <p>This is some centered text.</p>
 </div>
+```
+
+#### Inserting a video
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+```html
+<a
+  href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+"
+  target="_blank"
+  ><img
+    src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+    alt="IMAGE ALT TEXT HERE"
+    width="240"
+    height="180"
+    border="10"
+/></a>
 ```
 
 #### Inserting a table

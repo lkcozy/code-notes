@@ -9,6 +9,20 @@ created: 2021-07-08T15:49:56.000Z
 modified: 2022-08-12T15:49:56.000Z
 ---
 
+- [Migrate an entire project to TypeScript](#migrate-an-entire-project-to-typescript)
+- [Create a condition-based subset types](#create-a-condition-based-subset-types)
+- [An Introduction To Type Programming In TypeScript](#an-introduction-to-type-programming-in-typescript)
+- [Equality comparisons and conditional branching](#equality-comparisons-and-conditional-branching)
+- [How to use type guards in TypeScript](#how-to-use-type-guards-in-typescript)
+- [Functions](#functions)
+- [Typescript utility types](#typescript-utility-types)
+- [React with TypeScript: Best Practices](#react-with-typescript-best-practices)
+- [Making ESLint Happy in Mixed TypeScript/Javascript Projects](#making-eslint-happy-in-mixed-typescriptjavascript-projects)
+- [Exploring advanced compiler options in TypeScript](#exploring-advanced-compiler-options-in-typescript)
+- [Tools](#tools)
+- [Tutorials](#tutorials)
+- [Type Challenges](#type-challenges)
+
 ## [Migrate an entire project to TypeScript](https://github.com/airbnb/ts-migrate/tree/master/packages/ts-migrate#usage)
 
 ```zsh
@@ -159,6 +173,29 @@ This article will cover the following options:
 - [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode): a developer productivity tool for rapid JavaScript / TypeScript prototyping.
 - [ts-migrate](https://github.com/airbnb/ts-migrate): A tool to help migrate JavaScript code quickly and conveniently to TypeScript
 
-## tutorials
+## Tutorials
 
 - [Typesafe useReducer with React Context](https://dev.to/kardell/typesafe-usereducer-with-react-context-53c3?ck_subscriber_id=1238258824)
+
+## Type Challenges
+
+- Pick
+
+```ts
+type MyPick<T, K extends keyof T> = {
+  [key in K]: T[key];
+};
+
+// ❌ bad one
+// Can't determine the return value type
+function getValue(o:object, key: string){
+  return o[key]
+}
+// ✅ Constrain the input key
+function getValue<T extends Object,K extends keyof T>(o: T,key: K): T[K] {
+  return o[key]
+}
+const obj1 = { name: 'test'， age: 18}
+// If the second argument is not an argument in obj1, an error will be reported
+const values = getValue(obj1, 'name')
+```

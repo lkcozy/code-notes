@@ -133,7 +133,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 ### Product/Project Manager
 
 - [How to Be a More Effective Internal Product Manager](https://medium.com/swlh/how-to-be-a-more-effective-internal-product-manager-e14143e3343)
-- [Why software projects fail](https://vadimkravcenko.com/shorts/why-software-projects-fail/)
+- [Why software projects fail](https://vadimkravcenko.com/shorts/why-software-projects-fail/): Inexperience, ego, overconfidence. All of these human traits have a huge impact.
 - [From good to great: A capability framework for building exceptional product engineering teams](https://buriti.ca/from-good-to-great-a-capability-framework-for-building-exceptional-product-engineering-teams-a8ca4e9e8f47): A framework for team members to work together and collaborate effectively
 - [Building an onboarding plan for engineering managers Process](https://leaddev.com/process/building-onboarding-plan-engineering-managers): An effective onboarding plan for engineering managers should focus on providing a sense of belonging and a sense of accomplishment.
 - [Software Leader Weekly](https://softwareleadweekly.com/)
@@ -144,6 +144,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [CEO's Concern](https://www.linkedin.com/posts/miri-curiel_startupstruggles-engineeringleadership-engineeringmetrics-activity-7054466615173611520-w8YN)
 - [Scaling an Engineering Org: A Journey Through Roles and Responsibilities](https://nothingventured.rocks/scaling-an-engineering-org-a-journey-through-roles-and-responsibilities-b979dabba106s): Defining tracks with consistent dimensions and expectations.Eliminating ambiguity.
 - [Startup CTO's Handbook](https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md): a book covering leadership, management and technical topics for leaders of software engineering teams.
+- [10 Must-Reads for Engineering Leaders](https://zaidesanton.substack.com/p/10-must-reads-for-engineering-leaders): Anton Zaides covers 10 great books with his main takeaways (and why you should read them) and additional resources you can follow to inspire you to become a better leader.
 - [Cal.com Handbook](https://handbook.cal.com/)
 - [The Weekly Hagakure](https://hagakure.substack.com/): A weekly dose of curated practical wisdom for technical leaders
 - [Motivating Developers to Care About Documentation](https://getdx.com/best-practices/documentation-culture-engineering)
@@ -155,7 +156,7 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 - [Managers should ask for feedback](https://www.cenizal.com/getting-feedback-from-direct-reports/)
 - [Engineering Org Structures— The QRF Team Model](https://betterprogramming.pub/engineering-org-structures-the-qrf-team-model-7b92031db33c): Take control of engineering team interruptions and prevent them from happening ever again
 - [Argument Cultures and Unregulated Aggression](https://www.kateheddleston.com/blog/argument-cultures-and-unregulated-aggression): Unregulated arguments are one of the most caustic environmental factors on engineering teams.
-- [7 Mental Models For Great Engineering Leadership](https://feeder.co/api/post/777930a1-a6c5-11ec-b3b4-1a21cf3a468a)
+- [7 Mental Models For Great Engineering Leadership](https://athenian.com/blog/7-mental-models-for-great-engineering-leadership)
 - [Setting the Table: The Transforming Power of Hospitality in Business](https://medium.com/mbreads/book-summary-setting-the-table-8769bbec9d6e): Enlightened hospitality — put hospitality to work for first for the people who work for you, guests, community, suppliers, and investors — in that order.
 
 ### 👥Colleague
@@ -182,8 +183,8 @@ This application was built with [gatsby-theme-code-notes](https://github.com/mrm
 ```sh
 # https://github.com/settings/tokens?type=beta
 gh secret set ACCESS_TOKEN -b ''
-gh secret set EMAIL_PASSWORD -b ''
 gh secret set EMAIL_USERNAME -b ''
+gh secret set EMAIL_PASSWORD -b ''
 gh secret set SLACK_WEBHOOK_URL -b ''
 ```
 
