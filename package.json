@@ -16,11 +16,11 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "cspell": "^8.7.0",
+    "cspell": "^8.13.0",
     "fkill-cli": "^8.0.0",
     "frontmatter-date-setter": "^0.1.0",
     "gh-pages": "^6.0.0",
-    "husky": "^9.0.0",
+    "husky": "^9.1.0",
     "lint-staged": "^15.2.0",
     "markdown-link-check": "^3.12.0"
   },
@@ -48,6 +48,7 @@
     "version:patch": "yarn version:base --patch",
     "postversion": "git push --tags && git push && echo \"Successfully released version $npm_package_version!\"",
     "spell-check": "cspell --unique --no-progress \"**/*.{md,ts,tsx,js,css,less,json,yml,yaml,html,sh}\"",
-    "markdown-link-check": "find . -name '*.md' -not -path './node_modules/*' -exec sh -c 'markdown-link-check --quiet --verbose {}' \\;"
+    "markdown-link-check": "find . -name '*.md' -not -path './node_modules/*' -exec sh -c 'markdown-link-check --quiet --verbose {}' \\;",
+    "prepare": "husky"
   }
 }

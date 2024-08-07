@@ -13,7 +13,9 @@ modified: 2024-04-17T16:33:32.000Z
 DuckDB is a high-performance analytical database system. It is designed to be fast, reliable, portable, and easy to use. DuckDB provides a rich SQL dialect, with support far beyond basic SQL. DuckDB supports arbitrary and nested correlated subqueries, window functions, collations, complex types (arrays, structs), and more.
 
 - [Why DuckDB](#why-duckdb)
+- [Install](#install)
 - [Usages](#usages)
+  - [JSON](#json)
   - [Parquet - A Column-Oriented Data File Format](#parquet---a-column-oriented-data-file-format)
   - [Geospatial](#geospatial)
     - [Turn a row into a geojson object](#turn-a-row-into-a-geojson-object)
@@ -30,10 +32,46 @@ DuckDB is a high-performance analytical database system. It is designed to be fa
 - extensible
 - free
 
+## Install
+
+macOS
+
+```zsh
+brew install duckdb
+```
+
 ## Usages
 
 ```sql
 duckdb /path/to/your/database.duckdb
+```
+
+Describe the table
+
+```sql
+DESCRIBE SELECT * FROM events;
+```
+
+### [JSON](https://duckdb.org/2023/03/03/json.html)
+
+```sql
+SELECT * FROM 'todos.json';
+```
+
+```zsh
+duckdb -json -c \
+  "select license->>'key' as license, count(*) as count \
+  from read_json('https://api.github.com/orgs/golang/repos') \
+  group by 1 \
+  order by count desc" \
+  | jq
+```
+
+```sql
+SELECT type, count(*) count
+FROM 'gharchive_gz/*.json.gz'
+GROUP BY type
+ORDER BY count DESC;
 ```
 
 ### [Parquet - A Column-Oriented Data File Format](https://parquet.apache.org/)

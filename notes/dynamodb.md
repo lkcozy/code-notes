@@ -8,13 +8,14 @@ tags:
 link: >-
   https://www.serverlesslife.com/DynamoDB_Design_Patterns_for_Single_Table_Design.html
 created: 2021-03-05T07:28:49.000Z
-modified: 2021-03-30T16:55:25.000Z
+modified: 2024-08-03T16:55:25.000Z
 ---
 
 - [Highlights](#highlights)
 - [Suitable Use Cases](#suitable-use-cases)
 - [Basics](#basics)
 - [Official Guide:cheat sheet](#official-guidecheat-sheet)
+- [Global secondary index (GSI)](#global-secondary-index-gsi)
 - [Handle time series Data](#handle-time-series-data)
   - [Scenario #1](#scenario-1)
 - [The difference between scan and query in dynamodb? When use scan / query?](#the-difference-between-scan-and-query-in-dynamodb-when-use-scan--query)
@@ -45,7 +46,7 @@ DynamoDB is designed to `hold a large amount of data`. That is why data is parti
 - Maintaining high availability is a careful balance between operational discipline and new features
 - Keep the number of tables you use to a minimum. For most applications, `a single table` is all you need
 - However, for `time series data`, you can often best handle it by using `one table per application per period`.
-- `Global secondary index (GSI)` is the central part of most design patterns in a #DynamoDB single table design.
+- `Global secondary index (GSI)` is the central part of most design patterns in a DynamoDB single table design.
 - Principals of #DynamoDB data modeling: `draw ER`, `GET ALL ACCESS PATTERNS`, `denormalize`, `avoid scans`, `filters`, `transactions`, `prefers eventually consistent reads`, learn #singletabledesign
 - The most simple denormalization is to `contain all the data in one item`.
 
@@ -61,7 +62,7 @@ DynamoDB is a particularly good fit for the following use cases:
 
 ## Basics
 
-- `Partition (hash) key (PK)`: Defines in which portion the data is stored. Use as a distinct value as possible. You can only query by the exact value. UUID is commonly used.
+- `Partition (hash) key (PK)`: Defines in which portion the data is stored. Use as a distinct value as possible. You can only query by the exact value. UUID is commonly used. _Ensure even distribution of data across partitions_
 - `Sort (range) key (SK)`: Defines the sorting of items in the partition. It is optional. Combined with the partition key, it defines the primary key of the item. You can query it by condition expression (=, >, <, between, begins_with, contains, in) combined with PK. You can never leave out PK when querying.
 - `Local secondary index`: Allows defining another sort key for the same partition key. It can only be created when you create the table. Compared to the global secondary index, it offers consistent reads. You can have up to five LSI on a table.
 - `Global secondary index (GSI)`: Allows defining a new partition and optional sort key. It should be preferred compared to the LSI, except when you need consistent reads. You can have up to `20 GSI` on a table, so you would try to reuse them within the same table. GSI is the central part of most design patterns in a single table design. Both LSI and GSI are implemented as copying all the data to a new table-like structure. You have projections that enable you to copy only the data that you need.
@@ -70,6 +71,35 @@ DynamoDB is a particularly good fit for the following use cases:
 - `KeyType`: `HASH` for `Partition key` and `RANGE` for `Sort key`
 
 ## [Official Guide:cheat sheet](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/CheatSheet.html)
+
+## Global secondary index (GSI)
+
+Query data using attributes other than the primary key. This allows you to effectively use different "partition keys" for different access patterns without scanning the entire table.
+
+- Up to 20 GSIs per table.
+- Project all attributes, only the key attributes, or a subset of attributes.
+- Improve query performance by avoiding full table scans.
+- Support for different access patterns within a single table.
+- [Projection Type](https://www.perplexity.ai/search?q=pending&newFrontendContextUUID=fbf7d890-828f-4762-be99-61d64115e022)
+  - Storage costs:
+    - KEYS_ONLY: Lowest storage cost, as it only stores the primary key and index key attributes.
+    - INCLUDE: Moderate storage cost, storing only specified attributes in addition to keys.
+    - ALL: Highest storage cost, as it duplicates all attributes from the base table.
+  - Query performance:
+    - KEYS_ONLY: Fastest for queries that only need key attributes.
+    - INCLUDE: Efficient for queries requiring specific attributes.
+    - ALL: Best for queries needing all attributes, avoiding additional base table lookups.
+  - Flexibility:
+    - KEYS_ONLY: Least flexible, limited to key attributes only.
+    - INCLUDE: Balanced flexibility, allowing selection of specific attributes.
+    - ALL: Most flexible, supporting all possible queries without table lookups.
+  - Consistency:
+    - KEYS_ONLY and INCLUDE: May require additional base table lookups for non-projected attributes.
+    - ALL: Provides eventual consistency for all attributes without additional lookups.
+  - Write performance:
+    - KEYS_ONLY: Fastest write performance due to minimal data duplication.
+    - INCLUDE: Moderate write performance, updating only specified attributes.
+    - ALL: Slowest write performance, as all attributes must be updated in the index.
 
 ## Handle time series Data
 
