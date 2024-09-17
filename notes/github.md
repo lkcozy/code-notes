@@ -11,6 +11,102 @@ created: 2020-07-18T05:59:45.000Z
 modified: 2021-06-04T16:05:46.000Z
 ---
 
+- [Set up and use multiple GitHub accounts on the same computer](#set-up-and-use-multiple-github-accounts-on-the-same-computer)
+- [Defaults for Github repositories](#defaults-for-github-repositories)
+- [Connect local npm to the GitHub Package Registry](#connect-local-npm-to-the-github-package-registry)
+- [GitHub Web Editor](#github-web-editor)
+- [Keyboard Shortcut](#keyboard-shortcut)
+- [octokit.js](#octokitjs)
+- [GitHub Pages](#github-pages)
+- [Cli](#cli)
+- [Set Secrets](#set-secrets)
+- [Work with fuzzy-finder tools such as fzf](#work-with-fuzzy-finder-tools-such-as-fzf)
+- [Github Readme Stats](#github-readme-stats)
+- [Awesome-Profile-README-templates](#awesome-profile-readme-templates)
+- [Tips](#tips)
+  - [One second to read GitHub code with VS Code](#one-second-to-read-github-code-with-vs-code)
+  - [Code Suggestions](#code-suggestions)
+  - [🔎 Fuzzy file finder](#-fuzzy-file-finder)
+  - [Linking to code snippets](#linking-to-code-snippets)
+  - [Markdown formatting tips](#markdown-formatting-tips)
+    - [Keyboard tags](#keyboard-tags)
+    - [Visualizing hex codes](#visualizing-hex-codes)
+    - [Visualizing diffs](#visualizing-diffs)
+    - [Centering text and images](#centering-text-and-images)
+    - [Inserting a video](#inserting-a-video)
+    - [Inserting a table](#inserting-a-table)
+    - [Inserting a table with html](#inserting-a-table-with-html)
+  - [Delete a bunch of Github Repositories](#delete-a-bunch-of-github-repositories)
+  - [Count total files](#count-total-files)
+  - [Count diff files](#count-diff-files)
+- [Workflows](#workflows)
+- [Extensions](#extensions)
+- [Tutorials](#tutorials)
+- [Resources](#resources)
+
+## [Set up and use multiple GitHub accounts on the same computer]()
+
+1. Create separate SSH keys for each GitHub account:
+
+```sh
+ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+```
+
+Save each key with a unique name (e.g., id_rsa_personal, id_rsa_work).
+
+2. Add the SSH keys to the SSH agent:
+
+```sh
+ssh-add ~/.ssh/id_rsa_personal
+ssh-add ~/.ssh/id_rsa_work
+```
+
+3. Add SSH Keys to GitHub
+
+Copy the public key contents:
+
+```sh
+cat ~/.ssh/id_rsa_personal.pub
+```
+
+Add the public key to each respective GitHub account in the SSH and GPG keys settings.
+
+4. Create or edit the SSH config file:
+
+```sh
+nano ~/.ssh/config
+```
+
+```txt
+# Personal account
+Host github.com-personal
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_personal
+
+# Work account
+Host github.com-work
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_work
+```
+
+5. For each repository, set the appropriate user name and email:
+
+```sh
+git config user.name "Your Name"
+git config user.email "your-email@example.com"
+```
+
+6. Clone and Use Repositories
+
+```sh
+git clone git@github.com-personal:username/repo.git
+git clone git@github.com-work:username/repo.git
+# For existing repositories, update the remote URL:
+git remote set-url origin git@github.com-personal:username/repo.git
+```
+
 ## [Defaults for Github repositories](https://wiringbits.net/blog/github-repository-setup)
 
 ![](https://wiringbits.net/assets/posts/github-repository-setup/branch-list.png)
@@ -88,7 +184,7 @@ gh pr list | fzf
 
 ## [Tips](https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/)
 
-### One second to read GitHub code with VS Code.
+### One second to read GitHub code with VS Code
 
 ![](https://raw.githubusercontent.com/conwnet/github1s/master/resources/images/vs-code-github1s.png)
 
@@ -250,10 +346,6 @@ git ls-files $notes | wc -l
 ```sh
 git diff --name-only "@{1 day ago}" $notes | wc -l
 ```
-
-## https://stackoverflow.com/questions/29473255/make-jira-links-clickable-in-github
-
-https://github.blog/2019-10-14-introducing-autolink-references/
 
 ## [Workflows](https://zepel.io/blog/5-git-workflows-to-improve-development/)
 

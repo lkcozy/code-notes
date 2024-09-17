@@ -8,29 +8,19 @@ created: 2021-03-05T07:28:49.000Z
 modified: 2021-04-20T16:05:46.000Z
 ---
 
+- [Services Cheat Sheet](#services-cheat-sheet)
 - [Typical AWS Network Architecture in one diagram](#typical-aws-network-architecture-in-one-diagram)
 - [AWS Lambda Powertools for TypeScript](#aws-lambda-powertools-for-typescript)
   - [Commands](#commands)
 - [Elastic Container](#elastic-container)
 - [Resources](#resources)
+- [AWS Certified Solutions Architect Associate](#aws-certified-solutions-architect-associate)
+  - [EC2](#ec2)
+  - [VPC](#vpc)
 
-## [Typical AWS Network Architecture in one diagram](https://blog.bytebytego.com/i/142629473/one-picture-is-worth-a-thousand-words-typical-aws-network-architecture-in-one-diagram)
+## [Services Cheat Sheet](https://blog.bytebytego.com/i/148062399/aws-services-cheat-sheet)
 
-![](https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62210162-7691-40e5-b450-2da232890af9_1536x1536.gif)
-
-## [AWS Lambda Powertools for TypeScript](https://github.com/awslabs/aws-lambda-powertools-typescript)
-
-A suite of utilities for AWS Lambda Functions that makes structured logging, creating custom metrics asynchronously and tracing with AWS X-Ray easier
-
-> Lambda Layer is a .zip file archive that can contain additional code, pre-packaged dependencies, data, or configuration files. Layers promote code sharing and separation of responsibilities so that you can iterate faster on writing business logic.
-
-### Commands
-
-Get associated aws account id
-
-```zsh
-aws sts get-caller-identity --profile legacy --output json | jq ".Account" | sed 's/\"//g'
-```
+![](https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff416d0da-2f7a-46df-9709-f7859c5e5613_1415x1536.gif)
 
 - 👍[The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 
@@ -41,6 +31,7 @@ aws sts get-caller-identity --profile legacy --output json | jq ".Account" | sed
   - `Cognito`: User and password management system. Useful for managing users for your applications.
 - Compute
   - `EC2`: Virtual Private Servers
+  - `ECS` (EC2 Container Service): manages clusters of services deployed via Docker.
   - `Lambda`: Functions you can run, written in Python, NodeJS, Go etc. Can run many in parallel.
   - `Elastic Beanstalk`: Run software on managed virtual machines
 - Storage
@@ -90,6 +81,24 @@ aws sts get-caller-identity --profile legacy --output json | jq ".Account" | sed
   - `Elastic Container Service`: Run containers, either on your own EC2 machines, or on managed machines called Fargate.
   - `Elastic Kubernetes Service`: Kubernetes as a service
 
+## [Typical AWS Network Architecture in one diagram](https://blog.bytebytego.com/i/142629473/one-picture-is-worth-a-thousand-words-typical-aws-network-architecture-in-one-diagram)
+
+![](https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62210162-7691-40e5-b450-2da232890af9_1536x1536.gif)
+
+## [AWS Lambda Powertools for TypeScript](https://github.com/awslabs/aws-lambda-powertools-typescript)
+
+A suite of utilities for AWS Lambda Functions that makes structured logging, creating custom metrics asynchronously and tracing with AWS X-Ray easier
+
+> Lambda Layer is a .zip file archive that can contain additional code, pre-packaged dependencies, data, or configuration files. Layers promote code sharing and separation of responsibilities so that you can iterate faster on writing business logic.
+
+### Commands
+
+Get associated aws account id
+
+```zsh
+aws sts get-caller-identity --profile legacy --output json | jq ".Account" | sed 's/\"//g'
+```
+
 ## Elastic Container
 
 ```zsh
@@ -101,3 +110,38 @@ aws ecr list-images --repository-name your-repository-name
 ## Resources
 
 - [How to Build AWS Lambdas with TypeScript](https://blog.appsignal.com/2022/09/21/how-to-build-aws-lambdas-with-typescript)
+
+## AWS Certified Solutions Architect Associate
+
+- [Sample Questions](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Sample-Questions.pdf)
+- Learn the AWS Fundamentals (EC2, ELB, ASG, RDS, ElasticCache, S3)
+- Master all the differences of Databases on AWS
+  - use both services in the same application architecture
+    - use RDS for transactional data
+    - use DynamoDB for a rapidly changing product catalog
+  - Choose a RDS
+    - the data has a well-defined, structured schema that changes infrequently
+    - you need complex queries, joins
+  - Choose DynamoDB
+    - for unstructured or semi-structured data
+    - allowing for rapid changes in data structure
+    - is optimized for simple, key-based queries
+    - pricing is based on throughput and storage
+- Learn the Serverless Fundamentals (Lambda, DynamoDB, Cognito, API Gateway)
+- Understand the Well Architected Framework, Disaster Recovery
+- Secure your entire AWS Cloud using KMS, IAM Policies & SSM
+
+### EC2
+
+- Hibernating EC2 instances save the contents of instance memory to an Amazon Elastic Block Store (Amazon EBS) root volume. When the instances restart, the instance memory contents are reloaded.
+
+### VPC
+
+- CIDR: Classless Inter-Domain Routing.
+- subnets: are divisions of a VPC's IP address range.
+  - public and private
+- route table: a set of rules, controls the network traffic
+- internet gateway
+  - routing outbound traffic from the VPC to the internet (NAT)
+  - routing inbound traffic fro the Internet to the VPC
+- NAT Gateway: network address translation

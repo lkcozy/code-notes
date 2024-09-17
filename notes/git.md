@@ -8,6 +8,36 @@ created: 2020-06-24T07:06:39.000Z
 modified: 2023-05-19T20:08:26.000Z
 ---
 
+- [Flight rules for Git](#flight-rules-for-git)
+- [Tips](#tips)
+- [Tools](#tools)
+- [Misc](#misc)
+- [Check Git config](#check-git-config)
+- [Change Git Remote URL](#change-git-remote-url)
+- [Undoing Mistakes](#undoing-mistakes)
+- [Rebase](#rebase)
+- [Recover from git reset --hard](#recover-from-git-reset---hard)
+- [Count all tracked files in a git respository](#count-all-tracked-files-in-a-git-respository)
+- [Discard user email "xxxx" related commits after the specific commit](#discard-user-email-xxxx-related-commits-after-the-specific-commit)
+- [Checkout files/folders from a specific branch](#checkout-filesfolders-from-a-specific-branch)
+- [Branches](#branches)
+  - [Deleting branches](#deleting-branches)
+  - [Deleting remote branches](#deleting-remote-branches)
+  - [Delete all branches but keeping others like “develop” and “master”](#delete-all-branches-but-keeping-others-like-develop-and-master)
+  - [Delete remote branches](#delete-remote-branches)
+- [Stashes](#stashes)
+  - [Save changes to a stash](#save-changes-to-a-stash)
+  - [List all stashes.](#list-all-stashes)
+  - [Annotate stashes with a description](#annotate-stashes-with-a-description)
+  - [Re-apply the most recently created stash and delete it from stash list](#re-apply-the-most-recently-created-stash-and-delete-it-from-stash-list)
+  - [Apply the specified stash by passing its identifier](#apply-the-specified-stash-by-passing-its-identifier)
+  - [Partial stash](#partial-stash)
+  - [Creating a branch from your stash](#creating-a-branch-from-your-stash)
+- [Worktree](#worktree)
+- [Tags](#tags)
+- [Alias](#alias)
+- [Sources](#sources)
+
 ## [Flight rules for Git](https://github.com/k88hudson/git-flight-rules)
 
 Flight rules for git that list, step-by-step, what to do if X occurs, and why. Essentially, they are extremely detailed, scenario-specific standard operating procedures.
@@ -251,6 +281,23 @@ git stash -p
 ```zsh
 git stash branch add-stylesheet stash@{1}
 ```
+
+## [Worktree](https://fev.al/posts/git-worktree/)
+
+Git worktree is a powerful feature that allows you to work on multiple branches simultaneously without switching between them.
+
+```zsh
+git worktree add ../feature-branch feature-branch
+```
+
+- Create a new directory named "feature-branch" in the parent directory of your current repository
+- Check out the "feature-branch" in that new directory
+
+Using git worktree allows you to:
+
+- Work on multiple branches simultaneously without stashing or committing incomplete work
+- Easily switch context between different tasks or features
+- Perform operations like building or testing on one branch while actively developing on another
 
 ## Tags
 
