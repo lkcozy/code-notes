@@ -20,6 +20,8 @@ QuillBot's summarizer can quickly condense articles, papers, or documents to the
 
 ![](https://qxf2.com/blog/wp-content/uploads/2017/07/if_conditional_statement.png)
 
+## [JSONing API](https://jsoning.com/api/): Mock REST API for testing and prototyping
+
 ## [Fronted Toolkit](https://www.fetoolkit.io/): Utilities for your recurring Frontend tasks
 
 ## [Js Image Carver Content Aware Image Resizer](https://trekhleb.dev/js-image-carver/)
